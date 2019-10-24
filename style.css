@@ -1,0 +1,135 @@
+
+body
+{
+	font-size:10.5pt;
+}
+
+.max
+{
+	max-width:768px;
+	padding:0px;
+	margin-bottom:40px;
+}
+.unitTable > thead > tr > th,
+.unitTable > tbody > tr > th,
+.unitTable > tfoot > tr > th,
+.unitTable > thead > tr > td,
+.unitTable > tbody > tr > td,
+.unitTable > tfoot > tr > td
+{
+	padding:2px;
+}
+.nobreak
+{
+	margin:0px;
+}
+.view
+{
+	display:none;
+}
+
+.title
+{
+	background:#000050;
+	color:#ffffff;
+	text-align:center;
+	font-weight:bold;
+}
+
+.subtitle
+{
+	background:#3030aF;
+	color:#ffffff;
+	text-align:center;
+}
+.factionHead
+{
+	font-weight:bold;
+	text-align:center;
+}
+.red
+{
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+.yellow
+{
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+.green
+{
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.sectionHead
+{
+	background:#a0a0a0;
+	color:#ffffff;
+}
+.smtxt
+{
+	font-size:8pt;
+}
+.subTable
+{ width:100%; }
+
+.printTable
+{
+	margin:0px;
+}
+.factionPrintRow > td
+{
+	border-top:2px solid black;
+	font-weight:bold;
+}
+.printRow > td
+{
+	border-top:1px solid black;
+}
+td.extra{
+	padding-left:20px;
+	padding-right:10px;
+	font-style:italic;
+}
+.unitRow
+{
+	border-bottom:2px solid #805000;
+	font-weight:bold;
+	color:#805000;
+}
+
+.unitName
+{
+	font-size:12pt;
+}
+.unitModel
+{
+	font-size:8pt;
+	text-align:right;
+}
+.btn-edit{ font-size:6pt; padding:3px; margin-left:6px;}
+
+th{ font-size:8pt; }
+.center {text-align:center;}
+.footer{ font-size:8pt; }
+
+#prompt {
+	margin:20px;
+	text-align:center;
+}
+#deleteName {
+	font-size:12pt;
+	font-weight:bold;
+	color:#805000;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+ul {margin-bottom:0px;}
+
+.dropdown-menu {
+	margin-bottom:40px;
+}
