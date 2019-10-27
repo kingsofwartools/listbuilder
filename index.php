@@ -22,7 +22,7 @@
 		Kings of War 2 Army Creator
 			<div id="printbtn" class="pull-right" style="visibility:hidden"><button onclick="ViewPrint()" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-print"></span></button></div>
 		</div>
-	
+
 		<div id="view_main" class="view">
 			<div id="armylist" class="dynamic"></div>
 		</div>
@@ -33,15 +33,15 @@
 			<div class="subtitle">New units added for: Elves, Dwarfs, The Herd, Abyssals, Ratkin, Empire of Dust.</div>
 			<div id="factions" class="dynamic"></div>
 		</div>
-		
+
 		<div id="view_units" class="view">
 			<div id="units" class="dynamic"></div>
 		</div>
-		
+
 		<div id="view_print" class="view">
 			<div id="print" class="dynamic"></div>
-		</div>		
-		
+		</div>
+
 		<div id="view_options" class="view">
 			<table class="subTable subtitle clearfix"><tr>
 				<td>
@@ -54,7 +54,7 @@
 			</tr></table>
 			<div id="options" class="dynamic"></div>
 		</div>
-		
+
 		<div id="view_prompt" class="view">
 			<div id="prompt" class="dynamic"></div>
 			<div role="group" class="btn-group btn-group-justified">
@@ -64,20 +64,20 @@
 				<div role="group" class="btn-group">
 					<button class="btn btn-danger" onclick="TogglePrompt()">Cancel</button>
 				</div>
-			</div>		
+			</div>
 		</div>
-		
+
 	</div>
-	
-	<script src="jquery.min.js" ></script>  
+
+	<script src="jquery.min.js" ></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="dataset-full.2.js" ></script>  
-	<script src="common.js" ></script>  
-	<script src="factions.js" ></script>  
-	<script src="main.js" ></script>  
-	<script src="units.js" ></script>  
-	<script src="options.js" ></script>  
-	<script src="print.2.js" ></script>  
-	<script>$( document ).ready(function() { boot(); } );</script>  
+	<script src="dataset-full.3.js" ></script>  
+	<script src="common.js" ></script>
+	<script src="factions.js" ></script>
+	<script src="main.js" ></script>
+	<script src="units.js" ></script>
+	<script src="options.js" ></script>
+	<script src="print.2.js" ></script>
+	<script>$( document ).ready(function() { boot(); } );</script>
 </body>
 </html>

@@ -41,7 +41,6 @@ function ViewPrint(){ // view the current army list
 				.appendTo(tr[_sections[si].fi]);
 
 			tr[_sections[si].fi] = E("tr")
-				.append(E("td",{colspan:2, class:"center"}).text(_catalog[_sections[si].fi].special.replace('&quot;','"')))
 				.append(E("th",{class:"center"}).text("Sp"))
 				.append(E("th",{class:"center"}).text("Me"))
 				.append(E("th",{class:"center"}).text("Ra"))
@@ -65,10 +64,14 @@ function ViewPrint(){ // view the current army list
 				points += _artefacts[uNfo.item].cost;
 				if(uDta.special != "" || uNfo.item != 0 || uNfo.options.length != 0)
 				{
-					for(oi = 0; oi < uDta.options.length; oi++)
+					for(var oi = 0; oi < uDta.options.length; oi++)
 						if($.inArray(oi, uNfo.options) != -1)
 						{
-							points += uDta.ovals[oi];
+							if (typeof(uDta.ovals[oi]) === 'object') {
+								points += uDta.ovals[oi][uDta.unitType[uNfo.ut]]
+							} else {
+								points += uDta.ovals[oi];
+							}
 							extra = extra + (extra == "" ? "" : ", ") + uDta.options[oi].replace('&quot;','"');
 						}
 					if(uNfo.item > 0)

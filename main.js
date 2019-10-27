@@ -6,16 +6,16 @@ function ViewMain(){ // view the current army list
 	}
 	View("main");
 	$("#printbtn").css("visibility", "visible");
-	
+
 	var army = $("#armylist");
 	army.empty();
-	
+
 	army.append(E("div",{class:"subtitle"}).text("Total: ").append(E("span",{id:"total"})).append("pts"));
-	
+
 	_points = []; // clear the points calculator
 	for(fi = 0; fi < _catalog.length; fi++)
 		_points.push(0);
-	
+
 	for(si = 0; si < _sections.length; si++)
 	{
 		// faction header?
@@ -29,8 +29,8 @@ function ViewMain(){ // view the current army list
 							.append(E("span", {id:"factionPerc_"+_sections[si].fi}))
 							)
 						.appendTo(army);
-			if(_catalog[_sections[si].fi].special != "")
-				f.children().append(E("br")).append("Faction Special: " + _catalog[_sections[si].fi].special);
+			// if(_catalog[_sections[si].fi].special != "")
+			// 	f.children().append(E("br")).append("Faction Special: " + _catalog[_sections[si].fi].special);
 
 		}
 		else
@@ -39,8 +39,33 @@ function ViewMain(){ // view the current army list
 		var uNfo = _sections[si].units[0][0];
 		var uDta = _catalog[uNfo.fi].units[uNfo.ui];
 		var mc = $.inArray(uDta.unitType[uNfo.ut],_mCountsIndex);
-		var tMax = mc == 1 ? 2 : 4;
-		var hwm = _sections[si].units[2].length + _sections[si].units[3].length + _sections[si].units[4].length + _sections[si].units[5].length;
+		var tMax = null
+		var smReg = null
+		var smHL = null
+		var lgH = null
+		var lgL = null
+		if (mc == 1) { // Regiment
+			if (uDta.mType === 'I' || uDta.mType === 'HI' || uDta.mType === 'Ch' || uDta.mType === 'C') {
+				tMax = 2
+				smReg = true
+			} else if (uDta.mType === 'LI' || uDta.mType === 'MI' || uDta.mType === 'LC') {
+				tMax = 2
+
+			}
+		} else if (mc == 2 || mc == 3) { // Horde or legion
+			if (uDta.mType === 'I' || uDta.mType === 'HI' || uDta.mType === 'Ch' || uDta.mType === 'C') {
+				tMax = 4
+				smHL = true
+			} else if (uDta.mType === 'LI' || uDta.mType === 'MI' || uDta.mType === 'LC') {
+				tMax = 4
+				if (mc == 2) {
+					lgH = true
+				} else if (mc == 3) {
+					lgL = true
+				}
+			}
+		}
+		var hwmt = _sections[si].units[2].length + _sections[si].units[3].length + _sections[si].units[4].length + _sections[si].units[5].length;
 		var sh = E("div",{class:"sectionHead clearfix",align:"center"}).appendTo(f);
 		sh.append(E("span", {class:"pull-left"}).text(_mCountsLabel[mc]));
 
@@ -48,16 +73,26 @@ function ViewMain(){ // view the current army list
 		// Infantry, Heavy Infantry, Chariot or Cavalry Horde: 4 troops + 1 hero + 1 Mon/Titan + 1 WE
 		// Large Infantry, Monstrous Infantry or Large Cavalry Horde: 2 troops + 2 of 1 hero/mon/titan/war engine (max 1 per type)
 		// Large Infantry, Monstrous Infantry or Large Cavalry Legion: 4 troops + 2 of 1 hero/mon/titan/war engine (max 1 per type)
-		
-		if(_sections[si].units[1].length < tMax)
-			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _suii:-1, _fi:_sections[si].fi, _utype:"T"}).text("+Troop").click(AddUnit));
-		if((hwm == 0 & tMax == 2) || (_sections[si].units[2].length == 0 && tMax == 4))
-			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"M"}).text("+Mon").click(AddUnit));
-		if((hwm == 0 & tMax == 2) || (_sections[si].units[3].length == 0 && tMax == 4))
-			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"W"}).text("+War").click(AddUnit));
-		if((hwm == 0 & tMax == 2) || (_sections[si].units[4].length == 0 && tMax == 4))
-			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"He"}).text("+Hero").click(AddUnit));
 
+		if(_sections[si].units[1].length < tMax) {
+			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _suii:-1, _fi:_sections[si].fi, _utype:"T"}).text("+Troop").click(AddUnit));
+			}
+		if((smReg && hwmt == 0) || (smHL && (_sections[si].units[2].length == 0 && _sections[si].units[5].length == 0)) || (lgH && hmwt < 2 && _sections[si].units[2].length == 0) || (lgL && hmwt < 2 && _sections[si].units[2].length == 0)) {
+			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"M"}).text("+Mon").click(AddUnit));
+			// TODO: check monsters work
+			// TODO: check they work correctly with titans
+			}
+		if((smReg && hwmt == 0) || (smHL && _sections[si].units[3].length == 0) || (lgH && hmwt < 2 && _sections[si].units[3].length == 0) || (lgL && hmwt < 2 && _sections[si].units[3].length == 0)){
+			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"W"}).text("+War").click(AddUnit));
+		}
+		if((smReg && hwmt == 0) || (smHL && _sections[si].units[4].length == 0) || (lgH && hmwt < 2 && _sections[si].units[4].length == 0) || (lgL && hmwt < 2 && _sections[si].units[4].length == 0)) {
+			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"He"}).text("+Hero").click(AddUnit));
+			}
+		if((smReg && hwmt == 0) || (smHL && (_sections[si].units[2].length == 0 && _sections[si].units[5].length == 0)) || (lgH && hmwt < 2 && _sections[si].units[5].length == 0) || (lgL && hmwt < 2 && _sections[si].units[5].length == 0)) {
+			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"Ti"}).text("+Titan").click(AddUnit));
+			// TODO: check titans work
+			// TODO: check they work correctly with monsters
+		}
 		for(sui = 0; sui < _sections[si].units.length; sui++)
 		{
 			for(suii = 0; suii < _sections[si].units[sui].length; suii++)
@@ -67,11 +102,11 @@ function ViewMain(){ // view the current army list
 
 				var tb = UnitTable(f, uNfo.fi, uNfo.ui, uNfo.ut, si, sui, suii);
 				UnitTableRow(tb, uDta, uNfo.fi, uNfo.ui, uNfo.ut, si, sui, suii);
-				var tf = UnitTableFooter(tb, uDta, uNfo.item, uNfo.options, false);				
+				var tf = UnitTableFooter(tb, uDta, uNfo.item, uNfo.options, false, uDta.unitType[uNfo.ut]);
 			}
 		}
 	}
-	
+
 	var total = 0;
 	for(fi = 0; fi < _catalog.length; fi++)
 		total += _points[fi];

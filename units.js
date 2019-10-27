@@ -20,7 +20,7 @@ function ViewUnits(fi, uTypes){ // view the unit selection list
 			.appendTo(udiv);
 	}
 
-			
+
 	for(ui = 0; ui < _catalog[fi].units.length; ui++)
 	{
 		var displayed = false;
@@ -64,13 +64,15 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 		var sui = -1;
 		var suii = -1;
 	}
-	
+
 	var u = _catalog[fi].units[ui];
 
 	var mt = $.inArray(u.mType, _mTypesIndex);
 	var mType = _mTypes[mt];
 	if(u.unitType[ut] == "He")
 		mType = "Hero (" + _mTypesAbbr[mt] + ")";
+	if(u.unitType[ut] == "M" && _mTypesAbbr[mt] != "Mon")
+		mType = "Monster (" + _mTypesAbbr[mt] + ")";
 
 	return E("tbody")
 	.appendTo(
@@ -83,14 +85,14 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 					E("th",{class:"unitName",colspan:6})
 					.text(u.name + (u.irregular ? "*" : ""))
 					.append(
-						suii != -1 
+						suii != -1
 						? // editable listing
 							E("button", {class:"btn btn-xs btn-edit btn-primary",_fi:fi,_ui:ui,_ut:ut,_si:si,_sui:sui,_suii:suii})
 							.click(SelectUnit)
 							.append(
 								E("span",{class:"glyphicon glyphicon-wrench"})
 								)
-						: "" 
+						: ""
 						)
 					)
 				.append(
@@ -100,6 +102,7 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 			.append(
 				E("tr")
 				.append(E("th",{colspan:2}).text("Unit Size"))
+				.append(E("th",{class:"center"}).text("US"))
 				.append(E("th",{class:"center"}).text("Sp"))
 				.append(E("th",{class:"center"}).text("Me"))
 				.append(E("th",{class:"center"}).text("Ra"))
@@ -113,7 +116,13 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 		);
 }
 
-function UnitTableRow(tb, uSrc, fi, ui, ut, si, sui, suii, showBtn) { // add a stats table row
+function UnitTableRow(tb, unitObj, fi, ui, ut, si, sui, suii, showBtn) { // add a stats table row
+	// fi means force index
+	// ui means unit index
+	// ut means unitType index (eg. 0, 1, 2 for troop/reg/horde etc.)
+	// si means section index. a section being a group of units including a core unit.
+	// sui means section unit index - the index of the specific unit in the section it's attached to
+	// suii means the index of the troop in the troops attached to the unit.
 	if (typeof suii === 'undefined') {
 		var si = _cur.si;
 		var sui = -1;
@@ -122,30 +131,34 @@ function UnitTableRow(tb, uSrc, fi, ui, ut, si, sui, suii, showBtn) { // add a s
 	if (typeof showBtn === 'undefined') {
 		var showBtn = true;
 	}
-	var points = uSrc.values[ut];
+	var points = unitObj.values[ut];
 	var u = _catalog[fi].units[ui];
 	var mc = $.inArray(u.unitType[ut],_mCountsIndex);
-
 	if(suii != -1)
 	{
 		showBtn = false;
 		var nfo = _sections[si].units[sui][suii]
-		for(oi = 0; oi < u.options.length; oi++)
+		for(var oi = 0; oi < u.options.length; oi++)
 			if($.inArray(oi, nfo.options) != -1)
+			if (typeof(u.ovals[oi]) === 'object') {
+				points += u.ovals[oi][u.unitType[ut]]
+			} else {
 				points += u.ovals[oi];
+			}
 		points += _artefacts[nfo.item].cost;
 		_points[fi] += points;
 	}
-	
+
 	tb.append(
 		E("tr")
 		.append(E("td",{colspan:2}).text(u.models[ut] == 1 ? 1 : _mCountsLabel[mc] + " ("+u.models[ut]+")"))
-		.append(E("td",{align:"center"}).text(uSrc.stats[0]))
-		.append(E("td",{align:"center"}).text(uSrc.stats[1] == 0 ? "-" : uSrc.stats[1] + "+"))
-		.append(E("td",{align:"center"}).text(uSrc.stats[2] == 0 ? "-" : uSrc.stats[2] + "+"))
-		.append(E("td",{align:"center"}).text(uSrc.stats[3] + "+"))
-		.append(E("td",{align:"center"}).text(uSrc.att[ut]))
-		.append(E("td",{align:"center"}).text(uSrc.nerve[ut]))
+		.append(E("td",{align:"center"}).text(unitObj.unitStrength[ut]))
+		.append(E("td",{align:"center"}).text(unitObj.stats[0]))
+		.append(E("td",{align:"center"}).text(unitObj.stats[1] == 0 ? "-" : unitObj.stats[1]))
+		.append(E("td",{align:"center"}).text(unitObj.stats[2] == 0 ? "-" : unitObj.stats[2]))
+		.append(E("td",{align:"center"}).text(unitObj.stats[3]))
+		.append(E("td",{align:"center"}).text(unitObj.att[ut]))
+		.append(E("td",{align:"center"}).text(unitObj.nerve[ut]))
 		.append(E("td",{align:"center",id:"unitcost_"+fi+"_"+ui}).append(
 			showBtn ?
 			E("button", {class:"btn btn-xs btn-primary",_fi:fi,_ui:ui,_ut:ut,_si:si,_sui:sui,_suii:suii}).click(SelectUnit).text(points)
@@ -154,22 +167,22 @@ function UnitTableRow(tb, uSrc, fi, ui, ut, si, sui, suii, showBtn) { // add a s
 	);
 }
 
-function UnitTableFooter(tb, uSrc, item, options, showAllOp) { // add special/options to the end of the table
+function UnitTableFooter(tb, unitObj, item, options, showAllOp, unitType) { // add special/options to the end of the table
 	var tf = E("td",{colspan:9,class:"footer"}).appendTo(E("tr").appendTo(tb));
 
-	if(uSrc.special != "")
+	if(unitObj.special != "")
 	E("div")
 		.append(E("b").text("Special: "))
-		.append(uSrc.special)
+		.append(unitObj.special)
 		.appendTo(tf)
 	;
-	
+
 	if(arguments.length < 5)
 		showAllOp = true; // show all available options
 	if(arguments.length < 4)
 		options = [];
-	
-	if(uSrc.options.length > 0) // there are options to show
+
+	if(unitObj.options.length > 0) // there are options to show
 		if(!(options.length == 0 && !showAllOp)) // !(none are selected, and don't show unselected)
 			if(showAllOp) // long list version
 				var o = E("ul").appendTo(E("div")
@@ -177,32 +190,54 @@ function UnitTableFooter(tb, uSrc, item, options, showAllOp) { // add special/op
 					.appendTo(tf));
 			else // short print version
 				E("b").text("Options: ").appendTo(tf);
-				
-	
+
+
 	var bump = "";
-	for(var oi = 0; oi < uSrc.options.length; oi++)
+	for(var oi = 0; oi < unitObj.options.length; oi++)
 	{
 		var showOp = true;
 		if(!showAllOp)
 			if($.inArray(oi, options) == -1)
 				showOp = false; // only show options in use
-		if(showOp)
-			if(showAllOp)
-				E("li").text(uSrc.options[oi] + " (+"+uSrc.ovals[oi]+" pts)").appendTo(o);
-			else
-			{
-				tf.append(bump + uSrc.options[oi] + " (+"+uSrc.ovals[oi]+" pts)");
-				bump = ", ";
-			}
+		if(showOp) {
+			if(showAllOp) {
+				if (typeof(unitObj.ovals[oi]) === 'object') {
+					var cost = null
+					if (unitType) {
+						cost = unitObj.ovals[oi][unitType]
+					} else {
+						cost = Object.values(unitObj.ovals[oi]).join('/')
+					}
+					E("li").text(unitObj.options[oi] + " (+"+cost+" pts)").appendTo(o);
+				} else {
+					E("li").text(unitObj.options[oi] + " (+"+unitObj.ovals[oi]+" pts)").appendTo(o);
+				}
+			} else {
+					if (typeof(unitObj.ovals[oi]) === 'object') {
+						var cost = null
+						if (unitType) {
+							cost = unitObj.ovals[oi][unitType]
+						} else {
+							cost = Object.values(unitObj.ovals[oi]).join('/')
+						}
+						tf.append(bump + unitObj.options[oi] + " (+"+cost+" pts)");
+						bump = ", ";
+					} else {
+						tf.append(bump + unitObj.options[oi] + " (+"+unitObj.ovals[oi]+" pts)");
+						bump = ", ";
+					}
+				}
+		}
+
 	}
-	
+
 	if(arguments.length >= 3) // show artefact
 		if(item > 0)
 			E("div")
 			.append(E("b").text("Magic Artefact: "))
 			.append(_artefacts[item].name + " (+"+_artefacts[item].cost+"pt)")
 			.appendTo(tf);
-			
+
 	return tf;
 }
 
@@ -220,7 +255,7 @@ function SelectUnit()
 	{
 		_section = CopySection(_sections[_cur.si]);
 	}
-	
+
 	if(_cur.suii == -1)
 	{
 		_unit = Unit(fi); // new unit to edit
