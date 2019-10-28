@@ -4,6 +4,10 @@ body
 	font-size:10.5pt;
 }
 
+body > div:not(.container) {
+	visibility: hidden;
+}
+
 .max
 {
 	max-width:768px;

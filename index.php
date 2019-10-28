@@ -19,7 +19,7 @@
 	<div class="container max">
 		<div class="title clearfix">
 			<div id="backbtn" class="pull-left" style="visibility:hidden"><button onclick="ViewMain()" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-backward"></span></button></div>
-		Kings of War 2 Army Creator
+		Kings of War 3 listbuilder
 			<div id="printbtn" class="pull-right" style="visibility:hidden"><button onclick="ViewPrint()" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-print"></span></button></div>
 		</div>
 
@@ -28,9 +28,6 @@
 		</div>
 
 		<div id="view_factions" class="view">
-			<div class="subtitle">CoK19 spells &amp; artefacts updated.</div>
-			<div class="subtitle">Unit stats updated for: Elves, Dwarfs, The Herd, Empire of Dust, Abyssals, Ratkin, Varangur.</div>
-			<div class="subtitle">New units added for: Elves, Dwarfs, The Herd, Abyssals, Ratkin, Empire of Dust.</div>
 			<div id="factions" class="dynamic"></div>
 		</div>
 
@@ -71,7 +68,7 @@
 
 	<script src="jquery.min.js" ></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="dataset-full.3.js" ></script>  
+	<script src="dataset-full.3.js" ></script>
 	<script src="common.js" ></script>
 	<script src="factions.js" ></script>
 	<script src="main.js" ></script>

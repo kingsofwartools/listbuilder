@@ -51,7 +51,18 @@ function ViewOptions() { // view the options for the currently edited unit
 	}
 
 	{ // show the drop-down list of artefacts
-		// var parsedArtefacts = _artefacts.map((artefact, index))
+		var parsedArtefacts = _artefacts.map((artefact, index) => {
+			const parsedArtefact = { ...artefact }
+			parsedArtefact.index = index
+			if (typeof(artefact.cost) === 'object') parsedArtefact.cost = artefact.cost[u.unitType[_unit.ut]]
+			return parsedArtefact
+		}).filter(artefact => {
+			if (u.unitType[_unit.ut] === 'He') {
+				return artefact.type === 'common' || artefact.type === 'heroic'
+			} else {
+				return artefact.type === 'common'
+			}
+		}).sort((a, b) => a.cost - b.cost)
 		var d = E("div").attr("class", "dropdown theme-dropdown clearfix").appendTo(tf);
 		E("button")
 			.attr("id", "magicitems")
@@ -62,25 +73,21 @@ function ViewOptions() { // view the options for the currently edited unit
 			.attr("aria-expanded", "true")
 			.text("Item:")
 			.appendTo(d);
-		E("span",{id:"unitArtefact"}).text(" " + _artefacts[_unit.item].name + " (+"+_artefacts[_unit.item].cost+" pts)").appendTo(d);
+		E("span",{id:"unitArtefact"}).text(" " + parsedArtefacts[_unit.item].name + " (+"+parsedArtefacts[_unit.item].cost+" pts)").appendTo(d);
 		var ul = E("ul")
 			.attr("class", "dropdown-menu")
 			.attr("aria-labelledby", "magicitems")
 			.attr("id", "magiclist")
 			.appendTo(d);
 
-		for(ai = 0; ai < _artefacts.length; ai++)
-		{
-			// if($.inArray(ai,_items) != -1 && ai != _unit.item)
-				// continue; // don't allow multiples of any item
-
+		parsedArtefacts.forEach((artefact, index) => {
 			var li = E("li").appendTo(ul);
 			var a = E("a")
-						.attr("_ai", ai)
+						.attr("_ai", index)
 						.click(SetArtefact)
-						.text(_artefacts[ai].name + " (+"+_artefacts[ai].cost+" pts)")
+						.text(artefact.name + " (+"+artefact.cost+" pts)")
 						.appendTo(li);
-		}
+		})
 
 		var buttons = E("div",{class:"btn-group btn-group-justified", role:"group"}).appendTo(o);
 
@@ -138,10 +145,15 @@ function toggle(view){
 	$("#view_"+view).css("display", $("#view_"+view).css("display") == "block" ? "none" : "block");
 }
 function Cancel(){
+
 	if(_cur.suii == -1)
 		ViewUnits(_unit.fi, _uTypes)
 	else
 		ViewMain();
+}
+
+function resetArtefacts() {
+
 }
 
 function SetArtefact() {
@@ -168,7 +180,11 @@ function UpdateUnitCost() {
 		} else {
 			cost += u.ovals[oi];
 		}
-	cost +=  _artefacts[_unit.item].cost;
+		if (typeof(_artefacts[_unit.item].cost) === 'object') {
+			cost += _artefacts[_unit.item].cost[u.unitType[_unit.ut]]
+		} else {
+			cost += _artefacts[_unit.item].cost
+		}
 	$("#unitcost_"+_unit.fi+"_"+_unit.ui).text(cost);
 }
 

@@ -145,7 +145,11 @@ function UnitTableRow(tb, unitObj, fi, ui, ut, si, sui, suii, showBtn) { // add 
 			} else {
 				points += u.ovals[oi];
 			}
-		points += _artefacts[nfo.item].cost;
+			if (typeof(_artefacts[nfo.item].cost) === 'object') {
+				points += _artefacts[nfo.item].cost[u.unitType[_unit.ut]]
+			} else {
+				points += _artefacts[nfo.item].cost
+			}
 		_points[fi] += points;
 	}
 
@@ -169,7 +173,7 @@ function UnitTableRow(tb, unitObj, fi, ui, ut, si, sui, suii, showBtn) { // add 
 
 function UnitTableFooter(tb, unitObj, item, options, showAllOp, unitType) { // add special/options to the end of the table
 	var tf = E("td",{colspan:9,class:"footer"}).appendTo(E("tr").appendTo(tb));
-
+	console.log('unitType', unitType)
 	if(unitObj.special != "")
 	E("div")
 		.append(E("b").text("Special: "))
@@ -231,12 +235,20 @@ function UnitTableFooter(tb, unitObj, item, options, showAllOp, unitType) { // a
 
 	}
 
+
 	if(arguments.length >= 3) // show artefact
 		if(item > 0)
+		if (typeof(_artefacts[item].cost) === 'object') {
+			E("div")
+			.append(E("b").text("Magic Artefact: "))
+			.append(_artefacts[item].name + " (+"+_artefacts[item].cost[unitType]+"pt)")
+			.appendTo(tf);
+		} else {
 			E("div")
 			.append(E("b").text("Magic Artefact: "))
 			.append(_artefacts[item].name + " (+"+_artefacts[item].cost+"pt)")
 			.appendTo(tf);
+		}
 
 	return tf;
 }
