@@ -57,6 +57,7 @@ function ViewOptions() { // view the options for the currently edited unit
 				if (unit[0] && unit[0].item && unit[0].item !== _unit.item) artefactsUsedElsewhere.push(parseInt(unit[0].item))
 			})
 		})
+		console.log('artefactsUsedElsewhere', artefactsUsedElsewhere)
 		var parsedArtefacts = _artefacts.map((artefact, index) => {
 			const parsedArtefact = { ...artefact }
 			parsedArtefact.index = index
@@ -64,9 +65,9 @@ function ViewOptions() { // view the options for the currently edited unit
 			return parsedArtefact
 		}).filter(artefact => {
 			if (u.unitType[_unit.ut] === 'He') {
-				return !artefactsUsedElsewhere.includes(artefact.index) && (artefact.type === 'common' || artefact.type === 'heroic')
+				return (artefact.type === 'common' || artefact.type === 'heroic')
 			} else {
-				return !artefactsUsedElsewhere.includes(artefact.index) && artefact.type === 'common'
+				return artefact.type === 'common'
 			}
 		}).sort((a, b) => a.cost - b.cost)
 		var d = E("div").attr("class", "dropdown theme-dropdown clearfix").appendTo(tf);
@@ -87,6 +88,7 @@ function ViewOptions() { // view the options for the currently edited unit
 			.appendTo(d);
 
 		parsedArtefacts.forEach(artefact => {
+			if (artefactsUsedElsewhere.includes(artefact.index)) return false
 			var li = E("li").appendTo(ul);
 			var a = E("a")
 						.attr("_ai", artefact.index)
