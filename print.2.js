@@ -22,7 +22,7 @@ function ViewPrint(){ // view the current army list
 	var tb = E("tbody")
 			.append(
 				E("tr")
-				.append(E("th",{colspan:9, class:"center"}).text("Total: ").append(E("span", {id:"total"})).append("pts"))
+				.append(E("th",{colspan:10, class:"center"}).text("Total: ").append(E("span", {id:"total"})).append("pts"))
 				)
 			.appendTo(E("table", {class:"subTable smtxt printTable"}).appendTo(div));
 
@@ -34,7 +34,7 @@ function ViewPrint(){ // view the current army list
 			tr[_sections[si].fi] = E("tr",{id:"faction_"+_sections[si].fi, class:"factionPrintRow"})
 			.appendTo(tb);
 
-			var td = E("td",{colspan:9,align:"center"})
+			var td = E("td",{colspan:10,align:"center"})
 				.text(_catalog[_sections[si].fi].faction)
 				.append(E("span", {id:"factionPoints_"+_sections[si].fi}))
 				.append(E("span", {id:"factionPerc_"+_sections[si].fi}))
@@ -100,7 +100,7 @@ function ViewPrint(){ // view the current army list
 
 				if(extra != "")
 				{
-					thisRow = E("tr").append(E("td",{colspan:9,class:"extra"}).text(extra));
+					thisRow = E("tr").append(E("td",{colspan:10,class:"extra"}).text(extra));
 					tr[uNfo.fi].after(thisRow);
 					tr[uNfo.fi] = thisRow;
 				}

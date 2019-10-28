@@ -51,6 +51,12 @@ function ViewOptions() { // view the options for the currently edited unit
 	}
 
 	{ // show the drop-down list of artefacts
+		var artefactsUsedElsewhere = []
+		_sections.forEach((section, sectionIndex) => {
+			section.units.forEach(unit => {
+				if (unit[0] && unit[0].item && unit[0].item !== _unit.item) artefactsUsedElsewhere.push(parseInt(unit[0].item))
+			})
+		})
 		var parsedArtefacts = _artefacts.map((artefact, index) => {
 			const parsedArtefact = { ...artefact }
 			parsedArtefact.index = index
@@ -58,9 +64,9 @@ function ViewOptions() { // view the options for the currently edited unit
 			return parsedArtefact
 		}).filter(artefact => {
 			if (u.unitType[_unit.ut] === 'He') {
-				return artefact.type === 'common' || artefact.type === 'heroic'
+				return !artefactsUsedElsewhere.includes(artefact.index) && (artefact.type === 'common' || artefact.type === 'heroic')
 			} else {
-				return artefact.type === 'common'
+				return !artefactsUsedElsewhere.includes(artefact.index) && artefact.type === 'common'
 			}
 		}).sort((a, b) => a.cost - b.cost)
 		var d = E("div").attr("class", "dropdown theme-dropdown clearfix").appendTo(tf);
@@ -80,10 +86,10 @@ function ViewOptions() { // view the options for the currently edited unit
 			.attr("id", "magiclist")
 			.appendTo(d);
 
-		parsedArtefacts.forEach((artefact, index) => {
+		parsedArtefacts.forEach(artefact => {
 			var li = E("li").appendTo(ul);
 			var a = E("a")
-						.attr("_ai", index)
+						.attr("_ai", artefact.index)
 						.click(SetArtefact)
 						.text(artefact.name + " (+"+artefact.cost+" pts)")
 						.appendTo(li);
@@ -158,6 +164,8 @@ function resetArtefacts() {
 
 function SetArtefact() {
 	ai = $(this).attr("_ai");
+	console.log('ai', ai)
+	console.log('_artefacts[ai]', _artefacts[ai])
 	_unit.item = ai;
 	var u = _catalog[_unit.fi].units[_unit.ui];
 	var cost = null

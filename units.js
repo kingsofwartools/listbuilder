@@ -172,8 +172,7 @@ function UnitTableRow(tb, unitObj, fi, ui, ut, si, sui, suii, showBtn) { // add 
 }
 
 function UnitTableFooter(tb, unitObj, item, options, showAllOp, unitType) { // add special/options to the end of the table
-	var tf = E("td",{colspan:9,class:"footer"}).appendTo(E("tr").appendTo(tb));
-	console.log('unitType', unitType)
+	var tf = E("td",{colspan:10,class:"footer"}).appendTo(E("tr").appendTo(tb));
 	if(unitObj.special != "")
 	E("div")
 		.append(E("b").text("Special: "))
