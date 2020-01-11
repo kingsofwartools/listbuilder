@@ -10,12 +10,12 @@ function ViewFactions(){ // get buttons for the allowed factions
 	var alignments = []; // currently used alignments
 	for(si = 0; si < _sections.length; si++)
 		alignments.push(_catalog[_sections[si].fi].alignment);
-	
+
 	for(fi = 0; fi < _catalog.length; fi++)
 	{
 		var a = parseInt(_catalog[fi].alignment);
 		var f = _catalog[fi].faction;
-		if($.inArray(enemies[a], alignments) == -1) // no enemies used
+		if($.inArray(enemies[a], alignments) == -1 && !(_sections.length && (_catalog[fi].masterList && !(_sections[0].fi === fi))) && !(_sections.length && (_catalog[_sections[0].fi].masterList === _catalog[fi].faction))) // no enemies used, can't ally in units from themed list unless you yourself are the themed list, 
 		{
 			if(a != cur_a)
 			{

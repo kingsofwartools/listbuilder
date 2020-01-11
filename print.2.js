@@ -41,6 +41,9 @@ function ViewPrint(){ // view the current army list
 				.appendTo(tr[_sections[si].fi]);
 
 			tr[_sections[si].fi] = E("tr")
+				.append(E("th",{class:"center"}).text(""))
+				.append(E("th",{class:"center"}).text(""))
+				.append(E("th",{class:"center"}).text("US"))
 				.append(E("th",{class:"center"}).text("Sp"))
 				.append(E("th",{class:"center"}).text("Me"))
 				.append(E("th",{class:"center"}).text("Ra"))
@@ -61,7 +64,11 @@ function ViewPrint(){ // view the current army list
 				var mc = uDta.models[uNfo.ut];
 				var points = uDta.values[uNfo.ut];
 				var extra = uDta.special.replace('&quot;','"');
-				points += _artefacts[uNfo.item].cost;
+				if (typeof(_artefacts[uNfo.item].cost) === 'object') {
+					points += _artefacts[uNfo.item].cost[uDta.unitType[uNfo.ut]]
+				} else {
+					points += _artefacts[uNfo.item].cost
+				}
 				if(uDta.special != "" || uNfo.item != 0 || uNfo.options.length != 0)
 				{
 					for(var oi = 0; oi < uDta.options.length; oi++)
@@ -87,10 +94,11 @@ function ViewPrint(){ // view the current army list
 
 				var thisRow = E("tr",{class:"printRow"})
 					.append(E("td",{colspan:2	}).text(uDta.name).append(E("I").text(uSize + mType)))
+					.append(E("td",{align:"center"}).text(uDta.unitStrength[uNfo.ut]))
 					.append(E("td",{align:"center"}).text(uDta.stats[0]))
-					.append(E("td",{align:"center"}).text(uDta.stats[1] == 0 ? "-" : uDta.stats[1] + "+"))
-					.append(E("td",{align:"center"}).text(uDta.stats[2] == 0 ? "-" : uDta.stats[2] + "+"))
-					.append(E("td",{align:"center"}).text(uDta.stats[3] + "+"))
+					.append(E("td",{align:"center"}).text(uDta.stats[1] == 0 ? "-" : uDta.stats[1]))
+					.append(E("td",{align:"center"}).text(uDta.stats[2] == 0 ? "-" : uDta.stats[2]))
+					.append(E("td",{align:"center"}).text(uDta.stats[3]))
 					.append(E("td",{align:"center"}).text(uDta.att[uNfo.ut]))
 					.append(E("td",{align:"center"}).text(uDta.nerve[uNfo.ut]))
 					.append(E("td",{align:"center"}).text(points));

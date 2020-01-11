@@ -65,30 +65,26 @@ function ViewMain(){ // view the current army list
 				}
 			}
 		}
-		var hwmt = _sections[si].units[2].length + _sections[si].units[3].length + _sections[si].units[4].length + _sections[si].units[5].length;
-		var sh = E("div",{class:"sectionHead clearfix",align:"center"}).appendTo(f);
+		var hmwt = _sections[si].units[2].length + _sections[si].units[3].length + _sections[si].units[4].length + _sections[si].units[5].length;
+		var sh = E("div",{class:"sectionHead",align:"center"}).appendTo(f);
 		sh.append(E("span", {class:"pull-left"}).text(_mCountsLabel[mc]));
 
-		// Infantry, Heavy Infantry, Chariot or Cavalry Regiment: 2 troops + 1 hero/mon/titan/war engine
-		// Infantry, Heavy Infantry, Chariot or Cavalry Horde: 4 troops + 1 hero + 1 Mon/Titan + 1 WE
-		// Large Infantry, Monstrous Infantry or Large Cavalry Horde: 2 troops + 2 of 1 hero/mon/titan/war engine (max 1 per type)
-		// Large Infantry, Monstrous Infantry or Large Cavalry Legion: 4 troops + 2 of 1 hero/mon/titan/war engine (max 1 per type)
 
 		if(_sections[si].units[1].length < tMax) {
 			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _suii:-1, _fi:_sections[si].fi, _utype:"T"}).text("+Troop").click(AddUnit));
 			}
-		if((smReg && hwmt == 0) || (smHL && (_sections[si].units[2].length == 0 && _sections[si].units[5].length == 0)) || (lgH && hmwt < 2 && _sections[si].units[2].length == 0) || (lgL && hmwt < 2 && _sections[si].units[2].length == 0)) {
+		if((smReg && hmwt == 0) || (smHL && (_sections[si].units[2].length == 0 && _sections[si].units[5].length == 0)) || (lgH && hmwt < 2 && _sections[si].units[2].length == 0) || (lgL && hmwt < 2 && _sections[si].units[2].length == 0)) {
 			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"M"}).text("+Mon").click(AddUnit));
 			// TODO: check monsters work
 			// TODO: check they work correctly with titans
 			}
-		if((smReg && hwmt == 0) || (smHL && _sections[si].units[3].length == 0) || (lgH && hmwt < 2 && _sections[si].units[3].length == 0) || (lgL && hmwt < 2 && _sections[si].units[3].length == 0)){
+		if((smReg && hmwt == 0) || (smHL && _sections[si].units[3].length == 0) || (lgH && hmwt < 2 && _sections[si].units[3].length == 0) || (lgL && hmwt < 2 && _sections[si].units[3].length == 0)){
 			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"W"}).text("+War").click(AddUnit));
 		}
-		if((smReg && hwmt == 0) || (smHL && _sections[si].units[4].length == 0) || (lgH && hmwt < 2 && _sections[si].units[4].length == 0) || (lgL && hmwt < 2 && _sections[si].units[4].length == 0)) {
+		if((smReg && hmwt == 0) || (smHL && _sections[si].units[4].length == 0) || (lgH && hmwt < 2 && _sections[si].units[4].length == 0) || (lgL && hmwt < 2 && _sections[si].units[4].length == 0)) {
 			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"He"}).text("+Hero").click(AddUnit));
 			}
-		if((smReg && hwmt == 0) || (smHL && (_sections[si].units[2].length == 0 && _sections[si].units[5].length == 0)) || (lgH && hmwt < 2 && _sections[si].units[5].length == 0) || (lgL && hmwt < 2 && _sections[si].units[5].length == 0)) {
+		if((smReg && hmwt == 0) || (smHL && (_sections[si].units[2].length == 0 && _sections[si].units[5].length == 0)) || (lgH && hmwt < 2 && _sections[si].units[5].length == 0) || (lgL && hmwt < 2 && _sections[si].units[5].length == 0)) {
 			sh.append(E("button",{class:"btn btn-xs btn-primary", _si:si, _fi:_sections[si].fi, _utype:"Ti"}).text("+Titan").click(AddUnit));
 			// TODO: check titans work
 			// TODO: check they work correctly with monsters
@@ -104,6 +100,21 @@ function ViewMain(){ // view the current army list
 				UnitTableRow(tb, uDta, uNfo.fi, uNfo.ui, uNfo.ut, si, sui, suii);
 				var tf = UnitTableFooter(tb, uDta, uNfo.item, uNfo.options, false, uDta.unitType[uNfo.ut]);
 			}
+		}
+
+		var sectionSubHeadText = '';
+		if (smReg) {
+			sectionSubHeadText = 'Unlocks 2 troops + 1 Hero/Monster/Titan/War Engine'
+		} else if (smHL) {
+			sectionSubHeadText = 'Unlocks 4 troops + 1 Hero + 1 Mon/Titan + 1 War Engine'
+		} else if (lgH) {
+			sectionSubHeadText = 'Unlocks 2 troops + any 2 of Hero/Mon/Titan/War Engine'
+		} else if (lgL) {
+			sectionSubHeadText = 'Unlocks 4 troops + any 2 of Hero/Mon/Titan/War Engine'
+		}
+		if (sectionSubHeadText) {
+			var ssh = E("div",{class:"sectionSubHead clearfix"}).appendTo(f);
+			sh.append(E("p").text(sectionSubHeadText));
 		}
 	}
 

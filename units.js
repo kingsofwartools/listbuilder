@@ -59,6 +59,7 @@ function ViewUnits(fi, uTypes){ // view the unit selection list
 }
 
 function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and attach it to [div]
+	console.log('unitTable')
 	if (typeof suii === 'undefined') {
 		var si = _cur.si;
 		var sui = -1;
@@ -71,6 +72,8 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 	var mType = _mTypes[mt];
 	if(u.unitType[ut] == "He")
 		mType = "Hero (" + _mTypesAbbr[mt] + ")";
+		console.log('mt',mt)
+		console.log('_mTypesAbbr[mt]',_mTypesAbbr[mt])
 	if(u.unitType[ut] == "M" && _mTypesAbbr[mt] != "Mon")
 		mType = "Monster (" + _mTypesAbbr[mt] + ")";
 
@@ -83,7 +86,7 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 				E("tr",{class:"unitRow"})
 				.append(
 					E("th",{class:"unitName",colspan:6})
-					.text(u.name + (u.irregular ? "*" : ""))
+					.text(u.name)
 					.append(
 						suii != -1
 						? // editable listing
@@ -146,7 +149,7 @@ function UnitTableRow(tb, unitObj, fi, ui, ut, si, sui, suii, showBtn) { // add 
 				points += u.ovals[oi];
 			}
 			if (typeof(_artefacts[nfo.item].cost) === 'object') {
-				points += _artefacts[nfo.item].cost[u.unitType[_unit.ut]]
+				points += _artefacts[nfo.item].cost[u.unitType[ut]]
 			} else {
 				points += _artefacts[nfo.item].cost
 			}
@@ -177,6 +180,13 @@ function UnitTableFooter(tb, unitObj, item, options, showAllOp, unitType) { // a
 	E("div")
 		.append(E("b").text("Special: "))
 		.append(unitObj.special)
+		.appendTo(tf)
+	;
+
+	if(unitObj.keywords != "")
+	E("div")
+		.append(E("b").text(""))
+		.append(unitObj.keywords)
 		.appendTo(tf)
 	;
 

@@ -54,22 +54,16 @@ function ViewOptions() { // view the options for the currently edited unit
 		var artefactsUsedElsewhere = []
 		_sections.forEach((section, sectionIndex) => {
 			section.units.forEach(unit => {
-				if (unit[0] && unit[0].item && unit[0].item !== _unit.item) artefactsUsedElsewhere.push(parseInt(unit[0].item))
+				if (unit[0] && (unit[0].item == 0)) return false
+				if (unit[0] && unit[0].item && (unit[0].item !== _unit.item)) artefactsUsedElsewhere.push(parseInt(unit[0].item))
 			})
 		})
-		console.log('artefactsUsedElsewhere', artefactsUsedElsewhere)
 		var parsedArtefacts = _artefacts.map((artefact, index) => {
 			const parsedArtefact = { ...artefact }
 			parsedArtefact.index = index
 			if (typeof(artefact.cost) === 'object') parsedArtefact.cost = artefact.cost[u.unitType[_unit.ut]]
 			return parsedArtefact
-		}).filter(artefact => {
-			if (u.unitType[_unit.ut] === 'He') {
-				return (artefact.type === 'common' || artefact.type === 'heroic')
-			} else {
-				return artefact.type === 'common'
-			}
-		}).sort((a, b) => a.cost - b.cost)
+		})
 		var d = E("div").attr("class", "dropdown theme-dropdown clearfix").appendTo(tf);
 		E("button")
 			.attr("id", "magicitems")
@@ -87,7 +81,15 @@ function ViewOptions() { // view the options for the currently edited unit
 			.attr("id", "magiclist")
 			.appendTo(d);
 
-		parsedArtefacts.forEach(artefact => {
+		const parsedFilteredArtefacts = parsedArtefacts.filter(artefact => {
+			if (u.unitType[_unit.ut] === 'He') {
+				return (artefact.type === 'common' || artefact.type === 'heroic')
+			} else {
+				return artefact.type === 'common'
+			}
+		}).sort((a, b) => a.cost - b.cost)
+
+		parsedFilteredArtefacts.forEach(artefact => {
 			if (artefactsUsedElsewhere.includes(artefact.index)) return false
 			var li = E("li").appendTo(ul);
 			var a = E("a")
@@ -166,8 +168,6 @@ function resetArtefacts() {
 
 function SetArtefact() {
 	ai = $(this).attr("_ai");
-	console.log('ai', ai)
-	console.log('_artefacts[ai]', _artefacts[ai])
 	_unit.item = ai;
 	var u = _catalog[_unit.fi].units[_unit.ui];
 	var cost = null

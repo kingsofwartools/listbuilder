@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>Kings of War 2 Army Creator</title>
+	<title>Kings of War 3 listbuilder</title>
 	<meta http-equiv="cache-control" content="max-age=0" />
 	<meta http-equiv="cache-control" content="no-cache" />
 	<meta http-equiv="expires" content="0" />
 	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 	<meta http-equiv="pragma" content="no-cache" />
-	<meta name="description" content="Maintained by Guy Harper">
+	<meta name="description" content="Maintained by Guy Harper-Day">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -68,9 +68,9 @@
 
 	<script src="jquery.min.js" ></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="dataset-full.3.js" ></script>
+	<script src="dataset-full.15.js"></script>
 	<script src="common.js" ></script>
-	<script src="factions.js" ></script>
+	<script src="factions.2.js" ></script>
 	<script src="main.js" ></script>
 	<script src="units.js" ></script>
 	<script src="options.js" ></script>
