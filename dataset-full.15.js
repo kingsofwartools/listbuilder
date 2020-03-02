@@ -17958,11 +17958,14 @@ const fullJSON = [
         ]
       },
       {
-        "name": "Chariots",
+        "name": "Gore Chariots",
         "irregular": 0,
         "limit": 0,
         "unitType": [
-          "M"
+          "T",
+          "R",
+          "H",
+          "L"
         ],
         "models": [
           "2",
@@ -17999,7 +18002,7 @@ const fullJSON = [
         "options": [],
         "ovals": [],
         "keywords": "Orc",
-        "mType": "M",
+        "mType": "Ch",
         "stats": [
           "8",
           "3+",
