@@ -59,7 +59,6 @@ function ViewUnits(fi, uTypes){ // view the unit selection list
 }
 
 function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and attach it to [div]
-	console.log('unitTable')
 	if (typeof suii === 'undefined') {
 		var si = _cur.si;
 		var sui = -1;
@@ -67,6 +66,13 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 	}
 
 	var u = _catalog[fi].units[ui];
+	if (_sections[0] && fi !== _sections[0].fi && u.irregular) return false;
+	// _sections.forEach((section, sectionIndex) => {
+	// 	section.units.forEach(unit => {
+	// 		if (unit[0] && (unit[0].item == 0)) return false
+	// 		if (unit[0] && unit[0].item && (unit[0].item !== _unit.item)) artefactsUsedElsewhere.push(parseInt(unit[0].item))
+	// 	})
+	// })
 
 	var mt = $.inArray(u.mType, _mTypesIndex);
 	var mType = _mTypes[mt];
@@ -156,7 +162,7 @@ function UnitTableRow(tb, unitObj, fi, ui, ut, si, sui, suii, showBtn) { // add 
 		_points[fi] += points;
 	}
 
-	tb.append(
+	if (tb) tb.append(
 		E("tr")
 		.append(E("td",{colspan:2}).text(u.models[ut] == 1 ? 1 : _mCountsLabel[mc] + " ("+u.models[ut]+")"))
 		.append(E("td",{align:"center"}).text(unitObj.unitStrength[ut]))

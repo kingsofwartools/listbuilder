@@ -4,6 +4,5 @@ The core functionality of this app was done by someone called Ravi who posted it
 I plan to maintain this codebase in terms of changes and additions to the ruleset, fixing bugs, etc, but am not planning on adding any more functionality to it. I would very much welcome people contributing to the app by forking and submitting PRs - this is intended as a community project to help people play the game we know and love!
 
 Todo:
-- can't take irregular allied units
 - keywords in print format
 - multiples of the same unit for armies of 1000/1500/2000pts etc.

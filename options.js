@@ -52,9 +52,6 @@ function ViewOptions() { // view the options for the currently edited unit
 
 	{ // show the drop-down list of artefacts
 		var artefactsUsedElsewhere = []
-		console.log('_sections', _sections)
-		console.log('u', u)
-		console.log('_unit', _unit)
 		_sections.forEach((section, sectionIndex) => {
 			section.units.forEach(unit => {
 				if (unit[0] && (unit[0].item == 0)) return false
