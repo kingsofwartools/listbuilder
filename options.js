@@ -52,6 +52,9 @@ function ViewOptions() { // view the options for the currently edited unit
 
 	{ // show the drop-down list of artefacts
 		var artefactsUsedElsewhere = []
+		console.log('_sections', _sections)
+		console.log('u', u)
+		console.log('_unit', _unit)
 		_sections.forEach((section, sectionIndex) => {
 			section.units.forEach(unit => {
 				if (unit[0] && (unit[0].item == 0)) return false
@@ -64,22 +67,24 @@ function ViewOptions() { // view the options for the currently edited unit
 			if (typeof(artefact.cost) === 'object') parsedArtefact.cost = artefact.cost[u.unitType[_unit.ut]]
 			return parsedArtefact
 		})
-		var d = E("div").attr("class", "dropdown theme-dropdown clearfix").appendTo(tf);
-		E("button")
-			.attr("id", "magicitems")
-			.attr("type", "button")
-			.attr("class", "btn btn-xs btn-primary ")
-			.attr("data-toggle", "dropdown")
-			.attr("aria-haspopup", "true")
-			.attr("aria-expanded", "true")
-			.text("Item:")
-			.appendTo(d);
-		E("span",{id:"unitArtefact"}).text(" " + parsedArtefacts[_unit.item].name + " (+"+parsedArtefacts[_unit.item].cost+" pts)").appendTo(d);
-		var ul = E("ul")
-			.attr("class", "dropdown-menu")
-			.attr("aria-labelledby", "magicitems")
-			.attr("id", "magiclist")
-			.appendTo(d);
+		if (!_sections[0] || (_unit.fi === _sections[0].fi)) {
+			var d = E("div").attr("class", "dropdown theme-dropdown clearfix").appendTo(tf);
+			E("button")
+				.attr("id", "magicitems")
+				.attr("type", "button")
+				.attr("class", "btn btn-xs btn-primary ")
+				.attr("data-toggle", "dropdown")
+				.attr("aria-haspopup", "true")
+				.attr("aria-expanded", "true")
+				.text("Item:")
+				.appendTo(d);
+			E("span",{id:"unitArtefact"}).text(" " + parsedArtefacts[_unit.item].name + " (+"+parsedArtefacts[_unit.item].cost+" pts)").appendTo(d);
+			var ul = E("ul")
+				.attr("class", "dropdown-menu")
+				.attr("aria-labelledby", "magicitems")
+				.attr("id", "magiclist")
+				.appendTo(d);
+		}
 
 		const parsedFilteredArtefacts = parsedArtefacts.filter(artefact => {
 			if (u.unitType[_unit.ut] === 'He') {
