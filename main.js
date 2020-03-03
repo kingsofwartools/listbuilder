@@ -130,6 +130,37 @@ function ViewMain(){ // view the current army list
 		}
 	$("#total").text(total);
 
+	const duplicates = _sections.reduce((duplicatesDictionary, section, sectionIndex) => {
+		section.units.forEach(unit => {
+			if (section.fi !== _sections[0].fi) return false;
+			if (!unit[0]) return false;
+			var u = _catalog[section.fi].units[unit[0].ui];
+				if (duplicatesDictionary[u.name]) {
+					duplicatesDictionary[u.name]++
+				} else if (!(['T','R','H','L'].includes(u.unitType[unit[0].ut]))) {
+					duplicatesDictionary[u.name] = 1;
+			}
+		})
+		return duplicatesDictionary
+	}, {})
+
+	let maxDuplicates = null;
+	if (total < 1500) {
+		maxDuplicates = 1
+	} else {
+		maxDuplicates = Math.floor(total / 1000) + 1
+	}
+
+	const largestDuplicates = Math.max(...Object.values(duplicates));
+	if (largestDuplicates > maxDuplicates) {
+		const tooManyDuplicatesType = Object.keys(duplicates).find(duplicate => {
+			return duplicates[duplicate] === largestDuplicates;
+		})
+		$(".note").text(`Note: for its points value, your list currently contains too many units of type '${tooManyDuplicatesType}'. You will need to either add more points or remove one or more duplicates of this unit`);
+	} else {
+		$(".note").text('');
+	}
+
 	E("div",{class:"btn-group btn-group-justified", role:"group"}).appendTo(army)
 	.append(
 		E("div", {class:"btn-group",role:"group"})

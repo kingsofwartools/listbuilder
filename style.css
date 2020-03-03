@@ -46,6 +46,11 @@ body > div:not(.container) {
 	color:#ffffff;
 	text-align:center;
 }
+.note
+{
+	color:red;
+	text-align:center;
+}
 .factionHead
 {
 	font-weight:bold;

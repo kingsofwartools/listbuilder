@@ -67,12 +67,6 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 
 	var u = _catalog[fi].units[ui];
 	if (_sections[0] && fi !== _sections[0].fi && u.irregular) return false;
-	// _sections.forEach((section, sectionIndex) => {
-	// 	section.units.forEach(unit => {
-	// 		if (unit[0] && (unit[0].item == 0)) return false
-	// 		if (unit[0] && unit[0].item && (unit[0].item !== _unit.item)) artefactsUsedElsewhere.push(parseInt(unit[0].item))
-	// 	})
-	// })
 
 	var mt = $.inArray(u.mType, _mTypesIndex);
 	var mType = _mTypes[mt];
