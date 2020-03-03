@@ -72,8 +72,6 @@ function UnitTable(div, fi, ui, ut, si, sui, suii) { // create a stats table and
 	var mType = _mTypes[mt];
 	if(u.unitType[ut] == "He")
 		mType = "Hero (" + _mTypesAbbr[mt] + ")";
-		console.log('mt',mt)
-		console.log('_mTypesAbbr[mt]',_mTypesAbbr[mt])
 	if(u.unitType[ut] == "M" && _mTypesAbbr[mt] != "Mon")
 		mType = "Monster (" + _mTypesAbbr[mt] + ")";
 

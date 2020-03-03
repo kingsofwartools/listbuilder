@@ -61,8 +61,6 @@ function ViewPrint(){ // view the current army list
 			{
 				var uNfo = _sections[si].units[sui][suii];
 				var uDta = _catalog[uNfo.fi].units[uNfo.ui];
-				console.log('uDta', uDta)
-				console.log('uNfo', uNfo)
 				var mc = uDta.models[uNfo.ut];
 				var points = uDta.values[uNfo.ut];
 				var extra = uDta.special.replace('&quot;','"');
