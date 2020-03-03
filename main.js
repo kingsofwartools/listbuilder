@@ -151,12 +151,32 @@ function ViewMain(){ // view the current army list
 		maxDuplicates = Math.floor(total / 1000) + 1
 	}
 
+	const allyDuplicates = _sections.reduce((duplicatesDictionary, section, sectionIndex) => {
+		section.units.forEach(unit => {
+			if (section.fi === _sections[0].fi) return false;
+			if (!unit[0]) return false;
+			var u = _catalog[section.fi].units[unit[0].ui];
+				if (duplicatesDictionary[u.name]) {
+					duplicatesDictionary[u.name]++
+				} else if (!(['T','R','H','L'].includes(u.unitType[unit[0].ut]))) {
+					duplicatesDictionary[u.name] = 1;
+			}
+		})
+		return duplicatesDictionary
+	}, {})
+
 	const largestDuplicates = Math.max(...Object.values(duplicates));
+	const largestAllyDuplicates = Math.max(...Object.values(allyDuplicates));
 	if (largestDuplicates > maxDuplicates) {
 		const tooManyDuplicatesType = Object.keys(duplicates).find(duplicate => {
 			return duplicates[duplicate] === largestDuplicates;
 		})
 		$(".note").text(`Note: for its points value, your list currently contains too many units of type '${tooManyDuplicatesType}'. You will need to either add more points or remove one or more duplicates of this unit`);
+	} else if (largestAllyDuplicates > 1){
+		const tooManyDuplicatesType = Object.keys(allyDuplicates).find(duplicate => {
+			return allyDuplicates[duplicate] === largestAllyDuplicates;
+		})
+		$(".note").text(`Note: your list contains too many units of type '${tooManyDuplicatesType}', since you are not allowed duplicates of Heroes/War Engines/Monsters/Titans in your allies list. Note that your core faction is denoted by the faction of the first unit in your list.`);
 	} else {
 		$(".note").text('');
 	}
