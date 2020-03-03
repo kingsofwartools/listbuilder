@@ -61,6 +61,8 @@ function ViewPrint(){ // view the current army list
 			{
 				var uNfo = _sections[si].units[sui][suii];
 				var uDta = _catalog[uNfo.fi].units[uNfo.ui];
+				console.log('uDta', uDta)
+				console.log('uNfo', uNfo)
 				var mc = uDta.models[uNfo.ut];
 				var points = uDta.values[uNfo.ut];
 				var extra = uDta.special.replace('&quot;','"');
@@ -87,13 +89,13 @@ function ViewPrint(){ // view the current army list
 				_points[uNfo.fi] += points;
 
 				var mt = $.inArray(uDta.mType, _mTypesIndex);
-				var uSize = uDta.models[uNfo.ut] == 1 ? " " : " ("+uDta.models[uNfo.ut]+") ";
+				var uSize = uDta.models[uNfo.ut] == 1 ? " " : " ("+{H: 'Horde', R: 'Regiment', T: 'Troop', L: 'Legion'} [uDta.unitType[uNfo.ut]]+") ";
 				var mType = "(" + _mTypesAbbr[mt] + ")";
 				if(uDta.unitType[uNfo.ut] == "He")
 					mType = "[Hero " + mType + "]";
 
 				var thisRow = E("tr",{class:"printRow"})
-					.append(E("td",{colspan:2	}).text(uDta.name).append(E("I").text(uSize + mType)))
+					.append(E("td",{colspan:2,class:"name"}).text(uDta.name).append(E("I").text(uSize + mType)))
 					.append(E("td",{align:"center"}).text(uDta.unitStrength[uNfo.ut]))
 					.append(E("td",{align:"center"}).text(uDta.stats[0]))
 					.append(E("td",{align:"center"}).text(uDta.stats[1] == 0 ? "-" : uDta.stats[1]))
@@ -109,6 +111,14 @@ function ViewPrint(){ // view the current army list
 				if(extra != "")
 				{
 					thisRow = E("tr").append(E("td",{colspan:10,class:"extra"}).text(extra));
+					tr[uNfo.fi].after(thisRow);
+					tr[uNfo.fi] = thisRow;
+				}
+
+				const keywords = uDta.keywords;
+				if (!keywords) keywords = "-"
+				{
+					thisRow = E("tr").append(E("td",{colspan:10,class:"keywords"}).text(`Keywords: ${keywords}`));
 					tr[uNfo.fi].after(thisRow);
 					tr[uNfo.fi] = thisRow;
 				}

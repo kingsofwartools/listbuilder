@@ -191,7 +191,7 @@ function UnitTableFooter(tb, unitObj, item, options, showAllOp, unitType) { // a
 
 	if(unitObj.keywords != "")
 	E("div")
-		.append(E("b").text(""))
+		.append(E("b").text("Keywords: "))
 		.append(unitObj.keywords)
 		.appendTo(tf)
 	;

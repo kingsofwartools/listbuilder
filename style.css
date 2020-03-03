@@ -94,10 +94,17 @@ body > div:not(.container) {
 {
 	border-top:1px solid black;
 }
+td.name{
+	font-weight:bold;
+}
 td.extra{
 	padding-left:20px;
 	padding-right:10px;
 	font-style:italic;
+}
+td.keywords{
+	padding-left:20px;
+	padding-right:10px;
 }
 .unitRow
 {
