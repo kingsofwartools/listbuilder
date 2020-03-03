@@ -1,9 +1,0 @@
-bug: magic item not available after deleting unit
-programme: magic item availability for night-stalkers
-programme: magic item modification for halflings, kom
-programme: mhorgoth, herja special blessings on units
-
-check mounted ballistas etc
-
-
-
