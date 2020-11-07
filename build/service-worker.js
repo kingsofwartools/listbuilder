@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kow-react-listbuilder/precache-manifest.487268055f1b248ae110947a9db2ef06.js"
+  "/kow-react-listbuilder/precache-manifest.626b5d05cd04f4dec1813d922bd6aa0c.js"
 );
 
 self.addEventListener('message', (event) => {

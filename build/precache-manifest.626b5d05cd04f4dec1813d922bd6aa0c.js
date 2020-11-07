@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25c00c3ec7ed5bb102fa82efb73a4c5d",
+    "revision": "54867b67857556c17f8b5208df219d91",
     "url": "/kow-react-listbuilder/index.html"
   },
   {
-    "revision": "cbefffa8cd20e1005279",
+    "revision": "43621cd77450866ca410",
     "url": "/kow-react-listbuilder/static/css/main.871bfe3c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kow-react-listbuilder/static/js/2.f821e872.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cbefffa8cd20e1005279",
-    "url": "/kow-react-listbuilder/static/js/main.c2b1a617.chunk.js"
+    "revision": "43621cd77450866ca410",
+    "url": "/kow-react-listbuilder/static/js/main.3f1d47a3.chunk.js"
   },
   {
     "revision": "e781efbffc63c995eb33",
