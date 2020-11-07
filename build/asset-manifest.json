@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kow-react-listbuilder/static/css/main.871bfe3c.chunk.css",
-    "main.js": "/kow-react-listbuilder/static/js/main.3f1d47a3.chunk.js",
-    "main.js.map": "/kow-react-listbuilder/static/js/main.3f1d47a3.chunk.js.map",
-    "runtime-main.js": "/kow-react-listbuilder/static/js/runtime-main.3099e4c2.js",
-    "runtime-main.js.map": "/kow-react-listbuilder/static/js/runtime-main.3099e4c2.js.map",
-    "static/js/2.f821e872.chunk.js": "/kow-react-listbuilder/static/js/2.f821e872.chunk.js",
-    "static/js/2.f821e872.chunk.js.map": "/kow-react-listbuilder/static/js/2.f821e872.chunk.js.map",
-    "index.html": "/kow-react-listbuilder/index.html",
-    "precache-manifest.626b5d05cd04f4dec1813d922bd6aa0c.js": "/kow-react-listbuilder/precache-manifest.626b5d05cd04f4dec1813d922bd6aa0c.js",
-    "service-worker.js": "/kow-react-listbuilder/service-worker.js",
-    "static/css/main.871bfe3c.chunk.css.map": "/kow-react-listbuilder/static/css/main.871bfe3c.chunk.css.map",
-    "static/js/2.f821e872.chunk.js.LICENSE.txt": "/kow-react-listbuilder/static/js/2.f821e872.chunk.js.LICENSE.txt"
+    "main.css": "/listbuilder/static/css/main.871bfe3c.chunk.css",
+    "main.js": "/listbuilder/static/js/main.517f012a.chunk.js",
+    "main.js.map": "/listbuilder/static/js/main.517f012a.chunk.js.map",
+    "runtime-main.js": "/listbuilder/static/js/runtime-main.6ba375da.js",
+    "runtime-main.js.map": "/listbuilder/static/js/runtime-main.6ba375da.js.map",
+    "static/js/2.f821e872.chunk.js": "/listbuilder/static/js/2.f821e872.chunk.js",
+    "static/js/2.f821e872.chunk.js.map": "/listbuilder/static/js/2.f821e872.chunk.js.map",
+    "index.html": "/listbuilder/index.html",
+    "precache-manifest.ac9e7aaafb4c39a6d22ea7c58f5afe1d.js": "/listbuilder/precache-manifest.ac9e7aaafb4c39a6d22ea7c58f5afe1d.js",
+    "service-worker.js": "/listbuilder/service-worker.js",
+    "static/css/main.871bfe3c.chunk.css.map": "/listbuilder/static/css/main.871bfe3c.chunk.css.map",
+    "static/js/2.f821e872.chunk.js.LICENSE.txt": "/listbuilder/static/js/2.f821e872.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3099e4c2.js",
+    "static/js/runtime-main.6ba375da.js",
     "static/js/2.f821e872.chunk.js",
     "static/css/main.871bfe3c.chunk.css",
-    "static/js/main.3f1d47a3.chunk.js"
+    "static/js/main.517f012a.chunk.js"
   ]
 }
