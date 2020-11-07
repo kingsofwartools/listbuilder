@@ -213,7 +213,7 @@ const Index = ({ type = 'standard' }) => {
         <header>
           <p className="switch-view">
             This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.1.1 and Clash
-            of Kings 2021. For standard KOW v3 listbuilding, <Link to="/kow-react-listbuilder">click here</Link>
+            of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
           </p>
         </header>
         <PlanesIndex handlePlaneButtonClick={handlePlaneButtonClick} planes={halpiPlanesData} />
