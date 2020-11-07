@@ -1,0 +1,21 @@
+body {
+  font-size: 0.8rem;
+  @media print {
+    font-size: 1.2rem;
+  }
+}
+
+button {
+  &.btn-sm {
+    height: 1.5rem;
+    line-height: 1;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.army-list__points {
+  @extend .h2;
+}

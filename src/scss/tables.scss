@@ -1,0 +1,30 @@
+.table {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 0;
+  td,
+  th {
+    padding: 0.25rem;
+    vertical-align: middle;
+    &:first-child {
+      padding-left: 0.5rem;
+    }
+    &:not(:first-child) {
+      @media print {
+        width: 60px;
+      }
+    }
+  }
+  th {
+    border-top: none;
+    @media print {
+      font-size: 1rem;
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    td,
+    th {
+      padding: 0.2rem 0.1rem;
+      font-size: 0.75rem;
+    }
+  }
+}

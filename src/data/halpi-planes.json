@@ -1,0 +1,435 @@
+[
+  {
+    "name": "The Material Plane",
+    "spells": [
+      {
+        "name": "Alchemist's curse [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 1,
+            "cost": 15
+          },
+          {
+            "level": 2,
+            "n": 4,
+            "cost": 25
+          },
+          {
+            "level": 3,
+            "n": 6,
+            "cost": 35
+          }
+        ]
+      },
+      {
+        "name": "Magical Mimcry [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 20
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 25
+          },
+          {
+            "level": 3,
+            "n": 4,
+            "cost": 30
+          }
+        ]
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Magic Mirror",
+        "cost": {
+          "Hero": 15,
+          "Troop": 15,
+          "Regiment": 15,
+          "Horde": 15,
+          "Legion": 15
+        },
+        "type": "common"
+      }
+    ]
+  },
+  {
+    "name": "The Abyssal Plane",
+    "spells": [
+      {
+        "name": "Scorched Earth [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 20
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 30
+          }
+        ]
+      },
+      {
+        "name": "Blazing Inferno [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 12,
+            "cost": 25
+          },
+          {
+            "level": 2,
+            "n": 14,
+            "cost": 30
+          },
+          {
+            "level": 3,
+            "n": 16,
+            "cost": 35
+          }
+        ]
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Hourglass of the Chroneas",
+        "cost": {
+          "Hero": 20,
+          "Troop": 20,
+          "Regiment": 20,
+          "Horde": 20,
+          "Legion": 20
+        },
+        "type": "common"
+      }
+    ]
+  },
+  {
+    "name": "The Empyrean Plane",
+    "spells": [
+      {
+        "name": "Celestial Restoration [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 20
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 30
+          },
+          {
+            "level": 3,
+            "n": 4,
+            "cost": 40
+          }
+        ]
+      },
+      {
+        "name": "Sharpeye Incantation [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 25
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 35
+          }
+        ]
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Heavenly Harpsichord",
+        "cost": {
+          "Hero": 25,
+          "Troop": 25,
+          "Regiment": 25,
+          "Horde": 25,
+          "Legion": 25
+        },
+        "type": "common"
+      }
+    ]
+  },
+  {
+    "name": "The Ethereal Plane",
+    "spells": [
+      {
+        "name": "Wither and Perish [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 25
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 35
+          }
+        ]
+      },
+      {
+        "name": "Host Shadowbeast [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 10
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 20
+          },
+          {
+            "level": 3,
+            "n": 4,
+            "cost": 30
+          }
+        ]
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Banner of Eternal Darkness",
+        "cost": {
+          "Hero": 10,
+          "Troop": 10,
+          "Regiment": 10,
+          "Horde": 10,
+          "Legion": 10
+        },
+        "type": "common"
+      }
+    ]
+  },
+  {
+    "name": "The Astral Plane",
+    "spells": [
+      {
+        "name": "Alchemist's curse [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 1,
+            "cost": 15
+          },
+          {
+            "level": 2,
+            "n": 4,
+            "cost": 25
+          },
+          {
+            "level": 3,
+            "n": 6,
+            "cost": 35
+          }
+        ]
+      },
+      {
+        "name": "Magical Mimcry [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 20
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 25
+          },
+          {
+            "level": 3,
+            "n": 4,
+            "cost": 30
+          }
+        ]
+      },
+
+      {
+        "name": "Scorched Earth [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 20
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 30
+          }
+        ]
+      },
+      {
+        "name": "Blazing Inferno [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 12,
+            "cost": 25
+          },
+          {
+            "level": 2,
+            "n": 14,
+            "cost": 30
+          },
+          {
+            "level": 3,
+            "n": 16,
+            "cost": 35
+          }
+        ]
+      },
+
+      {
+        "name": "Celestial Restoration [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 20
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 30
+          },
+          {
+            "level": 3,
+            "n": 4,
+            "cost": 40
+          }
+        ]
+      },
+      {
+        "name": "Sharpeye Incantation [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 25
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 35
+          }
+        ]
+      },
+
+      {
+        "name": "Wither and Perish [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 25
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 35
+          }
+        ]
+      },
+      {
+        "name": "Host Shadowbeast [1]",
+        "limit": 1,
+        "levels": [
+          {
+            "level": 1,
+            "n": 2,
+            "cost": 10
+          },
+          {
+            "level": 2,
+            "n": 3,
+            "cost": 20
+          },
+          {
+            "level": 3,
+            "n": 4,
+            "cost": 30
+          }
+        ]
+      }
+    ],
+    "artefacts": [
+      {
+        "name": "Magic Mirror",
+        "cost": {
+          "Hero": 15,
+          "Troop": 15,
+          "Regiment": 15,
+          "Horde": 15,
+          "Legion": 15
+        },
+        "type": "common"
+      },
+      {
+        "name": "Hourglass of the Chroneas",
+        "cost": {
+          "Hero": 20,
+          "Troop": 20,
+          "Regiment": 20,
+          "Horde": 20,
+          "Legion": 20
+        },
+        "type": "common"
+      },
+
+      {
+        "name": "Heavenly Harpsichord",
+        "cost": {
+          "Hero": 25,
+          "Troop": 25,
+          "Regiment": 25,
+          "Horde": 25,
+          "Legion": 25
+        },
+        "type": "common"
+      },
+      {
+        "name": "Banner of Eternal Darkness",
+        "cost": {
+          "Hero": 10,
+          "Troop": 10,
+          "Regiment": 10,
+          "Horde": 10,
+          "Legion": 10
+        },
+        "type": "common"
+      }
+    ]
+  }
+]

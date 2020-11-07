@@ -1,0 +1,30 @@
+@import './App.scss';
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  // overflow: hidden;
+  margin-bottom: 46px;
+}
+
+main {
+  max-width: 768px;
+  margin: 0 auto;
+  @media print {
+    max-width: 90%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

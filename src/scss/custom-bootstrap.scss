@@ -1,0 +1,9 @@
+$secondary: #ced4da;
+
+@import '~bootstrap/scss/bootstrap';
+
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:active {
+  color: #fff;
+}

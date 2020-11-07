@@ -1,0 +1,23 @@
+.button-row {
+  &__container {
+    &--sticky {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1030;
+      background-color: #f6f6f6;
+      padding: 0.25rem 0;
+      max-width: 768px;
+      .button-row__row {
+        .button-row__column {
+          padding-left: 0.25rem;
+          padding-right: 0.25rem;
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

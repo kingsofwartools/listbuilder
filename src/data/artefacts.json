@@ -1,0 +1,497 @@
+[
+  {
+    "name": "None",
+    "cost": {
+      "Hero": 0,
+      "Troop": 0,
+      "Regiment": 0,
+      "Horde": 0,
+      "Legion": 0
+    },
+    "type": "common"
+  },
+  {
+    "name": "Blade of Slashing",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "Fire-Oil",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "Healing Brew",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "Liliana's Tear",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "Mace of Crushing",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "Staying Stone",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "War-bow of Kaba",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "common"
+  },
+  {
+    "name": "Hann's Sanguinary Scripture",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "common"
+  },
+  {
+    "name": "Mead of Madness",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "common"
+  },
+  {
+    "name": "Pipes of Terror",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "common"
+  },
+  {
+    "name": "Piercing Arrow",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "common"
+  },
+  {
+    "name": "Aegis of the Elohi",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Blood of the Old King",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Chalice of Wrath",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Dwarven Ale",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Helm of Confidence",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Sacred Horn",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Sir Jesse's Boots of Striding",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Blessing of the Gods",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "common"
+  },
+  {
+    "name": "Brew of Haste",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "common"
+  },
+  {
+    "name": "Chant of Hate",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "common"
+  },
+  {
+    "name": "Dragonshard Shield",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "common"
+  },
+  {
+    "name": "Hammer of Measured Force",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "common"
+  },
+  {
+    "name": "Maccwar's Potion of the Caterpillar",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "common"
+  },
+  {
+    "name": "The Scrying Gem",
+    "cost": {
+      "Hero": 25,
+      "Troop": 25,
+      "Regiment": 25,
+      "Horde": 25,
+      "Legion": 25
+    },
+    "type": "common"
+  },
+  {
+    "name": "Diadem of Dragon-kind",
+    "cost": {
+      "Hero": 30,
+      "Troop": 30,
+      "Regiment": 30,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "common"
+  },
+  {
+    "name": "Brew of Strength",
+    "cost": {
+      "Hero": 30,
+      "Troop": 30,
+      "Regiment": 30,
+      "Horde": 40,
+      "Legion": 40
+    },
+    "type": "common"
+  },
+  {
+    "name": "Brew of Sharpness",
+    "cost": {
+      "Hero": 35,
+      "Troop": 35,
+      "Regiment": 35,
+      "Horde": 45,
+      "Legion": 45
+    },
+    "type": "common"
+  },
+  {
+    "name": "Wine of Elvenkind",
+    "cost": {
+      "Hero": 40,
+      "Troop": 40,
+      "Regiment": 40,
+      "Horde": 40,
+      "Legion": 40
+    },
+    "type": "common"
+  },
+  {
+    "name": "Crystal Pendant of Retribution",
+    "cost": {
+      "Hero": 50,
+      "Troop": 50,
+      "Regiment": 50,
+      "Horde": 50,
+      "Legion": 50
+    },
+    "type": "common"
+  },
+  {
+    "name": "Conjurer's Staff",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Darklord's Onyx Ring",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Mournful Blade",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Trickster's Wand",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Blade of the Beast Slayer",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Inspiring Talismman",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Tome of Darkness",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Lute of Insatiable Darkness",
+    "cost": {
+      "Hero": 25,
+      "Troop": 25,
+      "Regiment": 25,
+      "Horde": 25,
+      "Legion": 25
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Zephyr Crown",
+    "cost": {
+      "Hero": 25,
+      "Troop": 25,
+      "Regiment": 25,
+      "Horde": 25,
+      "Legion": 25
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Boots of Levitation",
+    "cost": {
+      "Hero": 30,
+      "Troop": 30,
+      "Regiment": 30,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Boots of the Seven Leagues",
+    "cost": {
+      "Hero": 30,
+      "Troop": 30,
+      "Regiment": 30,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Shroud of the Saint",
+    "cost": {
+      "Hero": 30,
+      "Troop": 30,
+      "Regiment": 30,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "The Boomstick",
+    "cost": {
+      "Hero": 30,
+      "Troop": 30,
+      "Regiment": 30,
+      "Horde": 30,
+      "Legion": 30
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Wings of Honeymaze",
+    "cost": {
+      "Hero": 40,
+      "Troop": 40,
+      "Regiment": 40,
+      "Horde": 40,
+      "Legion": 40
+    },
+    "type": "heroic"
+  }
+]

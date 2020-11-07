@@ -1,0 +1,12 @@
+.army-list {
+  &__header {
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+}

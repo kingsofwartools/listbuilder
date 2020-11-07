@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jewels of Channelling",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Cloak of the Dragon Banisher",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Pointy Wizard's Hat",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Amulet of the Fire Heart",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Mask of the Corruptor",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Crown of the Wizard King",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Wand of the Damned",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Staff of the Forsaken",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "heroic"
+  }
+]
