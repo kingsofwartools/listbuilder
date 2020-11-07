@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 const App = () => {
   return (
     <Router>
-      <Route exact path="/kow-react-listbuilder/halpis-rift" component={HalpisRiftIndex} />
-      <Route exact path="/kow-react-listbuilder" component={StandardIndex} />
+      <Route exact path="/listbuilder/halpis-rift" component={HalpisRiftIndex} />
+      <Route exact path="/listbuilder" component={StandardIndex} />
     </Router>
   );
 };
