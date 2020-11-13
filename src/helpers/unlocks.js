@@ -112,7 +112,7 @@ const calculateUnallocated = (unitsArr) => {
   const titans = unitDetailsArr.filter((unit) => unit.size === 'Titan');
 
   const unitsWithSlots = unitDetailsArr.map((unit) => {
-    if (unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) {
+    if (!unit.irregular && unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) {
       return { ...unit, unlocks: { ...(unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) } };
     }
     return unit;

@@ -6,7 +6,7 @@ import UnitFooter from './UnitFooter.js';
 const MultiUnitRow = ({ units, addUnit, view }) => {
   return (
     <div className="multi-unit-row">
-      <UnitHeader unit={units[0]} />
+      <UnitHeader unit={units[0]} displayHeaderCost={false} />
       <UnitTable units={units} addUnit={addUnit} displayAddButton={true} />
       <UnitFooter unit={units[0]} view={view} />
     </div>
