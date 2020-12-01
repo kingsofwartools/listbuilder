@@ -97,6 +97,16 @@ const unlockAmounts = {
       heroMonsterTitanOrWarEngineUnique: 2,
     },
   },
+  'Swarm': {
+    Horde: {
+      troopOrIrregular: 2,
+      heroMonsterTitanOrWarEngineUnique: 2,
+    },
+    Legion: {
+      troopOrIrregular: 4,
+      heroMonsterTitanOrWarEngineUnique: 2,
+    },
+  },
 };
 
 const calculateUnallocated = (unitsArr) => {
@@ -155,7 +165,7 @@ const calculateUnallocated = (unitsArr) => {
     if (!hasBeenAllocated) unallocated.hwmt = true;
   });
 
-  warEngines.forEach((monster) => {
+  warEngines.forEach((warEngine) => {
     let hasBeenAllocated = false;
     unitsWithSlots.forEach((unit) => {
       if (!hasBeenAllocated) {

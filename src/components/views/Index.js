@@ -212,7 +212,7 @@ const Index = ({ type = 'standard' }) => {
       <main>
         <header>
           <p className="switch-view">
-            This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.1.1 and Clash
+            This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.12 and Clash
             of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
           </p>
         </header>
@@ -225,13 +225,13 @@ const Index = ({ type = 'standard' }) => {
         <header>
           {type === 'halpi' && (
             <p className="switch-view">
-              This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.1.1 and
+              This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.12 and
               Clash of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
             </p>
           )}
           {type === 'standard' && (
             <p className="switch-view">
-              This listbuilder contains units available in Kings of War v3 rules, including FAQs up to 1.1.1 and Clash
+              This listbuilder contains units available in Kings of War v3 rules, including FAQs up to 1.12 and Clash
               of Kings 2021. For Halpi's Rift campaign listbuilding,{' '}
               <Link to="/listbuilder/halpis-rift">click here</Link>
             </p>
