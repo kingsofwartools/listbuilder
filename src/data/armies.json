@@ -8520,7 +8520,7 @@
           },
           {
             "name": "Lightning Bolt (5)",
-            "cost": 20,
+            "cost": 35,
             "limit": 0
           },
           {
@@ -11993,14 +11993,14 @@
         "spellcaster": null
       },
       {
-        "name": "Naiad Heartpiercers*",
+        "name": "Naiad Heartpiercers",
         "size": "Troop",
         "modelCount": "10",
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "9/11",
         "cost": 120,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Regeneration (4+), Harpoon-gun: 18”, Piercing (1), Steady Aim",
         "options": [],
@@ -12014,14 +12014,14 @@
         "spellcaster": null
       },
       {
-        "name": "Naiad Heartpiercers*",
+        "name": "Naiad Heartpiercers",
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "2",
         "attacks": "10",
         "nerve": "13/15",
         "cost": 160,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Regeneration (4+), Harpoon-gun: 18”, Piercing (1), Steady Aim",
         "options": [],
@@ -12200,7 +12200,7 @@
           },
           {
             "name": "Lightning Bolt (5)",
-            "cost": 20,
+            "cost": 35,
             "limit": 0
           },
           {
@@ -18198,7 +18198,7 @@
         "cost": 155,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Individual, Very Inspiring, Reanimator: For each friendly core Skeleton unit within 6\", you may re-roll one dice that failed to hit with Drain Life, Fireball, Heal, Hex, Surge, Weakness, and Wind Blast, to a maximum of 2 re-rolls. Glory for the Mighty Dead: After casting Heal on a friendly core unit, this unit may immediately cast Surge against the same target. Spells: Heal (5), Surge (8)",
+        "specialRules": "Individual, Very Inspiring, Reanimator: For each other friendly core Skeleton unit within 6\", you may re-roll one dice that failed to hit with Heal and Surge, to a maximum of 2 re-rolls. Glory for the Mighty Dead: After casting Heal on a friendly core unit, this unit may immediately cast Surge against the same target. Spells: Heal (5), Surge (8)",
         "options": [],
         "keywords": "Accursed, Skeleton",
         "type": "Infantry",
