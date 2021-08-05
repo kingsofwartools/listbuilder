@@ -8699,6 +8699,1122 @@
     ]
   },
   {
+    "name": "Halflings (beta)",
+    "alignment": "Neutral",
+    "themeLists": [
+      null
+    ],
+    "units": [
+      {
+        "name": "Braves",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "2",
+        "attacks": "12",
+        "nerve": "12/14",
+        "cost": 80,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Braves",
+        "size": "Horde",
+        "modelCount": "40",
+        "unitStrength": "3",
+        "attacks": "25",
+        "nerve": "19/21",
+        "cost": 130,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Braves",
+        "size": "Legion",
+        "modelCount": "60",
+        "unitStrength": "4",
+        "attacks": "30",
+        "nerve": "25/27",
+        "cost": 190,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Spearspikes",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "3",
+        "attacks": "15",
+        "nerve": "12/14",
+        "cost": 100,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Phalanx, Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Spearspikes",
+        "size": "Horde",
+        "modelCount": "40",
+        "unitStrength": "4",
+        "attacks": "30",
+        "nerve": "19/21",
+        "cost": 165,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Phalanx, Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Stalwarts",
+        "size": "Troop",
+        "modelCount": "10",
+        "unitStrength": "1",
+        "attacks": "10",
+        "nerve": "9/11",
+        "cost": 75,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward",
+        "options": [
+          {
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
+            "cost": 0,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Stalwarts",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "3",
+        "attacks": "12",
+        "nerve": "13/15",
+        "cost": 115,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward",
+        "options": [
+          {
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
+            "cost": 0,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Stalwarts",
+        "size": "Horde",
+        "modelCount": "40",
+        "unitStrength": "4",
+        "attacks": "25",
+        "nerve": "20/22",
+        "cost": 190,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward",
+        "options": [
+          {
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
+            "cost": 0,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Poachers",
+        "size": "Troop",
+        "modelCount": "10",
+        "unitStrength": "1",
+        "attacks": "10",
+        "nerve": "9/11",
+        "cost": 105,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Pathfinder, Scout, Stealthy, Vicious (Melee), Spellward, Bows: 24”",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tracker, Rogue, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Poachers",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "3",
+        "attacks": "12",
+        "nerve": "13/15",
+        "cost": 140,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Pathfinder, Scout, Stealthy, Vicious (Melee), Spellward, Bows: 24”",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tracker, Rogue, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Halfling Rifles",
+        "size": "Troop",
+        "modelCount": "10",
+        "unitStrength": "1",
+        "attacks": "8",
+        "nerve": "8/10",
+        "cost": 80,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward, Halfling Rifles: 18”, Piercing (1), Steady Aim",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tinker, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Halfling Rifles",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "2",
+        "attacks": "10",
+        "nerve": "12/14",
+        "cost": 115,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward, Halfling Rifles: 18”, Piercing (1), Steady Aim",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tinker, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Halfling Rifles",
+        "size": "Horde",
+        "modelCount": "40",
+        "unitStrength": "3",
+        "attacks": "20",
+        "nerve": "19/21",
+        "cost": 200,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Spellward, Halfling Rifles: 18”, Piercing (1), Steady Aim",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tinker, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Juggers",
+        "size": "Troop",
+        "modelCount": "5",
+        "unitStrength": "1",
+        "attacks": "8",
+        "nerve": "10/12",
+        "cost": 125,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Juggers",
+        "size": "Regiment",
+        "modelCount": "10",
+        "unitStrength": "3",
+        "attacks": "16",
+        "nerve": "13/15",
+        "cost": 190,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Juggers",
+        "size": "Horde",
+        "modelCount": "20",
+        "unitStrength": "4",
+        "attacks": "32",
+        "nerve": "20/22",
+        "cost": 325,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Wild Runners (Melee)",
+        "size": "Troop",
+        "modelCount": "5",
+        "unitStrength": "1",
+        "attacks": "7",
+        "nerve": "9/11",
+        "cost": 100,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Wild Runners (Melee)",
+        "size": "Regiment",
+        "modelCount": "10",
+        "unitStrength": "3",
+        "attacks": "14",
+        "nerve": "12/14",
+        "cost": 155,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Wild Runners (Melee)",
+        "size": "Horde",
+        "modelCount": "20",
+        "unitStrength": "4",
+        "attacks": "28",
+        "nerve": "19/21",
+        "cost": 265,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Wild Runners (Ranged)",
+        "size": "Troop",
+        "modelCount": "5",
+        "unitStrength": "1",
+        "attacks": "7",
+        "nerve": "9/11",
+        "cost": 95,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Spellward, Shortbows: 18”, Steady Aim",
+        "options": [
+          {
+            "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
+            "cost": 10,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "4+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Wild Runners (Ranged)",
+        "size": "Regiment",
+        "modelCount": "10",
+        "unitStrength": "2",
+        "attacks": "14",
+        "nerve": "12/14",
+        "cost": 145,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Iron Resolve, Nimble, Spellward, Shortbows: 18”, Steady Aim",
+        "options": [
+          {
+            "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
+            "cost": 15,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Aralez, Halfling, Ravenous",
+        "type": "Cavalry",
+        "height": "3",
+        "speed": "8",
+        "melee": "4+",
+        "ranged": "5+",
+        "defence": "3+",
+        "spellcaster": null
+      },
+      {
+        "name": "Ej Grenadiers*",
+        "size": "Regiment",
+        "modelCount": "3",
+        "unitStrength": "2",
+        "attacks": "9",
+        "nerve": "11/13",
+        "cost": 105,
+        "irregular": true,
+        "limit": 0,
+        "specialRules": "Fly, Nimble, Brutal (D3)",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tinker",
+        "type": "Large Infantry",
+        "height": "2",
+        "speed": "10",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Forest Troll Gunners*",
+        "size": "Regiment",
+        "modelCount": "3",
+        "unitStrength": "2",
+        "attacks": "9",
+        "nerve": "12/14",
+        "cost": 140,
+        "irregular": true,
+        "limit": 0,
+        "specialRules": "Crushing Strength (1), Pathfinder, Regeneration (5+), Pintle Gun: 18”",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Troll, Halfling",
+        "type": "Large Infantry",
+        "height": "3",
+        "speed": "6",
+        "melee": "4+",
+        "ranged": "4+",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Forest Troll Gunners*",
+        "size": "Horde",
+        "modelCount": "6",
+        "unitStrength": "3",
+        "attacks": "18",
+        "nerve": "15/17",
+        "cost": 230,
+        "irregular": true,
+        "limit": 0,
+        "specialRules": "Crushing Strength (1), Pathfinder, Regeneration (5+), Pintle Gun: 18”",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Troll, Halfling",
+        "type": "Large Infantry",
+        "height": "3",
+        "speed": "6",
+        "melee": "4+",
+        "ranged": "4+",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Forest Trolls",
+        "size": "Regiment",
+        "modelCount": "3",
+        "unitStrength": "2",
+        "attacks": "9",
+        "nerve": "12/14",
+        "cost": 125,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (2), Pathfinder, Regeneration (5+)",
+        "options": [],
+        "keywords": "Troll",
+        "type": "Large Infantry",
+        "height": "3",
+        "speed": "6",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Forest Trolls",
+        "size": "Horde",
+        "modelCount": "6",
+        "unitStrength": "3",
+        "attacks": "18",
+        "nerve": "15/17",
+        "cost": 205,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (2), Pathfinder, Regeneration (5+)",
+        "options": [],
+        "keywords": "Troll",
+        "type": "Large Infantry",
+        "height": "3",
+        "speed": "6",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Aeronauts",
+        "size": "Regiment",
+        "modelCount": "3",
+        "unitStrength": "2",
+        "attacks": "9",
+        "nerve": "13/15",
+        "cost": 170,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (2), Blast (D3), Brutal, Fly, Pathfinder, Bombing Run: In Melee, this unit will always hit the enemy on a 4+ regardless of any other modifiers.",
+        "options": [],
+        "keywords": "Halfling, Tinker",
+        "type": "Large Cavalry",
+        "height": "5",
+        "speed": "7",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Volley Gun",
+        "size": "War Engine",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "12",
+        "nerve": "9/11",
+        "cost": 85,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Volley Gun: 24”, Piercing (2), Reload",
+        "options": [],
+        "keywords": "Artillery, Halfling, Tinker, Ravenous",
+        "type": "War Engine",
+        "height": "2",
+        "speed": "5",
+        "melee": "-",
+        "ranged": "5+",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Howitzer",
+        "size": "War Engine",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "2",
+        "nerve": "9/11",
+        "cost": 90,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (3), Reload",
+        "options": [],
+        "keywords": "Artillery, Halfling, Tinker, Ravenous",
+        "type": "War Engine",
+        "height": "2",
+        "speed": "5",
+        "melee": "-",
+        "ranged": "5+",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Harvester",
+        "size": "Monster",
+        "modelCount": "1",
+        "unitStrength": "1",
+        "attacks": "D6+8",
+        "nerve": "13/15",
+        "cost": 140,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Big Shield, Brutal, Crushing Strength (1), Thunderous Charge (1)",
+        "options": [],
+        "keywords": "Tinker, Halfling, Ravenous, Troll",
+        "type": "Monster",
+        "height": "3",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Iron Beast",
+        "size": "Titan",
+        "modelCount": "1",
+        "unitStrength": "1",
+        "attacks": "D6+10",
+        "nerve": "15/17",
+        "cost": 210,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (2), Strider, Aura: Spellward, Halfling Handgun: 18” Att:5, Piercing (1), Steady Aim",
+        "options": [
+          {
+            "name": "Pride of the Shires [1]: This unit gains the Inspiring and Aura: Headstrong special rule",
+            "cost": 30,
+            "limit": 1
+          }
+        ],
+        "keywords": "Tinker, Halfling, Ravenous",
+        "type": "Titan",
+        "height": "5",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "4+",
+        "defence": "6+",
+        "spellcaster": null
+      },
+      {
+        "name": "Sauceror",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "1",
+        "nerve": "9/11",
+        "cost": 80,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Individual, Spellward, Gastromancy: Unless disordered, immediately before giving this unit a Movement order, pick one of the following Special Rules and roll three dice. If any of the dice score a 4+, apply the Special Rule to this unit. If an (n) value is listed in the Special Rule, (n) is equal to the number of dice rolled that score a 4+. \\n• Aura (Wild Charge (+n) - Ravenous only) \\n• Aura (Brutal (n) - Ravenous only) \\n• Aura (Lifeleech (+n) - Ravenous only) \\n• Rally (n - Ravenous only)",
+        "options": [
+          {
+            "name": "Mount on a miniature aralez, increasing Speed to 8 changing to Hero (Cav - Height: 3)",
+            "cost": 25,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Heavy Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Engineer",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "1",
+        "nerve": "10/12",
+        "cost": 75,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Individual, Inspiring, Halfling Carbine: 18” Piercing (1) Att: 4",
+        "options": [
+          {
+            "name": "Aura (Wild charge (+1) - Tinker only)",
+            "cost": 10,
+            "limit": 0
+          },
+          {
+            "name": "Radiance of Life (Tinker only)",
+            "cost": 15,
+            "limit": 0
+          },
+          {
+            "name": "Swap Halfling Carbine for Halfling Long Rifle: Lose Halfling Carbine, gain ranged attack: Ra 3+ - Range 24” Att:3, Piercing (2)",
+            "cost": 15,
+            "limit": 0
+          },
+          {
+            "name": "Gadgets and Gizmos [1]: After both players have deployed, nominate a single core friendly Infantry unit. This unit gains the Tinker keyword and Iron Resolve special rule",
+            "cost": 5,
+            "limit": 1
+          }
+        ],
+        "keywords": "Halfling, Tinker",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "5+",
+        "ranged": "4+",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Sergeant",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "3",
+        "nerve": "10/12",
+        "cost": 55,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (1), Individual, Inspiring, Spellward",
+        "options": [
+          {
+            "name": "Mount on a miniature aralez, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
+            "cost": 25,
+            "limit": 0
+          },
+          {
+            "name": "Gain Scout (NOTE: This cannot be in addition to the mount.)",
+            "cost": 10,
+            "limit": 0
+          },
+          {
+            "name": "Gain the ranged attack - Bow: 18”, Ra: 4+",
+            "cost": 10,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Muster Captain",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "5",
+        "nerve": "12/14",
+        "cost": 80,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (1), Individual, Mighty, Inspiring, Spellward",
+        "options": [
+          {
+            "name": "Mount on a miniature aralez, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
+            "cost": 35,
+            "limit": 0
+          },
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Ravenous",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Feast Master",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "5",
+        "nerve": "11/13",
+        "cost": 90,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (1), Duelist, Individual, Inspiring, Scout, Spellward, Throwing Cleaver: 12”, Piercing (1)",
+        "options": [],
+        "keywords": "Halfling, Ravenous, Tracker, Rogue",
+        "type": "Heavy Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "4+",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Muster Captain on Winged Aralez",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "1",
+        "attacks": "7",
+        "nerve": "14/16",
+        "cost": 195,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (2), Fly, Nimble, Thunderous Charge (1), Inspiring, Iron Resolve, Spellward",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Aralez, Ravenous",
+        "type": "Monster",
+        "height": "5",
+        "speed": "10",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Forest Troll Gunner Hero",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "1",
+        "attacks": "5",
+        "nerve": "13/15",
+        "cost": 130,
+        "irregular": false,
+        "limit": 0,
+        "specialRules": "Crushing Strength (1), Inspiring, Nimble, Regeneration (5+), Pathfinder, Pintle Gun: Range 18”",
+        "options": [
+          {
+            "name": "Relentless",
+            "cost": 5,
+            "limit": 0
+          }
+        ],
+        "keywords": "Halfling, Tinker, Troll",
+        "type": "Large Infantry",
+        "height": "3",
+        "speed": "6",
+        "melee": "3+",
+        "ranged": "4+",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Aeron Cadwalader [1]",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "5",
+        "nerve": "13/15",
+        "cost": 110,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Aura (Nimble - Infantry Only), Crushing Strength (1), Individual, Mighty, Very Inspiring, Spellward",
+        "options": [],
+        "keywords": "Halfling, Ravenous",
+        "type": "Heavy Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Greedyguts [1]",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "8",
+        "nerve": "-/16",
+        "cost": 115,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Dread, Lifeleech (3), Wildcharge (D3), Crushing Strength (1), Individual",
+        "options": [],
+        "keywords": "Halfling, Ravenous",
+        "type": "Heavy Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Ally McSween [1]",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "0",
+        "attacks": "5",
+        "nerve": "11/13",
+        "cost": 105,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Crushing Strength (1), Duelist, Individual, Inspiring (self), Scout, Spellward, Stealthy, Throwing Daggers: 12”, Piercing (1), Master Thief: Enemy units within 6” of Ally may not use their Magical Artefact when attacking in combat. When Ally is attacking an enemy unit in combat, she may choose to use a Magical Artefact held by any enemy unit she is engaged with, excluding one use only items.",
+        "options": [],
+        "keywords": "Halfling, Ravenous, Tracker, Rogue",
+        "type": "Heavy Infantry",
+        "height": "2",
+        "speed": "6",
+        "melee": "3+",
+        "ranged": "4+",
+        "defence": "4+",
+        "spellcaster": null
+      }
+    ]
+  },
+  {
     "name": "Kingdoms of Men",
     "alignment": "Neutral",
     "themeLists": [

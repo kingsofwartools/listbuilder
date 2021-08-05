@@ -48,12 +48,21 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
     selectArtefact(artefact, index);
   };
 
+  console.log(unit.unitDetails.specialRules.includes('\\n'));
+  const splitSpecialRules = unit.unitDetails.specialRules.includes('\\n') ?
+    unit.unitDetails.specialRules.split('\\n').map((ruleSection, i) => {
+      console.log('in here');
+      if (i < unit.unitDetails.specialRules.split('\\n').length - 1) return [<span>{ruleSection}</span>,<br/>]
+      return <span>{ruleSection}</span>;
+    }) :
+    unit.unitDetails.specialRules
+
   return (
     <div className="unit-footer">
       <div className="unit-footer__special">
         <p>
           <span className="unit-footer__label">Special: </span>
-          {unit.unitDetails.specialRules}
+          {splitSpecialRules}
         </p>
         <p>
           <span className="unit-footer__label">Keywords: </span>
