@@ -30,5 +30,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # TODOS:
 
--add detachments functionality
--add group units functionality
+-add formations functionality
+-add rules reference page
