@@ -8,7 +8,7 @@ jobs:
   build-and-update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages branch
+      - name: Checkout github-pages branch
         uses: actions/checkout@v2
         with:
           ref: github-pages
