@@ -19,6 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "copy-build": "cp -r ./build ./docs",
+    "delete-docs": "rm -rf ./docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",

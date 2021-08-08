@@ -1,0 +1,50 @@
+name: Update github-pages
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v2
+        with:
+          ref: github-pages
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Delete /docs folder
+        run: yarn delete-docs
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GuyHarperDay
+          author_email:
+          message: 'Deleting docs directory'
+          branch: github-pages
+
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build
+        run: yarn build
+
+      - name: Copy build to /docs
+        run: yarn copy-build
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GuyHarperDay
+          author_email:
+          message: 'New build, triggered by change to the master branch.'
+          branch: github-pages
