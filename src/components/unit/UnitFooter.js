@@ -48,10 +48,8 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
     selectArtefact(artefact, index);
   };
 
-  console.log(unit.unitDetails.specialRules.includes('\\n'));
   const splitSpecialRules = unit.unitDetails.specialRules.includes('\\n') ?
     unit.unitDetails.specialRules.split('\\n').map((ruleSection, i) => {
-      console.log('in here');
       if (i < unit.unitDetails.specialRules.split('\\n').length - 1) return [<span>{ruleSection}</span>,<br/>]
       return <span>{ruleSection}</span>;
     }) :

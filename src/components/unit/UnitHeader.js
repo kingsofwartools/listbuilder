@@ -5,7 +5,9 @@ import Col from 'react-bootstrap/Col';
 
 const UnitHeader = ({ unit, displayEditButton = false, handleClickEdit = false, displayHeaderCost = true }) => {
   const unitDetails = unit.unitDetails ? unit.unitDetails : unit;
-  const unitDescription = unitDetails.size === 'Hero' ? `Hero (${unitDetails.type})` : unitDetails.type;
+  const unitDescription = ['Hero', 'War Engine', 'Monster', 'Titan'].includes(unitDetails.size) && unitDetails.size !== unitDetails.type ?
+    `${unitDetails.size} (${unitDetails.type})` :
+    unitDetails.type;
 
   return (
     <Row className="unit-header" noGutters>
