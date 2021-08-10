@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Basilea",
+    "formations": [
+      {
+        "name": "Basilean formation",
+        "units": [
+          {
+            "name": "Paladin Foot Guard",
+            "sizes": [
+              {
+                "label": "Troop",
+                "upgradeCost": 10
+              },
+              {
+                "label": "Regiment",
+                "upgradeCost": 15
+              }
+            ],
+            "upgrade": "Elite",
+            "limit": 2
+          },
+          {
+            "name": "Bearer of the Holy Icon",
+            "sizes": [
+              "Hero"
+            ],
+            "upgrade": "Aura: Headstrong"
+          }
+        ]
+      }
+    ]
+  }
+]
