@@ -16,8 +16,8 @@ const UnitSelect = ({
 }) => {
   const [enrichedUnit, setEnrichedUnit] = useState(
     editingUnit && !unit.unitDetails
-      ? { unitDetails: { ...unit }, selectedOptions: [], unitCost: unit.cost, selectedArtefacts: [] }
-      : { ...unit }
+      ? { unitDetails: { ...unit }, selectedOptions: [], unitCost: unit.cost, selectedArtefacts: [], originalUnitDetails: unit.originalUnitDetails || { ...unit } }
+      : { ...unit, originalUnitDetails: unit.originalUnitDetails || unit.unitDetails }
   );
 
   const handleCancelClick = () => {
@@ -30,20 +30,34 @@ const UnitSelect = ({
   };
 
   const handleSelectOption = (option) => {
-    setEnrichedUnit((previousEnrichedUnit) => ({
+    setEnrichedUnit((previousEnrichedUnit) => {
+      return {
       ...previousEnrichedUnit,
+      unitDetails: {
+        ...previousEnrichedUnit.unitDetails,
+        name: option.disablesIrregular ? previousEnrichedUnit.originalUnitDetails.name.substring(0, previousEnrichedUnit.originalUnitDetails.name.length - 1) : previousEnrichedUnit.originalUnitDetails.name,
+        irregular: option.disablesIrregular ? false : previousEnrichedUnit.unitDetails.irregular,
+      },
+      originalUnitDetails: previousEnrichedUnit.originalUnitDetails,
       selectedOptions: [...previousEnrichedUnit.selectedOptions, option],
       unitCost:
         previousEnrichedUnit.unitDetails.cost +
         [...previousEnrichedUnit.selectedOptions, option].reduce((sum, o) => sum + o.cost, 0) +
         [...previousEnrichedUnit.selectedArtefacts].reduce((sum, a) => sum + a.cost, 0),
-    }));
+    }});
   };
 
   const handleDeselectOption = (option) => {
+    
     setEnrichedUnit((previousEnrichedUnit) => {
       return {
         ...previousEnrichedUnit,
+        unitDetails: {
+          ...previousEnrichedUnit.unitDetails,
+          name: previousEnrichedUnit.originalUnitDetails.name,
+          irregular: previousEnrichedUnit.originalUnitDetails.irregular,
+        },
+        originalUnitDetails: previousEnrichedUnit.originalUnitDetails,
         selectedOptions: previousEnrichedUnit.selectedOptions.filter((selectedOption) => {
           return selectedOption.nValue
             ? selectedOption.nValue !== option.nValue && selectedOption.name === option.name

@@ -23,7 +23,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -50,7 +51,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -77,7 +79,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -104,17 +107,20 @@
           {
             "name": "Upgrade to Paladin Defenders [1] (Regiment only) - Gain Aura (Elite (Melee) - Paladin Infantry only)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -141,17 +147,20 @@
           {
             "name": "Upgrade to Paladin Defenders [1] (Regiment only) - Gain Aura (Elite (Melee) - Paladin Infantry only)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -241,7 +250,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -268,7 +278,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -295,7 +306,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -364,7 +376,8 @@
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -391,7 +404,8 @@
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -418,7 +432,8 @@
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -802,7 +817,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -871,17 +887,20 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -908,17 +927,20 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -945,7 +967,8 @@
           {
             "name": "Mount on a Gur Panther, losing Wild Charge (D3) but increasing Speed to 10 and changing to Hero (Cav – Height: 3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Sisterhood",
@@ -972,22 +995,26 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bastion (1) [1]",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Martyr’s Prayer (7) [1]",
             "cost": 35,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -1014,27 +1041,32 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (4) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -1103,12 +1135,14 @@
           {
             "name": "Heal (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Draconic, Human, Paladin",
@@ -1156,7 +1190,8 @@
           {
             "name": "Heal (4)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Human, Paladin",
@@ -1257,7 +1292,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1284,7 +1320,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1311,7 +1348,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1338,7 +1376,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1365,7 +1404,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1392,7 +1432,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1419,7 +1460,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1446,7 +1488,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1473,7 +1516,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1500,7 +1544,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1527,7 +1572,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -1869,7 +1915,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast",
@@ -1959,7 +2006,8 @@
           {
             "name": "Upgrade to Golloch’s Fury [1] - Gain Very Inspiring, Iron Resolve and exchanging its Flame Belcher for Golloch’s Gun: 18”, Att: 12, Piercing (2)",
             "cost": 50,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Warsmith",
@@ -2049,7 +2097,8 @@
           {
             "name": "Horn of Heroes [1] - Friendly Core units within 6” of this unit can reroll failed Headstrong rolls. This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -2076,7 +2125,8 @@
           {
             "name": "Mount on a Brock, losing Wild Charge (D3) but increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Dwarf",
@@ -2166,7 +2216,8 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Earthbound",
@@ -2256,12 +2307,14 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Increase to Fireball (10)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Flamesmith",
@@ -2972,17 +3025,20 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sabre-Toothed Hunting Cat",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "The Shardblade [1] - Increase Melee to 2+",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -3114,12 +3170,14 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sabre-Toothed Hunting Cat",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -3146,7 +3204,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -3194,37 +3253,44 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (3)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -3344,7 +3410,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -3371,7 +3438,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -3398,7 +3466,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -3467,7 +3536,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast",
@@ -3599,7 +3669,8 @@
           {
             "name": "Mount on a Brock, losing Wild Charge (D3) but increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Dwarf",
@@ -3647,7 +3718,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3674,7 +3746,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3827,7 +3900,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3854,7 +3928,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3881,7 +3956,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3908,12 +3984,14 @@
           {
             "name": "Upgrade to Hearneas’ Handpicked Rangers [1] (Regiment only) - Gaining Stealthy and Elite (Ranged) with Light Crossbows",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3940,12 +4018,14 @@
           {
             "name": "Upgrade to Hearneas’ Handpicked Rangers [1] (Regiment only) - Gaining Stealthy and Elite (Ranged) with Light Crossbows",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Tracker",
@@ -3972,7 +4052,8 @@
           {
             "name": "Gain the ranged attack - Throwing Axes: 12”, Att: [6/12], Ra: 5+, Steady Aim",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Dwarf",
@@ -3999,7 +4080,8 @@
           {
             "name": "Gain the ranged attack - Throwing Axes: 12”, Att: [6/12], Ra: 5+, Steady Aim",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Dwarf",
@@ -4026,7 +4108,8 @@
           {
             "name": "Upgrade to Craggoth & Kholearm [1] - Gaining Spellcaster: 0, the Flamesmith keyword, the Inspiring (Self) and Scout special rules and Fireball (10) spell",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Earthbound",
@@ -4053,7 +4136,8 @@
           {
             "name": "Upgrade with Jarrun Iremonger [1] - Gaining Aura (Iron Resolve - War Engines only) and Shattering with both the Blast It! and Lob It! attacks",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Warsmith",
@@ -4080,7 +4164,8 @@
           {
             "name": "Lord’s Jewel [1] - Gain Aura (Iron Resolve - Dwarf only)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -4128,12 +4213,14 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Martyr’s Prayer (7) [1]",
             "cost": 35,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Earthbound",
@@ -4160,7 +4247,8 @@
           {
             "name": "Upgrade with Mastiff Munchberries [1] - Gaining Aura (Vicious (Ranged) - Throwing Mastiff and Homing Mastiff ranged attacks only)",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -4261,7 +4349,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -4288,7 +4377,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -4315,7 +4405,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -4342,7 +4433,8 @@
           {
             "name": "Exchange shields for two-handed Frost Hammers, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -4369,7 +4461,8 @@
           {
             "name": "Exchange shields for two-handed Frost Hammers, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -4543,7 +4636,8 @@
           {
             "name": "Exchange Shortbows for Javelins: 12”, Steady Aim, Piercing (1)",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human, Tracker",
@@ -4570,7 +4664,8 @@
           {
             "name": "Exchange Shortbows for Javelins: 12”, Steady Aim, Piercing (1)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human, Tracker",
@@ -4933,12 +5028,14 @@
           {
             "name": "Horn of Winter [1] - Aura (Wild Charge (+1) - Infantry & Heavy Infantry only)",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -4986,12 +5083,14 @@
           {
             "name": "Talanaar’s Standard [1] - Rally (1)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -5018,7 +5117,8 @@
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Frostfang, Human",
@@ -5045,7 +5145,8 @@
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Frostfang, Human",
@@ -5072,32 +5173,38 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8) (replaces Icy Breath)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Blizzard (2) [1]",
             "cost": 30,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Frostbound",
@@ -5124,7 +5231,8 @@
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Half-elf",
@@ -5307,7 +5415,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -5334,7 +5443,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -5361,7 +5471,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -5451,7 +5562,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -5478,7 +5590,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -5505,7 +5618,8 @@
           {
             "name": "Upgrade with a Veteran Command, increasing the unit’s rout & waver values by +1",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Men-at-Arms",
@@ -5532,17 +5646,20 @@
           {
             "name": "Upgrade to Paladin Defenders [1] (Regiment only) - Gain Aura (Elite (Melee) - Paladin Infantry only)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -5569,17 +5686,20 @@
           {
             "name": "Upgrade to Paladin Defenders [1] (Regiment only) - Gain Aura (Elite (Melee) - Paladin Infantry only)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -5606,7 +5726,8 @@
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -5633,7 +5754,8 @@
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -5660,7 +5782,8 @@
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -5771,7 +5894,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -5819,22 +5943,26 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bastion (1) [1]",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Martyr’s Prayer (7) [1]",
             "cost": 35,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -5861,27 +5989,32 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (4) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -5908,12 +6041,14 @@
           {
             "name": "Heal (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aegis Fragment",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Draconic, Human, Paladin",
@@ -6066,7 +6201,8 @@
           {
             "name": "The Gauntlet",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order, Tracker",
@@ -6093,7 +6229,8 @@
           {
             "name": "The Gauntlet",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order, Tracker",
@@ -6183,17 +6320,20 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "The Gauntlet",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lead from the Front [1] - Gain Rallying (1 - Infantry only) Note: This upgrade cannot be taken in addition to a Horse mount.",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -6220,17 +6360,20 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with Battle Hymns - Gaining Aura (Fury - Villein only)",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -6257,12 +6400,14 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "The Gauntlet",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin, Tracker",
@@ -6382,12 +6527,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6414,12 +6561,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6446,12 +6595,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6478,7 +6629,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6505,7 +6657,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6532,7 +6685,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6559,7 +6713,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6586,7 +6741,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6613,7 +6769,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6640,7 +6797,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -6793,7 +6951,8 @@
           {
             "name": "Exchange Blowpipes for Bows: 24”, Vicious (Ranged), Steady Aim",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ghekkotah, Tracker",
@@ -6820,7 +6979,8 @@
           {
             "name": "Exchange Blowpipes for Bows: 24”, Vicious (Ranged), Steady Aim",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ghekkotah, Tracker",
@@ -6889,7 +7049,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Reptilian",
@@ -6916,7 +7077,8 @@
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Reptilian",
@@ -7132,27 +7294,32 @@
           {
             "name": "Mount on a Raptor, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Flamebound, Salamander",
@@ -7179,12 +7346,14 @@
           {
             "name": "Mount on a Raptor, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Path of Fire [1] - Gain Aura (Pathfinder - Heavy Infantry only) Note: This unique upgrade cannot be taken in addition to a magical artefact or a Raptor mount.",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -7232,12 +7401,14 @@
           {
             "name": "Mount on a Raptor, increasing Speed to 8 changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Effigy of Fire",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -7264,7 +7435,8 @@
           {
             "name": "Mount on a Raptor, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -7429,7 +7601,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -7456,7 +7629,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -7483,7 +7657,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -7552,7 +7727,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -7579,7 +7755,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -7606,7 +7783,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -7633,7 +7811,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -7660,7 +7839,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -7687,7 +7867,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Centaur",
@@ -7714,7 +7895,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Centaur",
@@ -7741,7 +7923,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Centaur, Tracker",
@@ -7768,7 +7951,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Centaur, Tracker",
@@ -8131,17 +8315,20 @@
           {
             "name": "Gain the ranged attack - Noxious Mist: 12”, Att: 10, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly and Nimble",
             "cost": 40,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Increase Attacks to 7",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Verdant",
@@ -8168,12 +8355,14 @@
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Airbound",
@@ -8305,27 +8494,32 @@
           {
             "name": "Mount on Forest Steed, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (4)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -8352,32 +8546,38 @@
           {
             "name": "Mount on Forest Steed, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Fireball (8)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (3)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8) (replaces Heal)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Blizzard (2) [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -8404,12 +8604,14 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gain the ranged attack - Shortbow: 18”, Ra: 4+",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Centaur",
@@ -8457,7 +8659,8 @@
           {
             "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10, Nerve to -/19 and gaining Aura (Vicious - Verdant only) & Cloak of Death (Note: this unique upgrade cannot be taken in addition to a magical artefact)",
             "cost": 40,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -8484,7 +8687,8 @@
           {
             "name": "Guiding Flame [1] - Gain Aura (Elite (Melee) - Salamander only). This unique upgrade cannot be taken in conjunction with a magical artefact.",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Salamander",
@@ -8511,27 +8715,32 @@
           {
             "name": "Upgrade with Wings, losing Individual, gaining Fly and Nimble and changing to Hero (Lrg Cav - Height: 4, Unit Strength: 1)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5) (replaces Heal)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bastion (2) [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Majestic",
@@ -8558,7 +8767,8 @@
           {
             "name": "Frenzied Otter",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad, Tracker",
@@ -8627,22 +8837,26 @@
           {
             "name": "Fireball (6)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Verdant",
@@ -8720,7 +8934,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8747,7 +8962,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8774,7 +8990,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8801,7 +9018,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8828,7 +9046,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8855,12 +9074,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8887,12 +9108,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8919,12 +9142,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -8951,7 +9176,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tracker, Rogue, Ravenous",
@@ -8978,7 +9204,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tracker, Rogue, Ravenous",
@@ -9005,7 +9232,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tinker, Ravenous",
@@ -9032,7 +9260,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tinker, Ravenous",
@@ -9059,7 +9288,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tinker, Ravenous",
@@ -9086,7 +9316,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9113,7 +9344,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9140,7 +9372,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9167,7 +9400,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9194,7 +9428,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9221,7 +9456,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9248,12 +9484,14 @@
           {
             "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9280,12 +9518,14 @@
           {
             "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Halfling, Ravenous",
@@ -9312,7 +9552,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tinker",
@@ -9339,7 +9580,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Troll, Halfling",
@@ -9366,7 +9608,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Troll, Halfling",
@@ -9519,7 +9762,8 @@
           {
             "name": "Pride of the Shires [1]: This unit gains the Inspiring and Aura: Headstrong special rule",
             "cost": 30,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Tinker, Halfling, Ravenous",
@@ -9546,7 +9790,8 @@
           {
             "name": "Mount on a miniature aralez, increasing Speed to 8 changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -9573,22 +9818,26 @@
           {
             "name": "Aura (Wild charge (+1) - Tinker only)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Radiance of Life (Tinker only)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Swap Halfling Carbine for Halfling Long Rifle: Lose Halfling Carbine, gain ranged attack: Ra 3+ - Range 24” Att:3, Piercing (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gadgets and Gizmos [1]: After both players have deployed, nominate a single core friendly Infantry unit. This unit gains the Tinker keyword and Iron Resolve special rule",
             "cost": 5,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tinker",
@@ -9615,22 +9864,26 @@
           {
             "name": "Mount on a miniature aralez, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gain Scout (NOTE: This cannot be in addition to the mount.)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gain the ranged attack - Bow: 18”, Ra: 4+",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -9657,12 +9910,14 @@
           {
             "name": "Mount on a miniature aralez, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Ravenous",
@@ -9710,7 +9965,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Aralez, Ravenous",
@@ -9737,7 +9993,8 @@
           {
             "name": "Relentless",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling, Tinker, Troll",
@@ -9838,7 +10095,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -9865,7 +10123,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -9892,7 +10151,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -9919,12 +10179,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange Spears for Pikes, gaining Ensnare",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -9951,12 +10213,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange Spears for Pikes, gaining Ensnare",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -9983,12 +10247,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -10015,12 +10281,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -10047,12 +10315,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -10205,7 +10475,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10232,7 +10503,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10322,7 +10594,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -10349,7 +10622,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -10376,7 +10650,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -10445,7 +10720,8 @@
           {
             "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10472,7 +10748,8 @@
           {
             "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10499,7 +10776,8 @@
           {
             "name": "Exchange Crossbows for Rifles: 24”, Piercing (2), Pot Shot",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10526,7 +10804,8 @@
           {
             "name": "Exchange Crossbows for Rifles: 24”, Piercing (2), Pot Shot",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10553,7 +10832,8 @@
           {
             "name": "Exchange Crossbows for Rifles: 24”, Piercing (2), Pot Shot",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10769,7 +11049,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10817,7 +11098,8 @@
           {
             "name": "Indomitable Will",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Human",
@@ -10865,7 +11147,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10892,12 +11175,14 @@
           {
             "name": "Indomitable Will",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10945,7 +11230,8 @@
           {
             "name": "Indomitable Will",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10972,7 +11258,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -10999,37 +11286,44 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mount on a Pegasus, losing Individual, gaining Fly and Nimble as well as increasing Speed to 10 and changing to Hero (Lrg Cav – Height: 4, Unit Strength: 1)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11065,7 +11359,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11092,7 +11387,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11119,12 +11415,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange Spears for Pikes, gaining Ensnare",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11151,12 +11449,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange Spears for Pikes, gaining Ensnare",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11183,7 +11483,8 @@
           {
             "name": "Exchange Crossbows for Rifles: 24”, Piercing (2), Pot Shot",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11210,7 +11511,8 @@
           {
             "name": "Exchange Crossbows for Rifles: 24”, Piercing (2), Pot Shot",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11237,7 +11539,8 @@
           {
             "name": "Exchange Crossbows for Rifles: 24”, Piercing (2), Pot Shot",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11264,12 +11567,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -11296,12 +11601,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -11328,12 +11635,14 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -11381,7 +11690,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -11408,7 +11718,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -11435,7 +11746,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Knight",
@@ -11462,7 +11774,8 @@
           {
             "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11489,7 +11802,8 @@
           {
             "name": "Exchange Shortbows for Blackpowder Weapons: 18”, Piercing (1), Steady Aim",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11537,7 +11851,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11564,37 +11879,44 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mount on a Pegasus, losing Individual, gaining Fly and Nimble as well as increasing Speed to 10 and changing to Hero (Lrg Cav – Height: 4, Unit Strength: 1)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11705,7 +12027,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Human",
@@ -11732,7 +12055,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Aralez, Human",
@@ -11822,7 +12146,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11849,12 +12174,14 @@
           {
             "name": "Mount on a Pony, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gain the ranged attack - Shortbow: 18”, Ra: 4+",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Halfling",
@@ -11881,7 +12208,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -11971,7 +12299,8 @@
           {
             "name": "Indomitable Will",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -12364,12 +12693,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre",
@@ -12396,12 +12727,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre",
@@ -12428,12 +12761,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre",
@@ -12502,7 +12837,8 @@
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre, Tracker",
@@ -12529,7 +12865,8 @@
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre, Tracker",
@@ -12766,7 +13103,8 @@
           {
             "name": "Mount on Chariot, increasing Speed to 8, gaining Thunderous Charge (1) and changing to Hero (Cht - Height: 4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre",
@@ -12793,22 +13131,26 @@
           {
             "name": "Mount on Chariot, increasing Speed to 8, gaining Thunderous Charge (1) and changing to Hero (Cht - Height: 4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shield for two-handed weapon, lowering Defence to 4+ and increasing Crushing Strength to (3) (Note: The two “Exchange shield” options cannot both be taken for the same unit)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shield for Heavy Crossbow, lowering Defence to 4+ and gaining the ranged attack - Heavy Crossbow: 30”, Ra 5+, Piercing (2) (Note: The two “Exchange shield” options cannot both be taken for the same unit)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre",
@@ -12835,22 +13177,26 @@
           {
             "name": "Drain Life (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Fireball (8)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (1)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bloodboil [1]",
             "cost": 30,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Ogre",
@@ -12919,12 +13265,14 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 10 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange two-handed weapon for Shortbow, losing Crushing Strength but gaining the ranged attack - Shortbow: 18”, Ra: 4+",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Goblin",
@@ -12951,17 +13299,20 @@
           {
             "name": "Mount on Chariot, increasing Speed to 8, gaining Thunderous Charge (1) and changing to Hero (Cht - Height: 4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Crocodog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange shield for two-handed weapon, lowering Defence to 4+ and increasing Crushing Strength to (3)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ogre",
@@ -13270,17 +13621,20 @@
           {
             "name": "Gain the ranged attack - Noxious Mist: 12”, Att: 10, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly and Nimble",
             "cost": 40,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Increase Attacks to 7",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Verdant",
@@ -13307,27 +13661,32 @@
           {
             "name": "Upgrade with Wings, losing Individual, gaining Fly and Nimble and changing to Hero (Lrg Cav - Height: 4, Unit Strength: 1)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5) (replaces Heal)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bastion (2) [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Majestic",
@@ -13375,27 +13734,32 @@
           {
             "name": "Mount on Forest Steed, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (4)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -13464,7 +13828,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Devoted, Human",
@@ -13491,7 +13856,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Devoted, Human",
@@ -13518,7 +13884,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Devoted, Human",
@@ -13545,12 +13912,14 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with the Banner of the Green Lady [1] - The unit gains Pathfinder",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order",
@@ -13577,12 +13946,14 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with the Banner of the Green Lady [1] - The unit gains Pathfinder",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order",
@@ -13651,7 +14022,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order",
@@ -13678,7 +14050,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order",
@@ -13768,7 +14141,8 @@
           {
             "name": "Mount on a Winged Unicorn, losing Individual and Mighty, gaining Fly and Nimble as well as increasing Speed to 10 and changing to Hero (Lrg Cav – Height: 4, Unit Strength: 1)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Sacred Water",
@@ -13795,12 +14169,14 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -13827,7 +14203,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order",
@@ -13854,7 +14231,8 @@
           {
             "name": "Vial of Sacred Water",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Order",
@@ -13881,27 +14259,32 @@
           {
             "name": "Mount on Forest Steed, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gain Radiance of Life (Sacred Water only) [1]",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Icy Breath (6)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Icy Breath (6) (replaces Heal)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (7)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Devoted, Human, Sacred Water",
@@ -13928,7 +14311,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human",
@@ -14195,12 +14579,14 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "The Shardblade [1] - Increase Melee to 2+",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -14227,7 +14613,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -14254,37 +14641,44 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (3)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -14311,7 +14705,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -14611,7 +15006,8 @@
           {
             "name": "Deathroot Arrows",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -14638,7 +15034,8 @@
           {
             "name": "Deathroot Arrows",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -14665,7 +15062,8 @@
           {
             "name": "Deathroot Arrows",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Kindred, Tracker",
@@ -14692,7 +15090,8 @@
           {
             "name": "Deathroot Arrows",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Kindred, Tracker",
@@ -14740,7 +15139,8 @@
           {
             "name": "Deathroot Arrows",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Tracker",
@@ -14767,7 +15167,8 @@
           {
             "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10, Nerve to -/19 and gaining Aura (Vicious - Verdant only) & Cloak of Death (Note: this unique upgrade cannot be taken in addition to a magical artefact)",
             "cost": 40,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -15139,17 +15540,20 @@
           {
             "name": "Gain the ranged attack - Noxious Mist: 12”, Att: 10, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly and Nimble",
             "cost": 40,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Increase Attacks to 7",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Verdant",
@@ -15197,27 +15601,32 @@
           {
             "name": "Mount on Forest Steed, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (4)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -15244,32 +15653,38 @@
           {
             "name": "Mount on Forest Steed, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Fireball (8)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (3)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8) (replaces Heal)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Blizzard (2) [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -15296,7 +15711,8 @@
           {
             "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10, Nerve to -/19 and gaining Aura (Vicious - Verdant only) & Cloak of Death (Note: this unique upgrade cannot be taken in addition to a magical artefact)",
             "cost": 40,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Verdant",
@@ -15827,7 +16243,8 @@
           {
             "name": "Sabre-Toothed Hunting Cat",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Herd, Tracker",
@@ -15854,7 +16271,8 @@
           {
             "name": "Gain the ranged attack - Shortbow: 18”, Ra: 4+",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Herd, Minotaur",
@@ -15923,12 +16341,14 @@
           {
             "name": "Gain the ranged attack - Shortbow : 18”, Ra: 4+",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sabre-Toothed Hunting Cat",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Herd",
@@ -15955,12 +16375,14 @@
           {
             "name": "Gain the ranged attack - Shortbow: 18”, Ra: 4+",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sabre-Toothed Hunting Cat",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Centaur",
@@ -16101,7 +16523,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian, Tracker",
@@ -16128,7 +16551,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian, Tracker",
@@ -16197,7 +16621,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian",
@@ -16224,7 +16649,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian",
@@ -16419,7 +16845,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian",
@@ -16446,7 +16873,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian",
@@ -16746,22 +17174,26 @@
           {
             "name": "Surge (8) (replaces Icy Breath)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Weakness (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Rising Tides [1] - Aura (Wild Charge (+1))",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Cephalopod",
@@ -16830,22 +17262,26 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (6)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Cephalopod",
@@ -16872,12 +17308,14 @@
           {
             "name": "Horn of Ocean’s Fury [1] - Gain Aura (Fury - Infantry & Heavy Infantry only). This unique upgrade cannot be taken in conjunction with a magical artefact.",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Bastion (2) [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -16904,7 +17342,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian, Tracker",
@@ -16973,7 +17412,8 @@
           {
             "name": "Poison Frog",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Amphibian",
@@ -17000,27 +17440,32 @@
           {
             "name": "Drain Life (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (1)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Weakness (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Naiad",
@@ -17079,12 +17524,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17111,12 +17558,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17143,12 +17592,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17175,7 +17626,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Hellforged, Immortal",
@@ -17202,7 +17654,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Hellforged, Immortal",
@@ -17355,7 +17808,8 @@
           {
             "name": "Regiments & Hordes only - Gain the alternate single use ranged attack - Mobile Katsuchan: 24”, Att: 3, Ra: 4+, Blast (D3), Indirect, Reload, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17382,7 +17836,8 @@
           {
             "name": "Regiments & Hordes only - Gain the alternate single use ranged attack - Mobile Katsuchan: 24”, Att: 3, Ra: 4+, Blast (D3), Indirect, Reload, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17409,7 +17864,8 @@
           {
             "name": "Regiments & Hordes only - Gain the alternate single use ranged attack - Mobile Katsuchan: 24”, Att: 3, Ra: 4+, Blast (D3), Indirect, Reload, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17478,7 +17934,8 @@
           {
             "name": "Upgrade with a Charnox, gaining the ranged attack - Magma Cannon: 12”, Att: 8, Ra: 4+, Piercing (1), Steady Aim",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Hellforged",
@@ -17505,7 +17962,8 @@
           {
             "name": "Upgrade with a Charnox, gaining the ranged attack - Magma Cannon: 12”, Att: 8, Ra: 4+, Piercing (1), Steady Aim",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Hellforged",
@@ -17574,7 +18032,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abomination",
@@ -17748,7 +18207,8 @@
           {
             "name": "Hellforged Overmaster [1] - Gain Aura (Wild Charge (+2) - Infantry only) and Inspiring",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Hellforged, Shrine",
@@ -17775,7 +18235,8 @@
           {
             "name": "Infernal Advance [1] - Gain Aura (Strider - Infantry only). This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -17844,27 +18305,32 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Hellforged",
@@ -17891,7 +18357,8 @@
           {
             "name": "Weakness (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Hellforged",
@@ -17918,7 +18385,8 @@
           {
             "name": "Rally (1 - Slave only)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -18029,17 +18497,20 @@
           {
             "name": "Heal (4 - Hellforged only)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abomination, Dwarf, Hellforged",
@@ -18138,7 +18609,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Skeleton",
@@ -18165,7 +18637,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Skeleton",
@@ -18192,7 +18665,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Skeleton",
@@ -18219,7 +18693,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -18246,7 +18721,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -18273,7 +18749,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -18300,7 +18777,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -18327,7 +18805,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -18354,7 +18833,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -18381,7 +18861,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mummy",
@@ -18408,7 +18889,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mummy",
@@ -18792,12 +19274,14 @@
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Airbound, Construct, Djinn",
@@ -18824,12 +19308,14 @@
           {
             "name": "Wind Blast (5)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Airbound, Construct, Djinn",
@@ -18919,7 +19405,8 @@
           {
             "name": "Drain Life (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Construct, Skeleton",
@@ -18946,7 +19433,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Airbound, Construct, Djinn",
@@ -18973,7 +19461,8 @@
           {
             "name": "Casket of the Damned",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Airbound, Construct, Djinn",
@@ -19000,7 +19489,8 @@
           {
             "name": "Upgrade with Scarab Jars, gaining Shattering with Balefire attacks",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Construct, Skeleton",
@@ -19027,7 +19517,8 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -19054,7 +19545,8 @@
           {
             "name": "Eternal Guard [1] - Aura (Elite (Melee) - Mummy only). This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mummy, Royal Court",
@@ -19081,7 +19573,8 @@
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mummy, Royal Court",
@@ -19129,7 +19622,8 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -19156,42 +19650,50 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Fireball (12)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (3)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Weakness (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -19218,12 +19720,14 @@
           {
             "name": "Gain the ranged attack - Plagued Breath: 12”, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Draconic, Revenant, Skeleton",
@@ -19250,7 +19754,8 @@
           {
             "name": "Gain the ranged attack - Plagued Breath: 12”, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -19349,12 +19854,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (1)",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -19381,12 +19888,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (1)",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -19413,12 +19922,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (1)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -19445,12 +19956,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -19477,12 +19990,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -19509,7 +20024,8 @@
           {
             "name": "Upgrade with a Succubi Lurker, gaining Pathfinder",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Succubi",
@@ -19536,7 +20052,8 @@
           {
             "name": "Upgrade with a Succubi Lurker, gaining Pathfinder",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Succubi",
@@ -19731,12 +20248,14 @@
           {
             "name": "Upgrade with a Despoiler Champion, gaining Fearless and Brutal",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Moloch",
@@ -19763,12 +20282,14 @@
           {
             "name": "Upgrade with a Despoiler Champion, gaining Fearless and Brutal",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Sacrificial Imp",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Moloch",
@@ -19921,7 +20442,8 @@
           {
             "name": "Sacrificial Imp",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Flamebound",
@@ -19948,7 +20470,8 @@
           {
             "name": "Sacrificial Imp",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Flamebound",
@@ -19975,7 +20498,8 @@
           {
             "name": "Drain Life (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Enigma",
@@ -20002,12 +20526,14 @@
           {
             "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly",
             "cost": 45,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -20076,7 +20602,8 @@
           {
             "name": "Mount on an Abyssal Mount, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -20124,17 +20651,20 @@
           {
             "name": "Bane Chant (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Enthral (6)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wind Blast (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal, Succubi",
@@ -20203,22 +20733,26 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bloodboil [1]",
             "cost": 30,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Veil of Shadows (2) [1]",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abyssal",
@@ -20359,7 +20893,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Goblin, Mawpup Cage",
@@ -20386,7 +20921,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Goblin, Mawpup Cage",
@@ -20413,7 +20949,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Goblin, Mawpup Cage",
@@ -20440,7 +20977,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Goblin, Mawpup Cage",
@@ -20467,7 +21005,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Goblin, Mawpup Cage",
@@ -20494,7 +21033,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Goblin, Mawpup Cage",
@@ -20521,7 +21061,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Goblin, Mawpup Cage",
@@ -20548,7 +21089,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Goblin, Mawpup Cage",
@@ -20701,7 +21243,8 @@
           {
             "name": "Upgrade to Magwa’ns [1] (Regiment only) - No longer being Irregular and increasing Defence to 4+",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": true
           }
         ],
         "keywords": "Beast",
@@ -20728,7 +21271,8 @@
           {
             "name": "Upgrade to Magwa’ns [1] (Regiment only) - No longer being Irregular and increasing Defence to 4+",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": true
           }
         ],
         "keywords": "Beast",
@@ -20755,7 +21299,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Goblin, Mawpup Cage",
@@ -20782,7 +21327,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Goblin, Mawpup Cage",
@@ -20809,7 +21355,8 @@
           {
             "name": "Mawpup",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Beast, Goblin, Mawpup Cage",
@@ -21046,7 +21593,8 @@
           {
             "name": "Upgrade with a Goblin Spotter, allowing the use of the Eye in the Sky unique special rule. Eye in the Sky: At the start of each of your ranged phases you can immediately target and “Mark” an Enemy unit anywhere within 24” of this unit regardless of line of sight. For the remainder of the turn, all friendly core units with the Lobber keyword targeting the Marked unit have the Elite (Ranged) special rule. Note: The unit does not have Eye in the Sky unless purchased. This special rule may not be used whilst Disordered.",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Gizmo, Goblin",
@@ -21157,12 +21705,14 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 10 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Exchange two-handed weapon for Shortbow, losing Crushing Strength but gaining the ranged attack - Shortbow: 18”, Ra: 4+",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Goblin",
@@ -21189,7 +21739,8 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 10 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Goblin",
@@ -21237,12 +21788,14 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 10 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Jareth’s Pendant [1] - Aura (Headstrong). This upgrade cannot be taken in addition to a Fleabag Mount.",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Goblin",
@@ -21332,22 +21885,26 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 10 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Weakness (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Goblin",
@@ -21446,7 +22003,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Nightmare, Zombie",
@@ -21473,7 +22031,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Nightmare, Zombie",
@@ -21500,7 +22059,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Nightmare, Zombie",
@@ -21590,7 +22150,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Nightmare, Reaper",
@@ -21617,7 +22178,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Nightmare, Reaper",
@@ -21644,7 +22206,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Phantasm",
@@ -21671,7 +22234,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Phantasm",
@@ -21866,12 +22430,14 @@
           {
             "name": "Icy Breath (8)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bastion (2) [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Phantasm",
@@ -22129,27 +22695,32 @@
           {
             "name": "Aura (Vicious (Melee) - Infantry only)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2) (replaces Lighning bolt)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Weakness (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Horror, Nightmare",
@@ -22176,7 +22747,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Phantasm",
@@ -22245,7 +22817,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Nightmare, Reaper",
@@ -22344,7 +22917,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Orc",
@@ -22371,7 +22945,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Berserker, Orc",
@@ -22398,7 +22973,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22425,7 +23001,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22452,7 +23029,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22479,7 +23057,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22548,7 +23127,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22575,7 +23155,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22602,7 +23183,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22629,7 +23211,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22656,7 +23239,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22683,7 +23267,8 @@
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -22752,7 +23337,8 @@
           {
             "name": "Upgrade to Wip’s Playmates [1] (Horde only) - Gaining Fury, Vicious (Melee) and Wild Charge (D3)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orcling",
@@ -22779,7 +23365,8 @@
           {
             "name": "Upgrade to Wip’s Playmates [1] (Horde only) - Gaining Fury, Vicious (Melee) and Wild Charge (D3)",
             "cost": 15,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orcling",
@@ -22911,12 +23498,14 @@
           {
             "name": "Mount on a War Wagon, increasing Speed to 8, gaining Nimble and changing to Monster (Cht - Height: 3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade the unit with Dread",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc, Shrine",
@@ -23174,17 +23763,20 @@
           {
             "name": "Mount on a Gore, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Orcish Skullpole",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gakamak’s Bloody Banner [1] - Aura (Wild Charge (+1) - Heavy Infantry only). This upgrade cannot be taken in addition to a Gore Mount.",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -23211,37 +23803,44 @@
           {
             "name": "Mount on a Gore, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (4)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bloodboil [1]",
             "cost": 30,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -23268,7 +23867,8 @@
           {
             "name": "Mount on a Gore, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -23337,7 +23937,8 @@
           {
             "name": "Mount on a Gore, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc",
@@ -23427,12 +24028,14 @@
           {
             "name": "Mount on a Gore, losing the Scout special rule but increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Raid Leader [1] - Gain Aura (Steady Aim - Tracker only) and Inspiring (Tracker only). This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Orc, Tracker",
@@ -23480,7 +24083,8 @@
           {
             "name": "Veil of Shadows (2) [1]",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Outcast",
@@ -23537,7 +24141,8 @@
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Mob, Ratkin",
@@ -23564,7 +24169,8 @@
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Mob, Ratkin",
@@ -23591,12 +24197,14 @@
           {
             "name": "Upgrade with Heavy Halberds, gaining Phalanx",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mob, Ratkin",
@@ -23623,12 +24231,14 @@
           {
             "name": "Upgrade with Heavy Halberds, gaining Phalanx",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mob, Ratkin",
@@ -23655,12 +24265,14 @@
           {
             "name": "Upgrade with Heavy Halberds, gaining Phalanx",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mob, Ratkin",
@@ -23729,7 +24341,8 @@
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mob, Ratkin",
@@ -23756,7 +24369,8 @@
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Mob, Ratkin",
@@ -23993,7 +24607,8 @@
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ratkin",
@@ -24020,7 +24635,8 @@
           {
             "name": "Plague Pots",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ratkin",
@@ -24152,7 +24768,8 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ratkin",
@@ -24179,12 +24796,14 @@
           {
             "name": "Gain the ranged attack - Blight Staff: 18”, Ra: 4+, Piercing (1), Steady Aim, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Gain the ranged attack - Blight Staff: 18”, Ra: 4+, Piercing (1), Steady Aim, Vicious (Ranged) (replaces Drain Life)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Brood Mother, Ratkin, Tek",
@@ -24211,27 +24830,32 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (4)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (2)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Veil of Shadows (2) [1]",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ratkin",
@@ -24258,7 +24882,8 @@
           {
             "name": "Mount on a Fleabag, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Ratkin",
@@ -24369,17 +24994,20 @@
           {
             "name": "Bane Chant (3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bloodboil [1]",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Veil of Shadows (2) [1]",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Brood Mother, Ratkin, Tek",
@@ -24457,12 +25085,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24489,12 +25119,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24521,12 +25153,14 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (1)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24553,7 +25187,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Hellforged, Immortal",
@@ -24580,7 +25215,8 @@
           {
             "name": "Throwing Mastiff",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Hellforged, Immortal",
@@ -24649,7 +25285,8 @@
           {
             "name": "Regiments & Hordes only - Gain the alternate single use ranged attack - Mobile Katsuchan: 24”, Att: 3, Ra: 4+, Blast (D3), Indirect, Reload, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24676,7 +25313,8 @@
           {
             "name": "Regiments & Hordes only - Gain the alternate single use ranged attack - Mobile Katsuchan: 24”, Att: 3, Ra: 4+, Blast (D3), Indirect, Reload, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24703,7 +25341,8 @@
           {
             "name": "Regiments & Hordes only - Gain the alternate single use ranged attack - Mobile Katsuchan: 24”, Att: 3, Ra: 4+, Blast (D3), Indirect, Reload, Vicious (Ranged)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24793,7 +25432,8 @@
           {
             "name": "Infernal Advance [1] - Gain Aura (Strider - Infantry only). This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 20,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24820,27 +25460,32 @@
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Mind Fog (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8) (replaces Fireball)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf, Hellforged",
@@ -24909,7 +25554,8 @@
           {
             "name": "Rally (1 - Slave only)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Dwarf",
@@ -24957,7 +25603,8 @@
           {
             "name": "The Last Breath",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Ratkin, Slave",
@@ -24984,7 +25631,8 @@
           {
             "name": "The Last Breath",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Ratkin, Slave",
@@ -25095,7 +25743,8 @@
           {
             "name": "The Last Breath",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Ratkin, Slave",
@@ -25122,7 +25771,8 @@
           {
             "name": "The Last Breath",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Ratkin, Slave",
@@ -25536,7 +26186,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -25563,7 +26214,8 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -25590,7 +26242,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Twilight",
@@ -25617,7 +26270,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Twilight",
@@ -25980,7 +26634,8 @@
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Twilight",
@@ -26007,12 +26662,14 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Screamshard",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Twilight",
@@ -26081,27 +26738,32 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with a Scepter of Shadows [1] - This unit's Wicked Miasma special rule also affects friendly core Elf units",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Hex (3)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Veil of Shadows (2) [1]",
             "cost": 25,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf, Twilight",
@@ -26137,7 +26799,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Skeleton",
@@ -26164,7 +26827,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Skeleton",
@@ -26191,7 +26855,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Skeleton",
@@ -26218,7 +26883,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Zombie",
@@ -26245,7 +26911,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Zombie",
@@ -26272,7 +26939,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Expendable, Zombie",
@@ -26404,7 +27072,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -26431,7 +27100,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -26458,7 +27128,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -26485,7 +27156,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -26512,7 +27184,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -26539,7 +27212,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -26650,7 +27324,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -26677,7 +27352,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -26704,7 +27380,8 @@
           {
             "name": "Undead Giant Rats",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -27046,17 +27723,20 @@
           {
             "name": "Drain Life (4)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (4)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Vampiric",
@@ -27125,22 +27805,26 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (4)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (4)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Vampiric",
@@ -27167,12 +27851,14 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (5)",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -27199,37 +27885,44 @@
           {
             "name": "Bane Chant (3)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (6) (replaces Surge)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (6)",
             "cost": 40,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Icy Breath (10)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (5)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Blizzard (3) [1]",
             "cost": 40,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Phantasm",
@@ -27256,17 +27949,20 @@
           {
             "name": "Heal (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Lightning Bolt (4)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Draconic, Vampiric",
@@ -27293,12 +27989,14 @@
           {
             "name": "Gain the ranged attack - Plagued Breath: 12”, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Surge (8)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Draconic, Revenant, Skeleton",
@@ -27325,7 +28023,8 @@
           {
             "name": "Gain the ranged attack - Plagued Breath: 12”, Ra: 4+, Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Revenant, Skeleton",
@@ -27373,37 +28072,44 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Aura (Vicious (Melee) - Zombie only) This upgrade cannot be taken in addition to an Undead Horse Mount.",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (3) (replaces Surge)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Heal (3)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (4)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Weakness (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Heretic",
@@ -27430,7 +28136,8 @@
           {
             "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Skeleton",
@@ -27550,7 +28257,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -27577,7 +28285,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -27604,7 +28313,8 @@
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -27841,7 +28551,8 @@
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Frostfang, Human",
@@ -27889,7 +28600,8 @@
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Frostfang, Human",
@@ -28042,7 +28754,8 @@
           {
             "name": "Upgrade with a Mask of the Reaper, gaining Lifeleech (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Bloodbound, Human",
@@ -28069,7 +28782,8 @@
           {
             "name": "Upgrade with a Mask of the Reaper, gaining Lifeleech (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Bloodbound, Human",
@@ -28096,12 +28810,14 @@
           {
             "name": "Exchange Throwing Axes for Bows: 24”",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wolf Handlers [1], Upgrade with Aura (Vicious (Melee) - Tundra Wolf only)",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human, Tracker",
@@ -28128,12 +28844,14 @@
           {
             "name": "Exchange Throwing Axes for Bows: 24”",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Wolf Handlers [1], Upgrade with Aura (Vicious (Melee) - Tundra Wolf only)",
             "cost": 10,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human, Tracker",
@@ -28202,12 +28920,14 @@
           {
             "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with a Guise of the Deceiver, gaining Stealthy",
             "cost": 5,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Bloodbound, Human",
@@ -28234,12 +28954,14 @@
           {
             "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with a Guise of the Deceiver, gaining Stealthy",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Bloodbound, Human",
@@ -28266,7 +28988,8 @@
           {
             "name": "Exchange Shortbows for Throwing Axes: 12”, Piercing (1), Steady Aim",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -28293,7 +29016,8 @@
           {
             "name": "Exchange Shortbows for Throwing Axes: 12”, Piercing (1), Steady Aim",
             "cost": 0,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Human",
@@ -28320,7 +29044,8 @@
           {
             "name": "Gain the ranged attack - Rancid Bile: 12”, Ra: 4+, Vicious (Ranged), Steady Aim",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Abomination, Bloodbound, Draconic",
@@ -28347,7 +29072,8 @@
           {
             "name": "Upgrade with a Famulus, gaining Elite (Ranged) with Bloodbolts",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Bloodbound, Human",
@@ -28374,12 +29100,14 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 35,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Upgrade with a Mask of the Reaper, gaining Lifeleech (2)",
             "cost": 15,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Bloodbound, Human",
@@ -28406,12 +29134,14 @@
           {
             "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Bloodbound, Human",
@@ -28438,12 +29168,14 @@
           {
             "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Snow Fox",
             "cost": 10,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Barbarian, Bloodbound, Human",
@@ -28470,27 +29202,32 @@
           {
             "name": "Mount on a Horse, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
             "cost": 25,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bane Chant (2)",
             "cost": 20,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Drain Life (6)",
             "cost": 30,
-            "limit": 0
+            "limit": 0,
+            "disablesIrregular": false
           },
           {
             "name": "Bloodboil [1]",
             "cost": 30,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           },
           {
             "name": "Bloodboil [1] (replaces Lightning Bolt)",
             "cost": 0,
-            "limit": 1
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Bloodbound, Human",
