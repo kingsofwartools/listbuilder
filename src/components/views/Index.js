@@ -40,6 +40,7 @@ const Index = ({ type = 'standard' }) => {
     const selectedUnit = {
       unitId: action.unitId,
       unitDetails: action.unit.unitDetails,
+      originalUnitDetails: action.unit.originalUnitDetails,
       selectedOptions: action.unit.selectedOptions,
       selectedArtefacts: action.unit.selectedArtefacts,
       unitCost: action.unit.unitCost,
@@ -56,7 +57,6 @@ const Index = ({ type = 'standard' }) => {
         };
       });
     }
-    // still need to set limits on number of living legends and living legend upgrades
   };
 
   const editUnitDispatchFunction = (armyListState, action) => {
