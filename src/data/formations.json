@@ -7,28 +7,16 @@
         "units": [
           {
             "name": "Paladin Foot Guard",
-            "sizes": [
-              {
-                "label": "Troop",
-                "upgradeCost": 10
-              },
-              {
-                "label": "Regiment",
-                "upgradeCost": 15
-              }
-            ],
+            "size": "Troop",
+            "upgradeCost": 10,
             "upgrade": "Elite",
             "limit": 2,
             "requirement": 2
           },
           {
             "name": "Bearer of the Holy Icon",
-            "sizes": [
-              {
-              "label": "Hero",
-              "upgradeCost": 10
-              }
-            ],
+            "size": "Hero",
+            "upgradeCost": 15,
             "upgrade": "Aura: Headstrong",
             "limit": 1,
             "requirement": 1
