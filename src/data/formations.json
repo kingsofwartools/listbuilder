@@ -11,7 +11,9 @@
             "upgradeCost": 10,
             "upgrade": "Elite",
             "limit": 2,
-            "requirement": 2
+            "requirement": 2,
+            "unique": true,
+            "makesRegular": false
           },
           {
             "name": "Bearer of the Holy Icon",
@@ -19,7 +21,9 @@
             "upgradeCost": 15,
             "upgrade": "Aura: Headstrong",
             "limit": 1,
-            "requirement": 1
+            "requirement": 1,
+            "unique": true,
+            "makesRegular": false
           }
         ]
       }
