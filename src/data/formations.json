@@ -18,14 +18,20 @@
               }
             ],
             "upgrade": "Elite",
-            "limit": 2
+            "limit": 2,
+            "requirement": 2
           },
           {
             "name": "Bearer of the Holy Icon",
             "sizes": [
-              "Hero"
+              {
+              "label": "Hero",
+              "upgradeCost": 10
+              }
             ],
-            "upgrade": "Aura: Headstrong"
+            "upgrade": "Aura: Headstrong",
+            "limit": 1,
+            "requirement": 1
           }
         ]
       }
