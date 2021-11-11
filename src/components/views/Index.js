@@ -181,6 +181,12 @@ const Index = ({ type = 'standard' }) => {
     dispatch({ type: 'addUnitToList', armyName, unit, unitId: uuidv4() });
   };
 
+  const handleAddFormationToListWithArmyAndFormation = (armyName, formationUnits) => {
+    formationUnits.forEach(unit => {
+      dispatch({ type: 'addUnitToList', armyName, unit, unitId: uuidv4() });
+    });
+  };
+
   const handleEditUnit = (unit) => {
     dispatch({ type: 'editUnit', unit });
   };
@@ -259,6 +265,7 @@ const Index = ({ type = 'standard' }) => {
           tooManyDuplicates={tooManyDuplicates}
           defaultTab={lastTab || 'Inf/HI'}
           setLastTab={setLastTab}
+          handleAddFormationToListWithArmyAndFormation={handleAddFormationToListWithArmyAndFormation}
         />
       </main>
     );

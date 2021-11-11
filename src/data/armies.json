@@ -1266,7 +1266,8 @@
         "defence": "4+",
         "spellcaster": 3
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Dwarfs",
@@ -2325,6 +2326,64 @@
         "ranged": "-",
         "defence": "5+",
         "spellcaster": 1
+      }
+    ],
+    "formations": [
+      {
+        "faction": "Dwarfs",
+        "name": "The Royal Guard",
+        "description": "All units in this formation increase their Melee value to 3+ and Increase their Waver and Rout Nerve values by +1. The Lord's Bannerman gains the Very Inspiring and Aura (Elite (melee) - Infantry only) special rules. It may not purchase a magic artifact.",
+        "units": [
+          {
+            "name": "The Hammers of the King",
+            "unitName": "Bulwarkers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "upgradeCost": 15,
+            "prohibitsArtifacts": false,
+            "affectedStats": [
+              "melee",
+              "nerve"
+            ]
+          },
+          {
+            "name": "The Hammers of the King",
+            "unitName": "Bulwarkers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "upgradeCost": 15,
+            "prohibitsArtifacts": false,
+            "affectedStats": [
+              "melee",
+              "nerve"
+            ]
+          },
+          {
+            "name": "Anvils of the Mountain",
+            "unitName": "Ironclad",
+            "size": "Horde",
+            "requiredOptions": [],
+            "upgradeCost": 20,
+            "prohibitsArtifacts": false,
+            "affectedStats": [
+              "melee",
+              "nerve"
+            ]
+          },
+          {
+            "name": "The Lord's Bannerman",
+            "unitName": "Dwarf Army Standard Bearer",
+            "size": "Hero",
+            "requiredOptions": [],
+            "upgradeCost": 30,
+            "prohibitsArtifacts": true,
+            "affectedStats": [
+              "melee",
+              "nerve"
+            ],
+            "specialUpgrade": "Very Inspiring, Aura (Elite (melee) - Infantry only)"
+          }
+        ]
       }
     ]
   },
@@ -3386,7 +3445,8 @@
         "defence": "4+",
         "spellcaster": 1
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Free Dwarfs",
@@ -4323,7 +4383,8 @@
         "defence": "5+",
         "spellcaster": 1
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Northern Alliance",
@@ -5391,7 +5452,8 @@
         "defence": "4+",
         "spellcaster": 2
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Order of the Brothermark",
@@ -6419,7 +6481,8 @@
         "defence": "5+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Salamanders",
@@ -7574,7 +7637,8 @@
         "defence": "5+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Forces of Nature",
@@ -8910,7 +8974,8 @@
         "defence": "4+",
         "spellcaster": 2
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Halflings (beta)",
@@ -10069,7 +10134,8 @@
         "defence": "4+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Kingdoms of Men",
@@ -11335,7 +11401,8 @@
         "defence": "4+",
         "spellcaster": 1
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "League of Rhordia",
@@ -12312,7 +12379,8 @@
         "defence": "5+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Ogres",
@@ -13387,7 +13455,8 @@
         "defence": "5+",
         "spellcaster": 2
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Order of the Green Lady",
@@ -14324,7 +14393,8 @@
         "defence": "4+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Sylvan Kin",
@@ -15264,7 +15334,8 @@
         "defence": "4+",
         "spellcaster": 1
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "The Herd",
@@ -16394,7 +16465,8 @@
         "defence": "4+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Trident Realm of Neritica",
@@ -17498,7 +17570,8 @@
         "defence": "4+",
         "spellcaster": 1
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Abyssal Dwarfs",
@@ -18585,7 +18658,8 @@
         "defence": "6+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Empire of Dust",
@@ -19830,7 +19904,8 @@
         "defence": "4+",
         "spellcaster": 3
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Forces of the Abyss",
@@ -20869,7 +20944,8 @@
         "defence": "4+",
         "spellcaster": 2
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Goblins",
@@ -21979,7 +22055,8 @@
         "defence": "4+",
         "spellcaster": 1
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Nightstalkers",
@@ -22893,7 +22970,8 @@
         "defence": "5+",
         "spellcaster": 2
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Orcs",
@@ -24117,7 +24195,8 @@
         "defence": "4+",
         "spellcaster": 3
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Ratkin",
@@ -25061,7 +25140,8 @@
         "defence": "4+",
         "spellcaster": 3
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Ratkin Slaves",
@@ -25868,7 +25948,8 @@
         "defence": "5+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Twilight Kin",
@@ -26775,7 +26856,8 @@
         "defence": "4+",
         "spellcaster": 3
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Undead",
@@ -28233,7 +28315,8 @@
         "defence": "5+",
         "spellcaster": 2
       }
-    ]
+    ],
+    "formations": []
   },
   {
     "name": "Varangur",
@@ -29260,6 +29343,7 @@
         "defence": "5+",
         "spellcaster": null
       }
-    ]
+    ],
+    "formations": []
   }
 ]

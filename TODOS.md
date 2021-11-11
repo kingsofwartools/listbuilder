@@ -1,7 +1,11 @@
 # TODOS:
 
--add formations functionality
--add formation units upgrading to non-irregular
--add formation units upgrading to irregular
--add formation units upgrading to unique
+-check unit upgrades are displayed with the correct cost in the UnitFooter for different sizes
 -add rules reference page
+-add formations functionality
+-required/selected options
+-formation upgrade cost
+-formation prohibits artifacts
+-affected stats
+-arcane library
+-arcane library spellcaster upgrade option

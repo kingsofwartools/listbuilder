@@ -15,6 +15,7 @@ const FactionUnitsIndex = ({
   displaySelectOtherArmy,
   defaultTab,
   setLastTab,
+  handleAddFormationToListWithArmyAndFormation
 }) => {
   // All the units in the selected faction
 
@@ -46,7 +47,7 @@ const FactionUnitsIndex = ({
       WE: ['War Engine'],
       'Mon/Tit': ['Monster', 'Titan'],
     };
-    return label === 'F' ? [] : [...mergedFactionList].filter((unitArr) => {
+    return label === 'Form' ? [] : [...mergedFactionList].filter((unitArr) => {
       if (typesDict[label]) {
         return (
           typesDict[label].includes(unitArr[0].type) &&
@@ -104,8 +105,8 @@ const FactionUnitsIndex = ({
               </Tab>
           );
         })}
-        <Tab className="units-index__tab" eventKey='F' title='F' key='F'>
-          <FormationSelect />
+        <Tab className="units-index__tab" eventKey='Form' title='Form' key='Form'>
+          <FormationSelect army={army} addFormation={(formationUnits) => handleAddFormationToListWithArmyAndFormation(army.name, formationUnits)}/>
         </Tab>
       </Tabs>
       <ButtonRow sticky={true}>
