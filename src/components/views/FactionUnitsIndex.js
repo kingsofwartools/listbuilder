@@ -4,6 +4,7 @@ import Button from 'components/common/Button';
 import ButtonRow from 'components/common/ButtonRow';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
+import { FormationSelect } from 'components/unit/Formation';
 
 const FactionUnitsIndex = ({
   army,
@@ -45,7 +46,7 @@ const FactionUnitsIndex = ({
       WE: ['War Engine'],
       'Mon/Tit': ['Monster', 'Titan'],
     };
-    return [...mergedFactionList].filter((unitArr) => {
+    return label === 'F' ? [] : [...mergedFactionList].filter((unitArr) => {
       if (typesDict[label]) {
         return (
           typesDict[label].includes(unitArr[0].type) &&
@@ -79,30 +80,33 @@ const FactionUnitsIndex = ({
       <Tabs className="units-index__tabs" onSelect={handleSelectTab} variant="tabs" defaultActiveKey={defaultTab}>
         {['Inf/HI', 'Cav/Cht/LC', 'Sw/LI/MI', 'Hero', 'WE', 'Mon/Tit'].map((unitType) => {
           return (
-            <Tab className="units-index__tab" eventKey={unitType} title={unitType} key={unitType}>
-              {filteredMergedUnits.length ? (
-                filteredMergedUnits.map((unitArr, index) => {
-                  return (
-                    <MultiUnit
-                      units={unitArr.map((unit) => ({
-                        unitDetails: { ...unit },
-                        selectedOptions: [],
-                        unitCost: unit.cost,
-                        selectedArtefacts: [],
-                      }))}
-                      addUnit={handleClickAdd}
-                      key={unitArr[0].name}
-                      view={'factionUnitsIndex'}
-                    />
-                  );
-                })
-              ) : (
-                <p>No units of this type in faction</p>
-              )}
-              {}
-            </Tab>
+              <Tab className="units-index__tab" eventKey={unitType} title={unitType} key={unitType}>
+                {filteredMergedUnits.length ? (
+                  filteredMergedUnits.map((unitArr, index) => {
+                    return (
+                      <MultiUnit
+                        units={unitArr.map((unit) => ({
+                          unitDetails: { ...unit },
+                          selectedOptions: [],
+                          unitCost: unit.cost,
+                          selectedArtefacts: [],
+                        }))}
+                        addUnit={handleClickAdd}
+                        key={unitArr[0].name}
+                        view={'factionUnitsIndex'}
+                      />
+                    );
+                  })
+                ) : (
+                  <p>No units of this type in faction</p>
+                )}
+                {}
+              </Tab>
           );
         })}
+        <Tab className="units-index__tab" eventKey='F' title='F' key='F'>
+          <FormationSelect />
+        </Tab>
       </Tabs>
       <ButtonRow sticky={true}>
         <Button

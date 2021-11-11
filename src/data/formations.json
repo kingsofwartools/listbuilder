@@ -13,7 +13,8 @@
             "limit": 2,
             "requirement": 2,
             "unique": true,
-            "makesRegular": false
+            "makesRegular": false,
+            "makesIrregular": false
           },
           {
             "name": "Bearer of the Holy Icon",
@@ -23,7 +24,8 @@
             "limit": 1,
             "requirement": 1,
             "unique": true,
-            "makesRegular": false
+            "makesRegular": false,
+            "makesIrregular": false
           }
         ]
       }
