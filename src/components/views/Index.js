@@ -45,6 +45,7 @@ const Index = ({ type = 'standard' }) => {
       selectedArtefacts: action.unit.selectedArtefacts,
       unitCost: action.unit.unitCost,
       armyName: action.armyName,
+      formation: action.unit.formation,
     };
     if (armyListIndex === -1) {
       return [...armyListState, { name: action.armyName, units: [selectedUnit] }];
@@ -187,6 +188,12 @@ const Index = ({ type = 'standard' }) => {
     });
   };
 
+  const handleDeleteFormationFromList = (formationUnits) => {
+    formationUnits.forEach(unit => {
+      dispatch({ type: 'deleteUnit', unit });
+    });
+  };
+
   const handleEditUnit = (unit) => {
     dispatch({ type: 'editUnit', unit });
   };
@@ -269,7 +276,7 @@ const Index = ({ type = 'standard' }) => {
         />
       </main>
     );
-  } else if (display === 'unitSelect' || display === 'deleteConfirm') {
+  } else if (display === 'unitSelect' || display === 'unitSelectFormationUnit' || display === 'deleteConfirm') {
     return (
       <main>
         <PlaneContextProvider selectedPlane={halpiPlanesData.find((plane) => plane.name === selectedPlane)}>
@@ -279,6 +286,7 @@ const Index = ({ type = 'standard' }) => {
             goToDisplay={handleGoToDisplay}
             handleAddUnitToListWithArmyAndUnit={handleAddUnitToListWithArmyAndUnit}
             editingUnit={!!selectedUnit.unitId}
+            hideDeleteButton={display === 'unitSelectFormationUnit'}
             editUnit={handleEditUnit}
             deleteUnit={handleDeleteUnit}
             deleteConfirm={display === 'deleteConfirm'}
@@ -300,6 +308,7 @@ const Index = ({ type = 'standard' }) => {
           tooManyDuplicates={tooManyDuplicates}
           artefactDuplicates={artefactDuplicates}
           overLimits={overLimits}
+          handleDeleteFormationFromList={handleDeleteFormationFromList}
         />
       </main>
     );

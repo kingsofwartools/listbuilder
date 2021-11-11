@@ -9,3 +9,4 @@
 -affected stats
 -arcane library
 -arcane library spellcaster upgrade option
+-no more than one formation banner (in tab)

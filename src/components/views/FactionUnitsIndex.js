@@ -95,6 +95,7 @@ const FactionUnitsIndex = ({
                         addUnit={handleClickAdd}
                         key={unitArr[0].name}
                         view={'factionUnitsIndex'}
+                        displayAddButton={true}
                       />
                     );
                   })

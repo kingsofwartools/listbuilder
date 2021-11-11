@@ -9,6 +9,7 @@ const UnitSelect = ({
   goToDisplay,
   handleAddUnitToListWithArmyAndUnit,
   editingUnit,
+  hideDeleteButton,
   editUnit,
   deleteUnit,
   deleteConfirm,
@@ -120,7 +121,7 @@ const UnitSelect = ({
         />
         <ButtonRow sticky={true}>
           <Button text="Save" onClick={handleSaveClick} variant="success" />
-          {editingUnit ? <Button text="Delete" onClick={handleGoToDeleteConfirm} variant="danger" /> : null}
+          {editingUnit && !hideDeleteButton ? <Button text="Delete" onClick={handleGoToDeleteConfirm} variant="danger" /> : null}
           <Button text="Cancel" onClick={handleCancelClick} variant="warning" />
         </ButtonRow>
       </section>
