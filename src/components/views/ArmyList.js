@@ -82,7 +82,6 @@ const ArmyList = ({
                   deleteFormation={handleDeleteFormationFromList}
                   formationUnits={unitOrFormation.units}
                   formationName={unitOrFormation.formationName}
-                  formationDescription
                   handleClickEdit={handleFormationEditUnitClick}
                   />
               } else {

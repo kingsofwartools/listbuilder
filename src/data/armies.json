@@ -2332,7 +2332,7 @@
       {
         "faction": "Dwarfs",
         "name": "The Royal Guard",
-        "description": "All units in this formation increase their Melee value to 3+ and Increase their Waver and Rout Nerve values by +1. The Lord's Bannerman gains the Very Inspiring and Aura (Elite (melee) - Infantry only) special rules. It may not purchase a magic artifact.",
+        "description": "All units in this formation increase their Melee value to 3+ and Increase their Waver and Rout Nerve values by +1. The Lord's Bannerman gains the Very Inspiring and Aura (Elite (melee) - Infantry only) special rules. It may not purchase a magic artefact.",
         "units": [
           {
             "name": "The Hammers of the King",

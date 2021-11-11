@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Button from 'components/common/Button.js';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,7 +14,6 @@ const FormationDisplay = ({
   formationDescription,
   handleClickEdit
 }) => {
-  console.log('formationUnits in FormationDisplay', formationUnits);
   return (
     <div className="formation" key={formationName}>
       <Row className="formation__formation-header" noGutters>
@@ -45,7 +44,13 @@ const FormationDisplay = ({
           />
         )
       })}
-      <p className="formation__description">{formationDescription}</p>
+      {
+        view === 'factionUnitsIndex' &&
+          <Fragment>
+            <p className="formation__description">Formation rules:</p>
+            <p className="formation__description">{formationDescription}</p>
+          </Fragment>
+      }
     </div>
   );
 };
