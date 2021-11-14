@@ -13,7 +13,6 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
       : selectOption(option);
   };
   const nonRequiredOptions = (requiredOptions && requiredOptions.length) ? possibleOptions.filter(({ name }) => !requiredOptions.find(option => option.name === name)) : possibleOptions;
-  console.log('nonRequiredOptions', nonRequiredOptions);
 
   const isChecked = (option) => {
     return !!(
@@ -76,7 +75,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
         <div className="unit-options--select">
           {selectedOptions && selectedOptions.length ? (<p>
             <span className="unit-footer__label">Options: </span>
-            {selectedOptions && selectedOptions.filter(option => !requiredOptions.find(({name}) => option.name === name)).map((option, index) => (
+            {selectedOptions && (selectedOptions.filter(option => !(requiredOptions || []).find(({name}) => option.name === name))).map((option, index) => (
               <span key={`${option.name}${option.nValue ? option.nValue : ''}`}>
                 {option.name}
                 {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
@@ -110,7 +109,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
                   {nonRequiredOptions.map((option) => (
                     <li key={`${option.name}${option.nValue ? option.nValue : ''}`}>
                       {option.name}
-                      {(option.nValue && ` (${option.nValue})`) || ''}: {option.cost}pts
+                      {(option.nValue && ` (${option.nValue})`) || ''}: {option.displayCost || option.cost}pts
                     </li>
                   ))}
                 </ul>
