@@ -61,7 +61,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         <p>
           <span className="unit-footer__label">Special: </span>
           {splitSpecialRules}{unit.formationUpgrade &&
-            (<span>{splitSpecialRules.length ? ', ' : ''}{unit.formationUpgrade.name}: {unit.formationUpgrade.text} (+{unit.formationUpgrade.cost}pts)</span>)
+            (<span>{splitSpecialRules.length ? ', ' : ''}{unit.formationUpgrade.name}: {unit.formationUpgrade.text} ({unit.formationUpgrade.cost}pts)</span>)
           }
         </p>
         <p>
@@ -96,6 +96,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         ) : null}
         {view === 'unitSelect' &&
           !['Monster', 'War Engine', 'Titan'].includes(unit.unitDetails.size) &&
+          !(unit.formationUpgrade && unit.formationUpgrade.prohibitsArtefacts) &&
           !unit.unitDetails.limit && (
             <UnitArtefacts
               artefactsLimit={1}

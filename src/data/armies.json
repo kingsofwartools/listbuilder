@@ -2338,8 +2338,8 @@
             "unitName": "Bulwarkers",
             "size": "Regiment",
             "requiredOptions": [],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 15,
               "name": "The Hammers of the King",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
@@ -2357,8 +2357,8 @@
             "unitName": "Bulwarkers",
             "size": "Regiment",
             "requiredOptions": [],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 15,
               "name": "The Hammers of the King",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
@@ -2376,8 +2376,8 @@
             "unitName": "Ironclad",
             "size": "Horde",
             "requiredOptions": [],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 20,
               "name": "The Anvils of the Mountain",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
@@ -2395,8 +2395,8 @@
             "unitName": "Dwarf Army Standard Bearer",
             "size": "Hero",
             "requiredOptions": [],
-            "prohibitsArtifacts": true,
             "formationUpgrade": {
+              "prohibitsArtefacts": true,
               "cost": 30,
               "name": "The Lord's Bannerman",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile), Very Inspiring, Aura (Elite (melee) - Infantry only). This unit may not purchase a magic artifact.",
@@ -25986,8 +25986,8 @@
             "unitName": "Taskmaster on Chariot",
             "size": "Hero",
             "requiredOptions": [],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 35,
               "name": "Lowest of the Low",
               "text": "Nerve +2 (updated in unit profile), Aura (Vicious (Melee) - Slave Infantry only), Out of my way, worm!: Before giving this unit an order, select a single Friendly Core unit with the Slave keyword within 12” and in Line of Sight of this unit. That unit is then immediately Routed and removed from the board. If the removed unit had the Last Breath upgrade, it activates as normal against all units Engaged with it.",
@@ -25999,7 +25999,7 @@
             }
           },
           {
-            "unitName": "Slave Warriors*",
+            "unitName": "Slave Warriors",
             "size": "Horde",
             "requiredOptions": [
               {
@@ -26009,10 +26009,10 @@
                 "disablesIrregular": false
               }
             ],
-            "prohibitsArtifacts": false
+            "prohibitsArtefacts": false
           },
           {
-            "unitName": "Slave Warriors*",
+            "unitName": "Slave Warriors",
             "size": "Regiment",
             "requiredOptions": [
               {
@@ -26022,10 +26022,10 @@
                 "disablesIrregular": false
               }
             ],
-            "prohibitsArtifacts": false
+            "prohibitsArtefacts": false
           },
           {
-            "unitName": "Slave Warriors*",
+            "unitName": "Slave Warriors",
             "size": "Regiment",
             "requiredOptions": [
               {
@@ -26035,7 +26035,7 @@
                 "disablesIrregular": false
               }
             ],
-            "prohibitsArtifacts": false
+            "prohibitsArtefacts": false
           }
         ]
       }
@@ -29444,8 +29444,8 @@
             "unitName": "Horse Raiders",
             "size": "Regiment",
             "requiredOptions": [],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 10,
               "name": "Mammoth Steppe Horse Raiders",
               "text": "Melee 3+ (updated in unit profile)",
@@ -29460,8 +29460,8 @@
             "unitName": "Horse Raiders",
             "size": "Regiment",
             "requiredOptions": [],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 10,
               "name": "Mammoth Steppe Horse Raiders",
               "text": "Melee 3+ (updated in unit profile)",
@@ -29493,8 +29493,8 @@
                 "disablesIrregular": false
               }
             ],
-            "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "prohibitsArtefacts": false,
               "cost": 0,
               "name": "Sliksneer",
               "text": "This unit has a horse and the Icon of the Warrior options despite the normal restriction.",

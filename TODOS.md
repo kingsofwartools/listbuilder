@@ -1,9 +1,7 @@
 # TODOS:
 
 -check unit upgrades are displayed with the correct cost in the UnitFooter for different sizes
--add rules reference page
--formation prohibits artifacts
--affected stats
+(-add rules reference page)
 -arcane library
 -arcane library spellcaster upgrade option
 -no more than one formation banner (in tab)
