@@ -16,6 +16,7 @@ const FormationSelect = ({ army, addFormation }) => {
       });
       return (
         <FormationDisplay
+          key={formation.name}
           view='factionUnitsIndex'
           addFormation={addFormation}
           formationUnits={formationUnits}

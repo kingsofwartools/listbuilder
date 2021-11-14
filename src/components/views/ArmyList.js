@@ -78,6 +78,7 @@ const ArmyList = ({
             {orderedFactionListWithFormations.map((unitOrFormation) => {
               if (unitOrFormation.formationName) {
                 return <FormationDisplay
+                  key={unitOrFormation.formationName}
                   view={'armyList'}
                   deleteFormation={handleDeleteFormationFromList}
                   formationUnits={unitOrFormation.units}
