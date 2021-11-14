@@ -47,6 +47,7 @@ const Index = ({ type = 'standard' }) => {
       armyName: action.armyName,
       formation: action.unit.formation,
       formationUpgrade: action.unit.formationUpgrade,
+      requiredOptions: action.unit.requiredOptions,
     };
     if (armyListIndex === -1) {
       return [...armyListState, { name: action.armyName, units: [selectedUnit] }];

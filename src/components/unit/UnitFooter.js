@@ -74,11 +74,8 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
             {unit.unitDetails.spellcaster}
           </p>
         )}
-        {view === 'factionUnitsIndex' && unit.unitDetails.options.length ? (
-          <UnitOptions possibleOptions={unit.unitDetails.options} view={view} />
-        ) : null}
-        {view === 'armyList' && unit.selectedOptions.length ? (
-          <UnitOptions selectedOptions={unit.selectedOptions} view={view} />
+        {(view === 'factionUnitsIndex' || view === 'armyList') ? (
+          <UnitOptions selectedOptions={unit.selectedOptions} requiredOptions={unit.requiredOptions} possibleOptions={unit.unitDetails.options} view={view} />
         ) : null}
         {view === 'unitSelect' &&
         (unit.unitDetails.options.length ||
@@ -91,6 +88,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
             view={view}
             selectOption={selectOption}
             deselectOption={deselectOption}
+            requiredOptions={unit.requiredOptions}
           />
         ) : null}
         {view === 'armyList' && unit.selectedArtefacts.length ? (

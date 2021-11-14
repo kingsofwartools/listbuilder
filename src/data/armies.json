@@ -25976,7 +25976,70 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Ratkin Slaves",
+        "name": "Lowest of the Low",
+        "description": "The Taskmaster on Chariot increases its Nerve to 13/15, gains the Aura (Vicious (Melee) - Slave Infantry only) and Out of my way, worm! special rules.",
+        "units": [
+          {
+            "unitName": "Taskmaster on Chariot",
+            "size": "Hero",
+            "requiredOptions": [],
+            "prohibitsArtifacts": false,
+            "formationUpgrade": {
+              "cost": 35,
+              "name": "Lowest of the Low",
+              "text": "Nerve +2 (updated in unit profile), Aura (Vicious (Melee) - Slave Infantry only), Out of my way, worm!: Before giving this unit an order, select a single Friendly Core unit with the Slave keyword within 12” and in Line of Sight of this unit. That unit is then immediately Routed and removed from the board. If the removed unit had the Last Breath upgrade, it activates as normal against all units Engaged with it.",
+              "affectsValues": [
+                {
+                  "nerve": "13/15"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Slave Warriors*",
+            "size": "Horde",
+            "requiredOptions": [
+              {
+                "name": "The Last Breath",
+                "cost": 15,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "prohibitsArtifacts": false
+          },
+          {
+            "unitName": "Slave Warriors*",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "The Last Breath",
+                "cost": 15,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "prohibitsArtifacts": false
+          },
+          {
+            "unitName": "Slave Warriors*",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "The Last Breath",
+                "cost": 15,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "prohibitsArtifacts": false
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Twilight Kin",
@@ -29371,6 +29434,75 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Varangur",
+        "name": "Sliksneer's Shriekers",
+        "description": "The Horse Raiders gain Melee 3+. The Lord has a horse and the Icon of the Warrior options despite the normal restriction.",
+        "units": [
+          {
+            "unitName": "Horse Raiders",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "prohibitsArtifacts": false,
+            "formationUpgrade": {
+              "cost": 10,
+              "name": "Mammoth Steppe Horse Raiders",
+              "text": "Melee 3+ (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "melee": "3+"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Horse Raiders",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "prohibitsArtifacts": false,
+            "formationUpgrade": {
+              "cost": 10,
+              "name": "Mammoth Steppe Horse Raiders",
+              "text": "Melee 3+ (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "melee": "3+"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Lord",
+            "size": "Hero",
+            "requiredOptions": [
+              {
+                "name": "Devoted Icon [1]: Icon of the Warrior (note: this may not be taken with a mount)",
+                "cost": 20,
+                "limit": 1,
+                "sharesLimitWith": [
+                  "Devoted Icon [1]: Icon of the Reaper (note: this may not be taken with a mount)",
+                  "Devoted Icon [1]: Icon of the Deceiver (note: this may not be taken with a mount)"
+                ],
+                "disablesIrregular": false
+              },
+              {
+                "name": "Mount on a horse, losing Wild Charge (1) but increasing Speed to 8 and changing to Hero (Cav - Height 3)",
+                "cost": 35,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "prohibitsArtifacts": false,
+            "formationUpgrade": {
+              "cost": 0,
+              "name": "Sliksneer",
+              "text": "This unit has a horse and the Icon of the Warrior options despite the normal restriction.",
+              "affectsValues": []
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
