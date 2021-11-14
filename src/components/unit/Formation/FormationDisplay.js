@@ -19,7 +19,7 @@ const FormationDisplay = ({
       <Row className="formation__formation-header" noGutters>
         <div className="formation__formation-text-container">
           <p className="formation__formation-name">{formationName}</p>
-          {view === 'factionUnitsIndex' && <p className="formation__formation-cost">{formationUnits.reduce((totalCost, { unitCost }) => totalCost + unitCost, 0)}pts</p>}
+          <p className="formation__formation-cost">{formationUnits.reduce((totalCost, { unitCost }) => totalCost + unitCost, 0)}pts</p>
         </div>
         <Col className="formation__formation-button-container">
           {view === 'factionUnitsIndex' && <Button text="Add" onClick={() => addFormation(formationUnits)} size="sm" />}
