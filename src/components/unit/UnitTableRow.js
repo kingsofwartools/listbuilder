@@ -4,37 +4,42 @@ import Button from '../common/Button';
 const UnitTableRow = ({ unit, displayAddButton = false, addUnit = false }) => {
   const unitDetails = unit.unitDetails ? unit.unitDetails : unit;
 
+  const unitWithFormationIndicator = unit.formationUpgrade ?
+    unit.formationUpgrade.affectsValues.reduce((newUnitDetails, affectedValue) => {
+      return {...newUnitDetails, ...affectedValue};
+    }, {...unitDetails}) :
+    unitDetails;
   return (
     <tr className="unit-table-row">
       <td>
-        <p>{`${unitDetails.size} (${unitDetails.modelCount})`}</p>
+        <p>{`${unitWithFormationIndicator.size} (${unitWithFormationIndicator.modelCount})`}</p>
       </td>
       <td>
-        <p>{unitDetails.speed}</p>
+        <p>{unitWithFormationIndicator.speed}</p>
       </td>
       <td>
-        <p>{unitDetails.melee}</p>
+        <p>{unitWithFormationIndicator.melee}</p>
       </td>
       <td>
-        <p>{unitDetails.ranged}</p>
+        <p>{unitWithFormationIndicator.ranged}</p>
       </td>
       <td>
-        <p>{unitDetails.defence}</p>
+        <p>{unitWithFormationIndicator.defence}</p>
       </td>
       <td>
-        <p>{unitDetails.height}</p>
+        <p>{unitWithFormationIndicator.height}</p>
       </td>
       <td>
-        <p>{unitDetails.unitStrength}</p>
+        <p>{unitWithFormationIndicator.unitStrength}</p>
       </td>
       <td>
-        <p>{unitDetails.attacks}</p>
+        <p>{unitWithFormationIndicator.attacks}</p>
       </td>
       <td>
-        <p>{unitDetails.nerve}</p>
+        <p>{unitWithFormationIndicator.nerve}</p>
       </td>
       <td className="d-print-none">
-        <p>{unitDetails.cost}</p>
+        <p>{unitWithFormationIndicator.cost}</p>
       </td>
       {displayAddButton && (
         <td className="d-print-none">

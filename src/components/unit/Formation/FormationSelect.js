@@ -12,6 +12,7 @@ const FormationSelect = ({ army, addFormation }) => {
           unitCost: armyUnit.cost,
           selectedArtefacts: [],
           formation: formation.name,
+          formationUpgrade: formationUnit.formationUpgrade,
         }
       });
       return (

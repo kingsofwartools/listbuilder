@@ -46,6 +46,7 @@ const Index = ({ type = 'standard' }) => {
       unitCost: action.unit.unitCost,
       armyName: action.armyName,
       formation: action.unit.formation,
+      formationUpgrade: action.unit.formationUpgrade,
     };
     if (armyListIndex === -1) {
       return [...armyListState, { name: action.armyName, units: [selectedUnit] }];

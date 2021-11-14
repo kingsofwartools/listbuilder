@@ -2332,56 +2332,83 @@
       {
         "faction": "Dwarfs",
         "name": "The Royal Guard",
-        "description": "All units in this formation increase their Melee value to 3+ and Increase their Waver and Rout Nerve values by +1. The Lord's Bannerman gains the Very Inspiring and Aura (Elite (melee) - Infantry only) special rules. It may not purchase a magic artefact.",
+        "description": "All units in this formation increase their Melee value to 3+ and Increase their Waver and Rout Nerve values by +1. The Lord's Bannerman gains the Very Inspiring and Aura (Elite (melee) - Infantry only) special rules. It may not purchase a magic artifact.",
         "units": [
           {
-            "name": "The Hammers of the King",
             "unitName": "Bulwarkers",
             "size": "Regiment",
             "requiredOptions": [],
             "upgradeCost": 15,
             "prohibitsArtifacts": false,
-            "affectedStats": [
-              "melee",
-              "nerve"
-            ]
+            "formationUpgrade": {
+              "name": "The Hammers of the King",
+              "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "melee": "3+"
+                },
+                {
+                  "nerve": "15/17"
+                }
+              ]
+            }
           },
           {
-            "name": "The Hammers of the King",
             "unitName": "Bulwarkers",
             "size": "Regiment",
             "requiredOptions": [],
             "upgradeCost": 15,
             "prohibitsArtifacts": false,
-            "affectedStats": [
-              "melee",
-              "nerve"
-            ]
+            "formationUpgrade": {
+              "name": "The Hammers of the King",
+              "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "melee": "3+"
+                },
+                {
+                  "nerve": "15/17"
+                }
+              ]
+            }
           },
           {
-            "name": "Anvils of the Mountain",
             "unitName": "Ironclad",
             "size": "Horde",
             "requiredOptions": [],
             "upgradeCost": 20,
             "prohibitsArtifacts": false,
-            "affectedStats": [
-              "melee",
-              "nerve"
-            ]
+            "formationUpgrade": {
+              "name": "The Anvils of the Mountain",
+              "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "melee": "3+"
+                },
+                {
+                  "nerve": "22/24"
+                }
+              ]
+            }
           },
           {
-            "name": "The Lord's Bannerman",
             "unitName": "Dwarf Army Standard Bearer",
             "size": "Hero",
             "requiredOptions": [],
             "upgradeCost": 30,
             "prohibitsArtifacts": true,
-            "affectedStats": [
-              "melee",
-              "nerve"
-            ],
-            "specialUpgrade": "Very Inspiring, Aura (Elite (melee) - Infantry only)"
+            "formationUpgrade": {
+              "name": "The Lord's Bannerman",
+              "text": "Melee 3+, Waver & Rout +1 (updated in unit profile), Very Inspiring, Aura (Elite (melee) - Infantry only). This unit may not purchase a magic artifact.",
+              "affectsValues": [
+                {
+                  "melee": "3+"
+                },
+                {
+                  "nerve": "11/13"
+                }
+              ]
+            }
           }
         ]
       }

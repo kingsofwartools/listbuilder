@@ -60,7 +60,9 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
       <div className="unit-footer__special">
         <p>
           <span className="unit-footer__label">Special: </span>
-          {splitSpecialRules}
+          {splitSpecialRules}{unit.formationUpgrade &&
+            (<span>{splitSpecialRules.length ? ', ' : ''}{unit.formationUpgrade.name}: {unit.formationUpgrade.text}</span>)
+          }
         </p>
         <p>
           <span className="unit-footer__label">Keywords: </span>

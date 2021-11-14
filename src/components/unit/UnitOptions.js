@@ -73,7 +73,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
           <p>
             <span className="unit-footer__label">Options: </span>
           </p>
-          <ul>
+          <ul className="unit-options__list--view">
             {possibleOptions.map((option) => (
               <li key={`${option.name}${option.nValue ? option.nValue : ''}`}>
                 {option.name}
