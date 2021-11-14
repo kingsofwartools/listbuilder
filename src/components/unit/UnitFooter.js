@@ -61,7 +61,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         <p>
           <span className="unit-footer__label">Special: </span>
           {splitSpecialRules}{unit.formationUpgrade &&
-            (<span>{splitSpecialRules.length ? ', ' : ''}{unit.formationUpgrade.name}: {unit.formationUpgrade.text}</span>)
+            (<span>{splitSpecialRules.length ? ', ' : ''}{unit.formationUpgrade.name}: {unit.formationUpgrade.text} (+{unit.formationUpgrade.cost}pts)</span>)
           }
         </p>
         <p>

@@ -7,7 +7,7 @@ const FormationSelect = ({ army, addFormation }) => {
       const formationUnits = formation.units.map(formationUnit => {
         const armyUnit = army.units.find(unit => unit.name === formationUnit.unitName && unit.size === formationUnit.size);
         return {
-          unitDetails: { ...armyUnit },
+          unitDetails: { ...armyUnit, cost: armyUnit.cost + formationUnit.formationUpgrade.cost },
           selectedOptions: formationUnit.requiredOptions,
           unitCost: armyUnit.cost,
           selectedArtefacts: [],

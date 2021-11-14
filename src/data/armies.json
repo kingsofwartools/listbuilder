@@ -2338,9 +2338,9 @@
             "unitName": "Bulwarkers",
             "size": "Regiment",
             "requiredOptions": [],
-            "upgradeCost": 15,
             "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "cost": 15,
               "name": "The Hammers of the King",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
               "affectsValues": [
@@ -2357,9 +2357,9 @@
             "unitName": "Bulwarkers",
             "size": "Regiment",
             "requiredOptions": [],
-            "upgradeCost": 15,
             "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "cost": 15,
               "name": "The Hammers of the King",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
               "affectsValues": [
@@ -2376,9 +2376,9 @@
             "unitName": "Ironclad",
             "size": "Horde",
             "requiredOptions": [],
-            "upgradeCost": 20,
             "prohibitsArtifacts": false,
             "formationUpgrade": {
+              "cost": 20,
               "name": "The Anvils of the Mountain",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile)",
               "affectsValues": [
@@ -2395,9 +2395,9 @@
             "unitName": "Dwarf Army Standard Bearer",
             "size": "Hero",
             "requiredOptions": [],
-            "upgradeCost": 30,
             "prohibitsArtifacts": true,
             "formationUpgrade": {
+              "cost": 30,
               "name": "The Lord's Bannerman",
               "text": "Melee 3+, Waver & Rout +1 (updated in unit profile), Very Inspiring, Aura (Elite (melee) - Infantry only). This unit may not purchase a magic artifact.",
               "affectsValues": [
