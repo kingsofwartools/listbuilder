@@ -5,7 +5,7 @@ import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, deselectOption, requiredOptions }) => {
   const handleChange = (option) => {
     selectedOptions.find((selectedOption) => {
-      return selectedOption.nValue
+      return (selectedOption.nValue || selectedOption.nValue === 0)
         ? (selectedOption.name === option.name) && (selectedOption.nValue === option.nValue)
         : selectedOption.name === option.name;
     })
@@ -19,7 +19,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
       selectedOptions &&
       selectedOptions.find((selectedOption) => {
         const hasSameName = selectedOption.name === option.name;
-        return selectedOption.nValue ? hasSameName && selectedOption.nValue === option.nValue : hasSameName;
+        return (selectedOption.nValue || selectedOption.nValue === 0) ? hasSameName && selectedOption.nValue === option.nValue : hasSameName;
       })
     );
   };
@@ -32,7 +32,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
             (<p>
               <span className="unit-footer__label">Required options: </span>
               {requiredOptions.map((option, index) => (
-                <span key={`${option.name}${option.nValue ? option.nValue : ''}`}>
+                <span key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                   {option.name}
                   {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
                   {index < requiredOptions.length - 1 ? ', ' : ''}
@@ -47,11 +47,11 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
               </p>
               <ul className="unit-options__list--select">
                 {nonRequiredOptions.map((option, index) => (
-                  <li key={`${option.name}${option.nValue ? option.nValue : ''}`}>
+                  <li key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                     <ToggleButtonGroup type="checkbox" onChange={() => handleChange(option)} value={isChecked(option)}>
                       <ToggleButton
                         className={`unit-options__toggle${isChecked(option) ? '--selected' : ''}`}
-                        id={option.nValue ? `${option.name}(${option.nValue})-${index}` : `${option.name}-${index}`}
+                        id={(option.nValue || option.nValue === 0) ? `${option.name}(${option.nValue})-${index}` : `${option.name}-${index}`}
                         variant={isChecked(option) ? 'success' : 'outline-success'}
                         size="sm"
                       >
@@ -59,7 +59,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
                       </ToggleButton>
                     </ToggleButtonGroup>
                     <label
-                      htmlFor={option.nValue ? `${option.name}(${option.nValue})-${index}` : `${option.name}-${index}`}
+                      htmlFor={(option.nValue || option.nValue === 0) ? `${option.name}(${option.nValue})-${index}` : `${option.name}-${index}`}
                     >
                       {option.name}
                       {(option.nValue && ` (${option.nValue})`) || ''}
@@ -76,7 +76,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
           {selectedOptions && selectedOptions.length ? (<p>
             <span className="unit-footer__label">Options: </span>
             {selectedOptions && (selectedOptions.filter(option => !(requiredOptions || []).find(({name}) => option.name === name))).map((option, index) => (
-              <span key={`${option.name}${option.nValue ? option.nValue : ''}`}>
+              <span key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                 {option.name}
                 {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
                 {index < selectedOptions.length - 1 ? ', ' : ''}
@@ -87,7 +87,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
             (<p>
               <span className="unit-footer__label">Required options: </span>
               {requiredOptions.map((option, index) => (
-                <span key={`${option.name}${option.nValue ? option.nValue : ''}`}>
+                <span key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                   {option.name}
                   {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
                   {index < requiredOptions.length - 1 ? ', ' : ''}
@@ -107,7 +107,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
                 </p>
                 <ul className="unit-options__list--view">
                   {nonRequiredOptions.map((option) => (
-                    <li key={`${option.name}${option.nValue ? option.nValue : ''}`}>
+                    <li key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                       {option.name}
                       {(option.displayNValues && ` (${option.displayNValues})`) || (option.nValue && ` (${option.nValue})`) || ''}: {option.displayCost || option.cost}pts
                     </li>
@@ -119,7 +119,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
             (<p>
               <span className="unit-footer__label">Required options: </span>
               {requiredOptions.map((option, index) => (
-                <span key={`${option.name}${option.nValue ? option.nValue : ''}`}>
+                <span key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                   {option.name}
                   {(option.displayNValues && ` (${option.displayNValues})`) || (option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
                   {index < requiredOptions.length - 1 ? ', ' : ''}

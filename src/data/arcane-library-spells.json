@@ -56,5 +56,106 @@
         "cost": 35
       }
     ]
+  },
+  {
+    "name": "Celestial Restoration [1]",
+    "limit": 1,
+    "levels": [
+      {
+        "level": 2,
+        "n": 2,
+        "cost": 25
+      },
+      {
+        "level": 3,
+        "n": 3,
+        "cost": 35
+      }
+    ]
+  },
+  {
+    "name": "Barkskin [1]",
+    "limit": 1,
+    "levels": [
+      {
+        "level": 2,
+        "n": 5,
+        "cost": 25
+      }
+    ]
+  },
+  {
+    "name": "Alchemist's Curse [1]",
+    "limit": 1,
+    "levels": [
+      {
+        "level": 1,
+        "n": 0,
+        "cost": 15
+      },
+      {
+        "level": 2,
+        "n": 2,
+        "cost": 25
+      },
+      {
+        "level": 3,
+        "n": 4,
+        "cost": 35
+      }
+    ]
+  },
+  {
+    "name": "Wither and Perish",
+    "limit": 0,
+    "levels": [
+      {
+        "level": 1,
+        "n": 2,
+        "cost": 25
+      },
+      {
+        "level": 2,
+        "n": 3,
+        "cost": 35
+      }
+    ]
+  },
+  {
+    "name": "Scorched Earth",
+    "limit": 0,
+    "levels": [
+      {
+        "level": 1,
+        "n": 2,
+        "cost": 20
+      },
+      {
+        "level": 2,
+        "n": 3,
+        "cost": 30
+      }
+    ]
+  },
+  {
+    "name": "Host Shadowbeast",
+    "limit": 0,
+    "levels": [
+      {
+        "level": 1,
+        "n": 6,
+        "cost": 20
+      },
+      {
+        "level": 2,
+        "n": 8,
+        "cost": 30
+      },
+      {
+        "level": 3,
+        "n": 10,
+        "cost": 40
+      }
+    ]
   }
 ]
