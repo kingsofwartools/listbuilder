@@ -1,11 +1,37 @@
 .formation {
-  border: 1px solid #666;
+  border: 1px solid #888;
 
   &__formation-header {
-    background-color: #666;
+    background-color: #888;
+    display: flex;
+    padding: 0.5rem;
+  }
+
+  &__formation-name, &__formation-cost {
+    color: #fff;
+    margin-bottom: 0;
+    @media print {
+      color: #000;
+    }
   }
 
   &__formation-name {
+    @extend .h5;
+  }
+
+  &__formation-cost {
+    @extend .h6;
+  }
+
+  &__formation-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__description-container {
+    background-color: #888;
+    padding: 0.5rem;
     color: #fff;
   }
 }

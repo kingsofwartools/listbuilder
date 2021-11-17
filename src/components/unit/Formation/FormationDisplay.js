@@ -19,12 +19,11 @@ const FormationDisplay = ({
     <div className="formation" key={formationName}>
       <Row className="formation__formation-header" noGutters>
         <div className="formation__formation-text-container">
-          <p className="formation__formation-name">{formationName}</p>
-          <p className="formation__formation-cost">{formationUnits.reduce((totalCost, { unitCost }) => totalCost + unitCost, 0)}pts</p>
+          <p className="formation__formation-name">{formationName} <span className="formation__formation-cost">({formationUnits.reduce((totalCost, { unitCost }) => totalCost + unitCost, 0)}pts)</span></p>
         </div>
         <Col className="formation__formation-button-container">
-          {view === 'factionUnitsIndex' && <Button disabled={alreadyAddedFormations.includes(formationName)} text="Add" onClick={() => addFormation(formationUnits)} size="sm" />}
-          {view === 'armyList' && <Button variant="warning" text="Delete" onClick={() => deleteFormation(formationUnits)} size="sm" />}
+          {view === 'factionUnitsIndex' && <Button variant="primary" disabled={alreadyAddedFormations.includes(formationName)} text="Add" onClick={() => addFormation(formationUnits)} size="sm" />}
+          {view === 'armyList' && <Button variant="outline-warning" text="Delete" onClick={() => deleteFormation(formationUnits)} size="sm" />}
         </Col>
       </Row>
       {formationUnits.map((formationUnit, index) => {
@@ -47,10 +46,10 @@ const FormationDisplay = ({
       })}
       {
         view === 'factionUnitsIndex' &&
-          <Fragment>
+          <div className="formation__description-container">
             <p className="formation__description">Formation rules:</p>
             <p className="formation__description">{formationDescription}</p>
-          </Fragment>
+          </div>
       }
     </div>
   );
