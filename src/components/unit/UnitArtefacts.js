@@ -1,11 +1,8 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import { PlaneContext } from '../../contexts/PlaneContextProvider';
 
-const UnitArtefacts = ({ view, availableArtefacts, selectArtefact, selectedArtefacts, sizeModifier }) => {
-  const selectedPlane = useContext(PlaneContext);
-
+const UnitArtefacts = ({ view, availableArtefacts, selectArtefact, selectedArtefacts, sizeModifier, isAllowedTwoArtefacts }) => {
   const filteredArtefacts =
     availableArtefacts &&
     availableArtefacts.filter((artefact) => sizeModifier === 'Hero' || artefact.type === 'common');
@@ -48,7 +45,7 @@ const UnitArtefacts = ({ view, availableArtefacts, selectArtefact, selectedArtef
           </p>
         </div>
       )}
-      {selectedPlane && selectedPlane.name === 'The Astral Plane' && sizeModifier === 'Hero' && (
+      {isAllowedTwoArtefacts && sizeModifier === 'Hero' && (
         <div className="unit-artefacts--select">
           <DropdownButton
             onSelect={(e) => handleSelect(e, 1)}

@@ -109,7 +109,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
                   {nonRequiredOptions.map((option) => (
                     <li key={`${option.name}${option.nValue ? option.nValue : ''}`}>
                       {option.name}
-                      {(option.nValue && ` (${option.nValue})`) || ''}: {option.displayCost || option.cost}pts
+                      {(option.displayNValues && ` (${option.displayNValues})`) || (option.nValue && ` (${option.nValue})`) || ''}: {option.displayCost || option.cost}pts
                     </li>
                   ))}
                 </ul>
@@ -121,7 +121,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
               {requiredOptions.map((option, index) => (
                 <span key={`${option.name}${option.nValue ? option.nValue : ''}`}>
                   {option.name}
-                  {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
+                  {(option.displayNValues && ` (${option.displayNValues})`) || (option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
                   {index < requiredOptions.length - 1 ? ', ' : ''}
                 </span>
               ))}

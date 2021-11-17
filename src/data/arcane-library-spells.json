@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Mindfog",
+    "limit": 0,
+    "levels": [
+      {
+        "level": 1,
+        "n": 2,
+        "cost": 10
+      },
+      {
+        "level": 2,
+        "n": 3,
+        "cost": 15
+      },
+      {
+        "level": 3,
+        "n": 4,
+        "cost": 20
+      }
+    ]
+  },
+  {
+    "name": "Hex",
+    "limit": 0,
+    "levels": [
+      {
+        "level": 1,
+        "n": 2,
+        "cost": 15
+      },
+      {
+        "level": 2,
+        "n": 3,
+        "cost": 20
+      }
+    ]
+  }
+]

@@ -3,18 +3,14 @@ import FactionUnitsIndex from 'components/views/FactionUnitsIndex';
 import UnitSelect from 'components/views/UnitSelect';
 import ArmyList from 'components/views/ArmyList';
 import ArmiesIndex from 'components/views/ArmiesIndex';
-import PlanesIndex from 'components/views/PlanesIndex';
-import { PlaneContextProvider } from 'contexts/PlaneContextProvider';
 import { v4 as uuidv4 } from 'uuid';
 import armiesData from '../../data/armies.json';
-import halpiPlanesData from '../../data/halpi-planes.json';
 import artefacts from '../../data/artefacts.json';
-import halpiArtefacts from '../../data/halpi-artefacts.json';
 import calculateUnallocated from '../../helpers/unlocks';
 import calculatePointsTotal from '../../helpers/points';
 import calculateDuplicates from '../../helpers/duplicates';
 import calculateDuplicateArtefacts from '../../helpers/artefacts';
-import { enrichArmyDataForHalpisRift } from '../../helpers/parse-halpi';
+import { enrichArmyDataForArcaneLibrary } from '../../helpers/arcane-library';
 import calculateUnitLimits from '../../helpers/limits';
 import { Link } from 'react-router-dom';
 
@@ -22,7 +18,6 @@ const Index = ({ type = 'standard' }) => {
   const [armies, setArmies] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
   const [display, setDisplay] = useState(type === 'halpi' ? 'planesIndex' : 'armiesIndex');
-  const [selectedPlane, setSelectedPlane] = useState(null);
   const [selectedArmy, setSelectedArmy] = useState(null);
   const [selectedUnit, setSelectedUnit] = useState(null);
   const [fromArmyList, setFromArmyList] = useState(null);
@@ -111,7 +106,7 @@ const Index = ({ type = 'standard' }) => {
 
   const init = () => {
     setIsLoaded(true);
-    setArmies(armiesData);
+    setArmies(enrichArmyDataForArcaneLibrary(armiesData));
     window.scrollTo(0, 0);
   };
 
@@ -209,31 +204,31 @@ const Index = ({ type = 'standard' }) => {
     window.scrollTo(0, 0);
   };
 
-  const handlePlaneButtonClick = (planeName) => {
-    setSelectedPlane(planeName);
-    setArmies(
-      enrichArmyDataForHalpisRift(armiesData, halpiPlanesData.find((plane) => plane.name === planeName).spells)
-    );
-    setDisplay('armiesIndex');
-    window.scrollTo(0, 0);
-  };
+  // const handlePlaneButtonClick = (planeName) => {
+  //   setSelectedPlane(planeName);
+  //   setArmies(
+  //     enrichArmyDataForHalpisRift(armiesData, halpiPlanesData.find((plane) => plane.name === planeName).spells)
+  //   );
+  //   setDisplay('armiesIndex');
+  //   window.scrollTo(0, 0);
+  // };
 
-  const enrichedAvailableArtefacts = type === 'halpi' ? [...artefacts, ...halpiArtefacts] : [...artefacts];
+  // const enrichedAvailableArtefacts = type === 'halpi' ? [...artefacts, ...halpiArtefacts] : [...artefacts];
 
   if (!isLoaded) {
     return <div>Loading...</div>;
-  } else if (display === 'planesIndex') {
-    return (
-      <main>
-        <header>
-          <p className="switch-view">
-            This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.13 and Clash
-            of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
-          </p>
-        </header>
-        <PlanesIndex handlePlaneButtonClick={handlePlaneButtonClick} planes={halpiPlanesData} />
-      </main>
-    );
+  // } else if (display === 'planesIndex') {
+  //   return (
+  //     <main>
+  //       <header>
+  //         <p className="switch-view">
+  //           This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.13 and Clash
+  //           of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
+  //         </p>
+  //       </header>
+  //       <PlanesIndex handlePlaneButtonClick={handlePlaneButtonClick} planes={halpiPlanesData} />
+  //     </main>
+  //   );
   } else if (display === 'armiesIndex') {
     return (
       <main>
@@ -281,7 +276,6 @@ const Index = ({ type = 'standard' }) => {
   } else if (display === 'unitSelect' || display === 'unitSelectFormationUnit' || display === 'deleteConfirm') {
     return (
       <main>
-        <PlaneContextProvider selectedPlane={halpiPlanesData.find((plane) => plane.name === selectedPlane)}>
           <UnitSelect
             armyName={selectedArmy}
             unit={selectedUnit}
@@ -292,9 +286,8 @@ const Index = ({ type = 'standard' }) => {
             editUnit={handleEditUnit}
             deleteUnit={handleDeleteUnit}
             deleteConfirm={display === 'deleteConfirm'}
-            availableArtefacts={enrichedAvailableArtefacts}
+            availableArtefacts={artefacts}
           />
-        </PlaneContextProvider>
       </main>
     );
   } else if (display === 'armyList') {

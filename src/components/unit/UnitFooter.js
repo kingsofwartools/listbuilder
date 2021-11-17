@@ -1,18 +1,12 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import UnitOptions from './UnitOptions';
 import UnitArtefacts from './UnitArtefacts';
-import { PlaneContext } from '../../contexts/PlaneContextProvider';
-import { calculateAvailablePlaneSpells } from '../../helpers/parse-halpi';
+import { calculateAvailableSpells } from '../../helpers/arcane-library';
 
 const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, availableArtefacts }) => {
-  const selectedPlane = useContext(PlaneContext);
 
-  const enrichedAvailableArtefacts =
-    availableArtefacts && selectedPlane ? [...availableArtefacts, ...selectedPlane.artefacts] : availableArtefacts;
-
-  const pointyWizardsHatSpells =
-    selectedPlane &&
-    [...calculateAvailablePlaneSpells(selectedPlane.spells, unit.unitDetails.spellcaster + 1)].filter(
+  const higherLevelSpells =
+    [...calculateAvailableSpells(unit.unitDetails.spellcaster + 1)].filter(
       (spell) =>
         !unit.unitDetails.options.find((allocatedSpell) => {
           return allocatedSpell.nValue
@@ -21,32 +15,10 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         })
     );
 
-  let enrichedOptions = unit.unitDetails.options;
-  if (
-    selectedPlane &&
-    !unit.unitDetails.limit &&
-    unit.selectedArtefacts.find((artefact) => artefact.name === "Pointy Wizard's Hat")
-  ) {
-    enrichedOptions = [...unit.unitDetails.options, ...pointyWizardsHatSpells];
-  }
-
-  const handleSelectArtefact = (artefact, index) => {
-    if (pointyWizardsHatSpells) {
-      const selectedPointyWizardsHatSpells = unit.selectedOptions.filter((option) =>
-        pointyWizardsHatSpells.find((spell) => spell.name === option.name && spell.nValue === option.nValue)
-      );
-      const isSelectingNonPointyHatArtefactAtIndex =
-        unit.selectedArtefacts[index] &&
-        unit.selectedArtefacts[index].name === "Pointy Wizard's Hat" &&
-        (!artefact || artefact.name !== "Pointy Wizard's Hat");
-      if (selectedPointyWizardsHatSpells.length && isSelectingNonPointyHatArtefactAtIndex) {
-        selectedPointyWizardsHatSpells.forEach(async (spell) => {
-          deselectOption(spell);
-        });
-      }
-    }
-    selectArtefact(artefact, index);
-  };
+  const enrichedOptions = (!unit.unitDetails.limit &&
+    unit.selectedOptions.find((option) => option.name === "Knowledgeable [1]")) ? 
+    [...unit.unitDetails.options, ...higherLevelSpells] : 
+    unit.unitDetails.options;
 
   const splitSpecialRules = unit.unitDetails.specialRules.includes('\\n') ?
     unit.unitDetails.specialRules.split('\\n').map((ruleSection, i) => {
@@ -79,9 +51,8 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         ) : null}
         {view === 'unitSelect' &&
         (unit.unitDetails.options.length ||
-          (pointyWizardsHatSpells &&
-            !unit.unitDetails.limit &&
-            unit.selectedArtefacts.find((artefact) => artefact.name === "Pointy Wizard's Hat"))) ? (
+          (!unit.unitDetails.limit &&
+            unit.selectedOptions.find((option) => option.name === "Knowledgeable [1]"))) ? (
           <UnitOptions
             possibleOptions={enrichedOptions}
             selectedOptions={unit.selectedOptions}
@@ -100,10 +71,10 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
           !unit.unitDetails.limit && (
             <UnitArtefacts
               artefactsLimit={1}
-              availableArtefacts={enrichedAvailableArtefacts}
+              availableArtefacts={availableArtefacts}
               selectedArtefacts={unit.selectedArtefacts}
               view={view}
-              selectArtefact={(a, i) => handleSelectArtefact(a, i)}
+              selectArtefact={selectArtefact}
               sizeModifier={unit.unitDetails.size}
             />
           )}
