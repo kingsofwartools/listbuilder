@@ -12,12 +12,11 @@ import calculateDuplicates from '../../helpers/duplicates';
 import calculateDuplicateArtefacts from '../../helpers/artefacts';
 import { enrichArmyDataForArcaneLibrary } from '../../helpers/arcane-library';
 import calculateUnitLimits from '../../helpers/limits';
-import { Link } from 'react-router-dom';
 
-const Index = ({ type = 'standard' }) => {
+const Index = () => {
   const [armies, setArmies] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [display, setDisplay] = useState(type === 'halpi' ? 'planesIndex' : 'armiesIndex');
+  const [display, setDisplay] = useState('armiesIndex');
   const [selectedArmy, setSelectedArmy] = useState(null);
   const [selectedUnit, setSelectedUnit] = useState(null);
   const [fromArmyList, setFromArmyList] = useState(null);
@@ -204,53 +203,27 @@ const Index = ({ type = 'standard' }) => {
     window.scrollTo(0, 0);
   };
 
-  // const handlePlaneButtonClick = (planeName) => {
-  //   setSelectedPlane(planeName);
-  //   setArmies(
-  //     enrichArmyDataForHalpisRift(armiesData, halpiPlanesData.find((plane) => plane.name === planeName).spells)
-  //   );
-  //   setDisplay('armiesIndex');
-  //   window.scrollTo(0, 0);
-  // };
-
-  // const enrichedAvailableArtefacts = type === 'halpi' ? [...artefacts, ...halpiArtefacts] : [...artefacts];
+  const alreadyAddedFormations = armyListState.reduce((unitsArr, army) => {
+    return [...unitsArr, ...army.units];
+  }, []).reduce((formationLabels, unit) => {
+    if (unit.formation && !formationLabels.includes(unit.formation)) formationLabels.push(unit.formation);
+    return formationLabels;
+  },[]);
 
   if (!isLoaded) {
     return <div>Loading...</div>;
-  // } else if (display === 'planesIndex') {
-  //   return (
-  //     <main>
-  //       <header>
-  //         <p className="switch-view">
-  //           This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.13 and Clash
-  //           of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
-  //         </p>
-  //       </header>
-  //       <PlanesIndex handlePlaneButtonClick={handlePlaneButtonClick} planes={halpiPlanesData} />
-  //     </main>
-  //   );
   } else if (display === 'armiesIndex') {
     return (
       <main>
         <header>
-          {type === 'halpi' && (
-            <p className="switch-view">
-              This listbuilder contains units available in the Halpi's Rift campaign, including FAQs up to 1.13 and
-              Clash of Kings 2021. For standard KOW v3 listbuilding, <Link to="/listbuilder">click here</Link>
-            </p>
-          )}
-          {type === 'standard' && (
-            <p className="switch-view">
-              This listbuilder contains units available in Kings of War v3 rules, including FAQs up to 1.13 and Clash
-              of Kings 2021. For Halpi's Rift campaign listbuilding,{' '}
-              <Link to="/listbuilder/halpis-rift">click here</Link>
-            </p>
-          )}
+          <p className="switch-view">
+            This listbuilder contains units available in Kings of War v3 rules, including FAQs up to 1.13 and Clash
+            of Kings 2021.
+          </p>
         </header>
         <ArmiesIndex
           armies={armies}
           handleArmyButtonClick={handleArmyButtonClick}
-          halpi={type === 'halpi'}
           goToDisplay={handleGoToDisplay}
         />
       </main>
@@ -270,6 +243,7 @@ const Index = ({ type = 'standard' }) => {
           defaultTab={lastTab || 'Inf/HI'}
           setLastTab={setLastTab}
           handleAddFormationToListWithArmyAndFormation={handleAddFormationToListWithArmyAndFormation}
+          alreadyAddedFormations={alreadyAddedFormations}
         />
       </main>
     );

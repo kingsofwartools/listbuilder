@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'components/common/Button';
 import ButtonRow from 'components/common/ButtonRow';
 
-const ArmiesIndex = ({ armies, handleArmyButtonClick, halpi = false, goToDisplay }) => {
+const ArmiesIndex = ({ armies, handleArmyButtonClick, goToDisplay }) => {
   const filterAndChunk = (filterString) => {
     const filteredArmies = armies.filter((army) => army.alignment === filterString);
     const arrayOfArmyArrays = [];
@@ -34,11 +34,6 @@ const ArmiesIndex = ({ armies, handleArmyButtonClick, halpi = false, goToDisplay
             </ButtonRow>
           );
         })}
-      {halpi && (
-        <ButtonRow sticky={true}>
-          <Button text="Cancel" onClick={() => goToDisplay('planesIndex')} variant="warning" />
-        </ButtonRow>
-      )}
     </section>
   );
 };

@@ -12,7 +12,8 @@ const FormationDisplay = ({
   formationUnits,
   formationName,
   formationDescription,
-  handleClickEdit
+  handleClickEdit,
+  alreadyAddedFormations
 }) => {
   return (
     <div className="formation" key={formationName}>
@@ -22,7 +23,7 @@ const FormationDisplay = ({
           <p className="formation__formation-cost">{formationUnits.reduce((totalCost, { unitCost }) => totalCost + unitCost, 0)}pts</p>
         </div>
         <Col className="formation__formation-button-container">
-          {view === 'factionUnitsIndex' && <Button text="Add" onClick={() => addFormation(formationUnits)} size="sm" />}
+          {view === 'factionUnitsIndex' && <Button disabled={alreadyAddedFormations.includes(formationName)} text="Add" onClick={() => addFormation(formationUnits)} size="sm" />}
           {view === 'armyList' && <Button variant="warning" text="Delete" onClick={() => deleteFormation(formationUnits)} size="sm" />}
         </Col>
       </Row>

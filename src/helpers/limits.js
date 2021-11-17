@@ -8,7 +8,6 @@ const calculateUnitLimits = (units) => {
       (limitedOption &&
         units.filter(
           (u) =>
-            u.unitDetails.name === unit.unitDetails.name &&
             u.selectedOptions.find((selectedOption) => limitedOption.name === selectedOption.name)
         ).length > limitedOption.limit)
     );

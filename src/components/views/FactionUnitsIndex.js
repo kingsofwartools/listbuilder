@@ -15,7 +15,8 @@ const FactionUnitsIndex = ({
   displaySelectOtherArmy,
   defaultTab,
   setLastTab,
-  handleAddFormationToListWithArmyAndFormation
+  handleAddFormationToListWithArmyAndFormation,
+  alreadyAddedFormations
 }) => {
   // All the units in the selected faction
 
@@ -107,7 +108,7 @@ const FactionUnitsIndex = ({
           );
         })}
         <Tab className="units-index__tab" eventKey='Form' title='Form' key='Form'>
-          <FormationSelect army={army} addFormation={(formationUnits) => handleAddFormationToListWithArmyAndFormation(army.name, formationUnits)}/>
+          <FormationSelect alreadyAddedFormations={alreadyAddedFormations} army={army} addFormation={(formationUnits) => handleAddFormationToListWithArmyAndFormation(army.name, formationUnits)}/>
         </Tab>
       </Tabs>
       <ButtonRow sticky={true}>

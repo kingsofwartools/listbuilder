@@ -6,7 +6,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
   const handleChange = (option) => {
     selectedOptions.find((selectedOption) => {
       return selectedOption.nValue
-        ? selectedOption.name === option.name && selectedOption.nValue === option.nValue
+        ? (selectedOption.name === option.name) && (selectedOption.nValue === option.nValue)
         : selectedOption.name === option.name;
     })
       ? deselectOption(option)

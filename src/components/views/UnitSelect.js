@@ -60,17 +60,36 @@ const UnitSelect = ({
         },
         originalUnitDetails: previousEnrichedUnit.originalUnitDetails,
         selectedOptions: previousEnrichedUnit.selectedOptions.filter((selectedOption) => {
-          return selectedOption.nValue
-            ? selectedOption.nValue !== option.nValue && selectedOption.name === option.name
-            : selectedOption.name !== option.name;
+          if (option.name === 'Knowledgeable [1]') {
+            console.log('in here');
+            if (selectedOption.spellLevel && (selectedOption.spellLevel > previousEnrichedUnit.originalUnitDetails.spellcaster)) return false;
+          }
+          if (selectedOption.nValue) {
+            if (selectedOption.name === option.name) {
+              return (selectedOption.nValue !== option.nValue);
+            } else {
+              return true;
+            }
+          } else {
+            return (selectedOption.name !== option.name);
+          }
         }),
         unitCost:
           previousEnrichedUnit.unitDetails.cost +
           previousEnrichedUnit.selectedOptions
             .filter((selectedOption) => {
-              return selectedOption.nValue
-                ? selectedOption.nValue !== option.nValue && selectedOption.name === option.name
-                : selectedOption.name !== option.name;
+              if (option.name === 'Knowledgeable [1]') {
+                if (selectedOption.spellLevel && (selectedOption.spellLevel > previousEnrichedUnit.originalUnitDetails.spellcaster)) return false;
+              }
+              if (selectedOption.nValue) {
+                if (selectedOption.name === option.name) {
+                  return (selectedOption.nValue !== option.nValue);
+                } else {
+                  return true;
+                }
+              } else {
+                return (selectedOption.name !== option.name);
+              }
             })
             .reduce((sum, o) => sum + o.cost, 0) +
           [...previousEnrichedUnit.selectedArtefacts].reduce((sum, a) => sum + a.cost, 0),

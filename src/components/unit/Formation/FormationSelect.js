@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormationDisplay } from '.';
 
-const FormationSelect = ({ army, addFormation }) => {
+const FormationSelect = ({ army, addFormation, alreadyAddedFormations }) => {
   return (
     army.formations.map(formation => {
       const formationUnits = formation.units.map(formationUnit => {
@@ -27,6 +27,7 @@ const FormationSelect = ({ army, addFormation }) => {
           formationUnits={formationUnits}
           formationName={formation.name}
           formationDescription={formation.description}
+          alreadyAddedFormations={alreadyAddedFormations}
         />
       )
     })

@@ -43,7 +43,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         {(unit.unitDetails.spellcaster || unit.unitDetails.spellcaster === 0) && (
           <p>
             <span className="unit-footer__label">Spellcaster: </span>
-            {unit.unitDetails.spellcaster}
+            {unit.selectedOptions.find(option => option.name === 'Knowledgeable [1]') ? (unit.unitDetails.spellcaster + 1) : unit.unitDetails.spellcaster}
           </p>
         )}
         {(view === 'factionUnitsIndex' || view === 'armyList') ? (

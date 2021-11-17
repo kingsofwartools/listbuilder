@@ -35,5 +35,26 @@
         "cost": 20
       }
     ]
+  },
+  {
+    "name": "Veil of Shadows [1]",
+    "limit": 1,
+    "levels": [
+      {
+        "level": 1,
+        "n": 2,
+        "cost": 25
+      },
+      {
+        "level": 2,
+        "n": 3,
+        "cost": 30
+      },
+      {
+        "level": 3,
+        "n": 4,
+        "cost": 35
+      }
+    ]
   }
 ]

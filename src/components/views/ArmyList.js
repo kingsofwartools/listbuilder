@@ -16,6 +16,7 @@ const ArmyList = ({
   tooManyDuplicates,
   overLimits,
   artefactDuplicates,
+  formationDuplicates,
   handleDeleteFormationFromList
 }) => {
   // The list the user has been building
@@ -49,6 +50,7 @@ const ArmyList = ({
         tooManyDuplicates={tooManyDuplicates}
         overLimits={overLimits}
         artefactDuplicates={artefactDuplicates}
+        formationDuplicates={formationDuplicates}
       />
       {armyList.map((faction) => {
         const formationsInList = faction.units.reduce((formationsArr, unit) => {
