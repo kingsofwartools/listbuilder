@@ -61,7 +61,6 @@ const UnitSelect = ({
         originalUnitDetails: previousEnrichedUnit.originalUnitDetails,
         selectedOptions: previousEnrichedUnit.selectedOptions.filter((selectedOption) => {
           if (option.name === 'Knowledgeable [1]') {
-            console.log('in here');
             if (selectedOption.spellLevel && (selectedOption.spellLevel > previousEnrichedUnit.originalUnitDetails.spellcaster)) return false;
           }
           if (selectedOption.nValue) {

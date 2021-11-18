@@ -10,7 +10,6 @@ import calculateUnallocated from '../../helpers/unlocks';
 import calculatePointsTotal from '../../helpers/points';
 import calculateDuplicates from '../../helpers/duplicates';
 import calculateDuplicateArtefacts from '../../helpers/artefacts';
-import { enrichArmyDataForArcaneLibrary } from '../../helpers/arcane-library';
 import calculateUnitLimits from '../../helpers/limits';
 
 const Index = () => {
@@ -105,7 +104,7 @@ const Index = () => {
 
   const init = () => {
     setIsLoaded(true);
-    setArmies(enrichArmyDataForArcaneLibrary(armiesData));
+    setArmies(armiesData);
     window.scrollTo(0, 0);
   };
 

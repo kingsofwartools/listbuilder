@@ -1,31 +1,32 @@
 import React from 'react';
 import UnitOptions from './UnitOptions';
 import UnitArtefacts from './UnitArtefacts';
-import { calculateAvailableSpells } from '../../helpers/arcane-library';
+import { enrichUnitOptionsWithArcaneLibrary, calculateAvailableSpells } from '../../helpers/arcane-library';
 
 const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, availableArtefacts }) => {
 
+  const enrichedUnit = enrichUnitOptionsWithArcaneLibrary(unit);
   const higherLevelSpells =
     [...calculateAvailableSpells(unit.unitDetails.spellcaster + 1)].filter(
       (spell) =>
-        !unit.unitDetails.options.find((allocatedSpell) => {
+        !enrichedUnit.unitDetails.options.find((allocatedSpell) => {
           return allocatedSpell.nValue
             ? allocatedSpell.name === spell.name && allocatedSpell.nValue === spell.nValue
             : allocatedSpell.name === spell.name;
         })
     );
 
-  const enrichedOptions = (!unit.unitDetails.limit &&
-    unit.selectedOptions.find((option) => option.name === "Knowledgeable [1]")) ? 
-    [...unit.unitDetails.options, ...higherLevelSpells] : 
-    unit.unitDetails.options;
+  let enrichedOptions = (!enrichedUnit.unitDetails.limit &&
+    enrichedUnit.selectedOptions.find((option) => option.name === "Knowledgeable [1]")) ? 
+    [...enrichedUnit.unitDetails.options, ...higherLevelSpells] : 
+    [...enrichedUnit.unitDetails.options];
 
   const splitSpecialRules = unit.unitDetails.specialRules.includes('\\n') ?
     unit.unitDetails.specialRules.split('\\n').map((ruleSection, i) => {
       if (i < unit.unitDetails.specialRules.split('\\n').length - 1) return [<span>{ruleSection}</span>,<br/>]
       return <span>{ruleSection}</span>;
     }) :
-    unit.unitDetails.specialRules
+    unit.unitDetails.specialRules;
 
   return (
     <div className="unit-footer">
@@ -47,7 +48,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
           </p>
         )}
         {(view === 'factionUnitsIndex' || view === 'armyList') ? (
-          <UnitOptions selectedOptions={unit.selectedOptions} requiredOptions={unit.requiredOptions} possibleOptions={unit.unitDetails.options} view={view} />
+          <UnitOptions selectedOptions={unit.selectedOptions} requiredOptions={unit.requiredOptions} possibleOptions={enrichedOptions} view={view} />
         ) : null}
         {view === 'unitSelect' &&
         (unit.unitDetails.options.length ||

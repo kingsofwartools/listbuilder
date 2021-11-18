@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Button from 'components/common/Button.js';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,6 +15,9 @@ const FormationDisplay = ({
   handleClickEdit,
   alreadyAddedFormations
 }) => {
+  const formationCost = formationUnits.reduce((upgradesCost, unit) => {
+    return unit.formationUpgrade && unit.formationUpgrade.cost ? upgradesCost + unit.formationUpgrade.cost : upgradesCost
+  }, 0);
   return (
     <div className="formation" key={formationName}>
       <Row className="formation__formation-header" noGutters>
@@ -49,6 +52,7 @@ const FormationDisplay = ({
           <div className="formation__description-container">
             <p className="formation__description">Formation rules:</p>
             <p className="formation__description">{formationDescription}</p>
+            <p className="formation__description">Cost: {formationCost}pts</p>
           </div>
       }
     </div>

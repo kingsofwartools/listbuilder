@@ -4,7 +4,7 @@ import Button from '../common/Button';
 const UnitTableRow = ({ unit, displayAddButton = false, addUnit = false }) => {
   const unitDetails = unit.unitDetails ? unit.unitDetails : unit;
 
-  const unitWithFormationIndicator = unit.formationUpgrade ?
+  const unitWithFormationIndicator = (unit.formationUpgrade && unit.formationUpgrade.affectsValues) ?
     unit.formationUpgrade.affectsValues.reduce((newUnitDetails, affectedValue) => {
       return {...newUnitDetails, ...affectedValue};
     }, {...unitDetails}) :

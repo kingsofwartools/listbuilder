@@ -75,7 +75,7 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
         <div className="unit-options--select">
           {selectedOptions && selectedOptions.length ? (<p>
             <span className="unit-footer__label">Options: </span>
-            {selectedOptions && (selectedOptions.filter(option => !(requiredOptions || []).find(({name}) => option.name === name))).map((option, index) => (
+            {selectedOptions.map((option, index) => (
               <span key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
                 {option.name}
                 {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
@@ -83,18 +83,6 @@ const UnitOptions = ({ view, possibleOptions, selectedOptions, selectOption, des
               </span>
             ))}
           </p>) : null}
-          {requiredOptions && requiredOptions.length ?
-            (<p>
-              <span className="unit-footer__label">Required options: </span>
-              {requiredOptions.map((option, index) => (
-                <span key={`${option.name}${(option.nValue || option.nValue === 0) ? option.nValue : ''}`}>
-                  {option.name}
-                  {(option.nValue && ` (${option.nValue})`) || ''} ({option.cost}pts)
-                  {index < requiredOptions.length - 1 ? ', ' : ''}
-                </span>
-              ))}
-            </p>) : null
-          }
         </div>
       )}
       {view === 'factionUnitsIndex' && (

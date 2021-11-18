@@ -852,14 +852,14 @@
         "spellcaster": null
       },
       {
-        "name": "Ur-Elohi",
+        "name": "Ur-Elohi*",
         "size": "Hero",
         "modelCount": "1",
         "unitStrength": "1",
         "attacks": "6",
         "nerve": "-/15",
         "cost": 200,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Crushing Strength (2), Dread, Fly, Inspiring, Iron Resolve, Nimble, This unit may not be taken as allies",
         "options": [],
@@ -1267,7 +1267,47 @@
         "spellcaster": 3
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Basilea",
+        "name": "The Golden Panthers",
+        "description": "The Panther Lancers in this Formation gain the Pathfinder and Aura (Fury - Beast only) special rules.",
+        "units": [
+          {
+            "unitName": "Gur Panthers*",
+            "size": "Troop",
+            "requiredOptions": []
+          },
+          {
+            "unitName": "Gur Panthers*",
+            "size": "Troop",
+            "requiredOptions": []
+          },
+          {
+            "unitName": "Sisterhood Panther Lancers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "The Golden Panthers",
+              "text": "Pathfinder, Aura (Fury - Beast only)"
+            }
+          },
+          {
+            "unitName": "Sisterhood Panther Lancers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "The Golden Panthers",
+              "text": "Pathfinder, Aura (Fury - Beast only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Dwarfs",
@@ -2971,14 +3011,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots",
+        "name": "War Chariots*",
         "size": "Troop",
         "modelCount": "2",
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "12/14",
         "cost": 135,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -2992,14 +3032,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots",
+        "name": "War Chariots*",
         "size": "Regiment",
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "14/16",
         "cost": 170,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -3013,14 +3053,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots",
+        "name": "War Chariots*",
         "size": "Horde",
         "modelCount": "4",
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "16/18",
         "cost": 215,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -3034,14 +3074,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots",
+        "name": "War Chariots*",
         "size": "Legion",
         "modelCount": "6",
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "20/22",
         "cost": 245,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -3473,7 +3513,48 @@
         "spellcaster": 1
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Elves",
+        "name": "Kal'ar's Hunters",
+        "description": "All units in this Formation gain the Spellward special rule. Kal’ar gains the Rampage (Melee - D3) special rule. The Swirling Tempests gain the Nimble special rule.",
+        "units": [
+          {
+            "unitName": "Lord on Drakon",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Kal'ar Drakonkin",
+              "text": "Spellward, Rampage (Melee - D3)"
+            }
+          },
+          {
+            "unitName": "Drakon Riders",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "The Swirling Tempests",
+              "text": "Spellward, Nimble"
+            }
+          },
+          {
+            "unitName": "Drakon Riders",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "The Swirling Tempests",
+              "text": "Spellward, Nimble"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Free Dwarfs",
@@ -3809,7 +3890,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3837,7 +3918,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3858,7 +3939,7 @@
         "limit": 0,
         "specialRules": "Pathfinder, Rifles: 24”, Piercing (2), Pot Shot",
         "options": [],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3879,7 +3960,7 @@
         "limit": 0,
         "specialRules": "Pathfinder, Rifles: 24”, Piercing (2), Pot Shot",
         "options": [],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3900,7 +3981,7 @@
         "limit": 0,
         "specialRules": "Pathfinder, Rifles: 24”, Piercing (2), Pot Shot",
         "options": [],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3921,7 +4002,7 @@
         "limit": 0,
         "specialRules": "Pathfinder, Crossbows: 24”, Piercing (1), Pot Shot",
         "options": [],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3942,7 +4023,7 @@
         "limit": 0,
         "specialRules": "Pathfinder, Crossbows: 24”, Piercing (1), Pot Shot",
         "options": [],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3963,7 +4044,7 @@
         "limit": 0,
         "specialRules": "Pathfinder, Crossbows: 24”, Piercing (1), Pot Shot",
         "options": [],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -3989,9 +4070,15 @@
             "cost": 15,
             "limit": 0,
             "disablesIrregular": false
+          },
+          {
+            "name": "Gain Scout",
+            "cost": 5,
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -4017,9 +4104,15 @@
             "cost": 15,
             "limit": 0,
             "disablesIrregular": false
+          },
+          {
+            "name": "Gain Scout",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -4045,9 +4138,15 @@
             "cost": 15,
             "limit": 0,
             "disablesIrregular": false
+          },
+          {
+            "name": "Gain Scout",
+            "cost": 15,
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
-        "keywords": "Dwarf, Tracker",
+        "keywords": "Dwarf",
         "type": "Infantry",
         "height": "2",
         "speed": "4",
@@ -4411,7 +4510,62 @@
         "spellcaster": 1
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Free Dwarfs",
+        "name": "Eryc's Mallets",
+        "description": "The Free Dwarf Lord in this formation gains both the Scout and Brutal special rules. The Shieldbreaker Regiments in this formation gain both the Nimble and Brutal special rules. The Shieldbreakers must purchase the Scout upgrade.",
+        "units": [
+          {
+            "unitName": "Free Dwarf Lord",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Eryc the Bold",
+              "text": "Scout, Brutal"
+            }
+          },
+          {
+            "unitName": "Free Dwarf Shieldbreakers",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "Gain Scout",
+                "cost": 10,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Eryc's Mallets",
+              "text": "Nimble, Brutal"
+            }
+          },
+          {
+            "unitName": "Free Dwarf Shieldbreakers",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "Gain Scout",
+                "cost": 10,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Eryc's Mallets",
+              "text": "Nimble, Brutal"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Northern Alliance",
@@ -5480,7 +5634,71 @@
         "spellcaster": 2
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Northern Alliance",
+        "name": "Orlaf's Raiders",
+        "description": "All units in this Formation gain keyword: Berserker. The Clansmen regiments gain the Vicious (Melee) special rule. Orlaf gains the Inspiring and Aura (Slayer (Melee - D3) - Berserker only) special rules",
+        "units": [
+          {
+            "unitName": "Human Clansmen",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
+                "cost": 0,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Orlaf's Raiders",
+              "text": "Vicious (Melee)",
+              "addsKeywords": [
+                "Berserker"
+              ]
+            }
+          },
+          {
+            "unitName": "Human Clansmen",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
+                "cost": 0,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Orlaf's Raiders",
+              "text": "Vicious (Melee)",
+              "addsKeywords": [
+                "Berserker"
+              ]
+            }
+          },
+          {
+            "unitName": "Orlaf the Barbarian [1]",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 25,
+              "name": "Orlaf's Raiders",
+              "text": "Inspiring, Aura (Slayer (Melee - D3) - Berserker only)"
+            },
+            "addsKeywords": [
+              "Berserker"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Order of the Brothermark",
@@ -6509,7 +6727,48 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Order of the Brothermark",
+        "name": "Defenders of Righteousness",
+        "description": "All units in this Formation gain the Brutal special rule. Sir Roderick gains the Cloak of Death special rule.",
+        "units": [
+          {
+            "unitName": "High Paladin on Dragon",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 40,
+              "name": "Sir Roderick Demonbane",
+              "text": "Brutal, Cloak of Death"
+            }
+          },
+          {
+            "unitName": "Paladin Knights",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Defenders of Righteousness",
+              "text": "Brutal"
+            }
+          },
+          {
+            "unitName": "Paladin Knights",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Defenders of Righteousness",
+              "text": "Brutal"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Salamanders",
@@ -7665,7 +7924,61 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Salamanders",
+        "name": "The Whispering Scales",
+        "description": "All units in this Formation gain the keyword: Whispering Scales and both the Scout and Stealthy special rules. The Battle Captain in this formation gains both the Inspiring and Aura (Elite - Whispering Scales only) special rules.",
+        "units": [
+          {
+            "unitName": "Salamander Primes",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Whispering Scales",
+              "text": "Scout, Stealthy"
+            },
+            "addsKeywords": [
+              "Whispering Scales"
+            ]
+          },
+          {
+            "unitName": "Salamander Primes",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Whispering Scales",
+              "text": "Scout, Stealthy"
+            },
+            "addsKeywords": [
+              "Whispering Scales"
+            ]
+          },
+          {
+            "unitName": "Battle Captain",
+            "size": "Hero",
+            "requiredOptions": [
+              {
+                "name": "Path of Fire [1] - Gain Aura (Pathfinder - Heavy Infantry only) Note: This unique upgrade cannot be taken in addition to a magical artefact or a Raptor mount.",
+                "cost": 15,
+                "limit": 1,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 0,
+              "name": "Zoelkifli the Unseen",
+              "text": "Scout, Stealthy, Inspiring, Aura (Elite - Whispering Scales only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Forces of Nature",
@@ -9002,7 +9315,57 @@
         "spellcaster": 2
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Forces of Nature",
+        "name": "Nature's Wrath",
+        "description": "All units in this Formation gain the keyword: Waterbound and the Regeneration (5+) special rule. The Greater Air Elemental gains the Aura (Brutal - Airbound & Waterbound only) special rule.",
+        "units": [
+          {
+            "unitName": "Air Elementals",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Nature's Wrath",
+              "text": "Regeneration (5+)",
+              "addsKeywords": [
+                "Waterbound"
+              ]
+            }
+          },
+          {
+            "unitName": "Air Elementals",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Nature's Wrath",
+              "text": "Regeneration (5+)",
+              "addsKeywords": [
+                "Waterbound"
+              ]
+            }
+          },
+          {
+            "unitName": "Greater Air Elemental",
+            "size": "Monster",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 20,
+              "name": "Nature's Wrath",
+              "text": "Regeneration (5+), Aura (Brutal - Airbound & Waterbound only)",
+              "addsKeywords": [
+                "Waterbound"
+              ]
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Halflings (beta)",
@@ -11427,9 +11790,65 @@
         "ranged": "-",
         "defence": "4+",
         "spellcaster": 1
+      },
+      {
+        "name": "The Brigand [1]",
+        "size": "Hero",
+        "modelCount": "1",
+        "unitStrength": "Strength",
+        "attacks": "(1),",
+        "nerve": "Individual,",
+        "cost": null,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Crushing Strength (1), Individual, Inspiring, Recurve Bow: 24”, Piercing (1), A Merry Band: The Brigand may only be taken as part of the, formation: The Outlaws",
+        "options": [],
+        "keywords": "Human, Tracker",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "4+",
+        "defence": "4+",
+        "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Kingdoms of Men",
+        "name": "Outlaws",
+        "description": "The Bowmen in this Formation gain both the Steady Aim and Volley Fire special rules. Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Cover special rules for the rest of the Turn",
+        "units": [
+          {
+            "unitName": "Bowmen",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Outlaws",
+              "text": "Steady Aim, Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Cover special rules for the rest of the Turn."
+            }
+          },
+          {
+            "unitName": "Bowmen",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Outlaws",
+              "text": "Steady Aim, Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Cover special rules for the rest of the Turn."
+            }
+          },
+          {
+            "unitName": "The Brigand [1]",
+            "size": "Hero",
+            "requiredOptions": []
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "League of Rhordia",
@@ -12407,7 +12826,70 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "League of Rhordia",
+        "name": "The Loyalists",
+        "description": "All units in this Formation gain the Iron Resolve and Headstrong special rules. The Halfling Master Sergeant in this formation gains the Aura (Elite (Melee) - Halfling only) special rule.",
+        "units": [
+          {
+            "unitName": "Halfling Braves",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Loyalist Infantry",
+              "text": "Iron Resolve, Headstrong"
+            }
+          },
+          {
+            "unitName": "Halfling Braves",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Loyalist Infantry",
+              "text": "Iron Resolve, Headstrong"
+            }
+          },
+          {
+            "unitName": "Halfling Knights",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Loyalist Knights",
+              "text": "Iron Resolve, Headstrong"
+            }
+          },
+          {
+            "unitName": "Halfling Knights",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Loyalist Knights",
+              "text": "Iron Resolve, Headstrong"
+            }
+          },
+          {
+            "unitName": "Halfling Master Sergeant",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 20,
+              "name": "Master Sergeant Tory Chalmbler",
+              "text": "Iron Resolve, Headstrong, Aura (Elite (Melee) - Halfling only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Ogres",
@@ -13483,7 +13965,55 @@
         "spellcaster": 2
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Ogres",
+        "name": "Hell on Wheels",
+        "description": "The Warlord on Chariot gains the Rallying (1 - Chariot only) special rule. Each unit in this Formation gains the Rampage (D3) special rule.",
+        "units": [
+          {
+            "unitName": "Ogre Warlord",
+            "size": "Hero",
+            "requiredOptions": [
+              {
+                "name": "Mount on Chariot, increasing Speed to 8, gaining Thunderous Charge (1) and changing to Hero (Cht - Height: 4)",
+                "cost": 30,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "Hell on Wheels",
+              "text": "Rampage (D3), Rallying (1 - Chariot only)"
+            }
+          },
+          {
+            "unitName": "Warrior Chariots",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Hell on Wheels",
+              "text": "Rampage (D3)"
+            }
+          },
+          {
+            "unitName": "Warrior Chariots",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Hell on Wheels",
+              "text": "Rampage (D3)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Order of the Green Lady",
@@ -14421,7 +14951,59 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Order of the Green Lady",
+        "name": "The Lurkers in the Lake",
+        "description": "All units in the Formation gain the Wild Charge (1) special rule. The Devoted in this formation gains Inspiring and Aura (Thunderous Charge (+1) - Waterbound only) special rules.",
+        "units": [
+          {
+            "unitName": "Water Elementals",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Lurkers in the Lake",
+              "text": "Wild Charge (1)"
+            }
+          },
+          {
+            "unitName": "Water Elementals",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Lurkers in the Lake",
+              "text": "Wild Charge (1)"
+            }
+          },
+          {
+            "unitName": "Greater Water Elemental",
+            "size": "Monster",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Lurkers in the Lake",
+              "text": "Wild Charge (1)"
+            }
+          },
+          {
+            "unitName": "Devoted",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 25,
+              "name": "The Lurkers in the Lake",
+              "text": "Inspiring, Aura (Thunderous Charge (+1) - Waterbound only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Sylvan Kin",
@@ -14683,6 +15265,12 @@
             "name": "The Shardblade [1] - Increase Melee to 2+",
             "cost": 15,
             "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Wanderer - Lower Defence to 4+, increasing both Speed and Attacks to 7 and gaining Pathfinder. This may not be taken with a mount.",
+            "cost": 0,
+            "limit": 0,
             "disablesIrregular": false
           }
         ],
@@ -15362,7 +15950,77 @@
         "spellcaster": 1
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Sylvan Kin",
+        "name": "Wardens of the Sacred Groves",
+        "description": "All units gain the Scout special rule Ar'iana, uses the profile of an Elven King. She gains the Pathfinder and Scout special rules. She must also have the Wanderer upgrade. Both The Wardens of the Groves units gain the Scout special rule.",
+        "units": [
+          {
+            "unitName": "Elven King",
+            "size": "Hero",
+            "requiredOptions": [
+              {
+                "name": "Wanderer - Lower Defence to 4+, increasing both Speed and Attacks to 7 and gaining Pathfinder. This may not be taken with a mount.",
+                "cost": 0,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Ar'iana",
+              "text": "Pathfinder, Scout"
+            }
+          },
+          {
+            "unitName": "Forest Guard",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Guardians of the Glade",
+              "text": "Scout"
+            }
+          },
+          {
+            "unitName": "Forest Guard",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Guardians of the Glade",
+              "text": "Scout"
+            }
+          },
+          {
+            "unitName": "Boskwraiths",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Guardians of the Glade",
+              "text": "Scout"
+            }
+          },
+          {
+            "unitName": "Boskwraiths",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Guardians of the Glade",
+              "text": "Scout"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "The Herd",
@@ -16493,7 +17151,53 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "The Herd",
+        "name": "The Silent Hunt",
+        "description": "All units in this Formation gain the Ensnare special rule. Softhoof’s nerve is increased to 11/13 and gains the Aura (Vicious - Tracker only) special rule. Deadly Snares: Whenever a unit from this Formation is touching Difficult Terrain and is attacked in Melee, the attacking unit(s) immediately receives D3 points of damage. No Nerve tests are required for damage caused in this way.",
+        "units": [
+          {
+            "unitName": "Tribal Tracker",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 20,
+              "name": "Softhoof",
+              "text": "Ensnare, Nerve +1 (updated in unit profile), Aura (Vicious - Tracker only), Deadly Snares: Whenever a unit from this Formation is touching Difficult Terrain and is attacked in Melee, the attacking unit(s) immediately receives D3 points of damage. No Nerve tests are required for damage caused in this way.",
+              "affectsValues": [
+                {
+                  "nerve": "13/15"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Tribal Trappers*",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Softhoof's Herdkin",
+              "text": "Ensnare, Deadly Snares: Whenever a unit from this Formation is touching Difficult Terrain and is attacked in Melee, the attacking unit(s) immediately receives D3 points of damage. No Nerve tests are required for damage caused in this way."
+            }
+          },
+          {
+            "unitName": "Tribal Trappers*",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Softhoof's Herdkin",
+              "text": "Ensnare, Deadly Snares: Whenever a unit from this Formation is touching Difficult Terrain and is attacked in Melee, the attacking unit(s) immediately receives D3 points of damage. No Nerve tests are required for damage caused in this way."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Trident Realm of Neritica",
@@ -17598,7 +18302,48 @@
         "spellcaster": 1
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Trident Realm of Neritica",
+        "name": "The Hidden Ones",
+        "description": "All units in this Formation gain the Pathfinder special rule. The Thuul Mythican gains the Aura (Thunderous Charge (1) - Cephalopod only) special rule.",
+        "units": [
+          {
+            "unitName": "Thuul",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Hidden Ones",
+              "text": "Pathfinder"
+            }
+          },
+          {
+            "unitName": "Thuul",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Hidden Ones",
+              "text": "Pathfinder"
+            }
+          },
+          {
+            "unitName": "Thuul Mythican",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Ineesha",
+              "text": "Pathfinder, Aura (Thunderous Charge (1) - Cephalopod only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Abyssal Dwarfs",
@@ -18686,7 +19431,58 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Abyssal Dwarfs",
+        "name": "The Damned of Yaygar",
+        "description": "The Immortal Guard units in this formation lower their Defence to 4+ and gain Crushing Strength (1). The Infernox gains Inspiring, and Aura (Elite (Melee - Infantry only)).",
+        "units": [
+          {
+            "unitName": "Immortal Guard",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 0,
+              "name": "The Damned of Yaygar",
+              "text": "Defence 4+, Crushing Strength (1)",
+              "affectsValues": [
+                {
+                  "melee": "4+"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Immortal Guard",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 0,
+              "name": "The Damned of Yaygar",
+              "text": "Defence 4+, Crushing Strength (1)",
+              "affectsValues": [
+                {
+                  "melee": "4+"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Infernox",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 35,
+              "name": "The Damned of Yaygar",
+              "text": "Inspiring, Aura (Elite (Melee - Infantry only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Empire of Dust",
@@ -19932,7 +20728,66 @@
         "spellcaster": 3
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Empire of Dust",
+        "name": "The Bone Shakers",
+        "description": "The Revenant Champion in this formation must purchase a mount. The Revenant Champion and Revenant Chariot Regiments in this formation gain the Rampage (D3 - melee) special rule. The Revenant Chariot Legion in this formation gains the Rampage (D6 - melee) special rule.",
+        "units": [
+          {
+            "unitName": "Revenant Chariots",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Bone Shakers",
+              "text": "Rampage (D3 - melee)"
+            }
+          },
+          {
+            "unitName": "Revenant Chariots",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Bone Shakers",
+              "text": "Rampage (D3 - melee)"
+            }
+          },
+          {
+            "unitName": "Revenant Chariots",
+            "size": "Legion",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "The Bone Shakers",
+              "text": "Rampage (D6 - melee)"
+            }
+          },
+          {
+            "unitName": "Revenant Champion",
+            "size": "Hero",
+            "requiredOptions": [
+              {
+                "name": "Mount on an Undead Horse, increasing Speed to 8 and changing to Hero (Cav - Height: 3)",
+                "cost": 25,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Bone Shakers",
+              "text": "Rampage (D3 - melee)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Forces of the Abyss",
@@ -20972,7 +21827,48 @@
         "spellcaster": 2
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Forces of the Abyss",
+        "name": "Kah'za'ah's Torment",
+        "description": "Kah’za’ah gains both the Inspiring and Aura (Lifeleech (+2) - Infantry only) special rules. Whenever a unit of Kah’za’ah’s Maggots suffer a Rout result, all units in base contact with that unit suffer D3+1 hits with Piercing (1) and gain the Frozen special rule. No Nerve tests are required for damage caused in this way.",
+        "units": [
+          {
+            "unitName": "Lower Abyssals",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Kah'za'ah's Maggots",
+              "text": "Whenever a this unit suffers a Rout result, all units in base contact with the unit suffer D3+1 hits with Piercing (1) and gain the Frozen special rule. No Nerve tests are required for damage caused in this way."
+            }
+          },
+          {
+            "unitName": "Lower Abyssals",
+            "size": "Horde",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Kah'za'ah's Maggots",
+              "text": "Whenever a this unit suffers a Rout result, all units in base contact with the unit suffer D3+1 hits with Piercing (1) and gain the Frozen special rule. No Nerve tests are required for damage caused in this way."
+            }
+          },
+          {
+            "unitName": "Despoiler Champion",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 25,
+              "name": "Kah'za'ah the Putrid",
+              "text": "Inspiring, Aura (Lifeleech (+2) - Infantry only)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Goblins",
@@ -21556,14 +22452,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots",
+        "name": "Fleabag Chariots*",
         "size": "Troop",
         "modelCount": "2",
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "10/12",
         "cost": 125,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -21577,14 +22473,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots",
+        "name": "Fleabag Chariots*",
         "size": "Regiment",
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "12/14",
         "cost": 155,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -21598,14 +22494,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots",
+        "name": "Fleabag Chariots*",
         "size": "Horde",
         "modelCount": "4",
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
         "cost": 195,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -21619,14 +22515,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots",
+        "name": "Fleabag Chariots*",
         "size": "Legion",
         "modelCount": "6",
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "17/19",
         "cost": 225,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -22083,7 +22979,55 @@
         "spellcaster": 1
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Goblins",
+        "name": "Gorp's Explodo'matic Bangstiks",
+        "description": "Gorp gains the Aura (Elite (Melee - Cavalry with the Goblin keyword only)) special rule. The Bangstiks units increase their Thunderous Charge to (2). Whenever a unit in this Formation rolls a natural unmodified 6 to hit in Melee, resolve that hit with the Blast (2) special rule. In addition, for each 6 rolled the attacking unit receives a point of damage as the Bangstik backfires on the unlucky goblin wielding it. No Nerve tests are taken for damage caused in this way.",
+        "units": [
+          {
+            "unitName": "King",
+            "size": "Hero",
+            "requiredOptions": [
+              {
+                "name": "Mount on a Fleabag, increasing Speed to 10 and changing to Hero (Cav - Height: 3)",
+                "cost": 35,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 20,
+              "name": "Gorp",
+              "text": "Aura (Elite (Melee - Cavalry with the Goblin keyword only)), Whenever this unit rolls a natural unmodified 6 to hit in Melee, resolve that hit with the Blast (2) special rule. In addition, for each 6 rolled the attacking unit receives a point of damage as the Bangstik backfires on the unlucky goblin wielding it. No Nerve tests are taken for damage caused in this way."
+            }
+          },
+          {
+            "unitName": "Fleabag Riders",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Bangstiks",
+              "text": "Thunderous Charge increased to (2), Whenever this unit rolls a natural unmodified 6 to hit in Melee, resolve that hit with the Blast (2) special rule. In addition, for each 6 rolled the attacking unit receives a point of damage as the Bangstik backfires on the unlucky goblin wielding it. No Nerve tests are taken for damage caused in this way."
+            }
+          },
+          {
+            "unitName": "Fleabag Riders",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Bangstiks",
+              "text": "Thunderous Charge increased to (2), Whenever this unit rolls a natural unmodified 6 to hit in Melee, resolve that hit with the Blast (2) special rule. In addition, for each 6 rolled the attacking unit receives a point of damage as the Bangstik backfires on the unlucky goblin wielding it. No Nerve tests are taken for damage caused in this way."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Nightstalkers",
@@ -22998,7 +23942,48 @@
         "spellcaster": 2
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Nightstalkers",
+        "name": "Beaststalker Doomhounds",
+        "description": "All units in the Formation gain the Slayer (Melee - D6) special rule.",
+        "units": [
+          {
+            "unitName": "Shadowhounds*",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Doomhounds",
+              "text": "Slayer (Melee - D6)"
+            }
+          },
+          {
+            "unitName": "Shadowhounds*",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Doomhounds",
+              "text": "Slayer (Melee - D6)"
+            }
+          },
+          {
+            "unitName": "Shadowhounds*",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Doomhounds",
+              "text": "Slayer (Melee - D6)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Orcs",
@@ -24223,7 +25208,56 @@
         "spellcaster": 3
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Orcs",
+        "name": "Molgurk's Mad Mob",
+        "description": "The War Drum in this formation gains Spellcaster 1 and the Bane Chant (2) spell. Gruesome Gores: Unless Disordered, all units in the Formation have the Rampage (Melee - D3) and Slayer (Melee - D3) special rules.",
+        "units": [
+          {
+            "unitName": "War Drum",
+            "size": "Monster",
+            "requiredOptions": [
+              {
+                "name": "Mount on a War Wagon, increasing Speed to 8, gaining Nimble and changing to Monster (Cht - Height: 3)",
+                "cost": 30,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 20,
+              "name": "Molgurk's Mad Mob",
+              "text": "Spellcaster (1), Bane Chant (2). Gruesome Gores: Unless Disordered, this unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules.",
+              "newSpellcasterValue": 1
+            }
+          },
+          {
+            "unitName": "Gore Chariots",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Molgurk's Mad Mob",
+              "text": "Gruesome Gores: Unless Disordered, this unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules."
+            }
+          },
+          {
+            "unitName": "Gore Chariots",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Molgurk's Mad Mob",
+              "text": "Gruesome Gores: Unless Disordered, this unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Ratkin",
@@ -25168,7 +26202,48 @@
         "spellcaster": 3
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Ratkin",
+        "name": "Smoke, Mirrors and Death",
+        "description": "The Death Engine Spewer gains the Aura (Iron Resolve - Tek only), Inspiring, and Steady Aim special rules. You may redeploy any of the units from this Formation after deployment from both players is finished, but before Scout moves are made.",
+        "units": [
+          {
+            "unitName": "Shredder",
+            "size": "War Engine",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Smoke, Mirrors and Death",
+              "text": "You may redeploy this unit after deployment from both players is finished, but before Scout moves are made."
+            }
+          },
+          {
+            "unitName": "Shredder",
+            "size": "War Engine",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "Smoke, Mirrors and Death",
+              "text": "You may redeploy this unit after deployment from both players is finished, but before Scout moves are made."
+            }
+          },
+          {
+            "unitName": "Death Engine Spewer",
+            "size": "Monster",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 25,
+              "name": "Smoke, Mirrors and Death",
+              "text": "Aura (Iron Resolve - Tek only), Inspiring, Steady Aim. You may redeploy this unit after deployment from both players is finished, but before Scout moves are made."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Ratkin Slaves",
@@ -25999,7 +27074,7 @@
             }
           },
           {
-            "unitName": "Slave Warriors",
+            "unitName": "Slave Warriors*",
             "size": "Horde",
             "requiredOptions": [
               {
@@ -26008,11 +27083,10 @@
                 "limit": 0,
                 "disablesIrregular": false
               }
-            ],
-            "prohibitsArtefacts": false
+            ]
           },
           {
-            "unitName": "Slave Warriors",
+            "unitName": "Slave Warriors*",
             "size": "Regiment",
             "requiredOptions": [
               {
@@ -26021,11 +27095,10 @@
                 "limit": 0,
                 "disablesIrregular": false
               }
-            ],
-            "prohibitsArtefacts": false
+            ]
           },
           {
-            "unitName": "Slave Warriors",
+            "unitName": "Slave Warriors*",
             "size": "Regiment",
             "requiredOptions": [
               {
@@ -26034,8 +27107,7 @@
                 "limit": 0,
                 "disablesIrregular": false
               }
-            ],
-            "prohibitsArtefacts": false
+            ]
           }
         ]
       }
@@ -26947,7 +28019,82 @@
         "spellcaster": 3
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Twilight Kin",
+        "name": "The Crew of the Black Hydra",
+        "description": "All units in this Formation gain the keyword: The Soulless Shards and the Wild Charge (1) special rule. Leiz gains the Rallying (1 - The Soulless Shards) special rule, lowers his Defence to 4+ and increases both his Speed and Attacks to 7. He also may not take a mount. Enraged: In addition to their basic attacks, each unit in this Formation gains a number of additional attacks equal to their current points of Damage",
+        "units": [
+          {
+            "unitName": "Soulbane",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 15,
+              "name": "Leiz the Soulless",
+              "text": "Wild Charge (1), Rallying (1 - The Soulless Shards), Defence 4+, Speed 7, Attacks 7. This unit may not take a mount. Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
+              "affectsValues": [
+                {
+                  "defence": "4+"
+                },
+                {
+                  "speed": "7"
+                },
+                {
+                  "attacks": "7"
+                }
+              ]
+            },
+            "addsKeywords": [
+              "The Soulless Shards"
+            ]
+          },
+          {
+            "unitName": "Blade Dancers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Soulless Shards",
+              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage."
+            },
+            "addsKeywords": [
+              "The Soulless Shards"
+            ]
+          },
+          {
+            "unitName": "Blade Dancers",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Soulless Shards",
+              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage."
+            },
+            "addsKeywords": [
+              "The Soulless Shards"
+            ]
+          },
+          {
+            "unitName": "Blade Dancers",
+            "size": "Troop",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Soulless Shards",
+              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage."
+            },
+            "addsKeywords": [
+              "The Soulless Shards"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Undead",
@@ -28406,7 +29553,57 @@
         "spellcaster": 2
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Undead",
+        "name": "The Shambling Blight",
+        "description": "All units in this Formation gain the keyword: The Shambling Blight. The Zombie Legions in this formation gain the Iron Resolve and Phalanx special rules. The Goreblight in this formation gains the Rallying (1 - The Shambling Blight) special rule.",
+        "units": [
+          {
+            "unitName": "Zombies",
+            "size": "Legion",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Shambling Blight",
+              "text": "Iron Resolve, Phalanx"
+            },
+            "addsKeywords": [
+              "The Shambling Blight"
+            ]
+          },
+          {
+            "unitName": "Zombies",
+            "size": "Legion",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "The Shambling Blight",
+              "text": "Iron Resolve, Phalanx"
+            },
+            "addsKeywords": [
+              "The Shambling Blight"
+            ]
+          },
+          {
+            "unitName": "Goreblight",
+            "size": "Monster",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Shambling Blight",
+              "text": "Rallying (1 - The Shambling Blight)"
+            },
+            "addsKeywords": [
+              "The Shambling Blight"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Varangur",
@@ -29441,7 +30638,7 @@
         "description": "The Horse Raiders gain Melee 3+. The Lord has a horse and the Icon of the Warrior options despite the normal restriction.",
         "units": [
           {
-            "unitName": "Horse Raiders",
+            "unitName": "Horse Raiders*",
             "size": "Regiment",
             "requiredOptions": [],
             "formationUpgrade": {
@@ -29457,7 +30654,7 @@
             }
           },
           {
-            "unitName": "Horse Raiders",
+            "unitName": "Horse Raiders*",
             "size": "Regiment",
             "requiredOptions": [],
             "formationUpgrade": {
