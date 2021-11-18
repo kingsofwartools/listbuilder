@@ -5690,11 +5690,11 @@
               "prohibitsArtefacts": false,
               "cost": 25,
               "name": "Orlaf's Raiders",
-              "text": "Inspiring, Aura (Slayer (Melee - D3) - Berserker only)"
-            },
-            "addsKeywords": [
-              "Berserker"
-            ]
+              "text": "Inspiring, Aura (Slayer (Melee - D3) - Berserker only)",
+              "addsKeywords": [
+                "Berserker"
+              ]
+            }
           }
         ]
       }
@@ -7938,11 +7938,11 @@
               "prohibitsArtefacts": false,
               "cost": 10,
               "name": "The Whispering Scales",
-              "text": "Scout, Stealthy"
-            },
-            "addsKeywords": [
-              "Whispering Scales"
-            ]
+              "text": "Scout, Stealthy",
+              "addsKeywords": [
+                "Whispering Scales"
+              ]
+            }
           },
           {
             "unitName": "Salamander Primes",
@@ -7952,11 +7952,11 @@
               "prohibitsArtefacts": false,
               "cost": 10,
               "name": "The Whispering Scales",
-              "text": "Scout, Stealthy"
-            },
-            "addsKeywords": [
-              "Whispering Scales"
-            ]
+              "text": "Scout, Stealthy",
+              "addsKeywords": [
+                "Whispering Scales"
+              ]
+            }
           },
           {
             "unitName": "Battle Captain",
@@ -7973,7 +7973,10 @@
               "prohibitsArtefacts": false,
               "cost": 0,
               "name": "Zoelkifli the Unseen",
-              "text": "Scout, Stealthy, Inspiring, Aura (Elite - Whispering Scales only)"
+              "text": "Scout, Stealthy, Inspiring, Aura (Elite - Whispering Scales only)",
+              "addsKeywords": [
+                "Whispering Scales"
+              ]
             }
           }
         ]
@@ -28044,11 +28047,11 @@
                 {
                   "attacks": "7"
                 }
+              ],
+              "addsKeywords": [
+                "The Soulless Shards"
               ]
-            },
-            "addsKeywords": [
-              "The Soulless Shards"
-            ]
+            }
           },
           {
             "unitName": "Blade Dancers",
@@ -28058,11 +28061,11 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "The Soulless Shards",
-              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage."
-            },
-            "addsKeywords": [
-              "The Soulless Shards"
-            ]
+              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
+              "addsKeywords": [
+                "The Soulless Shards"
+              ]
+            }
           },
           {
             "unitName": "Blade Dancers",
@@ -28072,11 +28075,11 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "The Soulless Shards",
-              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage."
-            },
-            "addsKeywords": [
-              "The Soulless Shards"
-            ]
+              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
+              "addsKeywords": [
+                "The Soulless Shards"
+              ]
+            }
           },
           {
             "unitName": "Blade Dancers",
@@ -28086,11 +28089,11 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "The Soulless Shards",
-              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage."
-            },
-            "addsKeywords": [
-              "The Soulless Shards"
-            ]
+              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
+              "addsKeywords": [
+                "The Soulless Shards"
+              ]
+            }
           }
         ]
       }
@@ -29567,11 +29570,11 @@
               "prohibitsArtefacts": false,
               "cost": 10,
               "name": "The Shambling Blight",
-              "text": "Iron Resolve, Phalanx"
-            },
-            "addsKeywords": [
-              "The Shambling Blight"
-            ]
+              "text": "Iron Resolve, Phalanx",
+              "addsKeywords": [
+                "The Shambling Blight"
+              ]
+            }
           },
           {
             "unitName": "Zombies",
@@ -29581,11 +29584,11 @@
               "prohibitsArtefacts": false,
               "cost": 10,
               "name": "The Shambling Blight",
-              "text": "Iron Resolve, Phalanx"
-            },
-            "addsKeywords": [
-              "The Shambling Blight"
-            ]
+              "text": "Iron Resolve, Phalanx",
+              "addsKeywords": [
+                "The Shambling Blight"
+              ]
+            }
           },
           {
             "unitName": "Goreblight",
@@ -29595,11 +29598,11 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "The Shambling Blight",
-              "text": "Rallying (1 - The Shambling Blight)"
-            },
-            "addsKeywords": [
-              "The Shambling Blight"
-            ]
+              "text": "Rallying (1 - The Shambling Blight)",
+              "addsKeywords": [
+                "The Shambling Blight"
+              ]
+            }
           }
         ]
       }

@@ -39,7 +39,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
         </p>
         <p>
           <span className="unit-footer__label">Keywords: </span>
-          {unit.unitDetails.keywords}
+          {unit.formationUpgrade && unit.formationUpgrade.addsKeywords ? `${unit.unitDetails.keywords}, ${unit.formationUpgrade.addsKeywords.join(', ')}` : unit.unitDetails.keywords}
         </p>
         {(unit.unitDetails.spellcaster || unit.unitDetails.spellcaster === 0) && (
           <p>

@@ -1,10 +1,8 @@
 # TODOS:
 
 -check formation spells
--add formation upgrade giving keyword
 -add army updates & new units
 -check army updates & new units
--add formations - done up to and including brothermark
 -check formations
 -add new armies
 -check new armies
