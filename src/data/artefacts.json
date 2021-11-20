@@ -121,6 +121,28 @@
     "type": "common"
   },
   {
+    "name": "Banner of Eternal Darkness",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "common"
+  },
+  {
+    "name": "Skirmisher's Boots",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "common"
+  },
+  {
     "name": "Piercing Arrow",
     "cost": {
       "Hero": 10,
@@ -128,6 +150,17 @@
       "Regiment": 10,
       "Horde": 10,
       "Legion": 10
+    },
+    "type": "common"
+  },
+  {
+    "name": "Orb of Towering Presence",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 15,
+      "Legion": 15
     },
     "type": "common"
   },
@@ -205,6 +238,17 @@
       "Regiment": 15,
       "Horde": 15,
       "Legion": 15
+    },
+    "type": "common"
+  },
+  {
+    "name": "Helm of the Drunken Ram",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 20,
+      "Legion": 20
     },
     "type": "common"
   },
@@ -341,6 +385,28 @@
     "type": "common"
   },
   {
+    "name": "Ej Periscope",
+    "cost": {
+      "Hero": 5,
+      "Troop": 5,
+      "Regiment": 5,
+      "Horde": 5,
+      "Legion": 5
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Amulet of the Fireheart",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
     "name": "Conjurer's Staff",
     "cost": {
       "Hero": 10,
@@ -363,6 +429,39 @@
     "type": "heroic"
   },
   {
+    "name": "Gnome-Glass Shield",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Torc of Dissonance",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Wingbane Cloak",
+    "cost": {
+      "Hero": 10,
+      "Troop": 10,
+      "Regiment": 10,
+      "Horde": 10,
+      "Legion": 10
+    },
+    "type": "heroic"
+  },
+  {
     "name": "Mournful Blade",
     "cost": {
       "Hero": 15,
@@ -375,6 +474,61 @@
   },
   {
     "name": "Trickster's Wand",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Axe of the Giant Slayer",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Crown of the Wizard King",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Scythe of the Harvester",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Talisman of Silence",
+    "cost": {
+      "Hero": 15,
+      "Troop": 15,
+      "Regiment": 15,
+      "Horde": 15,
+      "Legion": 15
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Wand of Borrowed Time",
     "cost": {
       "Hero": 15,
       "Troop": 15,
@@ -418,6 +572,28 @@
     "type": "heroic"
   },
   {
+    "name": "Banner of Abbetshire",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "Zephyr Crown",
+    "cost": {
+      "Hero": 20,
+      "Troop": 20,
+      "Regiment": 20,
+      "Horde": 20,
+      "Legion": 20
+    },
+    "type": "heroic"
+  },
+  {
     "name": "Lute of Insatiable Darkness",
     "cost": {
       "Hero": 25,
@@ -429,7 +605,18 @@
     "type": "heroic"
   },
   {
-    "name": "Zephyr Crown",
+    "name": "Shroud of the Saint",
+    "cost": {
+      "Hero": 25,
+      "Troop": 25,
+      "Regiment": 25,
+      "Horde": 25,
+      "Legion": 25
+    },
+    "type": "heroic"
+  },
+  {
+    "name": "The Boomstick",
     "cost": {
       "Hero": 25,
       "Troop": 25,
@@ -452,28 +639,6 @@
   },
   {
     "name": "Boots of the Seven Leagues",
-    "cost": {
-      "Hero": 30,
-      "Troop": 30,
-      "Regiment": 30,
-      "Horde": 30,
-      "Legion": 30
-    },
-    "type": "heroic"
-  },
-  {
-    "name": "Shroud of the Saint",
-    "cost": {
-      "Hero": 30,
-      "Troop": 30,
-      "Regiment": 30,
-      "Horde": 30,
-      "Legion": 30
-    },
-    "type": "heroic"
-  },
-  {
-    "name": "The Boomstick",
     "cost": {
       "Hero": 30,
       "Troop": 30,
