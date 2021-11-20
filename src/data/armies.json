@@ -29906,7 +29906,7 @@
             }
           },
           {
-            "unitName": "Slave Warriors*",
+            "unitName": "Slave Warriors",
             "size": "Horde",
             "requiredOptions": [
               {
@@ -29918,7 +29918,7 @@
             ]
           },
           {
-            "unitName": "Slave Warriors*",
+            "unitName": "Slave Warriors",
             "size": "Regiment",
             "requiredOptions": [
               {
@@ -29930,7 +29930,7 @@
             ]
           },
           {
-            "unitName": "Slave Warriors*",
+            "unitName": "Slave Warriors",
             "size": "Regiment",
             "requiredOptions": [
               {
