@@ -4830,6 +4830,24 @@
               "name": "Eryc's Mallets",
               "text": "Nimble, Brutal"
             }
+          },
+          {
+            "unitName": "Free Dwarf Shieldbreakers",
+            "size": "Regiment",
+            "requiredOptions": [
+              {
+                "name": "Gain Scout",
+                "cost": 10,
+                "limit": 0,
+                "disablesIrregular": false
+              }
+            ],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "Eryc's Mallets",
+              "text": "Nimble, Brutal"
+            }
           }
         ]
       }
