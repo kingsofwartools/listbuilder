@@ -873,14 +873,14 @@
         "spellcaster": null
       },
       {
-        "name": "Ur-Elohi*",
+        "name": "Ur-Elohi",
         "size": "Hero",
         "modelCount": "1",
         "unitStrength": "1",
         "attacks": "6",
         "nerve": "-/15",
         "cost": 200,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (2), Dread, Fly, Inspiring, Iron Resolve, Nimble, This unit may not be taken as allies, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
         "options": [],
@@ -11043,7 +11043,58 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Halflings",
+        "name": "McSween's Cutthroats",
+        "description": "The Poachers in this formation gain Inspiring (Self) and increase their Range value to 4+. Ally McSween gains Rampage (Melee - D3)",
+        "units": [
+          {
+            "unitName": "Poachers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "McSween's Cutthroats",
+              "text": "Inspiring (Self), Ra 4+",
+              "affectsValues": [
+                {
+                  "ranged": "4+"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Poachers",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 10,
+              "name": "McSween's Cutthroats",
+              "text": "Inspiring (Self), Ra 4+",
+              "affectsValues": [
+                {
+                  "ranged": "4+"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Ally McSween [1]",
+            "size": "Hero",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "McSween's Cuttthroats",
+              "text": "Rampage (Melee - D3)"
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Kingdoms of Men",
@@ -27903,7 +27954,63 @@
         "spellcaster": null
       }
     ],
-    "formations": []
+    "formations": [
+      {
+        "faction": "Riftforged Orcs",
+        "name": "The Iron Boots",
+        "description": "All units in this formation increase their Waver and Rout Nerve values by +1. The Reborn Legionaries in this formation gain Aura (Wild Charge D3 - Orc only).",
+        "units": [
+          {
+            "unitName": "Riftforged Legionaries",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Iron Boots",
+              "text": "Nerve +1 (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "nerve": "15/17"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Riftforged Legionaries",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 5,
+              "name": "The Iron Boots",
+              "text": "Nerve +1 (updated in unit profile)",
+              "affectsValues": [
+                {
+                  "nerve": "15/17"
+                }
+              ]
+            }
+          },
+          {
+            "unitName": "Reborn Legionaries*",
+            "size": "Regiment",
+            "requiredOptions": [],
+            "formationUpgrade": {
+              "prohibitsArtefacts": false,
+              "cost": 20,
+              "name": "The Iron Boots",
+              "text": "Nerve +1 (updated in unit profile), Aura (Wild Charge D3 - Orc only)",
+              "affectsValues": [
+                {
+                  "nerve": "16/18"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Ratkin",

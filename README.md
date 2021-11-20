@@ -12,6 +12,7 @@ Functionality:
 - Adds in-built options to units in formations, and updates the statline accordingly (and says it has done so in the unit profile)
 - For all other options/artefacts, the unit's stats are not updated.
 
+What this listbuilder doesn't do is let you save lists, take allies, or give you a rules reference sheet. I don't intend to add these pieces of functionality to the app.
 
 ## TODOS:
 
