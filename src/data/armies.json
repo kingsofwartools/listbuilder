@@ -3171,14 +3171,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots*",
+        "name": "War Chariots",
         "size": "Troop",
         "modelCount": "2",
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "12/14",
         "cost": 135,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -3192,14 +3192,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots*",
+        "name": "War Chariots",
         "size": "Regiment",
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "14/16",
         "cost": 170,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -3213,14 +3213,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots*",
+        "name": "War Chariots",
         "size": "Horde",
         "modelCount": "4",
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "16/18",
         "cost": 215,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -3234,14 +3234,14 @@
         "spellcaster": null
       },
       {
-        "name": "War Chariots*",
+        "name": "War Chariots",
         "size": "Legion",
         "modelCount": "6",
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "20/22",
         "cost": 245,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -14919,23 +14919,11 @@
     ],
     "unlockingUnits": [
       {
-        "faction": "Ogres",
-        "unlockingUnits": [
-          {
-            "name": "Warriors",
-            "unlocks": [
-              {
-                "unlocksThisMany": 1,
-                "thingsItUnlocks": [
-                  "Hero",
-                  "Monster",
-                  "Titan",
-                  "War Engine"
-                ]
-              }
-            ]
-          }
-        ]
+        "name": "Warriors",
+        "size": "Regiment",
+        "unlocks": {
+          "heroMonsterTitanOrWarEngineUnique": 1
+        }
       }
     ]
   },
@@ -24163,14 +24151,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots*",
+        "name": "Fleabag Chariots",
         "size": "Troop",
         "modelCount": "2",
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "10/12",
         "cost": 125,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -24184,14 +24172,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots*",
+        "name": "Fleabag Chariots",
         "size": "Regiment",
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "12/14",
         "cost": 155,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -24205,14 +24193,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots*",
+        "name": "Fleabag Chariots",
         "size": "Horde",
         "modelCount": "4",
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
         "cost": 195,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],
@@ -24226,14 +24214,14 @@
         "spellcaster": null
       },
       {
-        "name": "Fleabag Chariots*",
+        "name": "Fleabag Chariots",
         "size": "Legion",
         "modelCount": "6",
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "17/19",
         "cost": 225,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
         "options": [],

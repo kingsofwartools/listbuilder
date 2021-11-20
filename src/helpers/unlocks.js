@@ -1,3 +1,5 @@
+import armiesData from '../data/armies.json';
+
 const unlockAmounts = {
   Infantry: {
     Regiment: {
@@ -121,8 +123,13 @@ const calculateUnallocated = (unitsArr) => {
   const monsters = unitDetailsArr.filter((unit) => unit.size === 'Monster');
   const titans = unitDetailsArr.filter((unit) => unit.size === 'Titan');
 
+  const { unlockingUnits } = armiesData.find(faction => faction.name === unitsArr[0].armyName);
+
   const unitsWithSlots = unitDetailsArr.map((unit) => {
-    if (!unit.irregular && unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) {
+    const matchingUnlockingUnit = unlockingUnits.find(unlockingUnit => ((unlockingUnit.name === unit.name) && (unlockingUnit.size === unit.size)));
+    if (matchingUnlockingUnit) {
+      return { ...unit, unlocks: {...matchingUnlockingUnit.unlocks} };
+    } else if (!unit.irregular && unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) {
       return { ...unit, unlocks: { ...(unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) } };
     }
     return unit;
@@ -262,50 +269,6 @@ const calculateUnallocated = (unitsArr) => {
     if (!hasBeenAllocated) unallocated.hwmt = true;
   });
 
-  // const unlocks = unitsWithSlots.reduce(
-  //   (unlocksObj, unit) => {
-  //     unit.unlocks &&
-  //       Object.keys(unit.unlocks).forEach((unlockLabel) => {
-  //         switch (unlockLabel) {
-  //           case 'troopOrIrregular':
-  //             unlocksObj.troopOrIrregular = unlocksObj.troopOrIrregular || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           case 'hero':
-  //             unlocksObj.hero = unlocksObj.hero || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           case 'warEngine':
-  //             unlocksObj.warEngine = unlocksObj.warEngine || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           case 'monster':
-  //             unlocksObj.monster = unlocksObj.monster || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           case 'titan':
-  //             unlocksObj.titan = unlocksObj.titan || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           case 'monsterOrTitan':
-  //             unlocksObj.monster = unlocksObj.monster || !!unit.unlocks[unlockLabel];
-  //             unlocksObj.titan = unlocksObj.titan || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           case 'heroMonsterTitanOrWarEngineUnique':
-  //             unlocksObj.hero = unlocksObj.hero || !!unit.unlocks[unlockLabel];
-  //             unlocksObj.warEngine = unlocksObj.warEngine || !!unit.unlocks[unlockLabel];
-  //             unlocksObj.monster = unlocksObj.monster || !!unit.unlocks[unlockLabel];
-  //             unlocksObj.titan = unlocksObj.titan || !!unit.unlocks[unlockLabel];
-  //             break;
-  //           default:
-  //             console.log('in default in unlock switch statement');
-  //         }
-  //       });
-  //     return unlocksObj;
-  //   },
-  //   {
-  //     troopOrIrregular: false,
-  //     hero: false,
-  //     warEngine: false,
-  //     monster: false,
-  //     titan: false,
-  //   }
-  // );
   return unallocated;
 };
 
