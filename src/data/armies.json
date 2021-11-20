@@ -14053,7 +14053,7 @@
         "cost": 120,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (1)",
+        "specialRules": "Brutal, Crushing Strength (1), For each Ogre Warrior Regiment in the army, you can also include one of the following units: Hero, Monster, Titan, War Engine.",
         "options": [
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
@@ -14087,7 +14087,7 @@
         "cost": 200,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (1)",
+        "specialRules": "Brutal, Crushing Strength (1), For each Ogre Warrior Regiment in the army, you can also include one of the following units: Hero, Monster, Titan, War Engine.",
         "options": [
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
@@ -14121,7 +14121,7 @@
         "cost": 350,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (1)",
+        "specialRules": "Brutal, Crushing Strength (1), For each Ogre Warrior Regiment in the army, you can also include one of the following units: Hero, Monster, Titan, War Engine.",
         "options": [
           {
             "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and increasing Crushing Strength to (2)",
