@@ -18832,14 +18832,14 @@
         "spellcaster": null
       },
       {
-        "name": "Riverguard*",
+        "name": "Riverguard",
         "size": "Troop",
         "modelCount": "10",
         "unitStrength": "1",
         "attacks": "10",
         "nerve": "9/11",
         "cost": 120,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Ensnare, Fly, Nimble, Pathfinder Javelins: 12”, Piercing (1), Steady Aim",
         "options": [],
@@ -18853,14 +18853,14 @@
         "spellcaster": null
       },
       {
-        "name": "Riverguard*",
+        "name": "Riverguard",
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "13/15",
         "cost": 160,
-        "irregular": true,
+        "irregular": false,
         "limit": 0,
         "specialRules": "Ensnare, Fly, Nimble, Pathfinder Javelins: 12”, Piercing (1), Steady Aim",
         "options": [],
