@@ -1355,7 +1355,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Dwarfs",
@@ -2533,7 +2534,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Elves",
@@ -3781,7 +3783,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Free Dwarfs",
@@ -4830,7 +4833,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Northern Alliance",
@@ -5987,7 +5991,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Order of the Brothermark",
@@ -7208,7 +7213,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Salamanders",
@@ -8456,7 +8462,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Forces of Nature",
@@ -9877,7 +9884,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Halflings",
@@ -11094,7 +11102,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Kingdoms of Men",
@@ -12538,7 +12547,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "League of Rhordia",
@@ -13728,7 +13738,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Ogres",
@@ -14884,6 +14895,27 @@
               "name": "Hell on Wheels",
               "text": "Rampage (D3)"
             }
+          }
+        ]
+      }
+    ],
+    "unlockingUnits": [
+      {
+        "faction": "Ogres",
+        "unlockingUnits": [
+          {
+            "name": "Warriors",
+            "unlocks": [
+              {
+                "unlocksThisMany": 1,
+                "thingsItUnlocks": [
+                  "Hero",
+                  "Monster",
+                  "Titan",
+                  "War Engine"
+                ]
+              }
+            ]
           }
         ]
       }
@@ -16077,7 +16109,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Sylvan Kin",
@@ -17328,7 +17361,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "The Herd",
@@ -18664,7 +18698,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Trident Realm of Neritica",
@@ -19810,7 +19845,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Abyssal Dwarfs",
@@ -20973,7 +21009,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Empire of Dust",
@@ -22378,7 +22415,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Forces of the Abyss",
@@ -23487,7 +23525,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Goblins",
@@ -24687,7 +24726,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Nightstalkers",
@@ -25657,7 +25697,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Orcs",
@@ -26987,7 +27028,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Riftforged Orcs",
@@ -28010,7 +28052,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Ratkin",
@@ -29037,7 +29080,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Ratkin Slaves",
@@ -29943,7 +29987,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Twilight Kin",
@@ -31038,7 +31083,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Undead",
@@ -32585,7 +32631,8 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   },
   {
     "name": "Varangur",
@@ -33745,6 +33792,7 @@
           }
         ]
       }
-    ]
+    ],
+    "unlockingUnits": []
   }
 ]
