@@ -24201,13 +24201,26 @@
         "size": "Monster",
         "modelCount": "1",
         "unitStrength": "1",
-        "attacks": "3",
+        "attacks": "1",
         "nerve": "11/13",
         "cost": 120,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Fly, Nimble, You may select one of the following options for free:, • Ramming Speed!: Increase Nerve to 13/15, attacks to 5 and Melee value to 4+. Gain the Thunderous Charge (1) and Vicious (Melee) special rules. for free, • Bombs Away!: Gain RA 4+ and Eye in the Sky: At the start of each of your Ranged phases you can immediately target and “mark” an Enemy unit anywhere within 24” of this unit regardless of Line of Sight. For the remainder of the Turn, all friendly Core units with the Lobber keyword, while targeting the marked enemy unit, have the Elite (Ranged) special rule. This special rule may not be used while the Winggit is Disordered. In addition it gains the following ranged attack: Firebombs: 12”, Attack: 3, Blast (D3), Piercing (1), Steady Aim, Vicious (Ranged). Ignore Cover special rule. for free",
-        "options": [],
+        "specialRules": "Fly, Nimble",
+        "options": [
+          {
+            "name": "Ramming Speed!: Increase Nerve to 13/15, attacks to 5 and Melee value to 4+. Gain the Thunderous Charge (1) and Vicious (Melee) special rules.",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Bombs Away!: Gain RA 4+ and Eye in the Sky: At the start of each of your Ranged phases you can immediately target and “mark” an Enemy unit anywhere within 24” of this unit regardless of Line of Sight. For the remainder of the Turn, all friendly Core units with the Lobber keyword, while targeting the marked enemy unit, have the Elite (Ranged) special rule. This special rule may not be used while the Winggit is Disordered. In addition it gains the following ranged attack: Firebombs: 12”, Attack: 3, Blast (D3), Piercing (1), Steady Aim, Vicious (Ranged). Ignore Cover special rule.",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Gizmo, Goblin",
         "type": "Monster",
         "height": "3",
