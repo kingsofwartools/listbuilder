@@ -27661,7 +27661,7 @@
         "melee": "4+",
         "ranged": "-",
         "defence": "5+",
-        "spellcaster": null
+        "spellcaster": 0
       },
       {
         "name": "Stormforged Shrine [1]",
