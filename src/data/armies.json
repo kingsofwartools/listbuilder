@@ -1356,7 +1356,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Dwarfs",
@@ -2535,7 +2536,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Elves",
@@ -3784,7 +3786,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Free Dwarfs",
@@ -4852,7 +4855,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Northern Alliance",
@@ -6010,7 +6014,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Order of the Brothermark",
@@ -7152,7 +7157,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Salamanders",
@@ -8401,7 +8407,23 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": [
+      {
+        "unit": {
+          "name": "Firebrand [1]",
+          "requiredOptions": []
+        },
+        "effect": {
+          "units": [
+            {
+              "name": "Corsairs*",
+              "noLongerIrregular": true
+            }
+          ]
+        }
+      }
+    ]
   },
   {
     "name": "Forces of Nature",
@@ -9823,7 +9845,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Halflings",
@@ -11041,7 +11064,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Kingdoms of Men",
@@ -12486,7 +12510,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "League of Rhordia",
@@ -13677,7 +13702,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Ogres",
@@ -14845,7 +14871,8 @@
           "heroMonsterTitanOrWarEngineUnique": 1
         }
       }
-    ]
+    ],
+    "armyWideRules": []
   },
   {
     "name": "Order of the Green Lady",
@@ -16036,7 +16063,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Sylvan Kin",
@@ -17288,7 +17316,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "The Herd",
@@ -18625,7 +18654,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Trident Realm of Neritica",
@@ -19772,7 +19802,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Abyssal Dwarfs",
@@ -20936,7 +20967,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Empire of Dust",
@@ -22342,7 +22374,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Forces of the Abyss",
@@ -23452,7 +23485,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Goblins",
@@ -24666,7 +24700,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Nightstalkers",
@@ -25637,7 +25672,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Orcs",
@@ -26968,7 +27004,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Riftforged Orcs",
@@ -27992,7 +28029,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Ratkin",
@@ -29020,7 +29058,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Ratkin Slaves",
@@ -29927,7 +29966,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Twilight Kin",
@@ -31023,7 +31063,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Undead",
@@ -32571,7 +32612,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Varangur",
@@ -33732,6 +33774,7 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   }
 ]

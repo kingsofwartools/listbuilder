@@ -11,6 +11,7 @@ import calculatePointsTotal from '../../helpers/points';
 import calculateDuplicates from '../../helpers/duplicates';
 import calculateDuplicateArtefacts from '../../helpers/artefacts';
 import calculateUnitLimits from '../../helpers/limits';
+import { applyArmyWideRulesToArmyList } from '../../helpers/army-wide-rules';
 
 const Index = () => {
   const [armies, setArmies] = useState([]);
@@ -47,10 +48,10 @@ const Index = () => {
     } else {
       return armyListState.map((army, index) => {
         if (index !== armyListIndex) return army;
-        return {
+        return applyArmyWideRulesToArmyList({
           ...army,
           units: [...army.units, selectedUnit],
-        };
+        });
       });
     }
   };
@@ -73,10 +74,10 @@ const Index = () => {
     const armyListIndex = armyListState.findIndex((armyList) => armyList.name === action.unit.armyName);
     const newArmylistState = armyListState.map((army, index) => {
       if (index !== armyListIndex) return army;
-      return {
+      return applyArmyWideRulesToArmyList({
         ...army,
         units: army.units.filter((unit) => unit.unitId !== action.unit.unitId),
-      };
+      });
     });
     const emptyArmy = newArmylistState.find((army) => army.units.length === 0);
     if (emptyArmy && selectedArmy === emptyArmy.name) {
