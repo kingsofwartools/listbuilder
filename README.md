@@ -17,14 +17,14 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 ## TODOS:
 
 ### Functionality
--incantation of the tempest
--legendary upgrade with choice of different types of upgrade/effect, eg. varangur devoted icon ('sharesLimitWith')
--things where an option disallows a particular other option/options
--things where an option disallows artefacts
--things where an option on one unit is an upgrade for another unit (including making them not irregular / removing their limit)
--limits other than [1] eg. night raiders upgrade
--exchange things for other things
--artefact limitations eg. taken on individuals only
+- incantation of the tempest
+- legendary upgrade with choice of different types of upgrade/effect, eg. varangur devoted icon ('sharesLimitWith')
+- things where an option disallows a particular other option/options
+- things where an option disallows artefacts
+- things where an option on one unit is an upgrade for another unit (including making them not irregular / removing their limit)
+- limits other than [1] eg. night raiders upgrade
+- exchange things for other things
+- artefact limitations eg. taken on individuals only
 
 ### Admin
 -second check formation spells
