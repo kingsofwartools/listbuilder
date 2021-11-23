@@ -17,6 +17,7 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 ## TODOS:
 
 ### Functionality
+-incantation of the tempest
 -legendary upgrade with choice of different types of upgrade/effect, eg. varangur devoted icon ('sharesLimitWith')
 -things where an option disallows a particular other option/options
 -things where an option disallows artefacts
