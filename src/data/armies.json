@@ -13600,8 +13600,15 @@
         "cost": 155,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Phalanx, Ensnare • Indomitable Will for +10 pts",
-        "options": [],
+        "specialRules": "Phalanx, Ensnare",
+        "options": [
+          {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
         "height": "2",
@@ -13621,8 +13628,15 @@
         "cost": 265,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Phalanx, Ensnare • Indomitable Will for +10 pts",
-        "options": [],
+        "specialRules": "Phalanx, Ensnare",
+        "options": [
+          {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
         "height": "2",
@@ -13642,8 +13656,15 @@
         "cost": 150,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Phalanx, Elite • Indomitable Will for +10 pts",
-        "options": [],
+        "specialRules": "Phalanx, Elite",
+        "options": [
+          {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
         "height": "2",
@@ -13663,8 +13684,15 @@
         "cost": 250,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Phalanx, Elite • Indomitable Will for +10 pts",
-        "options": [],
+        "specialRules": "Phalanx, Elite",
+        "options": [
+          {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
         "height": "2",
@@ -13684,8 +13712,15 @@
         "cost": 135,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Crushing Strength (1), Fury, Pathfinder • Indomitable Will for +10 pts",
-        "options": [],
+        "specialRules": "Crushing Strength (1), Fury, Pathfinder",
+        "options": [
+          {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
         "height": "2",
@@ -13705,8 +13740,15 @@
         "cost": 225,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Crushing Strength (1), Fury, Pathfinder • Indomitable Will for +10 pts",
-        "options": [],
+        "specialRules": "Crushing Strength (1), Fury, Pathfinder",
+        "options": [
+          {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
         "height": "2",
