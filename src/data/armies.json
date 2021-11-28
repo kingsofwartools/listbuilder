@@ -1356,7 +1356,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Dwarfs",
@@ -2535,7 +2536,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Elves",
@@ -3784,7 +3786,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Free Dwarfs",
@@ -4852,7 +4855,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Northern Alliance",
@@ -6010,7 +6014,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Order of the Brothermark",
@@ -7152,7 +7157,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Salamanders",
@@ -8401,7 +8407,18 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": [
+      {
+        "unit": {
+          "name": "Firebrand [1]",
+          "requiredOptions": []
+        },
+        "effect": {
+          "noLongerIrregular": "Corsairs*"
+        }
+      }
+    ]
   },
   {
     "name": "Forces of Nature",
@@ -9823,7 +9840,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Halflings",
@@ -11041,7 +11059,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Kingdoms of Men",
@@ -12486,7 +12505,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "League of Rhordia",
@@ -13571,16 +13591,100 @@
         "spellcaster": null
       },
       {
-        "name": "Dogs of War",
+        "name": "Dogs of War: The Shields of Hetronburg [1]",
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "3",
         "attacks": "15",
         "nerve": "13/15",
-        "cost": 105,
+        "cost": 155,
         "irregular": false,
-        "limit": 0,
-        "specialRules": "Must choose one of the unique options. • Indomitable Will for +10 pts • The Shields of Hetronburg [1] - Change Defence to 5+ and gain Phalanx and Ensnare for [+50/+90] pts • The Razors of Berlonviche [1] - Change Melee to 3+, gain Phalanx and Elite for [+45/+75] pts • Beasts of Targun Spire [1] - Gain Crushing Strength (1), Fury, and Pathfinder for [+30/+50] pts",
+        "limit": 1,
+        "specialRules": "Phalanx, Ensnare • Indomitable Will for +10 pts",
+        "options": [],
+        "keywords": "Human, Mercenaries",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Dogs of War: The Shields of Hetronburg [1]",
+        "size": "Horde",
+        "modelCount": "40",
+        "unitStrength": "4",
+        "attacks": "30",
+        "nerve": "20/22",
+        "cost": 265,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Phalanx, Ensnare • Indomitable Will for +10 pts",
+        "options": [],
+        "keywords": "Human, Mercenaries",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "4+",
+        "ranged": "-",
+        "defence": "5+",
+        "spellcaster": null
+      },
+      {
+        "name": "Dogs of War: The Razors of Berlonviche [1]",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "3",
+        "attacks": "15",
+        "nerve": "13/15",
+        "cost": 150,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Phalanx, Elite • Indomitable Will for +10 pts",
+        "options": [],
+        "keywords": "Human, Mercenaries",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Dogs of War: The Razors of Berlonviche [1]",
+        "size": "Horde",
+        "modelCount": "40",
+        "unitStrength": "4",
+        "attacks": "30",
+        "nerve": "20/22",
+        "cost": 250,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Phalanx, Elite • Indomitable Will for +10 pts",
+        "options": [],
+        "keywords": "Human, Mercenaries",
+        "type": "Infantry",
+        "height": "2",
+        "speed": "5",
+        "melee": "3+",
+        "ranged": "-",
+        "defence": "4+",
+        "spellcaster": null
+      },
+      {
+        "name": "Dogs of War: The Beasts of Targun Spire [1]",
+        "size": "Regiment",
+        "modelCount": "20",
+        "unitStrength": "3",
+        "attacks": "15",
+        "nerve": "13/15",
+        "cost": 135,
+        "irregular": false,
+        "limit": 1,
+        "specialRules": "Crushing Strength (1), Fury, Pathfinder • Indomitable Will for +10 pts",
         "options": [],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
@@ -13592,16 +13696,16 @@
         "spellcaster": null
       },
       {
-        "name": "Dogs of War",
+        "name": "Dogs of War: The Beasts of Targun Spire [1]",
         "size": "Horde",
         "modelCount": "40",
         "unitStrength": "4",
         "attacks": "30",
         "nerve": "20/22",
-        "cost": 175,
+        "cost": 225,
         "irregular": false,
-        "limit": 0,
-        "specialRules": "Must choose one of the unique options. • Indomitable Will for +10 pts • The Shields of Hetronburg [1] - Change Defence to 5+ and gain Phalanx and Ensnare for [+50/+90] pts • The Razors of Berlonviche [1] - Change Melee to 3+, gain Phalanx and Elite for [+45/+75] pts • Beasts of Targun Spire [1] - Gain Crushing Strength (1), Fury, and Pathfinder for [+30/+50] pts",
+        "limit": 1,
+        "specialRules": "Crushing Strength (1), Fury, Pathfinder • Indomitable Will for +10 pts",
         "options": [],
         "keywords": "Human, Mercenaries",
         "type": "Infantry",
@@ -13677,7 +13781,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Ogres",
@@ -14845,7 +14950,8 @@
           "heroMonsterTitanOrWarEngineUnique": 1
         }
       }
-    ]
+    ],
+    "armyWideRules": []
   },
   {
     "name": "Order of the Green Lady",
@@ -16036,7 +16142,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Sylvan Kin",
@@ -17288,7 +17395,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "The Herd",
@@ -18625,7 +18733,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Trident Realm of Neritica",
@@ -19772,7 +19881,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Abyssal Dwarfs",
@@ -20936,7 +21046,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Empire of Dust",
@@ -22342,7 +22453,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Forces of the Abyss",
@@ -23452,7 +23564,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Goblins",
@@ -24666,7 +24779,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Nightstalkers",
@@ -25637,7 +25751,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Orcs",
@@ -26968,7 +27083,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Riftforged Orcs",
@@ -27992,7 +28108,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Ratkin",
@@ -29020,7 +29137,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Ratkin Slaves",
@@ -29927,7 +30045,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Twilight Kin",
@@ -31023,7 +31142,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Undead",
@@ -32571,7 +32691,8 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   },
   {
     "name": "Varangur",
@@ -33732,6 +33853,7 @@
         ]
       }
     ],
-    "unlockingUnits": []
+    "unlockingUnits": [],
+    "armyWideRules": []
   }
 ]
