@@ -30610,7 +30610,7 @@
       },
       {
         "name": "Blade Dancer Neophytes",
-        "size": "Regiment",
+        "size": "Horde",
         "modelCount": "40",
         "unitStrength": "4",
         "attacks": "25",
