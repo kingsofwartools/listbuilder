@@ -983,7 +983,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Iron Resolve, Iron Resolve, Individual, Inspiring (Sisterhood only), Vicious (Melee), Wild Charge (D3)",
+        "specialRules": "Crushing Strength (1), Iron Resolve, Individual, Inspiring (Sisterhood only), Vicious (Melee), Wild Charge (D3)",
         "options": [
           {
             "name": "Mount on a Gur Panther, losing Wild Charge (D3) but increasing Speed to 10 and changing to Hero (Cav – Height: 3)",
@@ -21053,7 +21053,7 @@
               "text": "Defence 4+, Crushing Strength (1)",
               "affectsValues": [
                 {
-                  "melee": "4+"
+                  "defence": "4+"
                 }
               ]
             }
@@ -21069,7 +21069,7 @@
               "text": "Defence 4+, Crushing Strength (1)",
               "affectsValues": [
                 {
-                  "melee": "4+"
+                  "defence": "4+"
                 }
               ]
             }
