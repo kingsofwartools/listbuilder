@@ -3578,7 +3578,7 @@
         "cost": 60,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog and Wind Blast.",
+        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog, Surge and Wind Blast.",
         "options": [
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
@@ -3642,7 +3642,7 @@
         "name": "King's Champion [1]",
         "size": "Hero",
         "modelCount": "1",
-        "unitStrength": "1",
+        "unitStrength": "0",
         "attacks": "7",
         "nerve": "14/16",
         "cost": 145,
@@ -4886,7 +4886,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2)",
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -4920,7 +4920,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2)",
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -4954,7 +4954,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2)",
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -5937,7 +5937,7 @@
         "cost": 130,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Ensnare, Individual, Very Inspiring, Radiance of Life (Frostbound only), Frozen Winds: If one or more hits are scored with Serakina’s Wind Blast spell, the target enemy unit is given the Frozen special rule for the duration of its next Turn. Spells: Surge (8), Wind Blast (6)",
+        "specialRules": "Ensnare, Individual, Very Inspiring, Radiance of Life (Frostbound only), Frozen Winds: If one or more hits are scored with Serakina’s Wind Blast spell, the target enemy unit is given the Frozen special rule for the duration of its next Turn. Master of Ice: When targeting Friendly Core Frostbound units or Enemy units which have the Frozen special rule, this unit can reroll one of the dice that failed to hit with Bane Chant, Heal, Icy Breath, Wind Blast, Surge or Blizzard. Spells: Surge (8), Wind Blast (6)",
         "options": [],
         "keywords": "Frostbound",
         "type": "Infantry",
@@ -10716,7 +10716,7 @@
         "cost": 80,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Spellward, Unless disordered, immediately before giving this unit a Movement order, pick one of the following Special Rules and roll three dice. If any of the dice score a 4+, apply the Special Rule to this until the start of its following Movement Phase. If an (n) value is listed in the Special Rule, (n) is equal to the number of dice rolled that score a 4+. \\n• Aura (Wild Charge (+n) - Ravenous only) \\n• Aura (Brutal (n) - Ravenous only) \\n• Aura (Lifeleech (+n) - Ravenous only) \\n• Rally (n - Ravenous only)",
+        "specialRules": "Individual, Spellward, Gastromancy: Unless disordered, immediately before giving this unit a Movement order, pick one of the following Special Rules and roll three dice. If any of the dice score a 4+, apply the Special Rule to this until the start of its following Movement Phase. If an (n) value is listed in the Special Rule, (n) is equal to the number of dice rolled that score a 4+. \\n• Aura (Wild Charge (+n) - Ravenous only) \\n• Aura (Brutal (n) - Ravenous only) \\n• Aura (Lifeleech (+n) - Ravenous only) \\n• Rally (n - Ravenous only)",
         "options": [
           {
             "name": "Mount on a miniature Aralez, increasing Speed to 8 changing to Hero (Cav - Height: 3)",
@@ -16606,7 +16606,7 @@
         "cost": 60,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog and Wind Blast.",
+        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog, Surge and Wind Blast.",
         "options": [
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
@@ -18409,14 +18409,14 @@
         "spellcaster": null
       },
       {
-        "name": "Scorchwings",
+        "name": "Scorchwings*",
         "size": "Regiment",
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "7",
         "nerve": "11/13",
         "cost": 120,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Fly, Nimble, Pathfinder, Thunderous Charge (1), Firesparks: 18”, Steady Aim",
         "options": [],
@@ -18430,14 +18430,14 @@
         "spellcaster": null
       },
       {
-        "name": "Scorchwings",
+        "name": "Scorchwings*",
         "size": "Horde",
         "modelCount": "6",
         "unitStrength": "3",
         "attacks": "14",
         "nerve": "14/16",
         "cost": 200,
-        "irregular": false,
+        "irregular": true,
         "limit": 0,
         "specialRules": "Fly, Nimble, Pathfinder, Thunderous Charge (1), Firesparks: 18”, Steady Aim",
         "options": [],
@@ -24548,7 +24548,7 @@
         "cost": 60,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Makeshift Grenades: 12”, Blast (D3), Piercing (1), Shattering, Volatile Explosives: When your opponent rolls to damage against this unit, rolls of natural unmodified 6s deal 2 points of damage each instead of 1.",
+        "specialRules": "Individual, Makeshift Grenades: 12”, Att: 3, Blast (D3), Piercing (1), Shattering, Volatile Explosives: When your opponent rolls to damage against this unit, rolls of natural unmodified 6s deal 2 points of damage each instead of 1.",
         "options": [],
         "keywords": "Gizmo, Goblin",
         "type": "Infantry",
@@ -24584,7 +24584,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Groany Snark [1] - Increasing speed to 10 and gain the Fly, Thunderous Charge (2) and Blast (D3) special rules as well as Mini-Winggit Flight suit: Before being given an order in the movement phase other than Halt, Change Facing or Counter Charge, roll a D6. On a result of a 1 the flight suit malfunctions in spectacular fashion. All units, both Friendly and Enemy within 6” of it take a point of damage, including this unit. No Nerve tests are required for damage taken in this way. This unique upgrade cannot be taken in addition to a magical artefact or a mount.",
+            "name": "Groany Snark [1] - Increasing speed to 10 and gain the Fly, Thunderous Charge (2) and Blast (D3 - Melee) special rules as well as Mini-Winggit Flight suit: Before being given an order in the movement phase other than Halt, Change Facing or Counter Charge, roll a D6. On a result of a 1 the flight suit malfunctions in spectacular fashion. All units, both Friendly and Enemy within 6” of it take a point of damage, including this unit. No Nerve tests are required for damage taken in this way. This unique upgrade cannot be taken in addition to a magical artefact or a mount.",
             "cost": 30,
             "limit": 1,
             "disablesIrregular": false
@@ -27972,7 +27972,7 @@
         "cost": 50,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Arcane Smithy, Crushing Strength (2), Individual, Arcane Smithy: This unit may cast their Bane Chant or Host Shadow Beast spell while engaged with an enemy unit. If they do so, the Riftforger may ONLY target themselves, or another qualifying Friendly Core unit engaged with the same enemy unit as the Riftforger regardless of Line of Sight.",
+        "specialRules": "Crushing Strength (2), Individual, Arcane Smithy: This unit may cast their Bane Chant or Host Shadow Beast spell while engaged with an enemy unit, even if the Riftforger was issued a Charge order this turn. If they do so, they may only target Friendly Core units engaged with the same enemy as themselves, regardless of Line of Sight. The Riftforger itself is also a valid target for either spell when cast in this way.",
         "options": [
           {
             "name": "Upgrade with a Mount, increasing Speed to 8 and changing to Hero (Cav – Height: 3)",
@@ -30005,7 +30005,7 @@
         "spellcaster": null
       },
       {
-        "name": "Golekh Skinflayer [1]",
+        "name": "Cryza's Gore-Impaler [1]",
         "size": "Hero",
         "modelCount": "1",
         "unitStrength": "0",
