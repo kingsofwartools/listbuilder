@@ -1,9 +1,7 @@
 .multi-unit-row,
 .unit-row {
   margin-bottom: 2rem;
-  @media print {
-    break-inside: avoid;
-  }
+  break-inside: avoid;
 }
 
 .unit-header {

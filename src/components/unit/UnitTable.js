@@ -34,10 +34,9 @@ const UnitTable = ({ units, displayAddButton = false, addUnit = false }) => {
           <th>
             <p>Ne</p>
           </th>
-          <th className="d-print-none">
+          <th className="d-print-none" data-html2canvas-ignore>
             <p>Pts</p>
           </th>
-          <th className="d-print-none"></th>
         </tr>
         {units.map((unit) => (
           <UnitTableRow

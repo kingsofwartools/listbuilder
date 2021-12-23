@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import Unit from 'components/unit/Unit';
 import Button from 'components/common/Button';
 import ButtonRow from 'components/common/ButtonRow';
+import { ExportModal } from 'components/ExportModal';
 import UnlocksBanner from 'components/UnlocksBanner';
 import DuplicatesBanner from 'components/DuplicatesBanner';
 import { FormationDisplay } from 'components/unit/Formation';
@@ -20,6 +21,8 @@ const ArmyList = ({
   handleDeleteFormationFromList
 }) => {
   // The list the user has been building
+  const [showModal, setShowModal] = useState(false);
+  const htmlForPdfExport = useRef(null);
 
   const handleAddUnitClick = () => {
     goToDisplay('factionUnitsIndex');
@@ -41,8 +44,18 @@ const ArmyList = ({
     setFromArmyList(true);
   }
 
+  const handleExportClick = () => {
+    setShowModal(true);
+  }
+
   return (
-    <section className="army-list">
+    <section className="army-list" ref={htmlForPdfExport}>
+      <ExportModal
+        show={showModal}
+        onHide={() => setShowModal(false)}
+        exportElement={htmlForPdfExport.current}
+        pdfTitle={`${armyList[0].name} - ${Object.values(points).reduce((total, armyPoints) => total + armyPoints, 0)}pts`}
+      />
       {armyList.map((faction) => (
         <UnlocksBanner key={faction.name} armyName={faction.name} unallocated={unallocated} />
       ))}
@@ -75,7 +88,10 @@ const ArmyList = ({
           <div key={faction.name}>
             <div className="army-list__header">
               <h2 className="army-list__section-heading">{faction.name}</h2>
-              <p className="army-list__points">{points[faction.name]} points</p>
+              <div>
+                <p className="army-list__points">{points[faction.name]} points</p>
+                <Button text="Export" onClick={handleExportClick} size="sm"/>
+              </div>
             </div>
             {orderedFactionListWithFormations.map((unitOrFormation) => {
               if (unitOrFormation.formationName) {

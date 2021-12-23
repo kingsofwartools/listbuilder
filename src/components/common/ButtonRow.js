@@ -7,7 +7,7 @@ const ButtonRow = ({ children, sticky }) => {
   const childButtons = Array.isArray(children) ? children.filter((child) => child) : [children];
 
   return (
-    <Container className={`d-print-none button-row__container${sticky ? '--sticky' : ''}`}>
+    <Container data-html2canvas-ignore className={`d-print-none button-row__container${sticky ? '--sticky' : ''}`}>
       <Row className="button-row__row" noGutters={true}>
         {childButtons.map((childButton, i) => {
           return (
