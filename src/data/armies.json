@@ -3578,7 +3578,7 @@
         "cost": 60,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog and Wind Blast.",
+        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog, Surge and Wind Blast.",
         "options": [
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
@@ -16606,7 +16606,7 @@
         "cost": 60,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog and Wind Blast.",
+        "specialRules": "Individual, Master of Magic: This unit can re-roll all to hit rolls of a natural, unmodifed 1 with Bane Chant, Heal, Hex, Lightning Bolt, Mind Fog, Surge and Wind Blast.",
         "options": [
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
@@ -24548,7 +24548,7 @@
         "cost": 60,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Makeshift Grenades: 12”, Blast (D3), Piercing (1), Shattering, Volatile Explosives: When your opponent rolls to damage against this unit, rolls of natural unmodified 6s deal 2 points of damage each instead of 1.",
+        "specialRules": "Individual, Makeshift Grenades: 12”, Att: 3, Blast (D3), Piercing (1), Shattering, Volatile Explosives: When your opponent rolls to damage against this unit, rolls of natural unmodified 6s deal 2 points of damage each instead of 1.",
         "options": [],
         "keywords": "Gizmo, Goblin",
         "type": "Infantry",
