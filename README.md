@@ -1,6 +1,6 @@
 # Kings of War Listbuilder
 
-This app lets you create lists for Kings of War version 3, with Clash of Kings 2022 and FAQ 1.13 updates.
+This app lets you create lists for Kings of War version 3, with Clash of Kings 2022 and FAQ 1.14 updates.
 
 Functionality:
 - Warns you if your list doesn't conform to the list building rules around unlocks
