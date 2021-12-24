@@ -49,79 +49,83 @@ const ArmyList = ({
   }
 
   return (
-    <section className="army-list" ref={htmlForPdfExport}>
+    <>
       <ExportModal
         show={showModal}
         onHide={() => setShowModal(false)}
         exportElement={htmlForPdfExport.current}
         pdfTitle={`${armyList[0].name} - ${Object.values(points).reduce((total, armyPoints) => total + armyPoints, 0)}pts`}
       />
-      {armyList.map((faction) => (
-        <UnlocksBanner key={faction.name} armyName={faction.name} unallocated={unallocated} />
-      ))}
-      <DuplicatesBanner
-        tooManyDuplicates={tooManyDuplicates}
-        overLimits={overLimits}
-        artefactDuplicates={artefactDuplicates}
-        formationDuplicates={formationDuplicates}
-      />
-      {armyList.map((faction) => {
-        const formationsInList = faction.units.reduce((formationsArr, unit) => {
-          if (unit.formation && !formationsArr.includes(unit.formation)) formationsArr.push(unit.formation);
-          return formationsArr;
-        }, []);
-        const formationGroups = formationsInList.map(formationName => (
-          {
-            formationName,
-            units: faction.units.filter(unit => unit.formation === formationName),
-          }
-        ));
-        const orderedFactionListWithFormations = faction.units.reduce((factionList, unit) => {
-          if (!unit.formation) {
-            factionList.push(unit);
-          } else if (!factionList.find(element => element.formationName === unit.formation)) {
-            factionList.push(formationGroups.find(formation => formation.formationName === unit.formation));
-          }
-          return factionList;
-        }, [])
-        return (
-          <div key={faction.name}>
-            <div className="army-list__header">
-              <h2 className="army-list__section-heading">{faction.name}</h2>
-              <div>
-                <p className="army-list__points">{points[faction.name]} points</p>
-                <Button text="Export" onClick={handleExportClick} size="sm"/>
+      <section className="army-list" ref={htmlForPdfExport}>
+        <div className="army-list__export">
+          <Button variant="link" text="Export as PDF" onClick={handleExportClick} size="sm" />
+        </div>
+        {armyList.map((faction) => (
+          <UnlocksBanner key={faction.name} armyName={faction.name} unallocated={unallocated} />
+        ))}
+        <DuplicatesBanner
+          tooManyDuplicates={tooManyDuplicates}
+          overLimits={overLimits}
+          artefactDuplicates={artefactDuplicates}
+          formationDuplicates={formationDuplicates}
+        />
+        {armyList.map((faction) => {
+          const formationsInList = faction.units.reduce((formationsArr, unit) => {
+            if (unit.formation && !formationsArr.includes(unit.formation)) formationsArr.push(unit.formation);
+            return formationsArr;
+          }, []);
+          const formationGroups = formationsInList.map(formationName => (
+            {
+              formationName,
+              units: faction.units.filter(unit => unit.formation === formationName),
+            }
+          ));
+          const orderedFactionListWithFormations = faction.units.reduce((factionList, unit) => {
+            if (!unit.formation) {
+              factionList.push(unit);
+            } else if (!factionList.find(element => element.formationName === unit.formation)) {
+              factionList.push(formationGroups.find(formation => formation.formationName === unit.formation));
+            }
+            return factionList;
+          }, [])
+          return (
+            <div key={faction.name}>
+              <div className="army-list__header">
+                <h2 className="army-list__section-heading">{faction.name}</h2>
+                <div>
+                  <p className="army-list__points">{points[faction.name]} points</p>
+                </div>
               </div>
-            </div>
-            {orderedFactionListWithFormations.map((unitOrFormation) => {
-              if (unitOrFormation.formationName) {
-                return <FormationDisplay
-                  key={unitOrFormation.formationName}
-                  view={'armyList'}
-                  deleteFormation={handleDeleteFormationFromList}
-                  formationUnits={unitOrFormation.units}
-                  formationName={unitOrFormation.formationName}
-                  handleClickEdit={handleFormationEditUnitClick}
-                  />
-              } else {
-                return (
-                  <Unit
-                    unit={unitOrFormation}
-                    key={unitOrFormation.unitId}
-                    displayEditButton={true}
-                    handleClickEdit={handleEditUnitClick}
+              {orderedFactionListWithFormations.map((unitOrFormation) => {
+                if (unitOrFormation.formationName) {
+                  return <FormationDisplay
+                    key={unitOrFormation.formationName}
                     view={'armyList'}
-                  />
-                );
-              }
-            })}
-          </div>
-        );
-      })}
-      <ButtonRow sticky={true}>
-        <Button text="Add another unit" onClick={handleAddUnitClick} variant="success" />
-      </ButtonRow>
-    </section>
+                    deleteFormation={handleDeleteFormationFromList}
+                    formationUnits={unitOrFormation.units}
+                    formationName={unitOrFormation.formationName}
+                    handleClickEdit={handleFormationEditUnitClick}
+                    />
+                } else {
+                  return (
+                    <Unit
+                      unit={unitOrFormation}
+                      key={unitOrFormation.unitId}
+                      displayEditButton={true}
+                      handleClickEdit={handleEditUnitClick}
+                      view={'armyList'}
+                    />
+                  );
+                }
+              })}
+            </div>
+          );
+        })}
+        <ButtonRow sticky={true}>
+          <Button text="Add another unit" onClick={handleAddUnitClick} variant="success" />
+        </ButtonRow>
+      </section>
+    </>
   );
 };
 
