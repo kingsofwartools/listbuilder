@@ -216,7 +216,7 @@ const Index = () => {
       <main>
         <header>
           <p className="switch-view">
-            This listbuilder contains units available in Kings of War v3 rules, including FAQs up to 1.13 and Clash
+            This listbuilder contains units available in Kings of War v3 rules, including FAQs up to 1.14 and Clash
             of Kings 2022. It is currently in Beta whilst the updates are being doublechecked and edge case functionality added.
           </p>
         </header>
