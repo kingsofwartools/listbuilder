@@ -17,7 +17,6 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 ## TODOS:
 
 ### Functionality
-- incantation of the tempest
 - legendary upgrade with choice of different types of upgrade/effect, eg. varangur devoted icon ('sharesLimitWith')
 - things where an option disallows a particular other option/options
 - things where an option disallows artefacts
@@ -25,13 +24,6 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 - limits other than [1] eg. night raiders upgrade
 - exchange things for other things
 - artefact limitations eg. taken on individuals only
-
-### Admin
--second check formation spells
--second check army updates & new units including shared ones
--second check formations
--second check new armies
--second check artefacts
 
 
 ## Dev stuff
