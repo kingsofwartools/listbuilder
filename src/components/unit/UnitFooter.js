@@ -10,7 +10,7 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
     [...calculateAvailableSpells(unit.unitDetails.spellcaster + 1)].filter(
       (spell) =>
         !enrichedUnit.unitDetails.options.find((allocatedSpell) => {
-          return allocatedSpell.nValue
+          return (allocatedSpell.nValue || allocatedSpell.nValue === 0)
             ? allocatedSpell.name === spell.name && allocatedSpell.nValue === spell.nValue
             : allocatedSpell.name === spell.name;
         })

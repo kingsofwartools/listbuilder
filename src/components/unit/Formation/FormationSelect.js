@@ -6,7 +6,6 @@ const FormationSelect = ({ army, addFormation, alreadyAddedFormations }) => {
     army.formations.map(formation => {
       const formationUnits = formation.units.map(formationUnit => {
         const armyUnit = army.units.find(unit => unit.name === formationUnit.unitName && unit.size === formationUnit.size);
-        if (!armyUnit) console.log(formationUnit.unitName);
         const unitCost = formationUnit.formationUpgrade ?
           armyUnit.cost + formationUnit.formationUpgrade.cost + formationUnit.requiredOptions.reduce((totalOptionsCost, option) => totalOptionsCost + option.cost, 0) :
           armyUnit.cost + formationUnit.requiredOptions.reduce((totalOptionsCost, option) => totalOptionsCost + option.cost, 0)
