@@ -7094,7 +7094,7 @@
         "spellcaster": 1
       },
       {
-        "name": "High Chaplain Augustus",
+        "name": "High Chaplain Augustus [1]",
         "size": "Hero",
         "modelCount": "1",
         "unitStrength": "0",
@@ -7102,7 +7102,7 @@
         "nerve": "13/15",
         "cost": 145,
         "irregular": false,
-        "limit": 0,
+        "limit": 1,
         "specialRules": "Crushing Strength (1), Elite (Melee), Individual, Iron Resolve, Inspiring, Mighty, Rally (1 - Human only) Spells: Heal (5), Bane Chant (3)",
         "options": [],
         "keywords": "Human, Paladin",
@@ -19474,7 +19474,7 @@
         "cost": 95,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Leviathan Bolts: 48”, Blast (D3), Piercing (3), Reload, Harpoon: After dealing damage with this unit’s Leviathan Bolts attack, you may choose to immediately move the enemy unit (n) inches as if Enthral had been cast successfully on the target unit, where (n) is the amount of damage inflicted with the Leviathan Bolts attack.",
+        "specialRules": "Leviathan Bolts: 48”, Blast (D3), Piercing (2), Reload, Harpoon: After dealing damage with this unit’s Leviathan Bolts attack, you may choose to immediately move the enemy unit (n) inches as if Enthral had been cast successfully on the target unit, where (n) is the amount of damage inflicted with the Leviathan Bolts attack.",
         "options": [
           {
             "name": "Increase Leviathan Bolts to Piercing (3)",

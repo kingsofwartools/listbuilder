@@ -7,7 +7,6 @@ const MultiUnit = ({ units, addUnit, view, displayAddButton }) => {
   const unitOptionsDisplay = units.reduce((optionsArr, unit) => {
     if (unit.unitDetails.options.length) {
       unit.unitDetails.options.forEach(option => {
-        if (unit.unitDetails.name === 'Stone Priest') console.log('option', option);
         const processedMatchingOptionIndex = optionsArr.findIndex(processedOption => processedOption.name === option.name);
         if (processedMatchingOptionIndex !== -1) {
           const displayCost = optionsArr[processedMatchingOptionIndex].displayCost;

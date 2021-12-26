@@ -9,10 +9,17 @@ export const enrichUnitOptionsWithArcaneLibrary = (unit) => {
     'limit': 1,
     'disablesIrregular': false
   };
+
+  const tempestOption = {
+    'name': 'Incantation of the Tempest [1]',
+    'cost': 10,
+    'limit': 1,
+    'disablesIrregular': false
+  }
   
   if (isEligibleForArcaneLibrarySpells) {
     const availableArcaneLibrarySpells = calculateAvailableSpells(spellcasterLevel);
-    return { ...unit, unitDetails: { ...unit.unitDetails, options: [...unit.unitDetails.options, knowledgeableOption, ...availableArcaneLibrarySpells] }};
+    return { ...unit, unitDetails: { ...unit.unitDetails, options: [...unit.unitDetails.options, knowledgeableOption, tempestOption, ...availableArcaneLibrarySpells] }};
   } else {
     return unit;
   }
