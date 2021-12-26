@@ -37,6 +37,12 @@ const UnitFooter = ({ unit, view, selectOption, deselectOption, selectArtefact, 
             (<span>{splitSpecialRules.length ? ', ' : ''}{unit.formationUpgrade.name}: {unit.formationUpgrade.text} ({unit.formationUpgrade.cost}pts)</span>)
           }
         </p>
+        {unit.unitDetails.spells && (
+          <p>
+            <span className="unit-footer__label">Spells: </span>
+            {unit.unitDetails.spells}
+          </p>
+        )}
         <p>
           <span className="unit-footer__label">Keywords: </span>
           {unit.formationUpgrade && unit.formationUpgrade.addsKeywords ? `${unit.unitDetails.keywords}, ${unit.formationUpgrade.addsKeywords.join(', ')}` : unit.unitDetails.keywords}
