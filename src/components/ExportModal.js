@@ -4,15 +4,18 @@ import Form from 'react-bootstrap/Form';
 import Button from 'components/common/Button';
 import html2pdf from 'html2pdf.js';
 
-export const ExportModal = ({ exportElement, pdfTitle, ...otherProps}) => {
+export const ExportModal = ({ exportElement, pdfTitle, onHide, ...otherProps}) => {
 
-  const [pageSize, setPageSize] = useState('a4');
-  const [verticalMargin, setVerticalMargin] = useState(0.5);
-  const [horizontalMargin, setHorizontalMargin] = useState(0.5);
+  const [pageSize, setPageSize] = useState(localStorage.pageSize || 'a4');
+  const [verticalMargin, setVerticalMargin] = useState((localStorage.verticalMargin && Number(localStorage.verticalMargin)) || 0.5);
+  const [horizontalMargin, setHorizontalMargin] = useState((localStorage.horizontalMargin && Number(localStorage.horizontalMargin)) || 0.5);
   const [fileName, setFileName] = useState(pdfTitle);
 
-  const exportPdf = () => {
-    html2pdf(exportElement, {
+  const exportPdf = async () => {
+    localStorage.pageSize = pageSize;
+    localStorage.verticalMargin = verticalMargin;
+    localStorage.horizontalMargin = horizontalMargin;
+    await html2pdf(exportElement, {
       pagebreak: {
         mode: 'css'
       },
@@ -22,11 +25,13 @@ export const ExportModal = ({ exportElement, pdfTitle, ...otherProps}) => {
       html2canvas: {},
       jsPDF: { unit: 'in', format: pageSize, orientation: 'portrait' }
     });
+    onHide();
   }
 
   return (
     <Modal
       {...otherProps}
+      onHide={() => onHide()}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
@@ -55,7 +60,6 @@ export const ExportModal = ({ exportElement, pdfTitle, ...otherProps}) => {
               <option value="0.25">0.25"</option>
               <option value="0.5">0.5"</option>
               <option value="1">1"</option>
-              <option value="1.5">1.5"</option>
             </Form.Control>
           </Form.Group>
           <Form.Group controlId="exportPdfForm.horizontalMargin">
@@ -64,7 +68,6 @@ export const ExportModal = ({ exportElement, pdfTitle, ...otherProps}) => {
               <option value="0.25">0.25"</option>
               <option value="0.5">0.5"</option>
               <option value="1">1"</option>
-              <option value="1.5">1.5"</option>
             </Form.Control>
           </Form.Group>
         </Form>
