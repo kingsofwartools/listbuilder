@@ -47,6 +47,17 @@
   }
 }
 
+.print {
+  .unit-header {
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    background-color: #ccc;
+    &__unit-name {
+      font-size: 1.5rem;
+    }
+  }
+}
+
 .unit-footer {
   padding-left: 0.5rem;
 

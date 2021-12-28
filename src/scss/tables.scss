@@ -28,3 +28,17 @@
     }
   }
 }
+
+.print {
+  .table {
+    td,
+    th {
+      &:not(:first-child) {
+        width: 60px;
+      }
+    }
+    th {
+      font-size: 1rem;
+    }
+  }
+}

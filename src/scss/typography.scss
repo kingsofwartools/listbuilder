@@ -5,6 +5,12 @@ body {
   }
 }
 
+.print {
+  section {
+    font-size: 1.2rem;
+  }
+}
+
 button {
   &.btn-sm {
     height: 1.5rem;

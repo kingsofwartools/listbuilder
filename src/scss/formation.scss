@@ -35,3 +35,11 @@
     color: #fff;
   }
 }
+
+.print {
+  .formation {
+    &__formation-name, &__formation-cost {
+      color: #000;
+    }
+  }
+}
