@@ -18005,7 +18005,7 @@
       {
         "faction": "Sylvan Kin",
         "name": "Wardens of the Sacred Groves",
-        "description": "All units gain the Scout special rule Ar'iana, uses the profile of an Elven King. She gains the Pathfinder and Scout special rules. She must also have the Wanderer upgrade. Both The Wardens of the Groves units gain the Scout special rule.",
+        "description": "All units gain the Scout special rule. Ar'iana uses the profile of an Elven King. She gains the Pathfinder and Scout special rules. She must also have the Wanderer upgrade. Both The Wardens of the Groves units gain the Scout special rule.",
         "units": [
           {
             "unitName": "Elven King",
@@ -26392,8 +26392,8 @@
         "spells": "",
         "options": [
           {
-            "name": "Aura (Vicious (Melee) - Infantry only)",
-            "cost": 30,
+            "name": "Radiance of Life",
+            "cost": 35,
             "limit": 0,
             "disablesIrregular": false
           }
