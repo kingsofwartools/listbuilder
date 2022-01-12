@@ -28576,7 +28576,7 @@
           {
             "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
             "cost": 10,
-            "limit": 0,
+            "limit": 2,
             "disablesIrregular": false
           }
         ],
@@ -28605,7 +28605,7 @@
           {
             "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
             "cost": 10,
-            "limit": 0,
+            "limit": 2,
             "disablesIrregular": false
           }
         ],
@@ -34489,7 +34489,7 @@
           {
             "name": "Wolf Handlers [3]: Gain Aura (Vicious (Melee) - Tundra Wolf only) and Scout",
             "cost": 15,
-            "limit": 0,
+            "limit": 3,
             "disablesIrregular": false
           }
         ],
@@ -34524,7 +34524,7 @@
           {
             "name": "Wolf Handlers [3]: Gain Aura (Vicious (Melee) - Tundra Wolf only) and Scout",
             "cost": 15,
-            "limit": 0,
+            "limit": 3,
             "disablesIrregular": false
           }
         ],
