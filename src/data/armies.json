@@ -14087,16 +14087,16 @@
         "spellcaster": null
       },
       {
-        "name": "Dogs of War: The Shields of Hetronburg [1]",
+        "name": "Dogs of War",
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "3",
         "attacks": "15",
         "nerve": "13/15",
-        "cost": 155,
+        "cost": 105,
         "irregular": false,
-        "limit": 1,
-        "specialRules": "Phalanx, Ensnare",
+        "limit": 0,
+        "specialRules": "Must choose one of the unique options.",
         "spells": "",
         "options": [
           {
@@ -14104,121 +14104,23 @@
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
-          }
-        ],
-        "keywords": "Human, Mercenaries",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "5",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Dogs of War: The Shields of Hetronburg [1]",
-        "size": "Horde",
-        "modelCount": "40",
-        "unitStrength": "4",
-        "attacks": "30",
-        "nerve": "20/22",
-        "cost": 265,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Phalanx, Ensnare",
-        "spells": "",
-        "options": [
+          },
           {
-            "name": "Indomitable Will",
-            "cost": 10,
-            "limit": 0,
+            "name": "The Shields of Hetronburg [1] - Change Defence to 5+ and gain Phalanx and Ensnare",
+            "cost": 50,
+            "limit": 1,
             "disablesIrregular": false
-          }
-        ],
-        "keywords": "Human, Mercenaries",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "5",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Dogs of War: The Razors of Berlonviche [1]",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "15",
-        "nerve": "13/15",
-        "cost": 150,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Phalanx, Elite",
-        "spells": "",
-        "options": [
+          },
           {
-            "name": "Indomitable Will",
-            "cost": 10,
-            "limit": 0,
+            "name": "The Razors of Berlonviche [1] - Change Melee to 3+, gain Phalanx and Elite",
+            "cost": 45,
+            "limit": 1,
             "disablesIrregular": false
-          }
-        ],
-        "keywords": "Human, Mercenaries",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "5",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Dogs of War: The Razors of Berlonviche [1]",
-        "size": "Horde",
-        "modelCount": "40",
-        "unitStrength": "4",
-        "attacks": "30",
-        "nerve": "20/22",
-        "cost": 250,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Phalanx, Elite",
-        "spells": "",
-        "options": [
+          },
           {
-            "name": "Indomitable Will",
-            "cost": 10,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Human, Mercenaries",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "5",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Dogs of War: The Beasts of Targun Spire [1]",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "15",
-        "nerve": "13/15",
-        "cost": 135,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Crushing Strength (1), Fury, Pathfinder",
-        "spells": "",
-        "options": [
-          {
-            "name": "Indomitable Will",
-            "cost": 10,
-            "limit": 0,
+            "name": "Beasts of Targun Spire [1] - Gain Crushing Strength (1), Fury, and Pathfinder",
+            "cost": 30,
+            "limit": 1,
             "disablesIrregular": false
           }
         ],
@@ -14232,22 +14134,40 @@
         "spellcaster": null
       },
       {
-        "name": "Dogs of War: The Beasts of Targun Spire [1]",
+        "name": "Dogs of War",
         "size": "Horde",
         "modelCount": "40",
         "unitStrength": "4",
         "attacks": "30",
         "nerve": "20/22",
-        "cost": 225,
+        "cost": 175,
         "irregular": false,
-        "limit": 1,
-        "specialRules": "Crushing Strength (1), Fury, Pathfinder",
+        "limit": 0,
+        "specialRules": "Must choose one of the unique options.",
         "spells": "",
         "options": [
           {
             "name": "Indomitable Will",
             "cost": 10,
             "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "The Shields of Hetronburg [1] - Change Defence to 5+ and gain Phalanx and Ensnare",
+            "cost": 90,
+            "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "The Razors of Berlonviche [1] - Change Melee to 3+, gain Phalanx and Elite",
+            "cost": 75,
+            "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Beasts of Targun Spire [1] - Gain Crushing Strength (1), Fury, and Pathfinder",
+            "cost": 50,
+            "limit": 1,
             "disablesIrregular": false
           }
         ],
@@ -28650,11 +28570,11 @@
         "cost": 135,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Pathfinder, Spellward After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
+        "specialRules": "Crushing Strength (1), Pathfinder, Spellward",
         "spells": "",
         "options": [
           {
-            "name": "Visions from the Rift: May take Visions from the Rift [2]",
+            "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
@@ -28679,11 +28599,11 @@
         "cost": 225,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Pathfinder, Spellward After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
+        "specialRules": "Crushing Strength (1), Pathfinder, Spellward",
         "spells": "",
         "options": [
           {
-            "name": "Visions from the Rift: May take Visions from the Rift [2]",
+            "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
@@ -29098,7 +29018,7 @@
         "cost": 190,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Crushing Strength (2), Inspiring, Nimble, Pathfinder, Spellward Visions from the Rift: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone. Grand Seer: The [2] restriction for Visions from the Rift is lifted from any army that includes Vohdler.",
+        "specialRules": "Crushing Strength (2), Inspiring, Nimble, Pathfinder, Spellward, Visions from the Rift: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone. Grand Seer: The [2] restriction for Visions from the Rift is lifted from any army that includes Vohdler.",
         "spells": "",
         "options": [],
         "keywords": "Cyclopes, Riftforged",
