@@ -22446,7 +22446,7 @@
         "spellcaster": null
       },
       {
-        "name": "Cavalry",
+        "name": "Revenant Cavalry",
         "size": "Troop",
         "modelCount": "5",
         "unitStrength": "1",
@@ -22468,7 +22468,7 @@
         "spellcaster": null
       },
       {
-        "name": "Cavalry",
+        "name": "Revenant Cavalry",
         "size": "Regiment",
         "modelCount": "10",
         "unitStrength": "3",
