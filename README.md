@@ -27,7 +27,6 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 - exchange things for other things
 - artefact limitations eg. taken on individuals only
 
-
 ## Dev stuff
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
