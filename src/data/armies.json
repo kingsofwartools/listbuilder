@@ -892,7 +892,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Iron Discipline [1] - Unless Disordered, at the start of each of your Ranged phases, you may select a single Friendly Core unit with the Human keyword within 12” of the Dictator and Line of Sight. This unit immediately suffers D3 points of damage and gains Vicious (Melee) and Inspiring (Self) until the start of their following Turn. No Nerve tests are required for damage caused in this way",
+            "name": "Iron Discipline [1] - Unless Disordered, at the start of each of your Ranged phases, you may select a single Friendly Core unit with the Human keyword within 12” of the Dictator and Line of Sight. This unit immediately suffers D3 points of damage and gains Vicious (Melee) and Inspiring (Self) until the start of their following Turn. No Nerve tests are required for damage caused in this way.",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
@@ -2271,7 +2271,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Horn of Heroes [1] - Friendly Core units within 6” of this unit can reroll failed Headstrong rolls. This unique upgrade cannot be taken in addition to a magical artefact",
+            "name": "Horn of Heroes [1] - Friendly Core units within 6” of this unit can reroll failed Headstrong rolls. This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
@@ -6819,7 +6819,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Iron Discipline [1] - Unless Disordered, at the start of each of your Ranged phases, you may select a single Friendly Core unit with the Human keyword within 12” of the Dictator and Line of Sight. This unit immediately suffers D3 points of damage and gains Vicious (Melee) and Inspiring (Self) until the start of their following Turn. No Nerve tests are required for damage caused in this way",
+            "name": "Iron Discipline [1] - Unless Disordered, at the start of each of your Ranged phases, you may select a single Friendly Core unit with the Human keyword within 12” of the Dictator and Line of Sight. This unit immediately suffers D3 points of damage and gains Vicious (Melee) and Inspiring (Self) until the start of their following Turn. No Nerve tests are required for damage caused in this way.",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
@@ -7251,7 +7251,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Lead from the Front [1] - Gain Rallying (1 - Infantry only) Note: This upgrade cannot be taken in addition to a Horse mount",
+            "name": "Lead from the Front [1] - Gain Rallying (1 - Infantry only) Note: This upgrade cannot be taken in addition to a Horse mount.",
             "cost": 10,
             "limit": 1,
             "disablesIrregular": false
@@ -7292,19 +7292,19 @@
             "disablesIrregular": false
           },
           {
-            "name": "Order of the Bear: Replace Slayer (Melee - D3) with Slayer (Melee - D6). This option cannot be taken with a mount or with another order upgrade",
+            "name": "Order of the Bear: Replace Slayer (Melee - D3) with Slayer (Melee - D6). This option cannot be taken with a mount or with another order upgrade.",
             "cost": 15,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Order of the Lone Wolf: Replace Slayer (Melee - D3) with Rampage (Melee - D3) and gain Pathfinder, Scout, and increase Speed to 6. This option cannot be taken with a mount or with another order upgrade",
+            "name": "Order of the Lone Wolf: Replace Slayer (Melee - D3) with Rampage (Melee - D3) and gain Pathfinder, Scout, and increase Speed to 6. This option cannot be taken with a mount or with another order upgrade.",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Order of the Hawk: Gain Ra 4+, Slayer (Ranged - D3) and Silver Crossbow: 18”, Piercing (1). This option cannot be taken with a mount or with another order upgrade",
+            "name": "Order of the Hawk: Gain Ra 4+, Slayer (Ranged - D3) and Silver Crossbow: 18”, Piercing (1). This option cannot be taken with a mount or with another order upgrade.",
             "cost": 25,
             "limit": 0,
             "disablesIrregular": false
@@ -8408,7 +8408,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Path of Fire [1] - Gain Aura (Pathfinder - Heavy Infantry only) Note: This unique upgrade cannot be taken in addition to a magical artefact or a Raptor mount",
+            "name": "Path of Fire [1] - Gain Aura (Pathfinder - Heavy Infantry only) Note: This unique upgrade cannot be taken in addition to a magical artefact or a Raptor mount.",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
@@ -9807,7 +9807,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Ring of Harmony [1]: Once per Turn, after casting a spell targeting a Friendly Core Elemental unit, this unit may immediately target a different Friendly Core Elemental unit with the same or a different spell",
+            "name": "Ring of Harmony [1]: Once per Turn, after casting a spell targeting a Friendly Core Elemental unit, this unit may immediately target a different Friendly Core Elemental unit with the same or a different spell.",
             "cost": 25,
             "limit": 1,
             "disablesIrregular": false
@@ -9893,7 +9893,7 @@
         "spells": "Surge (8)",
         "options": [
           {
-            "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10, Nerve to -/19 and gaining Aura (Vicious - Verdant Only) & Cloak of Death. This upgrade cannot be taken in addition to a magical artefact",
+            "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10, Nerve to -/19 and gaining Aura (Vicious - Verdant Only) & Cloak of Death. This upgrade cannot be taken in addition to a magical artefact.",
             "cost": 40,
             "limit": 1,
             "disablesIrregular": false
@@ -9922,7 +9922,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Guiding Flame [1] - Gain Aura (Elite (Melee) - Salamander only). This unique upgrade cannot be taken in conjunction with a magical artefact",
+            "name": "Guiding Flame [1] - Gain Aura (Elite (Melee) - Salamander only). This unique upgrade cannot be taken in conjunction with a magical artefact.",
             "cost": 20,
             "limit": 1,
             "disablesIrregular": false
@@ -11199,7 +11199,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Gain Scout. This cannot be in addition to the mount",
+            "name": "Gain Scout. This cannot be in addition to the mount.",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
@@ -12900,19 +12900,19 @@
             "disablesIrregular": false
           },
           {
-            "name": "Crown of Chivalry - Gain Rallying (2 - Knight only). May not be taken with the Sceptre of Vigor or the Sword of Mercy",
+            "name": "Crown of Chivalry - Gain Rallying (2 - Knight only). May not be taken with the Sceptre of Vigor or the Sword of Mercy.",
             "cost": 20,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Sceptre of Vigor - Gain Aura (Vicious - Berserker only). May not be taken with the Crown of Chivalry or the Sword of Mercy",
+            "name": "Sceptre of Vigor - Gain Aura (Vicious - Berserker only). May not be taken with the Crown of Chivalry or the Sword of Mercy.",
             "cost": 20,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Sword of Mercy - Gain Slayer (Melee - 3). May not be taken with the Crown of Chivalry or the Sceptre of Vigor",
+            "name": "Sword of Mercy - Gain Slayer (Melee - 3). May not be taken with the Crown of Chivalry or the Sceptre of Vigor.",
             "cost": 15,
             "limit": 0,
             "disablesIrregular": false
@@ -13901,7 +13901,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Swap shield for 2-handed weapon, decreasing Defence to 4+ and gaining Crushing Strength (2). This option may not be taken with a mount",
+            "name": "Swap shield for 2-handed weapon, decreasing Defence to 4+ and gaining Crushing Strength (2). This option may not be taken with a mount.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -13936,7 +13936,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Gain Scout. This cannot be in addition to the mount",
+            "name": "Gain Scout. This cannot be in addition to the mount.",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
@@ -15026,7 +15026,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade to The Big Deal [1] - Increasing to Brutal (2) and gain both the Very Inspiring special rule, as well as the Call to Greatness unique special rule. Call to Greatness. As long as this unit is present and in play on the table, at the start of each of your Melee phases you may select a single friendly Core unit with the Ogre keyword within 12” regardless of Line of Sight. The selected unit is granted the Brutal (+1) special rule until the start of your next Turn",
+            "name": "Upgrade to The Big Deal [1] - Increasing to Brutal (2) and gain both the Very Inspiring special rule, as well as the Call to Greatness unique special rule. Call to Greatness. As long as this unit is present and in play on the table, at the start of each of your Melee phases you may select a single friendly Core unit with the Ogre keyword within 12” regardless of Line of Sight. The selected unit is granted the Brutal (+1) special rule until the start of your next Turn.",
             "cost": 30,
             "limit": 1,
             "disablesIrregular": false
@@ -17076,7 +17076,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Wanderer - Lower Defence to 4+, increasing both Speed and Attacks to 7 and gaining Pathfinder. This may not be taken with a mount",
+            "name": "Wanderer - Lower Defence to 4+, increasing both Speed and Attacks to 7 and gaining Pathfinder. This may not be taken with a mount.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -17817,7 +17817,7 @@
         "spells": "Surge (8)",
         "options": [
           {
-            "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10 and its Rout Nerve value by +1 and gaining both Aura (Vicious - Verdant only) and Cloak of Death. This upgrade cannot be taken in addition to a magical artefact",
+            "name": "Upgrade to The Wiltfather [1] - Losing Radiance of Life, Increasing Attacks to 10 and its Rout Nerve value by +1 and gaining both Aura (Vicious - Verdant only) and Cloak of Death. This upgrade cannot be taken in addition to a magical artefact.",
             "cost": 40,
             "limit": 1,
             "disablesIrregular": false
@@ -18454,7 +18454,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Ring of Harmony [1]: Once per Turn, after casting a spell targeting a Friendly Core Elemental unit, this unit may immediately target a different Friendly Core Elemental unit with the same or a different spell",
+            "name": "Ring of Harmony [1]: Once per Turn, after casting a spell targeting a Friendly Core Elemental unit, this unit may immediately target a different Friendly Core Elemental unit with the same or a different spell.",
             "cost": 25,
             "limit": 1,
             "disablesIrregular": false
@@ -20335,7 +20335,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Horn of Ocean’s Fury [1] - Gain Aura (Fury - Infantry & Heavy Infantry only). This unique upgrade cannot be taken in conjunction with a magical artefact",
+            "name": "Horn of Ocean’s Fury [1] - Gain Aura (Fury - Infantry & Heavy Infantry only). This unique upgrade cannot be taken in conjunction with a magical artefact.",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
@@ -20614,7 +20614,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Fiery Bulwark [1] - This unit gains the Iron Resolve special rule. When this unit’s Iron Resolve is used, it can regain D3 points of damage previously suffered, instead of one",
+            "name": "Fiery Bulwark [1] - This unit gains the Iron Resolve special rule. When this unit’s Iron Resolve is used, it can regain D3 points of damage previously suffered, instead of one.",
             "cost": 10,
             "limit": 1,
             "disablesIrregular": false
@@ -20655,7 +20655,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Fiery Bulwark [1] - This unit gains the Iron Resolve special rule. When this unit’s Iron Resolve is used, it can regain D3 points of damage previously suffered, instead of one",
+            "name": "Fiery Bulwark [1] - This unit gains the Iron Resolve special rule. When this unit’s Iron Resolve is used, it can regain D3 points of damage previously suffered, instead of one.",
             "cost": 10,
             "limit": 1,
             "disablesIrregular": false
@@ -20696,7 +20696,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Fiery Bulwark [1] - This unit gains the Iron Resolve special rule. When this unit’s Iron Resolve is used, it can regain D3 points of damage previously suffered, instead of one",
+            "name": "Fiery Bulwark [1] - This unit gains the Iron Resolve special rule. When this unit’s Iron Resolve is used, it can regain D3 points of damage previously suffered, instead of one.",
             "cost": 10,
             "limit": 1,
             "disablesIrregular": false
@@ -21360,7 +21360,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Infernal Advance [1] - Gain Aura (Strider - Infantry only). This unique upgrade cannot be taken in addition to a magical artefact",
+            "name": "Infernal Advance [1] - Gain Aura (Strider - Infantry only). This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 20,
             "limit": 1,
             "disablesIrregular": false
@@ -22913,7 +22913,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade to Rahs The Undying [1] - Replacing Inspiring with Very Inspiring and Increasing the unit’s Rout value by +1. The unit also gains Restore Ancient Glory: While attacking the same enemy unit as Rahs the Undying in Melee, Core friendly units with the Skeleton keyword may replace their own Melee value with Rahs’ Melee value - apply any subsequent modifiers as normal. Cannot be taken with magical artefact",
+            "name": "Upgrade to Rahs The Undying [1] - Replacing Inspiring with Very Inspiring and Increasing the unit’s Rout value by +1. The unit also gains Restore Ancient Glory: While attacking the same enemy unit as Rahs the Undying in Melee, Core friendly units with the Skeleton keyword may replace their own Melee value with Rahs’ Melee value - apply any subsequent modifiers as normal. Cannot be taken with magical artefact.",
             "cost": 50,
             "limit": 1,
             "disablesIrregular": false
@@ -24715,7 +24715,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade with Det’ Packs [1] (Horde only) - When this unit suffers a Rout result, all units, both Friendly and Enemy within 6” of it suffer D6+1 hits at Piercing (1). These hits are resolved by the player that Routed the unit with the Det’ Packs. Roll once and apply the number of hits to all units within range. No Nerve tests are required for damage caused in this way",
+            "name": "Upgrade with Det’ Packs [1] (Horde only) - When this unit suffers a Rout result, all units, both Friendly and Enemy within 6” of it suffer D6+1 hits at Piercing (1). These hits are resolved by the player that Routed the unit with the Det’ Packs. Roll once and apply the number of hits to all units within range. No Nerve tests are required for damage caused in this way.",
             "cost": 0,
             "limit": 1,
             "disablesIrregular": false
@@ -24744,7 +24744,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade with Det’ Packs [1] (Horde only) - When this unit suffers a Rout result, all units, both Friendly and Enemy within 6” of it suffer D6+1 hits at Piercing (1). These hits are resolved by the player that Routed the unit with the Det’ Packs. Roll once and apply the number of hits to all units within range. No Nerve tests are required for damage caused in this way",
+            "name": "Upgrade with Det’ Packs [1] (Horde only) - When this unit suffers a Rout result, all units, both Friendly and Enemy within 6” of it suffer D6+1 hits at Piercing (1). These hits are resolved by the player that Routed the unit with the Det’ Packs. Roll once and apply the number of hits to all units within range. No Nerve tests are required for damage caused in this way.",
             "cost": 0,
             "limit": 1,
             "disablesIrregular": false
@@ -25182,13 +25182,13 @@
         "spells": "",
         "options": [
           {
-            "name": "Ramming Speed!: Increase Nerve to 13/15, attacks to 5 and Melee value to 4+. Gain the Thunderous Charge (1) and Vicious (Melee) special rules",
+            "name": "Ramming Speed!: Increase Nerve to 13/15, attacks to 5 and Melee value to 4+. Gain the Thunderous Charge (1) and Vicious (Melee) special rules.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Bombs Away!: Gain RA 4+ and Eye in the Sky: At the start of each of your Ranged phases you can immediately target and “mark” an Enemy unit anywhere within 24” of this unit regardless of Line of Sight. For the remainder of the Turn, all friendly Core units with the Lobber keyword, while targeting the marked enemy unit, have the Elite (Ranged) special rule. This special rule may not be used while the Winggit is Disordered. In addition it gains the following ranged attack: Firebombs: 12”, Attack: 3, Blast (D3), Piercing (1), Steady Aim, Vicious (Ranged). Ignore Cover special rule",
+            "name": "Bombs Away!: Gain RA 4+ and Eye in the Sky: At the start of each of your Ranged phases you can immediately target and “mark” an Enemy unit anywhere within 24” of this unit regardless of Line of Sight. For the remainder of the Turn, all friendly Core units with the Lobber keyword, while targeting the marked enemy unit, have the Elite (Ranged) special rule. This special rule may not be used while the Winggit is Disordered. In addition it gains the following ranged attack: Firebombs: 12”, Attack: 3, Blast (D3), Piercing (1), Steady Aim, Vicious (Ranged). Ignore Cover special rule.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -25404,13 +25404,13 @@
             "disablesIrregular": false
           },
           {
-            "name": "Jareth’s Pendant [1] - Aura (Headstrong). This upgrade cannot be taken in addition to a Fleabag Mount",
+            "name": "Jareth’s Pendant [1] - Aura (Headstrong). This upgrade cannot be taken in addition to a Fleabag Mount.",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
           },
           {
-            "name": "Groany Snark [1] - Increasing speed to 10 and gain the Fly, Thunderous Charge (2) and Blast (D3 - Melee) special rules as well as Mini-Winggit Flight suit: Before being given an order in the movement phase other than Halt, Change Facing or Counter Charge, roll a D6. On a result of a 1 the flight suit malfunctions in spectacular fashion. All units, both Friendly and Enemy within 6” of it take a point of damage, including this unit. No Nerve tests are required for damage taken in this way. This unique upgrade cannot be taken in addition to a magical artefact or a mount",
+            "name": "Groany Snark [1] - Increasing speed to 10 and gain the Fly, Thunderous Charge (2) and Blast (D3 - Melee) special rules as well as Mini-Winggit Flight suit: Before being given an order in the movement phase other than Halt, Change Facing or Counter Charge, roll a D6. On a result of a 1 the flight suit malfunctions in spectacular fashion. All units, both Friendly and Enemy within 6” of it take a point of damage, including this unit. No Nerve tests are required for damage taken in this way. This unique upgrade cannot be taken in addition to a magical artefact or a mount.",
             "cost": 30,
             "limit": 1,
             "disablesIrregular": false
@@ -27639,7 +27639,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Gakamak’s Bloody Banner [1] - Aura (Wild Charge (+1) - Heavy Infantry only). This upgrade cannot be taken in addition to a Gore Mount",
+            "name": "Gakamak’s Bloody Banner [1] - Aura (Wild Charge (+1) - Heavy Infantry only). This upgrade cannot be taken in addition to a Gore Mount.",
             "cost": 10,
             "limit": 1,
             "disablesIrregular": false
@@ -28574,7 +28574,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone",
+            "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
             "cost": 10,
             "limit": 2,
             "disablesIrregular": false
@@ -28603,7 +28603,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone",
+            "name": "Visions from the Rift [2]: After deployment and all Scout moves have been completed by both players, but before rolling for first turn, this unit may be picked up and redeployed anywhere in the controlling players deployment zone.",
             "cost": 10,
             "limit": 2,
             "disablesIrregular": false
@@ -30579,7 +30579,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Infernal Advance [1] - Gain Aura (Strider - Infantry only). This unique upgrade cannot be taken in addition to a magical artefact",
+            "name": "Infernal Advance [1] - Gain Aura (Strider - Infantry only). This unique upgrade cannot be taken in addition to a magical artefact.",
             "cost": 20,
             "limit": 1,
             "disablesIrregular": false
@@ -31037,7 +31037,7 @@
         "name": "Cryza's Gore-Impaler [1]",
         "size": "Hero",
         "modelCount": "1",
-        "unitStrength": "0",
+        "unitStrength": "1",
         "attacks": "D6+7",
         "nerve": "-/16",
         "cost": 210,
@@ -33368,7 +33368,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade with Blood Rage - Lowering Defence to 4+ and gain Crushing Strength (3) and Lifeleech (3). This option cannot be taken with a mount",
+            "name": "Upgrade with Blood Rage - Lowering Defence to 4+ and gain Crushing Strength (3) and Lifeleech (3). This option cannot be taken with a mount.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -33648,7 +33648,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Aura (Vicious (Melee) - Zombie only) This upgrade cannot be taken in addition to an Undead Horse Mount",
+            "name": "Aura (Vicious (Melee) - Zombie only) This upgrade cannot be taken in addition to an Undead Horse Mount.",
             "cost": 20,
             "limit": 0,
             "disablesIrregular": false
