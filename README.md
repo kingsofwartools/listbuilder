@@ -16,6 +16,10 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 
 ## TODOS:
 
+### Fixes
+- Ba'su'su's Vile Brood
+- Firebrand/Corsairs
+
 ### Functionality
 - legendary upgrade with choice of different types of upgrade/effect, eg. varangur devoted icon ('sharesLimitWith')
 - required upgrade
