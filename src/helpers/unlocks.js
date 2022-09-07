@@ -13,6 +13,7 @@ const unlockAmounts = {
       warEngine: 1,
     },
     Legion: {
+      troopOrIrregular: 4,
       monsterOrTitan: 1,
       hero: 1,
       warEngine: 1,
@@ -30,6 +31,7 @@ const unlockAmounts = {
       warEngine: 1,
     },
     Legion: {
+      troopOrIrregular: 4,
       monsterOrTitan: 1,
       hero: 1,
       warEngine: 1,
@@ -47,6 +49,7 @@ const unlockAmounts = {
       warEngine: 1,
     },
     Legion: {
+      troopOrIrregular: 4,
       monsterOrTitan: 1,
       hero: 1,
       warEngine: 1,
@@ -64,6 +67,7 @@ const unlockAmounts = {
       warEngine: 1,
     },
     Legion: {
+      troopOrIrregular: 4,
       monsterOrTitan: 1,
       hero: 1,
       warEngine: 1,
@@ -99,7 +103,7 @@ const unlockAmounts = {
       heroMonsterTitanOrWarEngineUnique: 2,
     },
   },
-  'Swarm': {
+  Swarm: {
     Horde: {
       troopOrIrregular: 2,
       heroMonsterTitanOrWarEngineUnique: 2,
