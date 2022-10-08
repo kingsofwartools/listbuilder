@@ -15457,7 +15457,8 @@
         "size": "Regiment",
         "unlocks": {
           "heroMonsterTitanOrWarEngineUnique": 1
-        }
+        },
+        "maximum": 3
       }
     ],
     "armyWideRules": []

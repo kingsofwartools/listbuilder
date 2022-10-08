@@ -129,10 +129,20 @@ const calculateUnallocated = (unitsArr) => {
 
   const { unlockingUnits } = armiesData.find(faction => faction.name === unitsArr[0].armyName);
 
-  const unitsWithSlots = unitDetailsArr.map((unit) => {
+  const unitsWithSlots = unitDetailsArr.map((unit, index) => {
     const matchingUnlockingUnit = unlockingUnits.find(unlockingUnit => ((unlockingUnit.name === unit.name) && (unlockingUnit.size === unit.size)));
+    
     if (matchingUnlockingUnit) {
-      return { ...unit, unlocks: {...matchingUnlockingUnit.unlocks} };
+      const matchingUnitIndexes = unitDetailsArr.reduce((indexesArr, unitDetails, index) => {
+        if ((unitDetails.name === matchingUnlockingUnit.name)  && (unitDetails.size === matchingUnlockingUnit.size)) return [ ...indexesArr, index];
+        return indexesArr;
+      },[]);
+      console.log('matchingUnitIndexes', matchingUnitIndexes)
+      const valid = matchingUnitIndexes.length <= 3 || index <= matchingUnitIndexes[2];
+      console.log('index', index);
+      console.log('valid', valid);
+      if (valid) return { ...unit, unlocks: {...matchingUnlockingUnit.unlocks} };
+      return unit;
     } else if (!unit.irregular && unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) {
       return { ...unit, unlocks: { ...(unlockAmounts[unit.type] && unlockAmounts[unit.type][unit.size]) } };
     }
