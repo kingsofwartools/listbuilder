@@ -16,7 +16,6 @@ What this listbuilder doesn't do is let you save lists, take allies, or give you
 
 ## TODOS:
 
-
 ### Updates
 - Arcane library spells
 - armies
