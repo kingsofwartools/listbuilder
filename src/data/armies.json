@@ -410,7 +410,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "15/17",
-        "cost": 210,
+        "cost": 205,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Iron Resolve, Thunderous Charge (2)",
@@ -439,7 +439,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "22/24",
-        "cost": 355,
+        "cost": 350,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Iron Resolve, Thunderous Charge (2)",
@@ -757,7 +757,7 @@
         "cost": 160,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Fly, Inspiring, Iron Resolve, This unit may not be taken as allies, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
+        "specialRules": "Crushing Strength (1), Fly, Inspiring, Iron Resolve, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
         "spells": "",
         "options": [
           {
@@ -786,7 +786,7 @@
         "cost": 270,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Fly, Inspiring, Iron Resolve, This unit may not be taken as allies, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
+        "specialRules": "Crushing Strength (1), Fly, Inspiring, Iron Resolve, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
         "spells": "",
         "options": [
           {
@@ -812,10 +812,10 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "10/12",
-        "cost": 85,
+        "cost": 75,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Iron Resolve, Heavy Arbalest: 48”, Blast (D3), Piercing (2), Reload",
+        "specialRules": "Iron Resolve, Heavy Arbalest: 48”, Blast (D3), Piercing (2), Reload, Shattering",
         "spells": "",
         "options": [],
         "keywords": "Human, Men-at-Arms",
@@ -832,18 +832,25 @@
         "size": "Titan",
         "modelCount": "1",
         "unitStrength": "1",
-        "attacks": "5",
-        "nerve": "14/16",
-        "cost": 195,
+        "attacks": "3",
+        "nerve": "16/18",
+        "cost": 145,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Fly, Nimble, Radiance of Life, Regeneration (4+)",
-        "spells": "Fireball (10), Heal (5)",
-        "options": [],
+        "specialRules": "Crushing Strength (1), Fly, Nimble, Regeneration (4+), Firesparks: 18”, Att:10, Steady Aim",
+        "spells": "Heal (5)",
+        "options": [
+          {
+            "name": "Ancient Phoenix [1]: Lower Defence to 2+ while also losing the Nimble special rule, change Regeneration to 3+ and gain both the Radiance of Life and Cloak of Death special rules",
+            "cost": 30,
+            "limit": 1,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Angelic, Flamebound, Majestic",
         "type": "Titan",
         "height": "6",
-        "speed": "10",
+        "speed": "8",
         "melee": "3+",
         "ranged": "-",
         "defence": "3+",
@@ -917,7 +924,7 @@
         "cost": 200,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (2), Dread, Fly, Inspiring, Iron Resolve, Nimble, This unit may not be taken as allies, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
+        "specialRules": "Crushing Strength (2), Dread, Fly, Inspiring, Iron Resolve, Nimble, Divine Fervour: Friendly Core units with the Human keyword, while Engaged with the same enemy unit as a unit with Divine Fervour, have Elite (Melee).",
         "spells": "",
         "options": [],
         "keywords": "Angelic",
@@ -1021,7 +1028,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Iron Resolve, Individual, Inspiring (Sisterhood only), Vicious (Melee), Wild Charge (D3)",
+        "specialRules": "Crushing Strength (1), Iron Resolve, Individual, Inspiring, Vicious (Melee), Wild Charge (D3)",
         "spells": "",
         "options": [
           {
@@ -1319,28 +1326,6 @@
         "ranged": "-",
         "defence": "5+",
         "spellcaster": 2
-      },
-      {
-        "name": "Tollivar, the Seer [1]",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "1",
-        "nerve": "11/13",
-        "cost": 150,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Individual, Inspiring, Iron Resolve",
-        "spells": "Bane Chant (3), Bastion [1] (2), Fireball (10), Celestial Visions: Tollivar adds 6\" to the range of his Bane Chant & Bastion spells when targeting friendly core Angelic units. Celestial Providence: After successfully casting Bastion, Tollivar may immediately cast another different spell against the same or different target.",
-        "options": [],
-        "keywords": "Human",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "5",
-        "melee": "5+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": 3
       },
       {
         "name": "Tollivar, the Seer [1]",
@@ -2106,7 +2091,7 @@
         "cost": 110,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Cover, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+",
+        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Concealed, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Warsmith",
@@ -2245,7 +2230,7 @@
         "cost": 110,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Blast It!: 48”, Blast (D3+1), Piercing (3), Pot Shot, Lob It!: 60”, Blast (D3+1), Ignores Cover, Indirect, Piercing (1), Reload",
+        "specialRules": "Blast It!: 48”, Blast (D3+1), Piercing (3), Pot Shot, Lob It!: 60”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (1), Reload",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Warsmith",
@@ -2366,7 +2351,7 @@
         "unitStrength": "1",
         "attacks": "7",
         "nerve": "15/17",
-        "cost": 200,
+        "cost": 175,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Headstrong, Inspiring, Nimble, Thunderous Charge (2)",
@@ -2402,7 +2387,7 @@
           },
           {
             "name": "Radiance of Life (Dwarf only)",
-            "cost": 20,
+            "cost": 25,
             "limit": 0,
             "disablesIrregular": false
           },
@@ -2639,8 +2624,7 @@
     "alignment": "Good",
     "themeLists": [
       [
-        "Sylvan Kin",
-        "Twilight Kin"
+        "Sylvan Kin"
       ]
     ],
     "units": [
@@ -3091,7 +3075,7 @@
         "unitStrength": "1",
         "attacks": "10",
         "nerve": "10/12",
-        "cost": 130,
+        "cost": 140,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Pathfinder, Scout, Bows: 24”, Steady Aim",
@@ -3113,7 +3097,7 @@
         "unitStrength": "3",
         "attacks": "12",
         "nerve": "14/16",
-        "cost": 175,
+        "cost": 185,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Pathfinder, Scout, Bows: 24”, Steady Aim",
@@ -3135,7 +3119,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "11/13",
-        "cost": 140,
+        "cost": 135,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite (Melee), Thunderous Charge (2)",
@@ -3164,7 +3148,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 215,
+        "cost": 210,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite (Melee), Thunderous Charge (2)",
@@ -3193,7 +3177,7 @@
         "unitStrength": "1",
         "attacks": "7",
         "nerve": "11/13",
-        "cost": 130,
+        "cost": 115,
         "irregular": true,
         "limit": 0,
         "specialRules": "Nimble, Shortbows: 18”, Elite (Ranged), Steady Aim",
@@ -3215,7 +3199,7 @@
         "unitStrength": "2",
         "attacks": "14",
         "nerve": "14/16",
-        "cost": 200,
+        "cost": 180,
         "irregular": true,
         "limit": 0,
         "specialRules": "Nimble, Shortbows: 18”, Elite (Ranged), Steady Aim",
@@ -3303,7 +3287,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "12/14",
-        "cost": 135,
+        "cost": 125,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -3325,7 +3309,7 @@
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "14/16",
-        "cost": 170,
+        "cost": 155,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -3347,7 +3331,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "16/18",
-        "cost": 215,
+        "cost": 195,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -3369,7 +3353,7 @@
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "20/22",
-        "cost": 245,
+        "cost": 225,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -3391,10 +3375,10 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "10/12",
-        "cost": 90,
+        "cost": 80,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Bolt Thrower: 48”, Blast (D3), Elite (Ranged), Piercing (2), Reload",
+        "specialRules": "Bolt Thrower: 48”, Blast (D3), Elite (Ranged), Piercing (2), Reload, Null Void Bolts: Enemy units that suffer 1 or more damage from this unit's ranged attack gain the Spellward special rule until the end of its following turn.",
         "spells": "",
         "options": [],
         "keywords": "Elf, Kindred",
@@ -3606,12 +3590,12 @@
         "size": "Hero",
         "modelCount": "1",
         "unitStrength": "1",
-        "attacks": "3",
+        "attacks": "4",
         "nerve": "11/13",
         "cost": 100,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Elite, Nimble, Thunderous Charge (2), Shortbow: 18”, Steady Aim",
+        "specialRules": "Elite, Nimble, Crushing Strength (1), Thunderous Charge (1), Shortbow: 18”, Steady Aim",
         "spells": "",
         "options": [],
         "keywords": "Elf",
@@ -3812,7 +3796,7 @@
         "cost": 125,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Elite, Individual, Inspiring (Self only), Pathfinder, Stealthy, Scout, Bow: 24”, Piercing (2), Trick Shot: Once per game, Madriga can use the following ranged, weapon - Trick Shot: 48”, Att: 1, Blast (D6), Piercing (2), Ignores Cover.",
+        "specialRules": "Elite, Individual, Inspiring (Self only), Pathfinder, Stealthy, Scout, Bow: 24”, Piercing (2), Trick Shot: Once per game, Madriga can use the following ranged, weapon - Trick Shot: 48”, Att: 1, Blast (D6), Piercing (2), Ignores Concealed.",
         "spells": "",
         "options": [],
         "keywords": "Elf, Tracker",
@@ -4171,7 +4155,7 @@
         "cost": 110,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Cover, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+",
+        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Concealed, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Warsmith",
@@ -4190,7 +4174,7 @@
         "unitStrength": "1",
         "attacks": "7",
         "nerve": "15/17",
-        "cost": 200,
+        "cost": 175,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Headstrong, Inspiring, Nimble, Thunderous Charge (2)",
@@ -4752,7 +4736,7 @@
         "cost": 110,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Blast It!: 48”, Blast (D3+1), Piercing (3), Pot Shot, Lob It!: 60”, Blast (D3+1), Ignores Cover, Indirect, Piercing (1), Reload",
+        "specialRules": "Blast It!: 48”, Blast (D3+1), Piercing (3), Pot Shot, Lob It!: 60”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (1), Reload",
         "spells": "",
         "options": [
           {
@@ -5101,7 +5085,7 @@
         "options": [
           {
             "name": "Upgrade to Norj-Bik Clansmen, increasing Defence to 5+",
-            "cost": 10,
+            "cost": 15,
             "limit": 0,
             "disablesIrregular": false
           },
@@ -5136,7 +5120,7 @@
         "options": [
           {
             "name": "Upgrade to Norj-Bik Clansmen, increasing Defence to 5+",
-            "cost": 10,
+            "cost": 25,
             "limit": 0,
             "disablesIrregular": false
           },
@@ -5375,7 +5359,7 @@
         "unitStrength": "1",
         "attacks": "10",
         "nerve": "9/11",
-        "cost": 110,
+        "cost": 100,
         "irregular": false,
         "limit": 0,
         "specialRules": "Pathfinder, Stealthy, Thunderous Charge (1), Wild Charge (1), Shortbows: 18”",
@@ -5404,7 +5388,7 @@
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "13/15",
-        "cost": 145,
+        "cost": 135,
         "irregular": false,
         "limit": 0,
         "specialRules": "Pathfinder, Stealthy, Thunderous Charge (1), Wild Charge (1), Shortbows: 18”",
@@ -5543,7 +5527,7 @@
         "unitStrength": "1",
         "attacks": "10",
         "nerve": "10/12",
-        "cost": 135,
+        "cost": 145,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Pathfinder, Scout, Bows: 24”, Steady Aim, Ice-Tipped Arrows: If one or more points of damage are scored with this unit’s Bows attack, the target enemy unit is given the Frozen special rule.",
@@ -5565,7 +5549,7 @@
         "unitStrength": "3",
         "attacks": "12",
         "nerve": "14/16",
-        "cost": 180,
+        "cost": 190,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Pathfinder, Scout, Bows: 24”, Steady Aim, Ice-Tipped Arrows: If one or more points of damage are scored with this unit’s Bows attack, the target enemy unit is given the Frozen special rule.",
@@ -5697,7 +5681,7 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "10/12",
-        "cost": 95,
+        "cost": 80,
         "irregular": false,
         "limit": 0,
         "specialRules": "Bolt Thrower: 48”, Blast (D3), Elite (Ranged), Piercing (2), Reload, Ice-Tipped Bolts: If one or more points of damage are scored with this unit’s Bolt Thrower attack, the target enemy unit is given the Frozen special rule.",
@@ -5722,9 +5706,22 @@
         "cost": 230,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (4), Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (4), Strider",
         "spells": "Icy Breath (8)",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Frostbound, Giant",
         "type": "Titan",
         "height": "6",
@@ -5915,7 +5912,7 @@
         "cost": 190,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (3), Nimble, Strider, Very Inspiring, Wild Charge (1)",
+        "specialRules": "Crushing Strength (2), Thunderous Charge (1), Nimble, Strider, Very Inspiring, Wild Charge (1)",
         "spells": "",
         "options": [
           {
@@ -6164,7 +6161,7 @@
         "cost": 130,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Ensnare, Individual, Very Inspiring, Radiance of Life (Frostbound only), Frozen Winds: If one or more hits are scored with Serakina’s Wind Blast spell, the target enemy unit is given the Frozen special rule for the duration of its next Turn. Master of Ice: When targeting Friendly Core Frostbound units or Enemy units which have the Frozen special rule, this unit can reroll one of the dice that failed to hit with Bane Chant, Heal, Icy Breath, Wind Blast, Surge or Blizzard.",
+        "specialRules": "Ensnare, Individual, Very Inspiring, Radiance of Life (Frostbound only), Frozen Winds: If one or more hits are scored with Serakina’s Wind Blast spell, the target enemy unit is given the Frozen special rule for the duration of its next Turn. Master of Ice: When targeting Friendly Core Frostbound units or Enemy units which have the Frozen special rule, this unit can reroll one of the dice that failed to hit with Wind Blast or Surge.",
         "spells": "Surge (8), Wind Blast (6)",
         "options": [],
         "keywords": "Frostbound",
@@ -6188,7 +6185,7 @@
             "size": "Regiment",
             "requiredOptions": [
               {
-                "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
+                "name": " Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
                 "cost": 0,
                 "limit": 0,
                 "disablesIrregular": false
@@ -6209,7 +6206,7 @@
             "size": "Regiment",
             "requiredOptions": [
               {
-                "name": "Exchange shields for two-handed weapons, lowering Defence to 4+ and gaining Crushing Strength (2)",
+                "name": " Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
                 "cost": 0,
                 "limit": 0,
                 "disablesIrregular": false
@@ -6272,7 +6269,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6301,7 +6298,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6330,7 +6327,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6352,7 +6349,7 @@
         "specialRules": "Iron Resolve, Crossbows: 24”, Piercing (1), Pot Shot",
         "spells": "",
         "options": [],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6374,7 +6371,7 @@
         "specialRules": "Iron Resolve, Crossbows: 24”, Piercing (1), Pot Shot",
         "spells": "",
         "options": [],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6396,7 +6393,7 @@
         "specialRules": "Iron Resolve, Crossbows: 24”, Piercing (1), Pot Shot",
         "spells": "",
         "options": [],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6425,7 +6422,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6454,7 +6451,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6483,7 +6480,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Human, Men-at-Arms",
+        "keywords": "Human, Men-at-Arms, Villein",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -6637,7 +6634,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "15/17",
-        "cost": 210,
+        "cost": 205,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Iron Resolve, Thunderous Charge (2)",
@@ -6666,7 +6663,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "22/24",
-        "cost": 355,
+        "cost": 350,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Iron Resolve, Thunderous Charge (2)",
@@ -6739,10 +6736,10 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "10/12",
-        "cost": 85,
+        "cost": 75,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Iron Resolve, Heavy Arbalest: 48”, Blast (D3), Piercing (2), Reload",
+        "specialRules": "Iron Resolve, Heavy Arbalest: 48”, Blast (D3), Piercing (2), Reload, Shattering",
         "spells": "",
         "options": [],
         "keywords": "Human, Men-at-Arms",
@@ -6759,18 +6756,25 @@
         "size": "Titan",
         "modelCount": "1",
         "unitStrength": "1",
-        "attacks": "5",
-        "nerve": "14/16",
-        "cost": 195,
+        "attacks": "3",
+        "nerve": "16/18",
+        "cost": 145,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Fly, Nimble, Radiance of Life, Regeneration (4+)",
-        "spells": "Fireball (10), Heal (5)",
-        "options": [],
+        "specialRules": "Crushing Strength (1), Fly, Nimble, Regeneration (4+), Firesparks: 18”, Att:10, Steady Aim",
+        "spells": "Heal (5)",
+        "options": [
+          {
+            "name": "Ancient Phoenix [1]: Lower Defence to 2+ while also losing the Nimble special rule, change Regeneration to 3+ and gain both the Radiance of Life and Cloak of Death special rules",
+            "cost": 30,
+            "limit": 1,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Angelic, Flamebound, Majestic",
         "type": "Titan",
         "height": "6",
-        "speed": "10",
+        "speed": "8",
         "melee": "3+",
         "ranged": "-",
         "defence": "3+",
@@ -7108,7 +7112,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "12/14",
-        "cost": 155,
+        "cost": 150,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Fury, Iron Resolve, Thunderous Charge (1), Vicious, Slayer (Melee - D3)",
@@ -7130,7 +7134,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "15/17",
-        "cost": 235,
+        "cost": 230,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Fury, Iron Resolve, Thunderous Charge (1), Vicious, Slayer (Melee - D3)",
@@ -7213,7 +7217,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (3), Reload",
+        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (3), Reload",
         "spells": "",
         "options": [],
         "keywords": "Human, Villein",
@@ -7247,6 +7251,12 @@
           {
             "name": "The Gauntlet",
             "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Aegis Fragment",
+            "cost": 5,
             "limit": 0,
             "disablesIrregular": false
           },
@@ -7349,6 +7359,12 @@
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
+          },
+          {
+            "name": "Aegis Fragment",
+            "cost": 5,
+            "limit": 0,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Human, Paladin",
@@ -7370,7 +7386,7 @@
         "cost": 145,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Crushing Strength (1), Elite (Melee), Individual, Iron Resolve, Inspiring, Mighty, Rally (1 - Human only)",
+        "specialRules": "Crushing Strength (1), Elite (Melee), Individual, Iron Resolve, Inspiring, Mighty, Rally (1 - Human only), Cleanse: If one or more hits are scored by this unit's Heal spell, the target unit is no longer Weakened or Hexed.",
         "spells": "Heal (5), Bane Chant (3)",
         "options": [],
         "keywords": "Human, Paladin",
@@ -7904,7 +7920,7 @@
         "unitStrength": "3",
         "attacks": "20",
         "nerve": "14/16",
-        "cost": 195,
+        "cost": 190,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1)",
@@ -8228,7 +8244,7 @@
         "cost": 115,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Blast ((D3) - Melee), Crushing Strength (1), Vicious, Bile Spew: 36”, Blast (D3+1), Piercing (1), Ignores Cover",
+        "specialRules": "Blast ((D3) - Melee), Crushing Strength (1), Vicious, Bile Spew: 36”, Blast (D3+1), Piercing (1), Ignores Obscured",
         "spells": "",
         "options": [],
         "keywords": "Reptilian",
@@ -8310,7 +8326,7 @@
         "name": "Ghekkotah Slasher",
         "size": "Titan",
         "modelCount": "1",
-        "unitStrength": "1",
+        "unitStrength": "2",
         "attacks": "10",
         "nerve": "16/18",
         "cost": 210,
@@ -8323,6 +8339,12 @@
             "name": "Thunderous Drums [1] - Gain Rallying (1 - Ghekkotah only)",
             "cost": 15,
             "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Upgrade the unit's Sharpstick Thrower ranged weapon with Tox bolts, adding the Vicious (Ranged) special rule and increasing its Piercing to (3)",
+            "cost": 10,
+            "limit": 0,
             "disablesIrregular": false
           }
         ],
@@ -8428,18 +8450,25 @@
         "size": "Titan",
         "modelCount": "1",
         "unitStrength": "1",
-        "attacks": "5",
-        "nerve": "14/16",
-        "cost": 195,
+        "attacks": "3",
+        "nerve": "16/18",
+        "cost": 145,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Fly, Nimble, Radiance of Life, Regeneration (4+)",
-        "spells": "Fireball (10), Heal (5)",
-        "options": [],
-        "keywords": "Flamebound, Majestic",
+        "specialRules": "Crushing Strength (1), Fly, Nimble, Regeneration (4+), Firesparks: 18”, Att:10, Steady Aim",
+        "spells": "Heal (5)",
+        "options": [
+          {
+            "name": "Ancient Phoenix [1]: Lower Defence to 2+ while also losing the Nimble special rule, change Regeneration to 3+ and gain both the Radiance of Life and Cloak of Death special rules",
+            "cost": 30,
+            "limit": 1,
+            "disablesIrregular": false
+          }
+        ],
+        "keywords": "Angelic, Flamebound, Majestic",
         "type": "Titan",
         "height": "6",
-        "speed": "10",
+        "speed": "8",
         "melee": "3+",
         "ranged": "-",
         "defence": "3+",
@@ -8585,7 +8614,7 @@
         "cost": 135,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Duelist, Individual, Inspiring, Pathfinder, Scout, Stealthy, Vicious, Monster Hunter: The unit has Piercing (2) with its Blowpipe, weapon when attacking Monsters and Titans. Blowpipe: 18”, Piercing (1)",
+        "specialRules": "Duelist, Individual, Inspiring, Pathfinder, Scout, Stealthy, Vicious, Monster Hunter: The unit has Piercing (2) with its Blowpipe weapon when attacking Monsters and Titans. Blowpipe: 18”, Piercing (1)",
         "spells": "",
         "options": [],
         "keywords": "Ghekkotah, Tracker",
@@ -9399,7 +9428,7 @@
         "specialRules": "Brutal, Crushing Strength (1), Pathfinder, Shambling",
         "spells": "",
         "options": [],
-        "keywords": "Earthbound, elemental",
+        "keywords": "Earthbound, Elemental",
         "type": "Large Infantry",
         "height": "3",
         "speed": "5",
@@ -9421,7 +9450,7 @@
         "specialRules": "Brutal, Crushing Strength (1), Pathfinder, Shambling",
         "spells": "",
         "options": [],
-        "keywords": "Earthbound, elemental",
+        "keywords": "Earthbound, Elemental",
         "type": "Large Infantry",
         "height": "3",
         "speed": "5",
@@ -9525,10 +9554,10 @@
         "unitStrength": "1",
         "attacks": "5",
         "nerve": "15/17",
-        "cost": 150,
+        "cost": 160,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (2), Pathfinder, Vicious",
+        "specialRules": "Crushing Strength (2), Pathfinder, Vicious, Nimble",
         "spells": "",
         "options": [
           {
@@ -9538,10 +9567,11 @@
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly and Nimble",
-            "cost": 40,
+            "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly",
+            "cost": 30,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Increase Attacks to 7",
@@ -9954,7 +9984,8 @@
             "name": "Upgrade with Wings, losing Individual, gaining Fly and Nimble and changing to Hero (Lrg Cav - Height: 4, Unit Strength: 1)",
             "cost": 25,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Lightning Bolt (5) (replaces Heal)",
@@ -10048,11 +10079,11 @@
         "unitStrength": "0",
         "attacks": "1",
         "nerve": "12/14",
-        "cost": 135,
+        "cost": 150,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Fly, Individual, Inspiring, Pathfinder, Static Shock: After dealing damage with this unit’s Lightning Bolt spell, you may choose to immediately cast Wind Blast (n) on the target unit, where (n) is the amount of damage inflicted with the Lightning Bolt spell.",
-        "spells": "Lightning Bolt (4), Wind Blast (6)",
+        "specialRules": "Fly, Individual, Inspiring, Pathfinder, Static Shock: After dealing damage with this unit’s Lightning Bolt, spell, you may choose to immediately cast Wind Blast (n) on the, target unit, where (n) is the amount of damage inflicted with the, Lightning Bolt spell. Gather the Storm: While within 6” of another friendly Core Airbound unit, this unit can reroll all to-hit rolls of a natural, unmodified 1 with Lightning Bolt, Wind Blast, and Surge spells.",
+        "spells": "Lightning Bolt (4), Surge (5), Wind Blast (6)",
         "options": [],
         "keywords": "Airbound",
         "type": "Infantry",
@@ -10073,7 +10104,7 @@
         "cost": 80,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Individual, Inspiring, Pathfinder, Solar Staff: 24”, Att: 8; This attack always hits on 4+ regardless of modifiers. For each hit roll to damage as normal. If one or more hits are scored, the target unit is Disordered until the end of its next Turn. The Solar Staff is then destroyed and cannot be used again for the remainder of the game.",
+        "specialRules": "Individual, Inspiring, Pathfinder, Solar Staff: 24”, Att: 8; Blinding Light: Enemy units that suffer damage from this unit's Solar Staff ranged weapon are Disordered during their next turn.",
         "spells": "",
         "options": [
           {
@@ -10106,7 +10137,7 @@
         "height": "2",
         "speed": "5",
         "melee": "5+",
-        "ranged": "-",
+        "ranged": "4+",
         "defence": "4+",
         "spellcaster": 2
       },
@@ -10618,7 +10649,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "10/12",
-        "cost": 125,
+        "cost": 120,
         "irregular": false,
         "limit": 0,
         "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
@@ -10647,7 +10678,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "13/15",
-        "cost": 190,
+        "cost": 185,
         "irregular": false,
         "limit": 0,
         "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
@@ -10676,7 +10707,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "20/22",
-        "cost": 325,
+        "cost": 315,
         "irregular": false,
         "limit": 0,
         "specialRules": "Iron Resolve, Nimble, Thunderous Charge (1), Spellward",
@@ -11040,7 +11071,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (3), Reload",
+        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (3), Reload",
         "spells": "",
         "options": [],
         "keywords": "Artillery, Halfling, Tinker, Ravenous",
@@ -12032,7 +12063,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 195,
+        "cost": 190,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Thunderous Charge (2)",
@@ -12061,7 +12092,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "21/23",
-        "cost": 330,
+        "cost": 325,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Thunderous Charge (2)",
@@ -12279,7 +12310,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "11/13",
-        "cost": 125,
+        "cost": 115,
         "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -12301,7 +12332,7 @@
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "13/15",
-        "cost": 155,
+        "cost": 145,
         "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -12323,7 +12354,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "15/17",
-        "cost": 195,
+        "cost": 180,
         "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -12345,7 +12376,7 @@
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "19/21",
-        "cost": 225,
+        "cost": 210,
         "irregular": true,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -12374,10 +12405,17 @@
         "spells": "",
         "options": [
           {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
             "name": "Gain Fly and Speed 10",
             "cost": 25,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Gain Thunderous Charge (1) and Vicious (note that this cannot be taken with the 'Fly' option)",
@@ -12409,10 +12447,17 @@
         "spells": "",
         "options": [
           {
+            "name": "Indomitable Will",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
             "name": "Gain Fly and Speed 10",
             "cost": 40,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Gain Thunderous Charge (1) and Vicious (note that this cannot be taken with the 'Fly' option)",
@@ -12440,7 +12485,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (3), Reload",
+        "specialRules": "Artillery Strike: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (3), Reload",
         "spells": "",
         "options": [],
         "keywords": "Artillery, Human",
@@ -12459,7 +12504,7 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "9/11",
-        "cost": 75,
+        "cost": 60,
         "irregular": false,
         "limit": 0,
         "specialRules": "Ballista: 48”, Blast (D3), Piercing (2), Reload",
@@ -12484,7 +12529,7 @@
         "cost": 100,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Cover, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+.",
+        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Concealed, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+.",
         "spells": "",
         "options": [],
         "keywords": "Artillery, Human",
@@ -12528,9 +12573,22 @@
         "cost": 225,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Giant",
         "type": "Titan",
         "height": "6",
@@ -12816,7 +12874,8 @@
             "name": "Mount on a Pegasus, losing Individual, gaining Fly and Nimble as well as increasing Speed to 10 and changing to Hero (Lrg Cav – Height: 4, Unit Strength: 1)",
             "cost": 35,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Bane Chant (2)",
@@ -12897,7 +12956,8 @@
             "name": "Upgrade with Wings, increasing speed to 10 and gaining Fly and Nimble",
             "cost": 50,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Crown of Chivalry - Gain Rallying (2 - Knight only). May not be taken with the Sceptre of Vigor or the Sword of Mercy.",
@@ -12942,7 +13002,7 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "Outlaws",
-              "text": "Steady Aim, Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Cover special rules for the rest of the Turn."
+              "text": "Steady Aim, Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Obscured special rules for the rest of the Turn."
             }
           },
           {
@@ -12953,7 +13013,7 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "Outlaws",
-              "text": "Steady Aim, Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Cover special rules for the rest of the Turn."
+              "text": "Steady Aim, Volley Fire: When issued a Halt order, the unit may choose to have both the Indirect Fire and Ignore Obscured special rules for the rest of the Turn."
             }
           },
           {
@@ -13304,7 +13364,7 @@
         "cost": 100,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Cover, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+.",
+        "specialRules": "Cannon: 48”, Blast (D3+1), Ignores Concealed, Piercing (3), Reload, Shattering, Grapeshot: 12”, Att: 10, Piercing (1) - This attack always hits on a 6+.",
         "spells": "",
         "options": [],
         "keywords": "Artillery, Human",
@@ -13352,7 +13412,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 195,
+        "cost": 190,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Thunderous Charge (2)",
@@ -13381,7 +13441,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "21/23",
-        "cost": 330,
+        "cost": 325,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Thunderous Charge (2)",
@@ -13535,7 +13595,8 @@
             "name": "Mount on a Pegasus, losing Individual, gaining Fly and Nimble as well as increasing Speed to 10 and changing to Hero (Lrg Cav – Height: 4, Unit Strength: 1)",
             "cost": 35,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Bane Chant (2)",
@@ -13954,7 +14015,7 @@
             "disablesIrregular": false
           },
           {
-            "name": "Loyalist Standard [1] - This unit gains the Aura (Spellward special rule",
+            "name": "Loyalist Standard [1] - This unit gains the Aura (Spellward) special rule",
             "cost": 15,
             "limit": 1,
             "disablesIrregular": false
@@ -14639,7 +14700,7 @@
         "cost": 120,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (1), For each Ogre Warrior Regiment in the army, you can also include one of the following units: Hero, Monster, Titan, War Engine.",
+        "specialRules": "Brutal, Crushing Strength (1)",
         "spells": "",
         "options": [
           {
@@ -14674,7 +14735,7 @@
         "cost": 200,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (1), For each Ogre Warrior Regiment in the army, you can also include one of the following units: Hero, Monster, Titan, War Engine.",
+        "specialRules": "Brutal, Crushing Strength (1)",
         "spells": "",
         "options": [
           {
@@ -14709,7 +14770,7 @@
         "cost": 350,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (1), For each Ogre Warrior Regiment in the army, you can also include one of the following units: Hero, Monster, Titan, War Engine.",
+        "specialRules": "Brutal, Crushing Strength (1)",
         "spells": "",
         "options": [
           {
@@ -14931,7 +14992,7 @@
         "unitStrength": "2",
         "attacks": "9",
         "nerve": "12/14",
-        "cost": 145,
+        "cost": 150,
         "irregular": false,
         "limit": 0,
         "specialRules": "Big Shield, Brutal, Crushing Strength (2)",
@@ -14953,7 +15014,7 @@
         "unitStrength": "3",
         "attacks": "18",
         "nerve": "15/17",
-        "cost": 240,
+        "cost": 250,
         "irregular": false,
         "limit": 0,
         "specialRules": "Big Shield, Brutal, Crushing Strength (2)",
@@ -15045,7 +15106,7 @@
         "name": "Red Goblin Slasher",
         "size": "Titan",
         "modelCount": "1",
-        "unitStrength": "1",
+        "unitStrength": "2",
         "attacks": "10",
         "nerve": "16/18",
         "cost": 210,
@@ -15058,6 +15119,12 @@
             "name": "Aura (Fury - Goblin only) [1]",
             "cost": 15,
             "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Exchange the unit's Sharpstick Thrower ranged weapon and equip the crew with War-Trumpets: 12”, Ra: 4+, Piercing (1), Steady Aim",
+            "cost": 10,
+            "limit": 0,
             "disablesIrregular": false
           }
         ],
@@ -15080,9 +15147,22 @@
         "cost": 225,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Giant",
         "type": "Titan",
         "height": "6",
@@ -15386,7 +15466,7 @@
         "unitStrength": "1",
         "attacks": "5",
         "nerve": "12/14",
-        "cost": 140,
+        "cost": 165,
         "irregular": false,
         "limit": 1,
         "specialRules": "Brutal, Crushing Strength (1), Inspiring, Nimble, Ogre Warlock: For each friendly core Large Infantry Regiment, Large Infantry Horde or Large Infantry Legion within 6”, increase the amount of dice rolled with Bane Chant, Heal and Lightning Bolt by 1 to a maximum bonus of +3. Bloodlust: Any friendly core unit hit with Nomagarok’s Heal spell gains Vicious (Melee) for the remainder of the Turn.",
@@ -15697,10 +15777,10 @@
         "unitStrength": "1",
         "attacks": "5",
         "nerve": "15/17",
-        "cost": 150,
+        "cost": 160,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (2), Pathfinder, Vicious",
+        "specialRules": "Crushing Strength (2), Pathfinder, Vicious, Nimble",
         "spells": "",
         "options": [
           {
@@ -15710,10 +15790,11 @@
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly and Nimble",
-            "cost": 40,
+            "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly",
+            "cost": 30,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Increase Attacks to 7",
@@ -15748,7 +15829,8 @@
             "name": "Upgrade with Wings, losing Individual, gaining Fly and Nimble and changing to Hero (Lrg Cav - Height: 4, Unit Strength: 1)",
             "cost": 25,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Lightning Bolt (5) (replaces Heal)",
@@ -15997,7 +16079,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "15/17",
-        "cost": 200,
+        "cost": 195,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Thunderous Charge (2)",
@@ -16032,7 +16114,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "22/24",
-        "cost": 340,
+        "cost": 330,
         "irregular": false,
         "limit": 0,
         "specialRules": "Headstrong, Thunderous Charge (2)",
@@ -16173,7 +16255,7 @@
         "height": "3",
         "speed": "8",
         "melee": "3+",
-        "ranged": "5+",
+        "ranged": "-",
         "defence": "4+",
         "spellcaster": null
       },
@@ -16202,7 +16284,7 @@
         "height": "3",
         "speed": "8",
         "melee": "3+",
-        "ranged": "5+",
+        "ranged": "-",
         "defence": "4+",
         "spellcaster": null
       },
@@ -16424,7 +16506,8 @@
             "name": "Mount on a Winged Unicorn, losing Individual and Mighty, gaining Fly and Nimble as well as increasing Speed to 10 and changing to Hero (Lrg Cav – Height: 4, Unit Strength: 1)",
             "cost": 25,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           }
         ],
         "keywords": "Human, Sacred Water",
@@ -16687,7 +16770,7 @@
               "prohibitsArtefacts": false,
               "cost": 25,
               "name": "The Lurkers in the Lake",
-              "text": "Inspiring, Aura (Thunderous Charge (+1) - Waterbound only)"
+              "text": "Wild Charge (1), Inspiring, Aura (Thunderous Charge (+1) - Waterbound only)"
             }
           }
         ]
@@ -16908,18 +16991,12 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "11/13",
-        "cost": 140,
+        "cost": 135,
         "irregular": true,
         "limit": 0,
         "specialRules": "Elite (Melee), Thunderous Charge (2)",
         "spells": "",
         "options": [
-          {
-            "name": "Quicksilver Lancers [1] (Regiment only) - Gain Nimble and increase the the unit’s Waver and Rout Nerve values by +1",
-            "cost": 25,
-            "limit": 1,
-            "disablesIrregular": false
-          },
           {
             "name": "Gain the Pathfinder special rule",
             "cost": 10,
@@ -16943,18 +17020,12 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 215,
+        "cost": 210,
         "irregular": true,
         "limit": 0,
         "specialRules": "Elite (Melee), Thunderous Charge (2)",
         "spells": "",
         "options": [
-          {
-            "name": "Quicksilver Lancers [1] (Regiment only) - Gain Nimble and increase the the unit’s Waver and Rout Nerve values by +1",
-            "cost": 25,
-            "limit": 1,
-            "disablesIrregular": false
-          },
           {
             "name": "Gain the Pathfinder special rule",
             "cost": 15,
@@ -17036,10 +17107,10 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "10/12",
-        "cost": 90,
+        "cost": 80,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Bolt Thrower: 48”, Blast (D3), Elite (Ranged), Piercing (2), Reload",
+        "specialRules": "Bolt Thrower: 48”, Blast (D3), Elite (Ranged), Piercing (2), Reload, Null Void Bolts: Enemy units that suffer 1 or more damage from this unit's ranged attack gain the Spellward special rule until the end of its following turn.",
         "spells": "",
         "options": [],
         "keywords": "Elf, Kindred",
@@ -17067,6 +17138,12 @@
           {
             "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
             "cost": 35,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Sabre-Toothed Hunting Cat",
+            "cost": 10,
             "limit": 0,
             "disablesIrregular": false
           },
@@ -17492,7 +17569,7 @@
         "unitStrength": "1",
         "attacks": "7",
         "nerve": "11/13",
-        "cost": 165,
+        "cost": 135,
         "irregular": false,
         "limit": 1,
         "specialRules": "Elite, Nimble, Windborne Arrows: For each hit caused with this unit’s Wind Blast spell, in addition to moving the target, roll to damage as normal.",
@@ -17514,7 +17591,7 @@
         "unitStrength": "1",
         "attacks": "7",
         "nerve": "11/13",
-        "cost": 130,
+        "cost": 115,
         "irregular": true,
         "limit": 0,
         "specialRules": "Nimble, Shortbows: 18”, Elite (Ranged), Steady Aim",
@@ -17543,7 +17620,7 @@
         "unitStrength": "2",
         "attacks": "14",
         "nerve": "14/16",
-        "cost": 200,
+        "cost": 180,
         "irregular": true,
         "limit": 0,
         "specialRules": "Nimble, Shortbows: 18”, Elite (Ranged), Steady Aim",
@@ -17695,7 +17772,7 @@
         "unitStrength": "1",
         "attacks": "10",
         "nerve": "10/12",
-        "cost": 130,
+        "cost": 140,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Pathfinder, Scout, Steady Aim, Stealthy, Bows: 24”",
@@ -17721,10 +17798,10 @@
         "name": "Sylvan Gladestalkers",
         "size": "Regiment",
         "modelCount": "20",
-        "unitStrength": "2",
+        "unitStrength": "3",
         "attacks": "12",
         "nerve": "14/16",
-        "cost": 175,
+        "cost": 185,
         "irregular": false,
         "limit": 0,
         "specialRules": "Elite, Pathfinder, Scout, Steady Aim, Stealthy, Bows: 24”",
@@ -17943,7 +18020,7 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "Ar'iana",
-              "text": "Pathfinder, Scout"
+              "text": "Scout"
             }
           },
           {
@@ -18296,10 +18373,10 @@
         "unitStrength": "1",
         "attacks": "5",
         "nerve": "15/17",
-        "cost": 150,
+        "cost": 160,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (2), Pathfinder, Vicious",
+        "specialRules": "Crushing Strength (2), Pathfinder, Vicious, Nimble",
         "spells": "",
         "options": [
           {
@@ -18309,10 +18386,11 @@
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly and Nimble",
-            "cost": 40,
+            "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly",
+            "cost": 30,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Increase Attacks to 7",
@@ -18813,7 +18891,7 @@
         "modelCount": "2",
         "unitStrength": "1",
         "attacks": "10",
-        "nerve": "13/16",
+        "nerve": "13/15",
         "cost": 170,
         "irregular": true,
         "limit": 0,
@@ -18821,7 +18899,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade to The Stampede [1] (Regiment only) - Gaining both the Strider and Pathfinder special rules and increase its Waver Nerve value by +1 and Rout Nerve value by +1",
+            "name": "Upgrade to The Stampede [1] (Regiment only) - Gaining both the Strider and Pathfinder special rules and increase its Waver and Rout by +1",
             "cost": 30,
             "limit": 1,
             "disablesIrregular": false
@@ -18842,7 +18920,7 @@
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "15",
-        "nerve": "15/18",
+        "nerve": "15/17",
         "cost": 210,
         "irregular": true,
         "limit": 0,
@@ -18850,7 +18928,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade to The Stampede [1] (Regiment only) - Gaining both the Strider and Pathfinder special rules and increase its Waver Nerve value by +1 and Rout Nerve value by +1",
+            "name": "Upgrade to The Stampede [1] (Regiment only) - Gaining both the Strider and Pathfinder special rules and increase its Waver and Rout by +1",
             "cost": 30,
             "limit": 1,
             "disablesIrregular": false
@@ -18871,7 +18949,7 @@
         "modelCount": "4",
         "unitStrength": "3",
         "attacks": "20",
-        "nerve": "17/20",
+        "nerve": "17/19",
         "cost": 265,
         "irregular": true,
         "limit": 0,
@@ -18879,7 +18957,7 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade to The Stampede [1] (Regiment only) - Gaining both the Strider and Pathfinder special rules and increase its Waver Nerve value by +1 and Rout Nerve value by +1",
+            "name": "Upgrade to The Stampede [1] (Regiment only) - Gaining both the Strider and Pathfinder special rules and increase its Waver and Rout by +1",
             "cost": 30,
             "limit": 1,
             "disablesIrregular": false
@@ -19149,7 +19227,7 @@
         "modelCount": "1",
         "unitStrength": "1",
         "attacks": "5",
-        "nerve": "14/17",
+        "nerve": "14/16",
         "cost": 140,
         "irregular": false,
         "limit": 0,
@@ -19354,7 +19432,7 @@
               "text": "Ensnare, Nerve +1 (updated in unit profile), Aura (Vicious - Tracker only), Deadly Snares: Whenever a unit from this Formation is touching Difficult Terrain and is attacked in Melee, the attacking unit(s) immediately receives D3 points of damage. No Nerve tests are required for damage caused in this way.",
               "affectsValues": [
                 {
-                  "nerve": "13/15"
+                  "nerve": "11/13"
                 }
               ]
             }
@@ -19514,7 +19592,7 @@
         "cost": 120,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Ensnare, Fly, Nimble, Pathfinder Javelins: 12”, Piercing (1), Steady Aim",
+        "specialRules": "Ensnare, Fly, Nimble, Pathfinder, Javelins: 12”, Piercing (1), Steady Aim",
         "spells": "",
         "options": [],
         "keywords": "Amphibian, Tracker",
@@ -19536,7 +19614,7 @@
         "cost": 160,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Ensnare, Fly, Nimble, Pathfinder Javelins: 12”, Piercing (1), Steady Aim",
+        "specialRules": "Ensnare, Fly, Nimble, Pathfinder, Javelins: 12”, Piercing (1), Steady Aim",
         "spells": "",
         "options": [],
         "keywords": "Amphibian, Tracker",
@@ -19833,7 +19911,7 @@
         "unitStrength": "2",
         "attacks": "9",
         "nerve": "12/14",
-        "cost": 155,
+        "cost": 150,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Fly, Nimble, Regeneration (6+), Strider, Thunderous Charge (2), Sticky Tongue: This unit’s Enthral spell only has a range of 12”. While casting Enthral, in addition to moving the target, roll to damage for each hit scored.",
@@ -19862,7 +19940,7 @@
         "unitStrength": "3",
         "attacks": "18",
         "nerve": "15/17",
-        "cost": 260,
+        "cost": 250,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Fly, Nimble, Regeneration (6+), Strider, Thunderous Charge (2), Sticky Tongue: This unit’s Enthral spell only has a range of 12”. While casting Enthral, in addition to moving the target, roll to damage for each hit scored.",
@@ -20048,9 +20126,22 @@
         "cost": 215,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (3), Ensnare, Iron Resolve, Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (3), Ensnare, Iron Resolve, Strider",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Giant, Waterbound",
         "type": "Titan",
         "height": "6",
@@ -20111,7 +20202,7 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "10/12",
-        "cost": 95,
+        "cost": 85,
         "irregular": false,
         "limit": 0,
         "specialRules": "Leviathan Bolts: 48”, Blast (D3), Piercing (2), Reload, Harpoon: After dealing damage with this unit’s Leviathan Bolts attack, you may choose to immediately move the enemy unit (n) inches as if Enthral had been cast successfully on the target unit, where (n) is the amount of damage inflicted with the Leviathan Bolts attack.",
@@ -20367,7 +20458,7 @@
         "cost": 135,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Duelist, Ensnare, Fly, Individual, Inspiring, (Amphibian only), Pathfinder, Javelin: 12”, Piercing (1)",
+        "specialRules": "Crushing Strength (1), Duelist, Ensnare, Fly, Individual, Inspiring, Pathfinder, Javelin: 12”, Piercing (1)",
         "spells": "",
         "options": [
           {
@@ -20782,7 +20873,14 @@
         "limit": 0,
         "specialRules": "Crushing Strength (1), Vicious (Melee), Wild Charge (D3)",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Slaver Nets - Ensnare (Infantry and Heavy Infantry only)",
+            "cost": 5,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Berserker, Dwarf",
         "type": "Infantry",
         "height": "2",
@@ -20804,7 +20902,14 @@
         "limit": 0,
         "specialRules": "Crushing Strength (1), Vicious (Melee), Wild Charge (D3)",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Slaver Nets - Ensnare (Infantry and Heavy Infantry only)",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Berserker, Dwarf",
         "type": "Infantry",
         "height": "2",
@@ -20996,7 +21101,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "11/13",
-        "cost": 130,
+        "cost": 125,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Regeneration (5+), Thunderous Charge (1), Vicious (Melee), Fury",
@@ -21018,7 +21123,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 200,
+        "cost": 195,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Regeneration (5+), Thunderous Charge (1), Vicious (Melee), Fury",
@@ -21193,7 +21298,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "12/14",
-        "cost": 140,
+        "cost": 135,
         "irregular": true,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1)",
@@ -21218,7 +21323,7 @@
         "cost": 95,
         "irregular": false,
         "limit": 0,
-        "specialRules": "G’rog Mortar: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (2), Reload, Vicious (Ranged)",
+        "specialRules": "G’rog Mortar: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (2), Reload, Vicious (Ranged)",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Hellforged",
@@ -21240,7 +21345,7 @@
         "cost": 85,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Katsuchan Rocket Launcher: 48”, Blast (D3), Ignores Cover, Indirect, Piercing (1), Reload, Vicious (Ranged)",
+        "specialRules": "Katsuchan Rocket Launcher: 48”, Blast (D3), Ignores Obscured, Indirect, Piercing (1), Reload, Vicious (Ranged)",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Hellforged",
@@ -21262,7 +21367,7 @@
         "cost": 115,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Angkor Heavy Mortar: 48”, Blast (D3+2), Ignores Cover, Indirect, Piercing (2), Reload, Shattering, Vicious (Ranged)",
+        "specialRules": "Angkor Heavy Mortar: 48”, Blast (D3+2), Ignores Obscured, Indirect, Piercing (2), Reload, Shattering, Vicious (Ranged)",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Hellforged",
@@ -21332,8 +21437,20 @@
         "spells": "",
         "options": [
           {
-            "name": "Hellforged Overmaster [1] - Gain Aura (Wild Charge (+2) - Infantry only) and Inspiring",
+            "name": "Hellforged Overmaster [1] - Gain Aura (Wild Charge (+2) - Infantry only) and Inspiring (may not be taken with another option)",
             "cost": 25,
+            "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Supreme Taskmaster [1] - Gain Aura (Brutal - Slave only), and Rally (2 - Slave only) (may not be taken with another option)",
+            "cost": 25,
+            "limit": 1,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Abomination Iron-Caster Overseer [1] - Gain Aura (Lifeleech +1 - Abomination only) (may not be taken with another option)",
+            "cost": 15,
             "limit": 1,
             "disablesIrregular": false
           }
@@ -21489,7 +21606,7 @@
         "cost": 70,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Feedback: After rolling to hit with Hex or Weakness, roll to damage for each hit scored with the Piercing (1) modifer. Dampening Runes: Enemy spells targeting this unit always hit on a 6+.",
+        "specialRules": "Individual, Feedback: After rolling to hit with Hex or Weakness, roll to damage for each hit scored with the Piercing (1) modifer. If damage is dealt, then the target takes a nerve test at the end of the ranged phase as if it had taken damage from a normal ranged attack. Dampening Runes: Enemy spells targeting this unit always hit on a 6+.",
         "spells": "Hex (3)",
         "options": [
           {
@@ -21543,7 +21660,7 @@
         "specialRules": "Crushing Strength (2), Individual, Inspiring, Mighty, Regeneration (5+), Vicious (Melee)",
         "spells": "",
         "options": [],
-        "keywords": "Halfbreed",
+        "keywords": "Abomination, Halfbreed",
         "type": "Cavalry",
         "height": "3",
         "speed": "8",
@@ -22447,7 +22564,7 @@
         "spellcaster": null
       },
       {
-        "name": "Cavalry",
+        "name": "Revenant Cavalry",
         "size": "Troop",
         "modelCount": "5",
         "unitStrength": "1",
@@ -22469,13 +22586,13 @@
         "spellcaster": null
       },
       {
-        "name": "Cavalry",
+        "name": "Revenant Cavalry",
         "size": "Regiment",
         "modelCount": "10",
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "-/17",
-        "cost": 180,
+        "cost": 175,
         "irregular": false,
         "limit": 0,
         "specialRules": "Lifeleech (1), Shambling, Thunderous Charge (2)",
@@ -22610,11 +22727,11 @@
         "modelCount": "3",
         "unitStrength": "2",
         "attacks": "12",
-        "nerve": "12/14",
+        "nerve": "13/15",
         "cost": 135,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Lifeleech (1), Pathfinder",
+        "specialRules": "Crushing Strength (1), Lifeleech (2), Pathfinder",
         "spells": "",
         "options": [],
         "keywords": "Naga, Revenant, Skeleton",
@@ -22632,11 +22749,11 @@
         "modelCount": "6",
         "unitStrength": "3",
         "attacks": "24",
-        "nerve": "15/17",
+        "nerve": "16/18",
         "cost": 225,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (1), Lifeleech (1), Pathfinder",
+        "specialRules": "Crushing Strength (1), Lifeleech (2), Pathfinder",
         "spells": "",
         "options": [],
         "keywords": "Naga, Revenant, Skeleton",
@@ -22680,7 +22797,7 @@
         "cost": 120,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Inspiring, Note: Base size cannot be increased beyond 75x75mm, Monolith: As long as this unit is alive and in play on the table, at the start of each of your ranged phases you may immediately cast Surge (8) on a single Friendly Core unit anywhere within 24” of this unit regardless of line of sight. The Monolith cannot be disordered and its Base size cannot be increased beyond 75x75mm.",
+        "specialRules": "Inspiring, Monolith: As long as this unit is alive and in play on the table, at the start of each of your ranged phases you may immediately cast Surge (8) on a single Friendly Core unit anywhere within 24” of this unit regardless of line of sight. The Monolith cannot be disordered and its Base size cannot be increased beyond 75x75mm.",
         "spells": "",
         "options": [],
         "keywords": "Construct, Shrine",
@@ -22699,7 +22816,7 @@
         "unitStrength": "1",
         "attacks": "10",
         "nerve": "-/18",
-        "cost": 215,
+        "cost": 180,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (3), Fly, Lifeleech (1), Nimble, Shambling",
@@ -22720,7 +22837,7 @@
         "modelCount": "1",
         "unitStrength": "1",
         "attacks": "9",
-        "nerve": "-/16",
+        "nerve": "-/17",
         "cost": 190,
         "irregular": false,
         "limit": 0,
@@ -22811,7 +22928,7 @@
         "cost": 95,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Shambling, Balefire: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (2), Reload, Unholy Flames: Whenever the unit rolls to damage with its Balefire attack, it can re-roll D3 of the dice that failed to damage.",
+        "specialRules": "Shambling, Balefire: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (2), Reload, Unholy Flames: Whenever the unit rolls to damage with its Balefire attack, it can re-roll D3 of the dice that failed to damage.",
         "spells": "",
         "options": [
           {
@@ -22879,7 +22996,7 @@
         "spells": "Surge (8)",
         "options": [
           {
-            "name": "Eternal Guard [1] - Aura (Elite (Melee) - Mummy only)",
+            "name": "Eternal Guard [1] - Aura (Elite (Melee) - Mummy only) - this unique upgrade cannot be taken in addition to a magical artefact",
             "cost": 20,
             "limit": 1,
             "disablesIrregular": false
@@ -22987,7 +23104,7 @@
         "unitStrength": "0",
         "attacks": "1",
         "nerve": "-/13",
-        "cost": 85,
+        "cost": 70,
         "irregular": false,
         "limit": 0,
         "specialRules": "Individual, Inspiring, Reanimator: For each other Friendly Core Skeleton unit within 6”, you may re-roll one die that failed to hit with Drain Life, Fireball, Heal, Hex, Surge, Weakness and Wind Blast up to a maximum of two re-rolls.",
@@ -23169,7 +23286,7 @@
         "cost": 155,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Individual, Very Inspiring, Glory of the Accursed: For each other Friendly Core Skeleton unit within 6”, you may re-roll one die that failed to hit with Heal, and Surge, up to a maximum of two re-rolls.. Glory for the Mighty Dead: After casting Heal on a friendly core unit, this unit may immediately cast Surge against the same target.",
+        "specialRules": "Individual, Very Inspiring, Glory of the Accursed: For each other Friendly Core Skeleton unit within 6”, you may re-roll one die that failed to hit with Heal, and Surge, up to a maximum of two re-rolls. Glory for the Mighty Dead: After casting Heal on a friendly core unit, this unit may immediately cast Surge against the same target.",
         "spells": "Heal (5), Surge (8)",
         "options": [],
         "keywords": "Accursed, Skeletal",
@@ -23989,7 +24106,8 @@
             "name": "Upgrade with Wings, increasing Speed to 10 and gaining Fly",
             "cost": 45,
             "limit": 0,
-            "disablesIrregular": false
+            "disablesIrregular": false,
+            "gainsFly": true
           },
           {
             "name": "Lightning Bolt (5)",
@@ -25003,7 +25121,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Big Rocks Thrower: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (3), Reload",
+        "specialRules": "Big Rocks Thrower: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (3), Reload",
         "spells": "",
         "options": [],
         "keywords": "Gizmo, Goblin, Lobber",
@@ -25044,7 +25162,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "10/12",
-        "cost": 125,
+        "cost": 120,
         "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -25066,7 +25184,7 @@
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "12/14",
-        "cost": 155,
+        "cost": 150,
         "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -25088,7 +25206,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 195,
+        "cost": 190,
         "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -25110,7 +25228,7 @@
         "unitStrength": "4",
         "attacks": "20",
         "nerve": "17/19",
-        "cost": 225,
+        "cost": 220,
         "irregular": false,
         "limit": 0,
         "specialRules": "Thunderous Charge (2), Vicious (Melee), Shortbows: 18”, Att: [4/6/8/10], Steady Aim",
@@ -25132,7 +25250,7 @@
         "unitStrength": "0",
         "attacks": "2",
         "nerve": "9/11",
-        "cost": 75,
+        "cost": 60,
         "irregular": false,
         "limit": 0,
         "specialRules": "Sharpstick Thrower: 48”, Blast (D3), Piercing (2), Reload",
@@ -25183,13 +25301,13 @@
         "spells": "",
         "options": [
           {
-            "name": "Ramming Speed!: Increase Nerve to 13/15, attacks to 5 and Melee value to 4+. Gain the Thunderous Charge (1) and Vicious (Melee) special rules.",
+            "name": "Ramming Speed!: Increase Nerve to 13/15, attacks to 5 and Melee value to 4+. Gain the Thunderous Charge (1) and Vicious (Melee) special rules. May not be taken with the Bombs Away! upgrade.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Bombs Away!: Gain RA 4+ and Eye in the Sky: At the start of each of your Ranged phases you can immediately target and “mark” an Enemy unit anywhere within 24” of this unit regardless of Line of Sight. For the remainder of the Turn, all friendly Core units with the Lobber keyword, while targeting the marked enemy unit, have the Elite (Ranged) special rule. This special rule may not be used while the Winggit is Disordered. In addition it gains the following ranged attack: Firebombs: 12”, Attack: 3, Blast (D3), Piercing (1), Steady Aim, Vicious (Ranged). Ignore Cover special rule.",
+            "name": "Bombs Away!: Gain RA 4+ and Eye in the Sky: At the start of each of your Ranged phases you can immediately target and “mark” an Enemy unit anywhere within 24” of this unit regardless of Line of Sight. For the remainder of the Turn, all friendly Core units with the Lobber keyword, while targeting the marked enemy unit, have the Elite (Ranged) special rule. This special rule may not be used while the Winggit is Disordered. In addition it gains the following ranged attack: Firebombs: 12”, Attack: 3, Blast (D3), Piercing (1), Steady Aim, Vicious (Ranged), Ignores Obscured. May not be taken with the Ramming Speed! upgrade.",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
@@ -25236,7 +25354,7 @@
         "cost": 75,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Mawpup Bombardment: 36”, Blast (D3), Ignores Cover, Indirect, Reload, Mawpup Delivery: 36”, Indirect, this attack always hits on a 4+, may only target friendly core units with the Mawpup Cage Keyword, including those in combat. Hits do not cause damage; instead, if one or more hits are scored, the target unit recieves a Mawpup if able.",
+        "specialRules": "Mawpup Bombardment: 36”, Blast (D3), Ignores Obscured, Indirect, Reload, Mawpup Delivery: 36”, Indirect, this attack always hits on a 4+, may only target friendly core units with the Mawpup Cage Keyword, including those in combat. Hits do not cause damage; instead, if one or more hits are scored, the target unit recieves a Mawpup if able.",
         "spells": "",
         "options": [],
         "keywords": "Gizmo, Goblin, Lobber",
@@ -25258,9 +25376,22 @@
         "cost": 225,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Giant, King’s Pride",
         "type": "Titan",
         "height": "6",
@@ -25274,7 +25405,7 @@
         "name": "Goblin Slasher",
         "size": "Titan",
         "modelCount": "1",
-        "unitStrength": "1",
+        "unitStrength": "2",
         "attacks": "10",
         "nerve": "16/18",
         "cost": 210,
@@ -25286,6 +25417,12 @@
           {
             "name": "Aura (Rampage (Melee - D3) - Beast only)",
             "cost": 15,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Exchange the unit's Sharpstick Thrower ranged weapon and equip the crew with War-Trumpets: 12”, Ra: 4+, Piercing (1), Steady Aim",
+            "cost": 10,
             "limit": 0,
             "disablesIrregular": false
           }
@@ -25670,9 +25807,9 @@
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "2",
-        "attacks": "15",
+        "attacks": "12",
         "nerve": "-/14",
-        "cost": 80,
+        "cost": 75,
         "irregular": false,
         "limit": 0,
         "specialRules": "Mindthirst, Stealthy, Wild Charge (D3)",
@@ -25699,9 +25836,9 @@
         "size": "Horde",
         "modelCount": "40",
         "unitStrength": "3",
-        "attacks": "30",
+        "attacks": "25",
         "nerve": "-/21",
-        "cost": 130,
+        "cost": 125,
         "irregular": false,
         "limit": 0,
         "specialRules": "Mindthirst, Stealthy, Wild Charge (D3)",
@@ -25728,9 +25865,9 @@
         "size": "Legion",
         "modelCount": "60",
         "unitStrength": "4",
-        "attacks": "35",
+        "attacks": "30",
         "nerve": "-/27",
-        "cost": 190,
+        "cost": 180,
         "irregular": false,
         "limit": 0,
         "specialRules": "Mindthirst, Stealthy, Wild Charge (D3)",
@@ -25823,9 +25960,9 @@
         "size": "Troop",
         "modelCount": "10",
         "unitStrength": "1",
-        "attacks": "20",
+        "attacks": "15",
         "nerve": "10/12",
-        "cost": 135,
+        "cost": 125,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Mindthirst, Stealthy",
@@ -25852,9 +25989,9 @@
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "3",
-        "attacks": "25",
+        "attacks": "20",
         "nerve": "14/16",
-        "cost": 210,
+        "cost": 190,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Mindthirst, Stealthy",
@@ -26081,7 +26218,7 @@
         "options": [],
         "keywords": "Insidious, Nightmare",
         "type": "Monster",
-        "height": "5",
+        "height": "4",
         "speed": "6",
         "melee": "4+",
         "ranged": "-",
@@ -26098,7 +26235,7 @@
         "cost": 110,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Aura (Spellward), Crushing Strength (1), Dread, Nimble, Mindthirst, Stealthy",
+        "specialRules": "Crushing Strength (1), Dread, Nimble, Mindthirst, Stealthy, Spellward",
         "spells": "",
         "options": [],
         "keywords": "Horror, Nightmare",
@@ -26512,7 +26649,7 @@
         "spells": "Enthral (5), Wind Blast (5)",
         "options": [
           {
-            "name": "Resonant Chorus [1] - Once per turn, after casting its Windblast or Enthral spell, the Banshee may immediately cast the same spell again on a different target within 6” of the original target (following all the usual target selection rules)",
+            "name": "Resonant Chorus [1] - Once per turn, after casting its Windblast or Enthral spell, the Banshee may immediately cast the same spell again on a different target within 6” of the original target (following all the usual target selection rules). This upgrade cannot be combined with magical artefacts.",
             "cost": 25,
             "limit": 1,
             "disablesIrregular": false
@@ -27118,7 +27255,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "10/12",
-        "cost": 125,
+        "cost": 120,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1)",
@@ -27140,7 +27277,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "13/15",
-        "cost": 190,
+        "cost": 185,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1)",
@@ -27555,7 +27692,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "11/13",
-        "cost": 115,
+        "cost": 110,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1), Shortbows: 18”, Att: [4/6], Steady Aim",
@@ -27577,7 +27714,7 @@
         "unitStrength": "2",
         "attacks": "12",
         "nerve": "13/15",
-        "cost": 145,
+        "cost": 135,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1), Shortbows: 18”, Att: [4/6], Steady Aim",
@@ -27602,9 +27739,22 @@
         "cost": 225,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (4), Fury, Strider",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Giant",
         "type": "Titan",
         "height": "6",
@@ -28030,7 +28180,7 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "Molgurk's Mad Mob",
-              "text": "Gruesome Gores: Unless Disordered, this unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules."
+              "text": "Gruesome Gores: This unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules. However, the unit cannot use these special rules while Disordered."
             }
           },
           {
@@ -28041,7 +28191,7 @@
               "prohibitsArtefacts": false,
               "cost": 5,
               "name": "Molgurk's Mad Mob",
-              "text": "Gruesome Gores: Unless Disordered, this unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules."
+              "text": "Gruesome Gores: This unit has the Rampage (Melee - D3) and Slayer (Melee - D3) special rules. However, the unit cannot use these special rules while Disordered."
             }
           }
         ]
@@ -28069,14 +28219,7 @@
         "limit": 0,
         "specialRules": "Crushing Strength (1), Wild Charge (D3)",
         "spells": "",
-        "options": [
-          {
-            "name": "Orcish Skullpole",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
+        "options": [],
         "keywords": "Berserker, Orc",
         "type": "Heavy Infantry",
         "height": "2",
@@ -28098,14 +28241,7 @@
         "limit": 0,
         "specialRules": "Crushing Strength (1), Wild Charge (D3)",
         "spells": "",
-        "options": [
-          {
-            "name": "Orcish Skullpole",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
+        "options": [],
         "keywords": "Berserker, Orc",
         "type": "Heavy Infantry",
         "height": "2",
@@ -28378,7 +28514,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "10/12",
-        "cost": 125,
+        "cost": 120,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1)",
@@ -28400,7 +28536,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "13/15",
-        "cost": 190,
+        "cost": 185,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Thunderous Charge (1)",
@@ -28761,9 +28897,22 @@
         "cost": 240,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Cloak of Death, Crushing Strength (4), Slayer (Melee - D6), Strider",
+        "specialRules": "Brutal, Cloak of Death, Crushing Strength (4), Strider",
         "spells": "Windblast (6)",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Giant, Riftforged",
         "type": "Titan",
         "height": "6",
@@ -28784,7 +28933,7 @@
         "irregular": false,
         "limit": 1,
         "specialRules": "Aura (Fury), Crushing Strength (1), Inspiring, Anvil of the Rift: After successfully casting Bane Chant or Host Shadowbeast, the Stormforged Shrine may choose to cast either spell again with 1 less die on another appropriate Riftforged unit within 12” regardless of Line of Sight. This may continue until a casting is failed, no unit may be targeted twice with the same spell. Power of the Rift: For each other friendly core Riftforged unit within 6”, increase the amount of dice rolled with Bane Chant, Host Shadowbeast, Lightning Bolt by 1 to a maximum bonus of +3, Note: Base size cannot be increased beyond 75x75mm",
-        "spells": "Bane Chant (1), Host Shadowbeast (4), Lightning Bolt (3)",
+        "spells": "Bane Chant (1), Host Shadowbeast (2), Lightning Bolt (3)",
         "options": [],
         "keywords": "Riftforged, Shrine",
         "type": "Titan",
@@ -28845,7 +28994,7 @@
           },
           {
             "name": "Stormstrike",
-            "cost": 10,
+            "cost": 5,
             "limit": 0,
             "disablesIrregular": false
           }
@@ -28944,14 +29093,14 @@
             "disablesIrregular": false
           },
           {
-            "name": "Host Shadowbeast (6)",
-            "cost": 25,
+            "name": "Host Shadowbeast (3)",
+            "cost": 20,
             "limit": 0,
             "disablesIrregular": false
           },
           {
             "name": "Stormstrike",
-            "cost": 10,
+            "cost": 5,
             "limit": 0,
             "disablesIrregular": false
           }
@@ -28963,7 +29112,7 @@
         "melee": "3+",
         "ranged": "-",
         "defence": "5+",
-        "spellcaster": 0
+        "spellcaster": 2
       },
       {
         "name": "Stormbringer on Winged Slasher",
@@ -29776,7 +29925,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Shredder: 48”, Blast (D3), Ignores Cover, Piercing (1), Reload, Shattering",
+        "specialRules": "Shredder: 48”, Blast (D3), Ignores Concealed, Piercing (1), Reload, Shattering",
         "spells": "",
         "options": [],
         "keywords": "Ratkin, Tek",
@@ -30381,7 +30530,14 @@
         "limit": 0,
         "specialRules": "Crushing Strength (1), Vicious (Melee), Wild Charge (D3)",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Slaver Nets - Ensnare (Infantry and Heavy Infantry only)",
+            "cost": 5,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Berserker, Dwarf",
         "type": "Infantry",
         "height": "2",
@@ -30403,7 +30559,14 @@
         "limit": 0,
         "specialRules": "Crushing Strength (1), Vicious (Melee), Wild Charge (D3)",
         "spells": "",
-        "options": [],
+        "options": [
+          {
+            "name": "Slaver Nets - Ensnare (Infantry and Heavy Infantry only)",
+            "cost": 10,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Berserker, Dwarf",
         "type": "Infantry",
         "height": "2",
@@ -30507,7 +30670,7 @@
         "unitStrength": "1",
         "attacks": "8",
         "nerve": "11/13",
-        "cost": 130,
+        "cost": 125,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Regeneration (5+), Thunderous Charge (1), Vicious (Melee), Fury",
@@ -30529,7 +30692,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "14/16",
-        "cost": 200,
+        "cost": 195,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (1), Regeneration (5+), Thunderous Charge (1), Vicious (Melee), Fury",
@@ -30554,7 +30717,7 @@
         "cost": 85,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Katsuchan Rocket Launcher: 48”, Blast (D3), Ignores Cover, Indirect, Piercing (1), Reload, Vicious (Ranged)",
+        "specialRules": "Katsuchan Rocket Launcher: 48”, Blast (D3), Ignores Obscured, Indirect, Piercing (1), Reload, Vicious (Ranged)",
         "spells": "",
         "options": [],
         "keywords": "Dwarf, Hellforged",
@@ -30689,7 +30852,7 @@
         "specialRules": "Crushing Strength (2), Individual, Inspiring, Mighty, Regeneration (5+), Vicious (Melee)",
         "spells": "",
         "options": [],
-        "keywords": "Halfbreed",
+        "keywords": "Abomination, Halfbreed",
         "type": "Cavalry",
         "height": "3",
         "speed": "8",
@@ -31114,1147 +31277,6 @@
                 "disablesIrregular": false
               }
             ]
-          }
-        ]
-      }
-    ],
-    "unlockingUnits": [],
-    "armyWideRules": []
-  },
-  {
-    "name": "Twilight Kin",
-    "alignment": "Evil",
-    "themeLists": [
-      null
-    ],
-    "units": [
-      {
-        "name": "Kindred Tallspears",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "12",
-        "nerve": "10/12",
-        "cost": 90,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Phalanx",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Kindred Tallspears",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "15",
-        "nerve": "14/16",
-        "cost": 140,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Phalanx",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Kindred Tallspears",
-        "size": "Horde",
-        "modelCount": "40",
-        "unitStrength": "4",
-        "attacks": "30",
-        "nerve": "21/23",
-        "cost": 230,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Phalanx",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Kindred Archers",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "8",
-        "nerve": "10/12",
-        "cost": 105,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Bows: 24”, Elite (Ranged)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "5+",
-        "ranged": "4+",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Kindred Archers",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "2",
-        "attacks": "10",
-        "nerve": "14/16",
-        "cost": 140,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Bows: 24”, Elite (Ranged)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "5+",
-        "ranged": "4+",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Kindred Archers",
-        "size": "Horde",
-        "modelCount": "40",
-        "unitStrength": "3",
-        "attacks": "20",
-        "nerve": "21/23",
-        "cost": 245,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Bows: 24”, Elite (Ranged)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "5+",
-        "ranged": "4+",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Twilight Gladestalkers",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "10",
-        "nerve": "10/12",
-        "cost": 130,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite, Pathfinder, Scout, Bows: 24”, Dreamslayer Venom: This unit’s melee attacks always damage the enemy on a 4+ regardless of any other modifiers.",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred, Tracker",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "4+",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Twilight Gladestalkers",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "2",
-        "attacks": "12",
-        "nerve": "14/16",
-        "cost": 175,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite, Pathfinder, Scout, Bows: 24”, Dreamslayer Venom: This unit’s melee attacks always damage the enemy on a 4+ regardless of any other modifiers.",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred, Tracker",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "4+",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Therennian Sea Guard",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "12",
-        "nerve": "14/16",
-        "cost": 150,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Phalanx, Bows: 24”, Steady Aim",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "5+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Therennian Sea Guard",
-        "size": "Horde",
-        "modelCount": "40",
-        "unitStrength": "4",
-        "attacks": "25",
-        "nerve": "21/23",
-        "cost": 260,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Phalanx, Bows: 24”, Steady Aim",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "5+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Silverbreeze Cavalry*",
-        "size": "Troop",
-        "modelCount": "5",
-        "unitStrength": "1",
-        "attacks": "7",
-        "nerve": "11/13",
-        "cost": 130,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Nimble, Shortbows: 18”, Elite (Ranged), Steady Aim",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf",
-        "type": "Cavalry",
-        "height": "3",
-        "speed": "10",
-        "melee": "4+",
-        "ranged": "4+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Silverbreeze Cavalry*",
-        "size": "Regiment",
-        "modelCount": "10",
-        "unitStrength": "2",
-        "attacks": "14",
-        "nerve": "14/16",
-        "cost": 200,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Nimble, Shortbows: 18”, Elite (Ranged), Steady Aim",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf",
-        "type": "Cavalry",
-        "height": "3",
-        "speed": "10",
-        "melee": "4+",
-        "ranged": "4+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Bolt Thrower",
-        "size": "War Engine",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "2",
-        "nerve": "10/12",
-        "cost": 90,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Bolt Thrower: 48”, Blast (D3), Elite (Ranged), Piercing (2), Reload",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Kindred",
-        "type": "War Engine",
-        "height": "2",
-        "speed": "6",
-        "melee": "-",
-        "ranged": "4+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Dragon Breath",
-        "size": "War Engine",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "12",
-        "nerve": "10/12",
-        "cost": 90,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Dragon Breath: 12”, Elite (Ranged), Steady Aim",
-        "spells": "",
-        "options": [],
-        "keywords": "Draconic, Elf",
-        "type": "War Engine",
-        "height": "2",
-        "speed": "6",
-        "melee": "-",
-        "ranged": "4+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Army Standard Bearer",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "1",
-        "nerve": "10/12",
-        "cost": 60,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Individual, Inspiring",
-        "spells": "",
-        "options": [
-          {
-            "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
-            "cost": 25,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Elven Prince",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "3",
-        "nerve": "11/13",
-        "cost": 55,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Elite (Melee), Individual",
-        "spells": "",
-        "options": [
-          {
-            "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav - Height: 3)",
-            "cost": 25,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Impalers",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "12",
-        "nerve": "10/12",
-        "cost": 105,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Elite (Melee), Fury",
-        "spells": "",
-        "options": [
-          {
-            "name": "Screamshard",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Impalers",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "15",
-        "nerve": "14/16",
-        "cost": 165,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Elite (Melee), Fury",
-        "spells": "",
-        "options": [
-          {
-            "name": "Screamshard",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Gargoyles*",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "10",
-        "nerve": "8/10",
-        "cost": 85,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Fly, Nimble, Regeneration (4+)",
-        "spells": "",
-        "options": [],
-        "keywords": "Cronebound, Gargoyle",
-        "type": "Heavy Infantry",
-        "height": "2",
-        "speed": "10",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Blade Dancers",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "15",
-        "nerve": "-/12",
-        "cost": 125,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Thunderous Charge (1)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "7",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Blade Dancers",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "20",
-        "nerve": "-/16",
-        "cost": 190,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee), Thunderous Charge (1)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "7",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Blade Dancer Neophytes",
-        "size": "Troop",
-        "modelCount": "10",
-        "unitStrength": "1",
-        "attacks": "10",
-        "nerve": "10/12",
-        "cost": 80,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Neophyte",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Blade Dancer Neophytes",
-        "size": "Regiment",
-        "modelCount": "20",
-        "unitStrength": "3",
-        "attacks": "12",
-        "nerve": "14/16",
-        "cost": 120,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Neophyte",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Blade Dancer Neophytes",
-        "size": "Horde",
-        "modelCount": "40",
-        "unitStrength": "4",
-        "attacks": "25",
-        "nerve": "21/23",
-        "cost": 200,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Elite (Melee)",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Neophyte",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "3+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Butchers*",
-        "size": "Regiment",
-        "modelCount": "3",
-        "unitStrength": "2",
-        "attacks": "9",
-        "nerve": "13/15",
-        "cost": 120,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Crushing Strength (2), Stealthy, Fury",
-        "spells": "",
-        "options": [],
-        "keywords": "Abomination, Cronebound, Nightmare",
-        "type": "Large Infantry",
-        "height": "3",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Butchers*",
-        "size": "Horde",
-        "modelCount": "6",
-        "unitStrength": "3",
-        "attacks": "18",
-        "nerve": "16/18",
-        "cost": 200,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Crushing Strength (2), Stealthy, Fury",
-        "spells": "",
-        "options": [],
-        "keywords": "Abomination, Cronebound, Nightmare",
-        "type": "Large Infantry",
-        "height": "3",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Fiends*",
-        "size": "Regiment",
-        "modelCount": "3",
-        "unitStrength": "2",
-        "attacks": "12",
-        "nerve": "13/15",
-        "cost": 125,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Stealthy, Vicious (Melee)",
-        "spells": "",
-        "options": [],
-        "keywords": "Cronebound, Cunning, Nightmare",
-        "type": "Large Cavalry",
-        "height": "4",
-        "speed": "8",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Fiends*",
-        "size": "Horde",
-        "modelCount": "6",
-        "unitStrength": "3",
-        "attacks": "24",
-        "nerve": "16/18",
-        "cost": 210,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Stealthy, Vicious (Melee)",
-        "spells": "",
-        "options": [],
-        "keywords": "Cronebound, Cunning, Nightmare",
-        "type": "Large Cavalry",
-        "height": "4",
-        "speed": "8",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Mind-screech",
-        "size": "Monster",
-        "modelCount": "1",
-        "unitStrength": "1",
-        "attacks": "5",
-        "nerve": "13/15",
-        "cost": 150,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Fly, Nimble, Pathfinder, Stealthy",
-        "spells": "Lightning Bolt (6), Wind Blast (6), Mind Fog (6)",
-        "options": [],
-        "keywords": "Cronebound, Insidious, Nightmare",
-        "type": "Monster",
-        "height": "5",
-        "speed": "6",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": 0
-      },
-      {
-        "name": "Cronebound Needle-fangs*",
-        "size": "Regiment",
-        "modelCount": "3",
-        "unitStrength": "1",
-        "attacks": "12",
-        "nerve": "9/11",
-        "cost": 80,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Fly, Nimble, Stealthy, Strider",
-        "spells": "",
-        "options": [],
-        "keywords": "Beast, Cronebound, Nightmare",
-        "type": "Swarm",
-        "height": "1",
-        "speed": "7",
-        "melee": "5+",
-        "ranged": "-",
-        "defence": "2+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Needle-fangs*",
-        "size": "Horde",
-        "modelCount": "6",
-        "unitStrength": "1",
-        "attacks": "24",
-        "nerve": "12/14",
-        "cost": 130,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Fly, Nimble, Stealthy, Strider",
-        "spells": "",
-        "options": [],
-        "keywords": "Beast, Cronebound, Nightmare",
-        "type": "Swarm",
-        "height": "1",
-        "speed": "7",
-        "melee": "5+",
-        "ranged": "-",
-        "defence": "2+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Shadowhounds*",
-        "size": "Troop",
-        "modelCount": "5",
-        "unitStrength": "1",
-        "attacks": "10",
-        "nerve": "11/13",
-        "cost": 120,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Nimble, Regeneration (5+), Stealthy, Thunderous Charge (1)",
-        "spells": "",
-        "options": [],
-        "keywords": "Beast, Cronebound, Nightmare",
-        "type": "Cavalry",
-        "height": "2",
-        "speed": "10",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Shadowhounds*",
-        "size": "Regiment",
-        "modelCount": "10",
-        "unitStrength": "3",
-        "attacks": "20",
-        "nerve": "14/16",
-        "cost": 185,
-        "irregular": true,
-        "limit": 0,
-        "specialRules": "Nimble, Regeneration (5+), Stealthy, Thunderous Charge (1)",
-        "spells": "",
-        "options": [],
-        "keywords": "Beast, Cronebound, Nightmare",
-        "type": "Cavalry",
-        "height": "2",
-        "speed": "10",
-        "melee": "4+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Shadow-hulk",
-        "size": "Titan",
-        "modelCount": "1",
-        "unitStrength": "1",
-        "attacks": "D6+6",
-        "nerve": "-/20",
-        "cost": 220,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (3), Stealthy, Strider, Slayer (Melee - D3)",
-        "spells": "",
-        "options": [],
-        "keywords": "Abomination, Cronebound, Cyclops, Giant",
-        "type": "Titan",
-        "height": "6",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Abyssal Horsemen",
-        "size": "Troop",
-        "modelCount": "5",
-        "unitStrength": "1",
-        "attacks": "9",
-        "nerve": "11/13",
-        "cost": 155,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Fury, Regeneration (5+), Thunderous Charge (1)",
-        "spells": "",
-        "options": [],
-        "keywords": "Cronebound, Hellequin",
-        "type": "Cavalry",
-        "height": "3",
-        "speed": "8",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Abyssal Horsemen",
-        "size": "Regiment",
-        "modelCount": "10",
-        "unitStrength": "3",
-        "attacks": "18",
-        "nerve": "14/16",
-        "cost": 240,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Fury, Regeneration (5+), Thunderous Charge (1)",
-        "spells": "",
-        "options": [],
-        "keywords": "Cronebound, Hellequin",
-        "type": "Cavalry",
-        "height": "3",
-        "speed": "8",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Archfiend",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "1",
-        "attacks": "9",
-        "nerve": "17/19",
-        "cost": 305,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (3), Fly, Inspiring, Nimble, Stealthy, Vicious (Melee)",
-        "spells": "Fireball (10)",
-        "options": [],
-        "keywords": "Abyssal, Cronebound",
-        "type": "Titan",
-        "height": "6",
-        "speed": "10",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": 0
-      },
-      {
-        "name": "Twilight Assassin",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "4",
-        "nerve": "11/13",
-        "cost": 100,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Duelist, Elite, Individual, Scout, Stealthy, Throwing Weapons: 12”, Piercing (1)",
-        "spells": "",
-        "options": [
-          {
-            "name": "Screamshard",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "7",
-        "melee": "3+",
-        "ranged": "3+",
-        "defence": "4+",
-        "spellcaster": null
-      },
-      {
-        "name": "Soulbane",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "5",
-        "nerve": "13/15",
-        "cost": 120,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (1), Dread, Elite (Melee), Individual, Inspiring, Mighty, Stealthy",
-        "spells": "",
-        "options": [
-          {
-            "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
-            "cost": 35,
-            "limit": 0,
-            "disablesIrregular": false
-          },
-          {
-            "name": "Screamshard",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Cronebound Banshee",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "1",
-        "nerve": "-/12",
-        "cost": 140,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Dread, Fly, Individual, Stealthy, Banshee’s Wail: While casting Wind Blast or Enthral, in addition to moving the target, roll to damage for each hit scored.",
-        "spells": "Enthral (5), Wind Blast (5)",
-        "options": [],
-        "keywords": "Cronebound, Phantasm",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "10",
-        "melee": "6+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": 0
-      },
-      {
-        "name": "Mikayel, Lord of Nightmares [1]",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "6",
-        "nerve": "-/16",
-        "cost": 230,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Crushing Strength (2), Dread, Elite (Melee), Individual, Inspiring, Iron Resolve, Mighty, Stealthy, Sword of Umbra: While attacking enemy Heroes, Monsters or Titans in melee, this unit doubles its number of Attacks.",
-        "spells": "",
-        "options": [],
-        "keywords": "Elf, Twilight",
-        "type": "Cavalry",
-        "height": "3",
-        "speed": "9",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "La'theal Bleakheart [1]",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "1",
-        "nerve": "13/15",
-        "cost": 165,
-        "irregular": false,
-        "limit": 1,
-        "specialRules": "Aura (Stealthy), Individual, Inspiring, Wicked Miasma: This unit’s Drain Life spell may target Friendly Core Cronebound units within 18” instead of 6”, for its damage removal component. The Eye of Valak: At the start of each friendly Ranged phase, if La’theal is not Disordered, she may select an enemy unit within 12” regardless of Line of Sight. This unit loses Stealthy and Spellward until the end of the Turn. All spells targeting this unit may re-roll all natural unmodified to-hit rolls of a 1 until the end of the Turn.",
-        "spells": "Drain Life (7), Fireball (10)",
-        "options": [],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "5+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": 3
-      },
-      {
-        "name": "Soulbane on Dread-fiend",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "1",
-        "attacks": "6",
-        "nerve": "14/16",
-        "cost": 165,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Crushing Strength (2), Dread, Elite (Melee), Inspiring, Nimble, Stealthy",
-        "spells": "",
-        "options": [
-          {
-            "name": "Screamshard",
-            "cost": 5,
-            "limit": 0,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Cronebound, Elf, Twilight",
-        "type": "Large Cavalry",
-        "height": "4",
-        "speed": "8",
-        "melee": "3+",
-        "ranged": "-",
-        "defence": "5+",
-        "spellcaster": null
-      },
-      {
-        "name": "Summoner Crone",
-        "size": "Hero",
-        "modelCount": "1",
-        "unitStrength": "0",
-        "attacks": "1",
-        "nerve": "11/13",
-        "cost": 95,
-        "irregular": false,
-        "limit": 0,
-        "specialRules": "Individual, Inspiring, Stealthy, Wicked Miasma: This unit’s Drain Life spell may target Friendly Core Cronebound units within 18” instead of 6”, for its damage removal component.",
-        "spells": "Drain Life (6)",
-        "options": [
-          {
-            "name": "Mount on a Horse, increasing Speed to 9 and changing to Hero (Cav – Height: 3)",
-            "cost": 25,
-            "limit": 0,
-            "disablesIrregular": false
-          },
-          {
-            "name": "Upgrade with a Scepter of Shadows [1] - This unit’s Wicked Miasma unique special rule also affects Friendly Core units with the Elf keyword",
-            "cost": 10,
-            "limit": 1,
-            "disablesIrregular": false
-          },
-          {
-            "name": "Bane Chant (2)",
-            "cost": 20,
-            "limit": 0,
-            "disablesIrregular": false
-          },
-          {
-            "name": "Hex (3)",
-            "cost": 15,
-            "limit": 0,
-            "disablesIrregular": false
-          },
-          {
-            "name": "Veil of Shadows (2) [1]",
-            "cost": 25,
-            "limit": 1,
-            "disablesIrregular": false
-          }
-        ],
-        "keywords": "Elf, Twilight",
-        "type": "Infantry",
-        "height": "2",
-        "speed": "6",
-        "melee": "5+",
-        "ranged": "-",
-        "defence": "4+",
-        "spellcaster": 3
-      }
-    ],
-    "formations": [
-      {
-        "faction": "Twilight Kin",
-        "name": "The Crew of the Black Hydra",
-        "description": "All units in this Formation gain the keyword: The Soulless Shards and the Wild Charge (1) special rule. Leiz gains the Rallying (1 - The Soulless Shards) special rule, lowers his Defence to 4+ and increases both his Speed and Attacks to 7. He also may not take a mount. Enraged: In addition to their basic attacks, each unit in this Formation gains a number of additional attacks equal to their current points of Damage",
-        "units": [
-          {
-            "unitName": "Soulbane",
-            "size": "Hero",
-            "requiredOptions": [],
-            "formationUpgrade": {
-              "prohibitsArtefacts": false,
-              "cost": 15,
-              "name": "Leiz the Soulless",
-              "text": "Wild Charge (1), Rallying (1 - The Soulless Shards), Defence 4+, Speed 7, Attacks 7. This unit may not take a mount. Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
-              "affectsValues": [
-                {
-                  "defence": "4+"
-                },
-                {
-                  "speed": "7"
-                },
-                {
-                  "attacks": "7"
-                }
-              ],
-              "addsKeywords": [
-                "The Soulless Shards"
-              ]
-            }
-          },
-          {
-            "unitName": "Blade Dancers",
-            "size": "Regiment",
-            "requiredOptions": [],
-            "formationUpgrade": {
-              "prohibitsArtefacts": false,
-              "cost": 5,
-              "name": "The Soulless Shards",
-              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
-              "addsKeywords": [
-                "The Soulless Shards"
-              ]
-            }
-          },
-          {
-            "unitName": "Blade Dancers",
-            "size": "Troop",
-            "requiredOptions": [],
-            "formationUpgrade": {
-              "prohibitsArtefacts": false,
-              "cost": 5,
-              "name": "The Soulless Shards",
-              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
-              "addsKeywords": [
-                "The Soulless Shards"
-              ]
-            }
-          },
-          {
-            "unitName": "Blade Dancers",
-            "size": "Troop",
-            "requiredOptions": [],
-            "formationUpgrade": {
-              "prohibitsArtefacts": false,
-              "cost": 5,
-              "name": "The Soulless Shards",
-              "text": "Wild Charge (1), Enraged: In addition to their basic attacks, this unit gains a number of additional attacks equal to its current points of Damage.",
-              "addsKeywords": [
-                "The Soulless Shards"
-              ]
-            }
           }
         ]
       }
@@ -32794,9 +31816,9 @@
         "size": "Troop",
         "modelCount": "10",
         "unitStrength": "1",
-        "attacks": "20",
+        "attacks": "15",
         "nerve": "11/13",
-        "cost": 165,
+        "cost": 150,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (2), Lifeleech (2)",
@@ -32816,9 +31838,9 @@
         "size": "Regiment",
         "modelCount": "20",
         "unitStrength": "3",
-        "attacks": "25",
+        "attacks": "20",
         "nerve": "15/17",
-        "cost": 250,
+        "cost": 230,
         "irregular": false,
         "limit": 0,
         "specialRules": "Crushing Strength (2), Lifeleech (2)",
@@ -32949,7 +31971,7 @@
         "unitStrength": "3",
         "attacks": "16",
         "nerve": "-/17",
-        "cost": 180,
+        "cost": 175,
         "irregular": false,
         "limit": 0,
         "specialRules": "Lifeleech (1), Shambling, Thunderous Charge (2)",
@@ -32971,7 +31993,7 @@
         "unitStrength": "4",
         "attacks": "32",
         "nerve": "-/24",
-        "cost": 305,
+        "cost": 300,
         "irregular": false,
         "limit": 0,
         "specialRules": "Lifeleech (1), Shambling, Thunderous Charge (2)",
@@ -33216,7 +32238,7 @@
         "cost": 95,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Shambling, Balefire: 48”, Blast (D3+1), Ignores Cover, Indirect, Piercing (2), Reload, Unholy Flames: Whenever the unit rolls to damage with its Balefire attack it can re-roll (D3) of the dice that failed to damage.",
+        "specialRules": "Shambling, Balefire: 48”, Blast (D3+1), Ignores Obscured, Indirect, Piercing (2), Reload, Unholy Flames: Whenever the unit rolls to damage with its Balefire attack it can re-roll (D3) of the dice that failed to damage.",
         "spells": "",
         "options": [],
         "keywords": "Skeleton",
@@ -33777,7 +32799,7 @@
         "cost": 140,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Individual, Very Inspiring, Ophidian Book of Secrets: Jarvis adds 6” to the range of his Bane, Chant, Heal, Lightning Bolt and Surge spells. The Noble Dead: When Jarvis is included in an Undead army, the entire army’s alignment changes to Good, but no other Unique Heroes may be included in the army.",
+        "specialRules": "Individual, Very Inspiring, Ophidian Book of Secrets: Jarvis adds 6” to the range of his Bane Chant, Heal, Lightning Bolt and Surge spells. The Noble Dead: When Jarvis is included in an Undead army, the entire army’s alignment changes to Good, but no other Unique Heroes may be included in the army.",
         "spells": "Bane Chant (2), Heal (3), Lightning Bolt (3), Surge (8)",
         "options": [],
         "keywords": "Heretic",
@@ -33893,13 +32915,13 @@
             "disablesIrregular": false
           },
           {
-            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2)",
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
           }
         ],
-        "keywords": "Barbarian, Human, Bloodbound",
+        "keywords": "Barbarian, Human",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -33923,18 +32945,18 @@
         "options": [
           {
             "name": "Upgrade to Norj-Bik Clansmen, increasing Defence to 5+",
-            "cost": 10,
+            "cost": 15,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2)",
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
           }
         ],
-        "keywords": "Barbarian, Human, Bloodbound",
+        "keywords": "Barbarian, Human",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -33958,18 +32980,18 @@
         "options": [
           {
             "name": "Upgrade to Norj-Bik Clansmen, increasing Defence to 5+",
-            "cost": 10,
+            "cost": 25,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2)",
+            "name": "Exchange shields for two-handed weapons, lowering Defence to 3+ and gaining Crushing Strength (2) (May not be taken with Norj-Bik Clansmen upgrade)",
             "cost": 0,
             "limit": 0,
             "disablesIrregular": false
           }
         ],
-        "keywords": "Barbarian, Human, Bloodbound",
+        "keywords": "Barbarian, Human",
         "type": "Infantry",
         "height": "2",
         "speed": "5",
@@ -34208,7 +33230,7 @@
         "cost": 190,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Crushing Strength (3), Nimble, Strider, Very Inspiring, Wild Charge (1)",
+        "specialRules": "Crushing Strength (2), Thunderous Charge (1), Nimble, Strider, Very Inspiring, Wild Charge (1)",
         "spells": "",
         "options": [
           {
@@ -34218,7 +33240,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Barbarian, Frostfang, Human, Bloodbound",
+        "keywords": "Barbarian, Frostfang, Human",
         "type": "Large Cavalry",
         "height": "4",
         "speed": "7",
@@ -34237,9 +33259,22 @@
         "cost": 230,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Brutal, Crushing Strength (4), Strider, Slayer (Melee - D6)",
+        "specialRules": "Brutal, Crushing Strength (4), Strider",
         "spells": "Icy Breath (8)",
-        "options": [],
+        "options": [
+          {
+            "name": "Giant Club: Gain Rampage (D6 - Melee) (cannot be taken with Giant Cleaver)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Giant Cleaver: Gain Slayer (D6 - Melee) (cannot be taken with Giant Club)",
+            "cost": 0,
+            "limit": 0,
+            "disablesIrregular": false
+          }
+        ],
         "keywords": "Frostbound, Giant",
         "type": "Titan",
         "height": "6",
@@ -34596,13 +33631,13 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
+            "name": "Upgrade with a Brand of the Warrior, gaining Brutal (cannot be taken with the Guise of the Deciever upgrade)",
             "cost": 5,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade with a Guise of the Deceiver, gaining Stealthy",
+            "name": "Upgrade with a Guise of the Deceiver, gaining Stealthy  (cannot be taken with the Brand of the Warrior upgrade)",
             "cost": 5,
             "limit": 0,
             "disablesIrregular": false
@@ -34631,13 +33666,13 @@
         "spells": "",
         "options": [
           {
-            "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
+            "name": "Upgrade with a Brand of the Warrior, gaining Brutal (cannot be taken with the Guise of the Deciever upgrade)",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
           },
           {
-            "name": "Upgrade with a Guise of the Deceiver, gaining Stealthy",
+            "name": "Upgrade with a Guise of the Deceiver, gaining Stealthy  (cannot be taken with the Brand of the Warrior upgrade)",
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
@@ -34817,9 +33852,9 @@
         "spells": "",
         "options": [
           {
-            "name": "Horn of Winter [1] - Aura (Wild Charge (+1) - Infantry & Heavy Infantry only)",
+            "name": "Upgrade with a Brand of the Warrior, gaining Brutal",
             "cost": 10,
-            "limit": 1,
+            "limit": 0,
             "disablesIrregular": false
           },
           {
@@ -34853,7 +33888,7 @@
             "disablesIrregular": false
           }
         ],
-        "keywords": "Barbarian, Human",
+        "keywords": "Barbarian, Bloodbound, Human",
         "type": "Heavy Infantry",
         "height": "2",
         "speed": "5",
@@ -34907,7 +33942,7 @@
         "cost": 90,
         "irregular": false,
         "limit": 0,
-        "specialRules": "Individual, Famulus: Whenever this unit rolls to hit with Lightning Bolt, Bane Chant, Drain Life or Bloodboil, it can reroll all dice that, score a natural, unmodified 1. Transfusion: At the start of each of your ranged phases you can transfer up to D2 points of damage from a Friendly Core Bloodbound unit within 6” of this unit to a Friendly Core Draugr unit also within 6” of this unit. A unit can only be targeted with a single Transfusion per turn. The Draugr unit will not take a nerve test for damage taken in this way.",
+        "specialRules": "Individual, Famulus: Whenever this unit rolls to hit with Lightning Bolt, Bane Chant, Drain Life or Bloodboil, it can reroll all dice that score a natural, unmodified 1. Transfusion: At the start of each of your ranged phases you can transfer up to D2 points of damage from a Friendly Core Bloodbound unit within 6” of this unit to a Friendly Core Draugr unit also within 6” of this unit. A unit can only be targeted with a single Transfusion per turn. The Draugr unit will not take a nerve test for damage taken in this way.",
         "spells": "Lightning Bolt (4)",
         "options": [
           {

@@ -308,17 +308,6 @@
     "type": "common"
   },
   {
-    "name": "Maccwar's Potion of the Caterpillar",
-    "cost": {
-      "Hero": 20,
-      "Troop": 20,
-      "Regiment": 20,
-      "Horde": 20,
-      "Legion": 20
-    },
-    "type": "common"
-  },
-  {
     "name": "The Scrying Gem",
     "cost": {
       "Hero": 25,
@@ -365,11 +354,11 @@
   {
     "name": "Wine of Elvenkind",
     "cost": {
-      "Hero": 40,
-      "Troop": 40,
-      "Regiment": 40,
-      "Horde": 40,
-      "Legion": 40
+      "Hero": 35,
+      "Troop": 35,
+      "Regiment": 35,
+      "Horde": 35,
+      "Legion": 35
     },
     "type": "common"
   },
@@ -562,17 +551,6 @@
   },
   {
     "name": "Tome of Darkness",
-    "cost": {
-      "Hero": 20,
-      "Troop": 20,
-      "Regiment": 20,
-      "Horde": 20,
-      "Legion": 20
-    },
-    "type": "heroic"
-  },
-  {
-    "name": "Banner of Abbetshire",
     "cost": {
       "Hero": 20,
       "Troop": 20,
