@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/listbuilder/static/css/main.ada0aa56.chunk.css",
+    "main.js": "/listbuilder/static/js/main.f40efbb3.chunk.js",
+    "main.js.map": "/listbuilder/static/js/main.f40efbb3.chunk.js.map",
+    "runtime-main.js": "/listbuilder/static/js/runtime-main.ef274996.js",
+    "runtime-main.js.map": "/listbuilder/static/js/runtime-main.ef274996.js.map",
+    "static/js/2.8066f079.chunk.js": "/listbuilder/static/js/2.8066f079.chunk.js",
+    "static/js/2.8066f079.chunk.js.map": "/listbuilder/static/js/2.8066f079.chunk.js.map",
+    "index.html": "/listbuilder/index.html",
+    "precache-manifest.de254ca1459f393e525d496572f17ccc.js": "/listbuilder/precache-manifest.de254ca1459f393e525d496572f17ccc.js",
+    "service-worker.js": "/listbuilder/service-worker.js",
+    "static/css/main.ada0aa56.chunk.css.map": "/listbuilder/static/css/main.ada0aa56.chunk.css.map",
+    "static/js/2.8066f079.chunk.js.LICENSE.txt": "/listbuilder/static/js/2.8066f079.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef274996.js",
+    "static/js/2.8066f079.chunk.js",
+    "static/css/main.ada0aa56.chunk.css",
+    "static/js/main.f40efbb3.chunk.js"
+  ]
+}
