@@ -852,7 +852,7 @@
         "height": "6",
         "speed": "8",
         "melee": "3+",
-        "ranged": "-",
+        "ranged": "4+",
         "defence": "3+",
         "spellcaster": 0
       },
@@ -6776,7 +6776,7 @@
         "height": "6",
         "speed": "8",
         "melee": "3+",
-        "ranged": "-",
+        "ranged": "4+",
         "defence": "3+",
         "spellcaster": 0
       },
@@ -8470,7 +8470,7 @@
         "height": "6",
         "speed": "8",
         "melee": "3+",
-        "ranged": "-",
+        "ranged": "4+",
         "defence": "3+",
         "spellcaster": 0
       },
