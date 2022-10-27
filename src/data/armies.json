@@ -26503,7 +26503,7 @@
         "keywords": "Nightmare",
         "type": "Large Cavalry",
         "height": "4",
-        "speed": "10",
+        "speed": "8",
         "melee": "3+",
         "ranged": "-",
         "defence": "4+",
