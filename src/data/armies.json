@@ -10104,7 +10104,7 @@
         "cost": 80,
         "irregular": false,
         "limit": 1,
-        "specialRules": "Individual, Inspiring, Pathfinder, Solar Staff: 24”, Att: 8; Blinding Light: Enemy units that suffer damage from this unit's Solar Staff ranged weapon are Disordered during their next turn.",
+        "specialRules": "Individual, Inspiring, Pathfinder, Solar Staff: 18”, Att: 8; Blinding Light: Enemy units that suffer damage from this unit's Solar Staff ranged weapon are Disordered during their next turn.",
         "spells": "",
         "options": [
           {
@@ -17002,6 +17002,12 @@
             "cost": 10,
             "limit": 0,
             "disablesIrregular": false
+          },
+          {
+            "name": "Quicksilver Lancers [1] (Regiment only) - Gain Nimble and increase the the unit’s Waver and Rout Nerve values by +1",
+            "cost": 25,
+            "limit": 1,
+            "disablesIrregular": false
           }
         ],
         "keywords": "Elf",
@@ -17030,6 +17036,12 @@
             "name": "Gain the Pathfinder special rule",
             "cost": 15,
             "limit": 0,
+            "disablesIrregular": false
+          },
+          {
+            "name": "Quicksilver Lancers [1] (Regiment only) - Gain Nimble and increase the the unit’s Waver and Rout Nerve values by +1",
+            "cost": 25,
+            "limit": 1,
             "disablesIrregular": false
           }
         ],
@@ -26503,7 +26515,7 @@
         "keywords": "Nightmare",
         "type": "Large Cavalry",
         "height": "4",
-        "speed": "8",
+        "speed": "10",
         "melee": "3+",
         "ranged": "-",
         "defence": "4+",
